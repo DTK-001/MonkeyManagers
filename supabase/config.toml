@@ -17,9 +17,26 @@ sql_paths = ["./seed.sql"]
 
 [auth]
 enabled = true
-site_url = "http://localhost:5173"
-additional_redirect_urls = ["http://localhost:5173/**"]
+site_url = "https://dtk-001.github.io/MonkeyManagers/"
+additional_redirect_urls = ["http://localhost:5173/**", "https://dtk-001.github.io/MonkeyManagers/**"]
 enable_signup = true
+
+[auth.email]
+enable_confirmations = true
+double_confirm_changes = true
+secure_password_change = false
+max_frequency = "1m0s"
+otp_length = 8
+otp_expiry = 3600
+
+[auth.mfa.totp]
+enroll_enabled = true
+verify_enabled = true
+
+[storage.vector]
+enabled = false
+max_buckets = 10
+max_indexes = 5
 
 [functions.nightly-sync]
 verify_jwt = false
