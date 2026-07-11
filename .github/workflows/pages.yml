@@ -51,9 +51,10 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
-          VITE_DEMO_MODE: 'true'
+          # These values identify the public project. Row-level security—not
+          # secrecy of the browser key—protects game and account data.
+          VITE_SUPABASE_URL: https://ajrddfphfxeijywkmebp.supabase.co
+          VITE_SUPABASE_ANON_KEY: sb_publishable_ZoUEtVOcIy5Ulf7-4xjkyg_vOCAcwD_
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
