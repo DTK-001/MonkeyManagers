@@ -85,12 +85,12 @@ export default function AdminPage() {
               <h2 className="text-sm font-bold">Development tools</h2>
             </div>
             <p className="mt-1 text-xs leading-5 text-muted">
-              Reset every browser-only demo action back to the fictional seed. This control is never
-              shown in production mode.
+              Reset this device’s local view of the league. This does not change the private league
+              or its members in Supabase.
             </p>
           </div>
           <button type="button" onClick={resetDemo} className="button-danger">
-            Reset demo data
+            Reset local view
           </button>
         </div>
       </section>
@@ -124,8 +124,8 @@ export default function AdminPage() {
               90-request soft budget still applies and duplicate data will not be created.
             </p>
             <div className="mt-4 flex items-start gap-2 rounded-xl border border-gold/20 bg-gold/[0.06] p-3 text-xs leading-5 text-muted">
-              <AlertTriangle className="mt-0.5 shrink-0 text-gold" size={15} /> Demo mode simulates
-              this job. Production calls the admin-only Supabase Edge Function.
+              <AlertTriangle className="mt-0.5 shrink-0 text-gold" size={15} /> This preview shows
+              the sync flow; production calls the admin-only Supabase Edge Function.
             </div>
             <div className="mt-5 grid grid-cols-2 gap-3">
               <button

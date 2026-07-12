@@ -74,7 +74,7 @@ export function ClubBadge({
         x="48"
         y="58"
         textAnchor="middle"
-        fill="#f4efe3"
+        fill="#f6f4ff"
         fontFamily="Inter, sans-serif"
         fontSize="18"
         fontWeight="800"

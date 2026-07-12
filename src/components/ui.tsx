@@ -91,10 +91,10 @@ export function StatCard({
 
 export function PositionPill({ position }: { position: Position }) {
   const styles: Record<Position, string> = {
-    GK: 'border-gold/30 bg-gold/10 text-[#dec79e]',
-    DEF: 'border-[#678fb9]/30 bg-[#678fb9]/10 text-[#a9caec]',
-    MID: 'border-emerald/30 bg-emerald/10 text-[#8ad9b3]',
-    FWD: 'border-danger/30 bg-danger/10 text-[#f2a1a1]'
+    GK: 'border-gold/35 bg-gold/10 text-[#9af7fa]',
+    DEF: 'border-[#9084e6]/35 bg-[#9084e6]/10 text-[#d1cbff]',
+    MID: 'border-emerald/35 bg-emerald/10 text-[#a5f3f5]',
+    FWD: 'border-danger/35 bg-danger/10 text-[#ffb6db]'
   };
   return (
     <span
@@ -116,10 +116,10 @@ export function StatusBadge({
     <span
       className={clsx(
         'inline-flex min-h-7 items-center gap-1.5 rounded-full border px-2.5 py-1 text-[0.68rem] font-bold',
-        kind === 'success' && 'border-emerald/25 bg-emerald/10 text-[#88d7b0]',
-        kind === 'warning' && 'border-gold/25 bg-gold/10 text-[#dcc69f]',
+        kind === 'success' && 'border-emerald/30 bg-emerald/10 text-[#a5f3f5]',
+        kind === 'warning' && 'border-gold/30 bg-gold/10 text-[#9af7fa]',
         kind === 'muted' && 'border-white/10 bg-white/[0.05] text-muted',
-        kind === 'danger' && 'border-danger/25 bg-danger/10 text-[#f2a1a1]'
+        kind === 'danger' && 'border-danger/30 bg-danger/10 text-[#ffb6db]'
       )}
     >
       {kind === 'success' ? <Check size={12} /> : null}

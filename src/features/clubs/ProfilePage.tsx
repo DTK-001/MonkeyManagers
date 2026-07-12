@@ -136,8 +136,8 @@ export default function ProfilePage() {
               ))}
             </div>
             <p className="mt-4 flex items-start gap-2 text-xs leading-5 text-muted">
-              <Check size={15} className="mt-0.5 shrink-0 text-emerald" /> Generated locally without
-              copyrighted club branding or player imagery.
+              <Check size={15} className="mt-0.5 shrink-0 text-emerald" /> Your badge is original
+              and avoids copyrighted club branding or player imagery.
             </p>
           </section>
           <section className="glass-card p-4">
@@ -146,11 +146,11 @@ export default function ProfilePage() {
                 <UserRound />
               </span>
               <div className="min-w-0 flex-1">
-                <p className="text-sm font-semibold">Demo manager profile</p>
-                <p className="text-xs text-muted">Browser-only data · no live account connected</p>
+                <p className="text-sm font-semibold">Manager profile</p>
+                <p className="text-xs text-muted">Private league account</p>
               </div>
               <Link to="/" className="button-secondary">
-                <LogOut size={16} /> Leave demo
+                <LogOut size={16} /> Return to sign in
               </Link>
             </div>
           </section>

@@ -171,9 +171,9 @@ export function AppShell() {
         <div
           className={clsx(
             'toast-enter fixed bottom-[calc(5.3rem+var(--safe-bottom))] left-1/2 z-50 flex w-[min(90vw,28rem)] -translate-x-1/2 items-start gap-3 rounded-2xl border px-4 py-3 text-sm shadow-2xl backdrop-blur-xl lg:bottom-6',
-            state.message.kind === 'success' && 'border-emerald/30 bg-[#0c2f27]/95 text-[#bcebd3]',
-            state.message.kind === 'error' && 'border-danger/30 bg-[#3b171c]/95 text-[#ffc1c1]',
-            state.message.kind === 'info' && 'border-gold/30 bg-[#2a251b]/95 text-[#eee0c4]'
+            state.message.kind === 'success' && 'border-emerald/35 bg-[#123f4a]/95 text-[#b6fcff]',
+            state.message.kind === 'error' && 'border-danger/35 bg-[#4b153b]/95 text-[#ffd0e8]',
+            state.message.kind === 'info' && 'border-gold/35 bg-[#173f4c]/95 text-[#c9fcff]'
           )}
           role="status"
         >

@@ -5,20 +5,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#071520',
-        navy: '#0b1d2a',
-        panel: '#102734',
-        ivory: '#f4efe3',
-        muted: '#9da9aa',
-        gold: '#c3a46d',
-        emerald: '#3fab77',
-        danger: '#d86161'
+        ink: '#1f1d36',
+        navy: '#262340',
+        panel: '#2a2748',
+        ivory: '#f6f4ff',
+        muted: '#aaa7c2',
+        gold: '#10e5eb',
+        emerald: '#19cbd4',
+        danger: '#da107b'
       },
       fontFamily: {
-        display: ['Cormorant Garamond', 'Georgia', 'serif'],
+        display: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
         sans: ['Inter', 'system-ui', 'sans-serif']
       },
-      boxShadow: { card: '0 18px 50px rgba(0,0,0,.24)' }
+      boxShadow: { card: '0 20px 56px rgba(8,6,25,.34)' }
     }
   },
   plugins: []
