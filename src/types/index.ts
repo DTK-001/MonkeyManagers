@@ -25,6 +25,42 @@ export interface DemoPlayer {
   ownedPoints: number;
   ownershipStartedAt: string | null;
   availability: Availability;
+  availabilityDetail: {
+    chanceThisRound: number | null;
+    chanceNextRound: number | null;
+    news: string | null;
+  };
+  seasonStats: {
+    minutes: number;
+    starts: number;
+    goals: number;
+    assists: number;
+    cleanSheets: number;
+    goalsConceded: number;
+    ownGoals: number;
+    penaltiesSaved: number;
+    penaltiesMissed: number;
+    yellowCards: number;
+    redCards: number;
+    saves: number;
+    bonus: number;
+    bps: number;
+    expectedGoals: number;
+    expectedAssists: number;
+    expectedGoalInvolvements: number;
+    expectedGoalsConceded: number;
+    influence: number;
+    creativity: number;
+    threat: number;
+    ictIndex: number;
+  };
+  marketInterest: {
+    selectedByPercent: number;
+    transfersInEvent: number;
+    transfersOutEvent: number;
+    transfersInSeason: number;
+    transfersOutSeason: number;
+  };
   provisional: boolean;
   valueHistory: Array<{ date: string; valueMinor: number }>;
 }

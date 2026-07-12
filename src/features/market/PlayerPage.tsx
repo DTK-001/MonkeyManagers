@@ -199,6 +199,57 @@ export default function PlayerPage() {
 
           <section className="glass-card overflow-hidden">
             <div className="p-5">
+              <p className="eyebrow">Season performance</p>
+              <h2 className="mt-1 font-display text-2xl font-bold">Player record</h2>
+              <p className="mt-1 text-xs text-muted">
+                Official Premier League catalogue data for this season.
+              </p>
+            </div>
+            <PlayerMetricGrid
+              metrics={[
+                ['Minutes', player.seasonStats.minutes],
+                ['Starts', player.seasonStats.starts],
+                ['Goals', player.seasonStats.goals],
+                ['Assists', player.seasonStats.assists],
+                ['Clean sheets', player.seasonStats.cleanSheets],
+                ['Goals conceded', player.seasonStats.goalsConceded],
+                ['Saves', player.seasonStats.saves],
+                ['Bonus', player.seasonStats.bonus],
+                ['BPS', player.seasonStats.bps],
+                ['Yellow cards', player.seasonStats.yellowCards],
+                ['Red cards', player.seasonStats.redCards],
+                ['Own goals', player.seasonStats.ownGoals],
+                ['Penalties saved', player.seasonStats.penaltiesSaved],
+                ['Penalties missed', player.seasonStats.penaltiesMissed]
+              ]}
+            />
+          </section>
+
+          <section className="glass-card overflow-hidden">
+            <div className="p-5">
+              <p className="eyebrow">Underlying numbers</p>
+              <h2 className="mt-1 font-display text-2xl font-bold">Expected & creative data</h2>
+              <p className="mt-1 text-xs text-muted">
+                These figures help compare players beyond their finished-point total.
+              </p>
+            </div>
+            <PlayerMetricGrid
+              decimal
+              metrics={[
+                ['Expected goals', player.seasonStats.expectedGoals],
+                ['Expected assists', player.seasonStats.expectedAssists],
+                ['Expected goal involvements', player.seasonStats.expectedGoalInvolvements],
+                ['Expected goals conceded', player.seasonStats.expectedGoalsConceded],
+                ['Influence', player.seasonStats.influence],
+                ['Creativity', player.seasonStats.creativity],
+                ['Threat', player.seasonStats.threat],
+                ['ICT index', player.seasonStats.ictIndex]
+              ]}
+            />
+          </section>
+
+          <section className="glass-card overflow-hidden">
+            <div className="p-5">
               <p className="eyebrow">Source-backed scoring</p>
               <h2 className="mt-1 font-display text-2xl font-bold">Point explanation</h2>
               <p className="mt-1 text-xs text-muted">
@@ -256,6 +307,40 @@ export default function PlayerPage() {
               </p>
             ) : null}
           </section>
+          <section className="glass-card overflow-hidden">
+            <div className="p-5">
+              <p className="eyebrow">Availability & demand</p>
+              <h2 className="mt-1 font-display text-2xl font-bold">Market context</h2>
+            </div>
+            <div className="divide-y divide-white/[0.07] border-t border-white/[0.07]">
+              <MarketFact
+                label="Chance of playing"
+                value={formatPlayingChance(player.availabilityDetail.chanceNextRound)}
+                detail="Next round"
+              />
+              <MarketFact
+                label="Selected by"
+                value={`${player.marketInterest.selectedByPercent.toFixed(1)}%`}
+                detail="Of Fantasy Premier League managers"
+              />
+              <MarketFact
+                label="Transfers this round"
+                value={`${formatNumber(player.marketInterest.transfersInEvent)} in · ${formatNumber(player.marketInterest.transfersOutEvent)} out`}
+                detail="Current round activity"
+              />
+              <MarketFact
+                label="Season transfers"
+                value={`${formatNumber(player.marketInterest.transfersInSeason)} in · ${formatNumber(player.marketInterest.transfersOutSeason)} out`}
+                detail="Season-long activity"
+              />
+              {player.availabilityDetail.news ? (
+                <div className="p-4">
+                  <p className="text-[0.62rem] font-bold uppercase tracking-wider text-muted">Latest club news</p>
+                  <p className="mt-1 text-sm leading-6 text-ivory">{player.availabilityDetail.news}</p>
+                </div>
+              ) : null}
+            </div>
+          </section>
           <section className="glass-card p-5">
             <p className="eyebrow">Points by competition</p>
             <p className="mt-3 text-xs leading-5 text-muted">
@@ -283,4 +368,43 @@ export default function PlayerPage() {
       </div>
     </div>
   );
+}
+
+function PlayerMetricGrid({
+  metrics,
+  decimal = false
+}: {
+  metrics: Array<[string, number]>;
+  decimal?: boolean;
+}) {
+  return (
+    <div className="grid grid-cols-2 border-t border-white/[0.07] sm:grid-cols-3 lg:grid-cols-4">
+      {metrics.map(([label, value]) => (
+        <div key={label} className="border-b border-r border-white/[0.07] p-3 last:border-b-0">
+          <p className="text-[0.6rem] font-bold uppercase tracking-wider text-muted">{label}</p>
+          <p className="mt-1 font-display text-xl font-bold text-ivory">
+            {decimal ? value.toFixed(2) : formatNumber(value)}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function MarketFact({ label, value, detail }: { label: string; value: string; detail: string }) {
+  return (
+    <div className="p-4">
+      <p className="text-[0.62rem] font-bold uppercase tracking-wider text-muted">{label}</p>
+      <p className="mt-1 text-sm font-semibold text-ivory">{value}</p>
+      <p className="mt-1 text-xs text-muted">{detail}</p>
+    </div>
+  );
+}
+
+function formatPlayingChance(chance: number | null): string {
+  return chance === null ? 'Not reported' : `${chance}%`;
+}
+
+function formatNumber(value: number): string {
+  return new Intl.NumberFormat('en-GB').format(value);
 }

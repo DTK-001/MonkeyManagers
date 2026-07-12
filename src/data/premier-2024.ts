@@ -145,6 +145,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Strasbourg on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1262,
+      "transfersOutSeason": 10304
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -203,6 +239,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 679,
+      "starts": 8,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 105,
+      "expectedGoals": 0.44,
+      "expectedAssists": 0.17,
+      "expectedGoalInvolvements": 0.61,
+      "expectedGoalsConceded": 9.03,
+      "influence": 101.4,
+      "creativity": 17.1,
+      "threat": 43,
+      "ictIndex": 16
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 68336,
+      "transfersOutSeason": 85750
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -261,6 +333,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1003,
+      "starts": 11,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 25,
+      "bonus": 1,
+      "bps": 107,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 18.83,
+      "influence": 212.8,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 22.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 146098,
+      "transfersOutSeason": 177610
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -319,6 +427,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Leicester City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 62789,
+      "transfersOutSeason": 934900
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -377,6 +521,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2080,
+      "starts": 23,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 3,
+      "goalsConceded": 43,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 203,
+      "expectedGoals": 0,
+      "expectedAssists": 1,
+      "expectedGoalInvolvements": 1,
+      "expectedGoalsConceded": 35.44,
+      "influence": 432,
+      "creativity": 305.6,
+      "threat": 30,
+      "ictIndex": 77.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 300045,
+      "transfersOutSeason": 2376588
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -435,6 +615,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Lens permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 247,
+      "transfersOutSeason": 2255
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -493,6 +709,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 83617,
+      "transfersOutSeason": 84034
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -551,6 +803,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1427,
+      "starts": 15,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 6,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 293,
+      "expectedGoals": 0.65,
+      "expectedAssists": 1.21,
+      "expectedGoalInvolvements": 1.86,
+      "expectedGoalsConceded": 20.89,
+      "influence": 299,
+      "creativity": 112.2,
+      "threat": 26,
+      "ictIndex": 43.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 121067,
+      "transfersOutSeason": 96765
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -609,6 +897,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1141,
+      "starts": 14,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 129,
+      "expectedGoals": 2.77,
+      "expectedAssists": 0.85,
+      "expectedGoalInvolvements": 3.62,
+      "expectedGoalsConceded": 22.93,
+      "influence": 145,
+      "creativity": 85,
+      "threat": 191,
+      "ictIndex": 41.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27800,
+      "transfersOutSeason": 21229
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -667,6 +991,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3169,
+      "transfersOutSeason": 12955
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -725,6 +1085,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1073,
+      "starts": 14,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 16,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 185,
+      "expectedGoals": 0,
+      "expectedAssists": 0.23,
+      "expectedGoalInvolvements": 0.23,
+      "expectedGoalsConceded": 18.18,
+      "influence": 176.2,
+      "creativity": 76.6,
+      "threat": 18,
+      "ictIndex": 27.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 34595,
+      "transfersOutSeason": 44527
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -783,6 +1179,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1199,
+      "transfersOutSeason": 1892
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -841,6 +1273,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2552,
+      "starts": 29,
+      "goals": 1,
+      "assists": 6,
+      "cleanSheets": 8,
+      "goalsConceded": 43,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 511,
+      "expectedGoals": 1.52,
+      "expectedAssists": 7.47,
+      "expectedGoalInvolvements": 8.98,
+      "expectedGoalsConceded": 39.08,
+      "influence": 494.4,
+      "creativity": 720,
+      "threat": 180,
+      "ictIndex": 139.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 219867,
+      "transfersOutSeason": 207736
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -899,6 +1367,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 25,
+      "chanceNextRound": 25,
+      "news": "Muscle injury - 25% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 376,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 12,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 74,
+      "expectedGoals": 0.69,
+      "expectedAssists": 0.57,
+      "expectedGoalInvolvements": 1.26,
+      "expectedGoalsConceded": 8.38,
+      "influence": 33.4,
+      "creativity": 73.8,
+      "threat": 70,
+      "ictIndex": 17.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 18094,
+      "transfersOutSeason": 39430
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -957,6 +1461,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Dinamo Bucharest permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1435,
+      "transfersOutSeason": 4630
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1015,6 +1555,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3378,
+      "starts": 38,
+      "goals": 1,
+      "assists": 6,
+      "cleanSheets": 11,
+      "goalsConceded": 51,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 19,
+      "bps": 607,
+      "expectedGoals": 1.35,
+      "expectedAssists": 3.07,
+      "expectedGoalInvolvements": 4.42,
+      "expectedGoalsConceded": 54.42,
+      "influence": 857,
+      "creativity": 574.2,
+      "threat": 194,
+      "ictIndex": 162.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 5.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1226091,
+      "transfersOutSeason": 637714
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1073,6 +1649,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 72746,
+      "transfersOutSeason": 99514
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1131,6 +1743,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2885,
+      "transfersOutSeason": 2514
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1189,6 +1837,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Portsmouth on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 611,
+      "transfersOutSeason": 878
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1247,6 +1931,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Middlesbrough on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1291,
+      "transfersOutSeason": 9904
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1305,6 +2025,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Hamburger permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2952,
+      "transfersOutSeason": 14151
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1363,6 +2119,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1261,
+      "starts": 14,
+      "goals": 1,
+      "assists": 4,
+      "cleanSheets": 4,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 222,
+      "expectedGoals": 3.44,
+      "expectedAssists": 3.68,
+      "expectedGoalInvolvements": 7.12,
+      "expectedGoalsConceded": 20.52,
+      "influence": 211.4,
+      "creativity": 405.3,
+      "threat": 399,
+      "ictIndex": 100.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 245387,
+      "transfersOutSeason": 241011
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1421,6 +2213,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9292,
+      "transfersOutSeason": 16620
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1479,6 +2307,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2420,
+      "starts": 29,
+      "goals": 4,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 13,
+      "bps": 508,
+      "expectedGoals": 1.91,
+      "expectedAssists": 4.7,
+      "expectedGoalInvolvements": 6.61,
+      "expectedGoalsConceded": 35.7,
+      "influence": 511.2,
+      "creativity": 739.4,
+      "threat": 343,
+      "ictIndex": 159.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 594538,
+      "transfersOutSeason": 653863
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1537,6 +2401,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2315,
+      "starts": 26,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 297,
+      "expectedGoals": 1.09,
+      "expectedAssists": 1.73,
+      "expectedGoalInvolvements": 2.82,
+      "expectedGoalsConceded": 41.11,
+      "influence": 406,
+      "creativity": 269.3,
+      "threat": 184,
+      "ictIndex": 85.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 67165,
+      "transfersOutSeason": 54008
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1595,6 +2495,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Girona permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 44476,
+      "transfersOutSeason": 893174
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1653,6 +2589,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 7,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.49,
+      "influence": 10.2,
+      "creativity": 0.6,
+      "threat": 2,
+      "ictIndex": 1.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 82574,
+      "transfersOutSeason": 109655
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1711,6 +2683,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Lechia Gdansk on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1107,
+      "transfersOutSeason": 10720
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1769,6 +2777,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2848,
+      "starts": 34,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 11,
+      "goalsConceded": 41,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 603,
+      "expectedGoals": 3.8,
+      "expectedAssists": 2.94,
+      "expectedGoalInvolvements": 6.74,
+      "expectedGoalsConceded": 47.02,
+      "influence": 597.2,
+      "creativity": 482,
+      "threat": 314,
+      "ictIndex": 139
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 642749,
+      "transfersOutSeason": 390181
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1827,6 +2871,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 135,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 32,
+      "expectedGoals": 0.11,
+      "expectedAssists": 0.33,
+      "expectedGoalInvolvements": 0.44,
+      "expectedGoalsConceded": 4.9,
+      "influence": 18.6,
+      "creativity": 60.2,
+      "threat": 18,
+      "ictIndex": 9.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1044,
+      "transfersOutSeason": 687
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1885,6 +2965,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 694,
+      "starts": 8,
+      "goals": 3,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 140,
+      "expectedGoals": 2.59,
+      "expectedAssists": 0.08,
+      "expectedGoalInvolvements": 2.67,
+      "expectedGoalsConceded": 8.38,
+      "influence": 146.4,
+      "creativity": 39.2,
+      "threat": 191,
+      "ictIndex": 36.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1943087,
+      "transfersOutSeason": 2527246
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -1943,6 +3059,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2654,
+      "starts": 31,
+      "goals": 2,
+      "assists": 5,
+      "cleanSheets": 7,
+      "goalsConceded": 41,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 490,
+      "expectedGoals": 3.89,
+      "expectedAssists": 1.69,
+      "expectedGoalInvolvements": 5.58,
+      "expectedGoalsConceded": 36.97,
+      "influence": 475.4,
+      "creativity": 562.2,
+      "threat": 365,
+      "ictIndex": 139.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 392604,
+      "transfersOutSeason": 427095
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2001,6 +3153,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 790,
+      "transfersOutSeason": 282
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2059,6 +3247,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 79,
+      "transfersOutSeason": 4
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2117,6 +3341,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1175,
+      "transfersOutSeason": 681
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2175,6 +3435,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Crewe Alexandra on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 85684,
+      "transfersOutSeason": 154609
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2233,6 +3529,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2340,
+      "starts": 26,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 8,
+      "goalsConceded": 31,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 57,
+      "bonus": 8,
+      "bps": 389,
+      "expectedGoals": 0,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 0.03,
+      "expectedGoalsConceded": 29.58,
+      "influence": 479.8,
+      "creativity": 0.1,
+      "threat": 0,
+      "ictIndex": 47.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 5.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 693536,
+      "transfersOutSeason": 1509765
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2291,6 +3623,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1800,
+      "starts": 20,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 77,
+      "bonus": 2,
+      "bps": 220,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 35.3,
+      "influence": 570.4,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 57.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 195408,
+      "transfersOutSeason": 488161
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2349,6 +3717,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 540,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 13,
+      "bonus": 0,
+      "bps": 49,
+      "expectedGoals": 0,
+      "expectedAssists": 0.05,
+      "expectedGoalInvolvements": 0.05,
+      "expectedGoalsConceded": 9.24,
+      "influence": 118.4,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 12.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 39170,
+      "transfersOutSeason": 64699
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2407,6 +3811,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Muscle injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 47,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 11,
+      "expectedGoals": 0.05,
+      "expectedAssists": 0.05,
+      "expectedGoalInvolvements": 0.1,
+      "expectedGoalsConceded": 1.87,
+      "influence": 3.2,
+      "creativity": 3.5,
+      "threat": 10,
+      "ictIndex": 1.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 433,
+      "transfersOutSeason": 320
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2465,6 +3905,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2339,
+      "starts": 27,
+      "goals": 2,
+      "assists": 5,
+      "cleanSheets": 6,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 463,
+      "expectedGoals": 5.46,
+      "expectedAssists": 4.74,
+      "expectedGoalInvolvements": 10.2,
+      "expectedGoalsConceded": 31.69,
+      "influence": 436.6,
+      "creativity": 596.1,
+      "threat": 600,
+      "ictIndex": 163.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 451199,
+      "transfersOutSeason": 644246
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2523,6 +3999,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1755,
+      "starts": 21,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 6,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 353,
+      "expectedGoals": 1.68,
+      "expectedAssists": 0.69,
+      "expectedGoalInvolvements": 2.37,
+      "expectedGoalsConceded": 28.53,
+      "influence": 413.2,
+      "creativity": 152.6,
+      "threat": 178,
+      "ictIndex": 74.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 168465,
+      "transfersOutSeason": 295144
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2581,6 +4093,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 234622,
+      "transfersOutSeason": 155038
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2639,6 +4187,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1074,
+      "starts": 10,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 241,
+      "expectedGoals": 2.6,
+      "expectedAssists": 1.62,
+      "expectedGoalInvolvements": 4.22,
+      "expectedGoalsConceded": 18.22,
+      "influence": 272.6,
+      "creativity": 235.9,
+      "threat": 260,
+      "ictIndex": 76.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 120446,
+      "transfersOutSeason": 101352
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2697,6 +4281,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2098,
+      "transfersOutSeason": 1977
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2755,6 +4375,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Trabzonspor on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5156,
+      "transfersOutSeason": 26687
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2813,6 +4469,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2760,
+      "starts": 30,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 53,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 12,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 473,
+      "expectedGoals": 0.52,
+      "expectedAssists": 0.99,
+      "expectedGoalInvolvements": 1.51,
+      "expectedGoalsConceded": 47.29,
+      "influence": 423,
+      "creativity": 320.6,
+      "threat": 46,
+      "ictIndex": 78.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27721,
+      "transfersOutSeason": 28201
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2871,6 +4563,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Palmeiras permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2438,
+      "transfersOutSeason": 35658
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2929,6 +4657,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 83,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 12,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 2.74,
+      "influence": 17.8,
+      "creativity": 3.2,
+      "threat": 2,
+      "ictIndex": 2.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 30457,
+      "transfersOutSeason": 43192
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -2987,6 +4751,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Los Angeles FC on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 490,
+      "transfersOutSeason": 5133
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3045,6 +4845,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1165,
+      "starts": 11,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 16,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 216,
+      "expectedGoals": 1.1,
+      "expectedAssists": 1.4,
+      "expectedGoalInvolvements": 2.49,
+      "expectedGoalsConceded": 17.44,
+      "influence": 239.8,
+      "creativity": 318.8,
+      "threat": 121,
+      "ictIndex": 68.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 89505,
+      "transfersOutSeason": 145824
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3103,6 +4939,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1247,
+      "starts": 13,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 257,
+      "expectedGoals": 2,
+      "expectedAssists": 0.88,
+      "expectedGoalInvolvements": 2.88,
+      "expectedGoalsConceded": 18.91,
+      "influence": 229.6,
+      "creativity": 153.9,
+      "threat": 91,
+      "ictIndex": 47.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 86825,
+      "transfersOutSeason": 91625
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3161,6 +5033,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sparta Prague permanently."
+    },
+    "seasonStats": {
+      "minutes": 156,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 49,
+      "expectedGoals": 0,
+      "expectedAssists": 0.17,
+      "expectedGoalInvolvements": 0.17,
+      "expectedGoalsConceded": 4.03,
+      "influence": 31.6,
+      "creativity": 52.3,
+      "threat": 2,
+      "ictIndex": 8.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 43311,
+      "transfersOutSeason": 57528
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3219,6 +5127,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 457,
+      "starts": 7,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 78,
+      "expectedGoals": 0.25,
+      "expectedAssists": 0.28,
+      "expectedGoalInvolvements": 0.53,
+      "expectedGoalsConceded": 12.15,
+      "influence": 52.8,
+      "creativity": 91.5,
+      "threat": 28,
+      "ictIndex": 17.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5982,
+      "transfersOutSeason": 4320
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3277,6 +5221,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 45,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 4,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.21,
+      "influence": 1.2,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 31459,
+      "transfersOutSeason": 105455
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3335,6 +5315,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1302,
+      "starts": 14,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 179,
+      "expectedGoals": 1.65,
+      "expectedAssists": 1.74,
+      "expectedGoalInvolvements": 3.39,
+      "expectedGoalsConceded": 21.11,
+      "influence": 130.4,
+      "creativity": 266.7,
+      "threat": 185,
+      "ictIndex": 57.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 585258,
+      "transfersOutSeason": 1206243
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3393,6 +5409,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1798,
+      "starts": 24,
+      "goals": 6,
+      "assists": 4,
+      "cleanSheets": 8,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 352,
+      "expectedGoals": 8.77,
+      "expectedAssists": 3.38,
+      "expectedGoalInvolvements": 12.15,
+      "expectedGoalsConceded": 24.78,
+      "influence": 393.8,
+      "creativity": 404.2,
+      "threat": 514,
+      "ictIndex": 130.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2428918,
+      "transfersOutSeason": 2303564
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3451,6 +5503,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Millwall on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 10565,
+      "transfersOutSeason": 35538
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3509,6 +5597,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3200,
+      "starts": 37,
+      "goals": 17,
+      "assists": 6,
+      "cleanSheets": 12,
+      "goalsConceded": 52,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 18,
+      "bps": 678,
+      "expectedGoals": 11.1,
+      "expectedAssists": 3.12,
+      "expectedGoalInvolvements": 14.21,
+      "expectedGoalsConceded": 47.67,
+      "influence": 923.2,
+      "creativity": 607.4,
+      "threat": 1047,
+      "ictIndex": 257.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 46.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 12955429,
+      "transfersOutSeason": 8639305
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3567,6 +5691,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Ankle injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 2369,
+      "starts": 28,
+      "goals": 5,
+      "assists": 6,
+      "cleanSheets": 7,
+      "goalsConceded": 36,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 14,
+      "bps": 550,
+      "expectedGoals": 2.88,
+      "expectedAssists": 4.47,
+      "expectedGoalInvolvements": 7.35,
+      "expectedGoalsConceded": 34.05,
+      "influence": 650,
+      "creativity": 921.4,
+      "threat": 315,
+      "ictIndex": 188.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1265159,
+      "transfersOutSeason": 1110797
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3625,6 +5785,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1487,
+      "starts": 17,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 280,
+      "expectedGoals": 1.07,
+      "expectedAssists": 1.58,
+      "expectedGoalInvolvements": 2.65,
+      "expectedGoalsConceded": 24.12,
+      "influence": 375,
+      "creativity": 334.6,
+      "threat": 82,
+      "ictIndex": 79.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 217076,
+      "transfersOutSeason": 219920
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3683,6 +5879,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 45,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 5,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 1.49,
+      "influence": 4,
+      "creativity": 1.8,
+      "threat": 0,
+      "ictIndex": 0.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2221,
+      "transfersOutSeason": 7078
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3741,6 +5973,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 630,
+      "starts": 7,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 10,
+      "bonus": 0,
+      "bps": 76,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 5.55,
+      "influence": 102.6,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 10.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 199681,
+      "transfersOutSeason": 202233
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3799,6 +6067,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Cadiz on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 655,
+      "transfersOutSeason": 3592
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3857,6 +6161,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Real Betis permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1511,
+      "transfersOutSeason": 10762
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3915,6 +6255,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1471,
+      "starts": 18,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 5,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 237,
+      "expectedGoals": 1.5,
+      "expectedAssists": 1.29,
+      "expectedGoalInvolvements": 2.79,
+      "expectedGoalsConceded": 24.8,
+      "influence": 259.4,
+      "creativity": 138.1,
+      "threat": 158,
+      "ictIndex": 55.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 26083,
+      "transfersOutSeason": 30863
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -3973,6 +6349,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 80,
+      "transfersOutSeason": 29
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4031,6 +6443,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 843,
+      "starts": 8,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 119,
+      "expectedGoals": 2.14,
+      "expectedAssists": 0.22,
+      "expectedGoalInvolvements": 2.36,
+      "expectedGoalsConceded": 23.35,
+      "influence": 102,
+      "creativity": 78.9,
+      "threat": 207,
+      "ictIndex": 38.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 48666,
+      "transfersOutSeason": 61932
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4089,6 +6537,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 175882,
+      "transfersOutSeason": 87171
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4147,6 +6631,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Eintracht Frankfurt on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 89,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 24,
+      "expectedGoals": 0.44,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.46,
+      "expectedGoalsConceded": 1.57,
+      "influence": 6.8,
+      "creativity": 17.7,
+      "threat": 39,
+      "ictIndex": 6.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15291,
+      "transfersOutSeason": 18611
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4205,6 +6725,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined RC Lens on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 125,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 4,
+      "expectedGoals": 0.07,
+      "expectedAssists": 0.08,
+      "expectedGoalInvolvements": 0.15,
+      "expectedGoalsConceded": 2.09,
+      "influence": 21.8,
+      "creativity": 20.1,
+      "threat": 7,
+      "ictIndex": 4.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 52353,
+      "transfersOutSeason": 85621
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4263,6 +6819,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16289,
+      "transfersOutSeason": 14086
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4321,6 +6913,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 40,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 11,
+      "expectedGoals": 0.25,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.29,
+      "expectedGoalsConceded": 2.37,
+      "influence": 2.2,
+      "creativity": 1.9,
+      "threat": 44,
+      "ictIndex": 4.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 240204,
+      "transfersOutSeason": 378250
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4379,6 +7007,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Stoke City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2018
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4437,6 +7101,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1254,
+      "starts": 14,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 6,
+      "goalsConceded": 17,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 186,
+      "expectedGoals": 1.1,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 1.13,
+      "expectedGoalsConceded": 18.54,
+      "influence": 220.8,
+      "creativity": 19.9,
+      "threat": 84,
+      "ictIndex": 32.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 41500,
+      "transfersOutSeason": 18529
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4495,6 +7195,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1201,
+      "starts": 14,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 26,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 102,
+      "expectedGoals": 0.61,
+      "expectedAssists": 0.12,
+      "expectedGoalInvolvements": 0.73,
+      "expectedGoalsConceded": 29.7,
+      "influence": 276.4,
+      "creativity": 11.1,
+      "threat": 52,
+      "ictIndex": 34.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 141356,
+      "transfersOutSeason": 304187
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4553,6 +7289,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 920,
+      "starts": 11,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 15,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 164,
+      "expectedGoals": 0.34,
+      "expectedAssists": 0.18,
+      "expectedGoalInvolvements": 0.52,
+      "expectedGoalsConceded": 11.95,
+      "influence": 233.6,
+      "creativity": 32,
+      "threat": 26,
+      "ictIndex": 29.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 619537,
+      "transfersOutSeason": 481085
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4611,6 +7383,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1275,
+      "starts": 15,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 164,
+      "expectedGoals": 0.02,
+      "expectedAssists": 0.19,
+      "expectedGoalInvolvements": 0.21,
+      "expectedGoalsConceded": 22.47,
+      "influence": 267,
+      "creativity": 54.3,
+      "threat": 22,
+      "ictIndex": 34.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 99992,
+      "transfersOutSeason": 100202
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4669,6 +7477,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3420,
+      "starts": 38,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 10,
+      "goalsConceded": 46,
+      "ownGoals": 1,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 106,
+      "bonus": 6,
+      "bps": 616,
+      "expectedGoals": 0,
+      "expectedAssists": 0.06,
+      "expectedGoalInvolvements": 0.06,
+      "expectedGoalsConceded": 49.06,
+      "influence": 935,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 94.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 9.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1475089,
+      "transfersOutSeason": 1130937
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4727,6 +7571,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1574,
+      "starts": 17,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 210,
+      "expectedGoals": 0.42,
+      "expectedAssists": 0.68,
+      "expectedGoalInvolvements": 1.1,
+      "expectedGoalsConceded": 35.3,
+      "influence": 379,
+      "creativity": 135.6,
+      "threat": 101,
+      "ictIndex": 61.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 22842,
+      "transfersOutSeason": 20690
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4785,6 +7665,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "On loan to FC Alverca"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 910
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4843,6 +7759,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Falkirk on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 38290,
+      "transfersOutSeason": 52801
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4901,6 +7853,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4166,
+      "transfersOutSeason": 2510
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -4959,6 +7947,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Ankle injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 136,
+      "starts": 2,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 29,
+      "expectedGoals": 0.49,
+      "expectedAssists": 0.07,
+      "expectedGoalInvolvements": 0.56,
+      "expectedGoalsConceded": 1.11,
+      "influence": 67.4,
+      "creativity": 22.2,
+      "threat": 52,
+      "ictIndex": 14.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4540,
+      "transfersOutSeason": 12248
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5017,6 +8041,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 105,
+      "starts": 0,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 33,
+      "expectedGoals": 0.26,
+      "expectedAssists": 0.13,
+      "expectedGoalInvolvements": 0.39,
+      "expectedGoalsConceded": 4.74,
+      "influence": 32.4,
+      "creativity": 17.8,
+      "threat": 39,
+      "ictIndex": 8.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4944,
+      "transfersOutSeason": 8262
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5075,6 +8135,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Barnet on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 6,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.31,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2964,
+      "transfersOutSeason": 10063
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5133,6 +8229,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 15,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 0.05,
+      "influence": 2.2,
+      "creativity": 11.7,
+      "threat": 0,
+      "ictIndex": 1.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 589,
+      "transfersOutSeason": 424
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5191,6 +8323,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Celtic on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 12981,
+      "transfersOutSeason": 31968
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5249,6 +8417,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Dender on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2020,
+      "transfersOutSeason": 14548
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5307,6 +8511,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 44786,
+      "transfersOutSeason": 60044
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5365,6 +8605,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 50,
+      "chanceNextRound": 50,
+      "news": "Shin injury - 50% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 1630,
+      "starts": 17,
+      "goals": 11,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 19,
+      "bps": 405,
+      "expectedGoals": 9.21,
+      "expectedAssists": 0.28,
+      "expectedGoalInvolvements": 9.48,
+      "expectedGoalsConceded": 27.05,
+      "influence": 483.8,
+      "creativity": 156.1,
+      "threat": 803,
+      "ictIndex": 143.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1377150,
+      "transfersOutSeason": 1876133
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5423,6 +8699,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 24 May"
+    },
+    "seasonStats": {
+      "minutes": 699,
+      "starts": 9,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 6,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 181,
+      "expectedGoals": 0.45,
+      "expectedAssists": 0.69,
+      "expectedGoalInvolvements": 1.14,
+      "expectedGoalsConceded": 8.68,
+      "influence": 154.8,
+      "creativity": 133.4,
+      "threat": 54,
+      "ictIndex": 34.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 378865,
+      "transfersOutSeason": 434751
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5481,6 +8793,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 470,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 48,
+      "expectedGoals": 0,
+      "expectedAssists": 0.06,
+      "expectedGoalInvolvements": 0.06,
+      "expectedGoalsConceded": 7.41,
+      "influence": 102.8,
+      "creativity": 7.9,
+      "threat": 2,
+      "ictIndex": 11.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9211,
+      "transfersOutSeason": 10008
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5539,6 +8887,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2869,
+      "starts": 34,
+      "goals": 2,
+      "assists": 4,
+      "cleanSheets": 13,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 534,
+      "expectedGoals": 2.71,
+      "expectedAssists": 4.11,
+      "expectedGoalInvolvements": 6.81,
+      "expectedGoalsConceded": 35.59,
+      "influence": 514,
+      "creativity": 809,
+      "threat": 353,
+      "ictIndex": 167.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 134935,
+      "transfersOutSeason": 159793
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5597,6 +8981,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3420,
+      "starts": 38,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 9,
+      "goalsConceded": 51,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 98,
+      "bonus": 8,
+      "bps": 556,
+      "expectedGoals": 0,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.02,
+      "expectedGoalsConceded": 52.73,
+      "influence": 816.2,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 81.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 415185,
+      "transfersOutSeason": 334592
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5655,6 +9075,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 634,
+      "starts": 9,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 118,
+      "expectedGoals": 0.48,
+      "expectedAssists": 0.25,
+      "expectedGoalInvolvements": 0.73,
+      "expectedGoalsConceded": 9.74,
+      "influence": 115.6,
+      "creativity": 108.4,
+      "threat": 135,
+      "ictIndex": 35.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 14213,
+      "transfersOutSeason": 13480
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5713,6 +9169,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined US Boulogne CO permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7473,
+      "transfersOutSeason": 14415
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5771,6 +9263,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 75,
+      "news": "Knock - 75% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 99,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 9,
+      "expectedGoals": 0.04,
+      "expectedAssists": 0.07,
+      "expectedGoalInvolvements": 0.11,
+      "expectedGoalsConceded": 0.9,
+      "influence": 12.6,
+      "creativity": 24.1,
+      "threat": 8,
+      "ictIndex": 4.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 12479,
+      "transfersOutSeason": 20090
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5829,6 +9357,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1410,
+      "starts": 17,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 282,
+      "expectedGoals": 0.53,
+      "expectedAssists": 0.84,
+      "expectedGoalInvolvements": 1.36,
+      "expectedGoalsConceded": 20.8,
+      "influence": 325,
+      "creativity": 241.3,
+      "threat": 75,
+      "ictIndex": 64.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 111587,
+      "transfersOutSeason": 121485
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5887,6 +9451,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined FC Metz on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 162
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -5945,6 +9545,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 16,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.9,
+      "influence": 0,
+      "creativity": 0.3,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 20893,
+      "transfersOutSeason": 12404
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6003,6 +9639,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6348,
+      "transfersOutSeason": 3871
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6061,6 +9733,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Leipzig on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 708,
+      "starts": 8,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 114,
+      "expectedGoals": 1.86,
+      "expectedAssists": 0.88,
+      "expectedGoalInvolvements": 2.74,
+      "expectedGoalsConceded": 13.82,
+      "influence": 134.4,
+      "creativity": 217.1,
+      "threat": 152,
+      "ictIndex": 50
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16799,
+      "transfersOutSeason": 19928
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6119,6 +9827,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 22434,
+      "transfersOutSeason": 27125
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6177,6 +9921,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 65565,
+      "transfersOutSeason": 85106
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6235,6 +10015,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2449,
+      "starts": 30,
+      "goals": 4,
+      "assists": 8,
+      "cleanSheets": 9,
+      "goalsConceded": 32,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 446,
+      "expectedGoals": 4.53,
+      "expectedAssists": 3.6,
+      "expectedGoalInvolvements": 8.13,
+      "expectedGoalsConceded": 37.07,
+      "influence": 482.8,
+      "creativity": 486.7,
+      "threat": 498,
+      "ictIndex": 146.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 380284,
+      "transfersOutSeason": 301090
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6293,6 +10109,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1710,
+      "starts": 19,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 6,
+      "goalsConceded": 24,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 217,
+      "expectedGoals": 2.45,
+      "expectedAssists": 1.31,
+      "expectedGoalInvolvements": 3.76,
+      "expectedGoalsConceded": 28.29,
+      "influence": 223.4,
+      "creativity": 311.1,
+      "threat": 230,
+      "ictIndex": 75.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1169226,
+      "transfersOutSeason": 1341087
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6351,6 +10203,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1920,
+      "starts": 22,
+      "goals": 7,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 12,
+      "bps": 309,
+      "expectedGoals": 6.02,
+      "expectedAssists": 0.67,
+      "expectedGoalInvolvements": 6.69,
+      "expectedGoalsConceded": 31.4,
+      "influence": 333.4,
+      "creativity": 200.5,
+      "threat": 552,
+      "ictIndex": 106.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 473226,
+      "transfersOutSeason": 366108
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6409,6 +10297,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3065,
+      "starts": 35,
+      "goals": 9,
+      "assists": 24,
+      "cleanSheets": 7,
+      "goalsConceded": 46,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 2,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 41,
+      "bps": 1008,
+      "expectedGoals": 10.79,
+      "expectedAssists": 12.28,
+      "expectedGoalInvolvements": 23.07,
+      "expectedGoalsConceded": 44.42,
+      "influence": 1258,
+      "creativity": 1938.5,
+      "threat": 614,
+      "ictIndex": 381.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 48,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9239341,
+      "transfersOutSeason": 5871807
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6467,6 +10391,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2456,
+      "starts": 27,
+      "goals": 9,
+      "assists": 7,
+      "cleanSheets": 6,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 22,
+      "bps": 681,
+      "expectedGoals": 5.59,
+      "expectedAssists": 4.96,
+      "expectedGoalInvolvements": 10.55,
+      "expectedGoalsConceded": 31.99,
+      "influence": 782.4,
+      "creativity": 756.7,
+      "threat": 488,
+      "ictIndex": 202.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 6.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4385408,
+      "transfersOutSeason": 3885085
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6525,6 +10485,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Girona permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 675,
+      "transfersOutSeason": 4517
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6583,6 +10579,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2611,
+      "starts": 31,
+      "goals": 11,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 16,
+      "bps": 528,
+      "expectedGoals": 11.98,
+      "expectedAssists": 4.99,
+      "expectedGoalInvolvements": 16.97,
+      "expectedGoalsConceded": 35.87,
+      "influence": 628.8,
+      "creativity": 803.1,
+      "threat": 882,
+      "ictIndex": 231.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 15,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7366637,
+      "transfersOutSeason": 7325105
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6641,6 +10673,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2218,
+      "starts": 25,
+      "goals": 7,
+      "assists": 10,
+      "cleanSheets": 12,
+      "goalsConceded": 16,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 18,
+      "bps": 570,
+      "expectedGoals": 7.57,
+      "expectedAssists": 7.16,
+      "expectedGoalInvolvements": 14.73,
+      "expectedGoalsConceded": 15.57,
+      "influence": 627,
+      "creativity": 847.6,
+      "threat": 828,
+      "ictIndex": 230.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 11.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5027975,
+      "transfersOutSeason": 5509494
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6699,6 +10767,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1297,
+      "transfersOutSeason": 2680
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6757,6 +10861,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 24120,
+      "transfersOutSeason": 23134
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6815,6 +10955,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16354,
+      "transfersOutSeason": 17402
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6873,6 +11049,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Muscle injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1838,
+      "starts": 21,
+      "goals": 3,
+      "assists": 4,
+      "cleanSheets": 6,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 358,
+      "expectedGoals": 2.77,
+      "expectedAssists": 3.02,
+      "expectedGoalInvolvements": 5.79,
+      "expectedGoalsConceded": 30.88,
+      "influence": 366.6,
+      "creativity": 611.7,
+      "threat": 330,
+      "ictIndex": 130.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 276638,
+      "transfersOutSeason": 358083
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6931,6 +11143,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined VfL Bochum 1848 on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 58,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0.13,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0.13,
+      "expectedGoalsConceded": 1.55,
+      "influence": 1.2,
+      "creativity": 0.1,
+      "threat": 7,
+      "ictIndex": 0.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 63604,
+      "transfersOutSeason": 108749
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -6989,6 +11237,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 14,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 0.75,
+      "influence": 0.6,
+      "creativity": 1.8,
+      "threat": 0,
+      "ictIndex": 0.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 26162,
+      "transfersOutSeason": 32523
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7047,6 +11331,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1234,
+      "starts": 11,
+      "goals": 7,
+      "assists": 2,
+      "cleanSheets": 1,
+      "goalsConceded": 24,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 296,
+      "expectedGoals": 7.6,
+      "expectedAssists": 0.54,
+      "expectedGoalInvolvements": 8.14,
+      "expectedGoalsConceded": 21.49,
+      "influence": 305.2,
+      "creativity": 109,
+      "threat": 509,
+      "ictIndex": 91.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 218506,
+      "transfersOutSeason": 226058
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7105,6 +11425,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2532,
+      "starts": 28,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 7,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 392,
+      "expectedGoals": 1.71,
+      "expectedAssists": 0.35,
+      "expectedGoalInvolvements": 2.05,
+      "expectedGoalsConceded": 38.01,
+      "influence": 574,
+      "creativity": 152.2,
+      "threat": 115,
+      "ictIndex": 84.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 218504,
+      "transfersOutSeason": 178587
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7163,6 +11519,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 41615,
+      "transfersOutSeason": 36522
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7221,6 +11613,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3330,
+      "starts": 37,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 10,
+      "goalsConceded": 49,
+      "ownGoals": 0,
+      "penaltiesSaved": 3,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 109,
+      "bonus": 11,
+      "bps": 570,
+      "expectedGoals": 0,
+      "expectedAssists": 0.22,
+      "expectedGoalInvolvements": 0.22,
+      "expectedGoalsConceded": 53.48,
+      "influence": 913.8,
+      "creativity": 23,
+      "threat": 0,
+      "ictIndex": 93.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 12,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1717279,
+      "transfersOutSeason": 1447384
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7279,6 +11707,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Coventry City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 251
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7337,6 +11801,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 679,
+      "starts": 6,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 121,
+      "expectedGoals": 1.17,
+      "expectedAssists": 0.54,
+      "expectedGoalInvolvements": 1.71,
+      "expectedGoalsConceded": 13.56,
+      "influence": 93.8,
+      "creativity": 161.9,
+      "threat": 162,
+      "ictIndex": 41.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 17382,
+      "transfersOutSeason": 30363
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7395,6 +11895,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1646,
+      "starts": 23,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 7,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 231,
+      "expectedGoals": 0.78,
+      "expectedAssists": 0.72,
+      "expectedGoalInvolvements": 1.5,
+      "expectedGoalsConceded": 20.4,
+      "influence": 166.8,
+      "creativity": 156.3,
+      "threat": 44,
+      "ictIndex": 36.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 234049,
+      "transfersOutSeason": 576433
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7453,6 +11989,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2575,
+      "starts": 33,
+      "goals": 9,
+      "assists": 4,
+      "cleanSheets": 9,
+      "goalsConceded": 32,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 20,
+      "bps": 636,
+      "expectedGoals": 5.44,
+      "expectedAssists": 3.17,
+      "expectedGoalInvolvements": 8.61,
+      "expectedGoalsConceded": 31.77,
+      "influence": 903.6,
+      "creativity": 536.1,
+      "threat": 585,
+      "ictIndex": 202.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1226002,
+      "transfersOutSeason": 802419
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7511,6 +12083,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Palmeiras permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 448,
+      "transfersOutSeason": 15929
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7569,6 +12177,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 550,
+      "starts": 6,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 84,
+      "expectedGoals": 0.33,
+      "expectedAssists": 0.13,
+      "expectedGoalInvolvements": 0.46,
+      "expectedGoalsConceded": 9.09,
+      "influence": 117.8,
+      "creativity": 23.9,
+      "threat": 41,
+      "ictIndex": 18.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7843,
+      "transfersOutSeason": 5613
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7627,6 +12271,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 351,
+      "starts": 2,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 140,
+      "expectedGoals": 2.12,
+      "expectedAssists": 0.54,
+      "expectedGoalInvolvements": 2.66,
+      "expectedGoalsConceded": 6.04,
+      "influence": 143.6,
+      "creativity": 126.5,
+      "threat": 255,
+      "ictIndex": 52.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 58706,
+      "transfersOutSeason": 81260
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7685,6 +12365,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Doncaster Rovers on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 980
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7743,6 +12459,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 577,
+      "transfersOutSeason": 457
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7801,6 +12553,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 984,
+      "transfersOutSeason": 526
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7859,6 +12647,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13806,
+      "transfersOutSeason": 19237
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7917,6 +12741,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Lack of match fitness - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 613,
+      "transfersOutSeason": 787
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -7975,6 +12835,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Muscle injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1553,
+      "starts": 16,
+      "goals": 4,
+      "assists": 2,
+      "cleanSheets": 7,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 248,
+      "expectedGoals": 2.13,
+      "expectedAssists": 1.18,
+      "expectedGoalInvolvements": 3.3,
+      "expectedGoalsConceded": 22.26,
+      "influence": 238.8,
+      "creativity": 211.5,
+      "threat": 245,
+      "ictIndex": 69.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 64558,
+      "transfersOutSeason": 75082
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8033,6 +12929,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 276612,
+      "transfersOutSeason": 392978
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8091,6 +13023,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined West Bromwich Albion permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1400,
+      "transfersOutSeason": 16891
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8149,6 +13117,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Ankle injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 2825,
+      "starts": 31,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 11,
+      "goalsConceded": 42,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 453,
+      "expectedGoals": 2.42,
+      "expectedAssists": 1.56,
+      "expectedGoalInvolvements": 3.98,
+      "expectedGoalsConceded": 41.19,
+      "influence": 727.2,
+      "creativity": 159.6,
+      "threat": 185,
+      "ictIndex": 107.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1097588,
+      "transfersOutSeason": 1006044
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8207,6 +13211,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 758,
+      "starts": 11,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 136,
+      "expectedGoals": 0.86,
+      "expectedAssists": 0.93,
+      "expectedGoalInvolvements": 1.79,
+      "expectedGoalsConceded": 12.46,
+      "influence": 114.6,
+      "creativity": 142.8,
+      "threat": 103,
+      "ictIndex": 36
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11031,
+      "transfersOutSeason": 12270
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8265,6 +13305,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 896,
+      "starts": 11,
+      "goals": 3,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 145,
+      "expectedGoals": 4.29,
+      "expectedAssists": 0.32,
+      "expectedGoalInvolvements": 4.61,
+      "expectedGoalsConceded": 14.44,
+      "influence": 139,
+      "creativity": 88.4,
+      "threat": 266,
+      "ictIndex": 48
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2172956,
+      "transfersOutSeason": 3411956
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8323,6 +13399,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 159,
+      "starts": 0,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 42,
+      "expectedGoals": 0.49,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.5,
+      "expectedGoalsConceded": 4.63,
+      "influence": 13.2,
+      "creativity": 7.1,
+      "threat": 73,
+      "ictIndex": 8.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15881,
+      "transfersOutSeason": 12296
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8381,6 +13493,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 101,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 28,
+      "expectedGoals": 0.08,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.12,
+      "expectedGoalsConceded": 2.28,
+      "influence": 23.4,
+      "creativity": 5.5,
+      "threat": 10,
+      "ictIndex": 4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8660,
+      "transfersOutSeason": 61962
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8439,6 +13587,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined AC Milan permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2668,
+      "transfersOutSeason": 23803
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8497,6 +13681,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 877,
+      "transfersOutSeason": 564
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8555,6 +13775,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Girona on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 194,
+      "transfersOutSeason": 3241
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8613,6 +13869,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5345,
+      "transfersOutSeason": 6919
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8671,6 +13963,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2736,
+      "starts": 32,
+      "goals": 7,
+      "assists": 5,
+      "cleanSheets": 10,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 449,
+      "expectedGoals": 8.35,
+      "expectedAssists": 4.67,
+      "expectedGoalInvolvements": 13.02,
+      "expectedGoalsConceded": 34.94,
+      "influence": 540.4,
+      "creativity": 714.7,
+      "threat": 831,
+      "ictIndex": 208.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 5.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3563681,
+      "transfersOutSeason": 3938706
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8729,6 +14057,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1954,
+      "starts": 24,
+      "goals": 10,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 430,
+      "expectedGoals": 10.55,
+      "expectedAssists": 2.49,
+      "expectedGoalInvolvements": 13.04,
+      "expectedGoalsConceded": 31.13,
+      "influence": 536.6,
+      "creativity": 393.6,
+      "threat": 547,
+      "ictIndex": 147.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 12.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3348995,
+      "transfersOutSeason": 8552563
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8787,6 +14151,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1907,
+      "transfersOutSeason": 9487
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8845,6 +14245,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 928,
+      "starts": 12,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 157,
+      "expectedGoals": 0.18,
+      "expectedAssists": 0.84,
+      "expectedGoalInvolvements": 1.02,
+      "expectedGoalsConceded": 10.77,
+      "influence": 157.4,
+      "creativity": 105.2,
+      "threat": 62,
+      "ictIndex": 32.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 62835,
+      "transfersOutSeason": 72643
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8903,6 +14339,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1183,
+      "starts": 14,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 211,
+      "expectedGoals": 1.23,
+      "expectedAssists": 0.7,
+      "expectedGoalInvolvements": 1.93,
+      "expectedGoalsConceded": 19.03,
+      "influence": 190.6,
+      "creativity": 205.9,
+      "threat": 154,
+      "ictIndex": 55.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 65366,
+      "transfersOutSeason": 35089
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -8961,6 +14433,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 252,
+      "transfersOutSeason": 126
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9019,6 +14527,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 986,
+      "starts": 9,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 195,
+      "expectedGoals": 0.1,
+      "expectedAssists": 0.63,
+      "expectedGoalInvolvements": 0.73,
+      "expectedGoalsConceded": 9.04,
+      "influence": 219.2,
+      "creativity": 88.7,
+      "threat": 20,
+      "ictIndex": 32.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 72218,
+      "transfersOutSeason": 57288
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9077,6 +14621,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1869,
+      "starts": 22,
+      "goals": 4,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 2,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 305,
+      "expectedGoals": 1.39,
+      "expectedAssists": 1.25,
+      "expectedGoalInvolvements": 2.64,
+      "expectedGoalsConceded": 28.32,
+      "influence": 574.8,
+      "creativity": 133.6,
+      "threat": 223,
+      "ictIndex": 93.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1033163,
+      "transfersOutSeason": 1247346
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9135,6 +14715,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2470,
+      "starts": 29,
+      "goals": 5,
+      "assists": 4,
+      "cleanSheets": 8,
+      "goalsConceded": 42,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 412,
+      "expectedGoals": 5.43,
+      "expectedAssists": 3.35,
+      "expectedGoalInvolvements": 8.78,
+      "expectedGoalsConceded": 37.57,
+      "influence": 445.8,
+      "creativity": 460.9,
+      "threat": 546,
+      "ictIndex": 145
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 671253,
+      "transfersOutSeason": 475650
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9193,6 +14809,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1923,
+      "starts": 18,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 3,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 447,
+      "expectedGoals": 2.21,
+      "expectedAssists": 2.77,
+      "expectedGoalInvolvements": 4.98,
+      "expectedGoalsConceded": 31.44,
+      "influence": 407.4,
+      "creativity": 412.1,
+      "threat": 227,
+      "ictIndex": 104.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 31960,
+      "transfersOutSeason": 36907
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9251,6 +14903,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1899,
+      "starts": 22,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 331,
+      "expectedGoals": 1.64,
+      "expectedAssists": 3.24,
+      "expectedGoalInvolvements": 4.88,
+      "expectedGoalsConceded": 26.04,
+      "influence": 239.2,
+      "creativity": 350.1,
+      "threat": 155,
+      "ictIndex": 74.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 49384,
+      "transfersOutSeason": 45805
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9309,6 +14997,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2195,
+      "starts": 25,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 6,
+      "goalsConceded": 36,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 286,
+      "expectedGoals": 1.08,
+      "expectedAssists": 0.36,
+      "expectedGoalInvolvements": 1.44,
+      "expectedGoalsConceded": 30.15,
+      "influence": 525.8,
+      "creativity": 107.3,
+      "threat": 186,
+      "ictIndex": 82.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1584692,
+      "transfersOutSeason": 1706417
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9367,6 +15091,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1167,
+      "starts": 14,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 178,
+      "expectedGoals": 1.05,
+      "expectedAssists": 1.51,
+      "expectedGoalInvolvements": 2.56,
+      "expectedGoalsConceded": 15.96,
+      "influence": 166.4,
+      "creativity": 217.7,
+      "threat": 180,
+      "ictIndex": 56.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 545768,
+      "transfersOutSeason": 577065
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9425,6 +15185,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Ipswich Town on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 13,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 10,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.64,
+      "influence": 3,
+      "creativity": 1.4,
+      "threat": 0,
+      "ictIndex": 0.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1972,
+      "transfersOutSeason": 4761
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9483,6 +15279,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Hibernian on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 7,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 5,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 0.03,
+      "influence": 1,
+      "creativity": 4.1,
+      "threat": 2,
+      "ictIndex": 0.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 60820,
+      "transfersOutSeason": 113104
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9541,6 +15373,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2271,
+      "starts": 25,
+      "goals": 7,
+      "assists": 8,
+      "cleanSheets": 6,
+      "goalsConceded": 35,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 16,
+      "bps": 429,
+      "expectedGoals": 7.94,
+      "expectedAssists": 4.12,
+      "expectedGoalInvolvements": 12.06,
+      "expectedGoalsConceded": 34.75,
+      "influence": 509.8,
+      "creativity": 422.8,
+      "threat": 702,
+      "ictIndex": 162.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1060175,
+      "transfersOutSeason": 888747
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9599,6 +15467,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined HNK Rijeka permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 22144,
+      "transfersOutSeason": 44673
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9657,6 +15561,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2144,
+      "starts": 24,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 35,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 340,
+      "expectedGoals": 2.46,
+      "expectedAssists": 0.63,
+      "expectedGoalInvolvements": 3.09,
+      "expectedGoalsConceded": 33.2,
+      "influence": 662.8,
+      "creativity": 181.2,
+      "threat": 370,
+      "ictIndex": 121.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1281765,
+      "transfersOutSeason": 1235665
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9715,6 +15655,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 270,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 7,
+      "bonus": 0,
+      "bps": 24,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 5.1,
+      "influence": 65.4,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 6.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 28036,
+      "transfersOutSeason": 58934
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9773,6 +15749,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 547,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 16,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 93,
+      "expectedGoals": 0.91,
+      "expectedAssists": 0.71,
+      "expectedGoalInvolvements": 1.62,
+      "expectedGoalsConceded": 14.39,
+      "influence": 70.8,
+      "creativity": 133.1,
+      "threat": 133,
+      "ictIndex": 33.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9414,
+      "transfersOutSeason": 53603
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9831,6 +15843,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2400,
+      "starts": 29,
+      "goals": 4,
+      "assists": 4,
+      "cleanSheets": 10,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 469,
+      "expectedGoals": 2.45,
+      "expectedAssists": 3.94,
+      "expectedGoalInvolvements": 6.39,
+      "expectedGoalsConceded": 34.28,
+      "influence": 595,
+      "creativity": 396.6,
+      "threat": 404,
+      "ictIndex": 139.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 9.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4198618,
+      "transfersOutSeason": 4162622
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9889,6 +15937,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined West Brom on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 142,
+      "transfersOutSeason": 203
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -9947,6 +16031,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2249,
+      "starts": 26,
+      "goals": 13,
+      "assists": 1,
+      "cleanSheets": 10,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 2,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 18,
+      "bps": 511,
+      "expectedGoals": 12.36,
+      "expectedAssists": 1.4,
+      "expectedGoalInvolvements": 13.76,
+      "expectedGoalsConceded": 31.68,
+      "influence": 578.8,
+      "creativity": 309.7,
+      "threat": 803,
+      "ictIndex": 168.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3324662,
+      "transfersOutSeason": 2837619
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10005,6 +16125,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 26,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 7,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 0.55,
+      "influence": 11.4,
+      "creativity": 2.1,
+      "threat": 2,
+      "ictIndex": 1.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15467,
+      "transfersOutSeason": 16015
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10063,6 +16219,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Kocaelispor  permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 160,
+      "transfersOutSeason": 2095
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10121,6 +16313,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Hull City permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1165,
+      "transfersOutSeason": 8468
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10179,6 +16407,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Al-Hilal permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 15993
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10237,6 +16501,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1188,
+      "starts": 13,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 215,
+      "expectedGoals": 5.81,
+      "expectedAssists": 3.4,
+      "expectedGoalInvolvements": 9.21,
+      "expectedGoalsConceded": 20.25,
+      "influence": 236.2,
+      "creativity": 384.5,
+      "threat": 434,
+      "ictIndex": 104.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 76261,
+      "transfersOutSeason": 81566
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10295,6 +16595,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1042,
+      "starts": 11,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 1,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 78,
+      "expectedGoals": 0.13,
+      "expectedAssists": 1.09,
+      "expectedGoalInvolvements": 1.22,
+      "expectedGoalsConceded": 20.33,
+      "influence": 159.8,
+      "creativity": 126.5,
+      "threat": 46,
+      "ictIndex": 33.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5336,
+      "transfersOutSeason": 9939
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10353,6 +16689,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Real Oviedo on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 427,
+      "transfersOutSeason": 4435
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10411,6 +16783,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Derby County on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 193
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10469,6 +16877,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3330,
+      "starts": 37,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 19,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 60,
+      "bonus": 11,
+      "bps": 633,
+      "expectedGoals": 0,
+      "expectedAssists": 0.07,
+      "expectedGoalInvolvements": 0.07,
+      "expectedGoalsConceded": 27.56,
+      "influence": 541.6,
+      "creativity": 33.5,
+      "threat": 0,
+      "ictIndex": 57.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 36.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4930540,
+      "transfersOutSeason": 3003061
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10527,6 +16971,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1014,
+      "transfersOutSeason": 848
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10585,6 +17065,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3330,
+      "starts": 37,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 11,
+      "goalsConceded": 51,
+      "ownGoals": 0,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 106,
+      "bonus": 7,
+      "bps": 538,
+      "expectedGoals": 0,
+      "expectedAssists": 0.11,
+      "expectedGoalInvolvements": 0.11,
+      "expectedGoalsConceded": 51.4,
+      "influence": 837.8,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 84.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1438604,
+      "transfersOutSeason": 1212503
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10643,6 +17159,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3093,
+      "starts": 35,
+      "goals": 4,
+      "assists": 9,
+      "cleanSheets": 18,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 23,
+      "bps": 790,
+      "expectedGoals": 3.15,
+      "expectedAssists": 7.32,
+      "expectedGoalInvolvements": 10.47,
+      "expectedGoalsConceded": 23.87,
+      "influence": 827.2,
+      "creativity": 1027.4,
+      "threat": 298,
+      "ictIndex": 215.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 23.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7631940,
+      "transfersOutSeason": 5848117
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10701,6 +17253,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1397,
+      "transfersOutSeason": 2306
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10759,6 +17347,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 319,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 43,
+      "expectedGoals": 0.08,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.09,
+      "expectedGoalsConceded": 6.49,
+      "influence": 59.2,
+      "creativity": 9.7,
+      "threat": 10,
+      "ictIndex": 7.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8094,
+      "transfersOutSeason": 7897
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10817,6 +17441,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5954,
+      "transfersOutSeason": 9566
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10875,6 +17535,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1335,
+      "starts": 14,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 121,
+      "expectedGoals": 0.18,
+      "expectedAssists": 0.72,
+      "expectedGoalInvolvements": 0.9,
+      "expectedGoalsConceded": 19.15,
+      "influence": 207.2,
+      "creativity": 187,
+      "threat": 103,
+      "ictIndex": 49.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 56076,
+      "transfersOutSeason": 116830
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10933,6 +17629,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Paris FC on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 193,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 32,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 4.52,
+      "influence": 42.4,
+      "creativity": 3.7,
+      "threat": 2,
+      "ictIndex": 4.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2735,
+      "transfersOutSeason": 8488
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -10991,6 +17723,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2117,
+      "starts": 26,
+      "goals": 5,
+      "assists": 1,
+      "cleanSheets": 8,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 361,
+      "expectedGoals": 6.24,
+      "expectedAssists": 1.72,
+      "expectedGoalInvolvements": 7.96,
+      "expectedGoalsConceded": 29.35,
+      "influence": 438.2,
+      "creativity": 319.7,
+      "threat": 432,
+      "ictIndex": 119
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 225193,
+      "transfersOutSeason": 192159
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11049,6 +17817,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3714,
+      "transfersOutSeason": 8932
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11107,6 +17911,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 549,
+      "starts": 6,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 100,
+      "expectedGoals": 0.54,
+      "expectedAssists": 1.01,
+      "expectedGoalInvolvements": 1.55,
+      "expectedGoalsConceded": 10.94,
+      "influence": 86.4,
+      "creativity": 178.8,
+      "threat": 95,
+      "ictIndex": 35.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5785,
+      "transfersOutSeason": 4869
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11165,6 +18005,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2609,
+      "starts": 29,
+      "goals": 1,
+      "assists": 6,
+      "cleanSheets": 7,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 414,
+      "expectedGoals": 1.93,
+      "expectedAssists": 2.57,
+      "expectedGoalInvolvements": 4.5,
+      "expectedGoalsConceded": 36.57,
+      "influence": 535.8,
+      "creativity": 458.5,
+      "threat": 202,
+      "ictIndex": 119.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1183625,
+      "transfersOutSeason": 955610
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11223,6 +18099,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Leicester City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 25,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 5,
+      "expectedGoals": 0,
+      "expectedAssists": 0.21,
+      "expectedGoalInvolvements": 0.21,
+      "expectedGoalsConceded": 0.34,
+      "influence": 4.2,
+      "creativity": 28.3,
+      "threat": 4,
+      "ictIndex": 3.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3500,
+      "transfersOutSeason": 3355
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11281,6 +18193,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2049,
+      "starts": 23,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 9,
+      "goalsConceded": 31,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 271,
+      "expectedGoals": 0.9,
+      "expectedAssists": 1.77,
+      "expectedGoalInvolvements": 2.67,
+      "expectedGoalsConceded": 31.42,
+      "influence": 291,
+      "creativity": 209.7,
+      "threat": 207,
+      "ictIndex": 70.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 310378,
+      "transfersOutSeason": 373149
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11339,6 +18287,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 38,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 4,
+      "expectedGoals": 0,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.04,
+      "expectedGoalsConceded": 0.24,
+      "influence": 3.4,
+      "creativity": 4.3,
+      "threat": 2,
+      "ictIndex": 1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 216,
+      "transfersOutSeason": 164
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11397,6 +18381,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2721,
+      "starts": 30,
+      "goals": 14,
+      "assists": 2,
+      "cleanSheets": 8,
+      "goalsConceded": 34,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 20,
+      "bps": 472,
+      "expectedGoals": 15.57,
+      "expectedAssists": 1.06,
+      "expectedGoalInvolvements": 16.62,
+      "expectedGoalsConceded": 35.74,
+      "influence": 619.6,
+      "creativity": 311.1,
+      "threat": 1026,
+      "ictIndex": 194.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 13.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4388816,
+      "transfersOutSeason": 2672427
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11455,6 +18475,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Novi Pazar on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3895,
+      "transfersOutSeason": 8277
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11513,6 +18569,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 997,
+      "starts": 11,
+      "goals": 3,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 21,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 187,
+      "expectedGoals": 2.97,
+      "expectedAssists": 0.34,
+      "expectedGoalInvolvements": 3.3,
+      "expectedGoalsConceded": 17.8,
+      "influence": 205,
+      "creativity": 84.1,
+      "threat": 339,
+      "ictIndex": 62.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 287630,
+      "transfersOutSeason": 674667
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11571,6 +18663,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3232,
+      "starts": 36,
+      "goals": 6,
+      "assists": 7,
+      "cleanSheets": 9,
+      "goalsConceded": 52,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 8,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 21,
+      "bps": 780,
+      "expectedGoals": 4.76,
+      "expectedAssists": 6.83,
+      "expectedGoalInvolvements": 11.59,
+      "expectedGoalsConceded": 45.63,
+      "influence": 867.8,
+      "creativity": 1324.6,
+      "threat": 417,
+      "ictIndex": 260.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 15.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3723042,
+      "transfersOutSeason": 2174292
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11629,6 +18757,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Roma on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 640,
+      "starts": 5,
+      "goals": 4,
+      "assists": 2,
+      "cleanSheets": 1,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 161,
+      "expectedGoals": 4.03,
+      "expectedAssists": 0.35,
+      "expectedGoalInvolvements": 4.38,
+      "expectedGoalsConceded": 10.59,
+      "influence": 183.4,
+      "creativity": 99.7,
+      "threat": 290,
+      "ictIndex": 56.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 172896,
+      "transfersOutSeason": 340842
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11687,6 +18851,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3420,
+      "starts": 38,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 11,
+      "goalsConceded": 54,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 109,
+      "bonus": 5,
+      "bps": 512,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 56.72,
+      "influence": 822.6,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 82.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 5.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1218516,
+      "transfersOutSeason": 969552
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11745,6 +18945,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 913,
+      "starts": 12,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 220,
+      "expectedGoals": 0.53,
+      "expectedAssists": 1.42,
+      "expectedGoalInvolvements": 1.95,
+      "expectedGoalsConceded": 13.24,
+      "influence": 201.6,
+      "creativity": 294.3,
+      "threat": 94,
+      "ictIndex": 59.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 29269,
+      "transfersOutSeason": 25967
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11803,6 +19039,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1161,
+      "starts": 14,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 6,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 186,
+      "expectedGoals": 1.37,
+      "expectedAssists": 1.91,
+      "expectedGoalInvolvements": 3.28,
+      "expectedGoalsConceded": 18.8,
+      "influence": 140.6,
+      "creativity": 242.4,
+      "threat": 138,
+      "ictIndex": 52.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 37045,
+      "transfersOutSeason": 68508
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11861,6 +19133,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1885,
+      "starts": 22,
+      "goals": 7,
+      "assists": 3,
+      "cleanSheets": 11,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 439,
+      "expectedGoals": 5.18,
+      "expectedAssists": 2.66,
+      "expectedGoalInvolvements": 7.84,
+      "expectedGoalsConceded": 14.21,
+      "influence": 393.4,
+      "creativity": 305.7,
+      "threat": 455,
+      "ictIndex": 115.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3651571,
+      "transfersOutSeason": 3941829
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11919,6 +19227,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 414,
+      "starts": 2,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 12,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 100,
+      "expectedGoals": 1.77,
+      "expectedAssists": 0.46,
+      "expectedGoalInvolvements": 2.23,
+      "expectedGoalsConceded": 9.49,
+      "influence": 120,
+      "creativity": 84.6,
+      "threat": 173,
+      "ictIndex": 37.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 125246,
+      "transfersOutSeason": 147710
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -11977,6 +19321,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Fenerbache permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15200,
+      "transfersOutSeason": 274123
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12035,6 +19415,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Fenerbahçe on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1147,
+      "transfersOutSeason": 16150
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12093,6 +19509,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Blackburn Rovers on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 791
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12151,6 +19603,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2706,
+      "starts": 30,
+      "goals": 0,
+      "assists": 6,
+      "cleanSheets": 9,
+      "goalsConceded": 47,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 381,
+      "expectedGoals": 0.57,
+      "expectedAssists": 2.51,
+      "expectedGoalInvolvements": 3.08,
+      "expectedGoalsConceded": 43.65,
+      "influence": 583.6,
+      "creativity": 480.2,
+      "threat": 133,
+      "ictIndex": 119.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 479876,
+      "transfersOutSeason": 980288
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12209,6 +19697,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 751,
+      "starts": 8,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 124,
+      "expectedGoals": 2.13,
+      "expectedAssists": 0.22,
+      "expectedGoalInvolvements": 2.35,
+      "expectedGoalsConceded": 12.94,
+      "influence": 117.6,
+      "creativity": 53.8,
+      "threat": 188,
+      "ictIndex": 35.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 273869,
+      "transfersOutSeason": 313817
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12267,6 +19791,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Port Vale on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 18604,
+      "transfersOutSeason": 18019
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12325,6 +19885,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 17279,
+      "transfersOutSeason": 26392
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12383,6 +19979,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3332,
+      "starts": 37,
+      "goals": 4,
+      "assists": 5,
+      "cleanSheets": 10,
+      "goalsConceded": 50,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 16,
+      "bps": 795,
+      "expectedGoals": 2.94,
+      "expectedAssists": 4.79,
+      "expectedGoalInvolvements": 7.73,
+      "expectedGoalsConceded": 53.65,
+      "influence": 915.2,
+      "creativity": 961.5,
+      "threat": 310,
+      "ictIndex": 219
+    },
+    "marketInterest": {
+      "selectedByPercent": 9.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2211347,
+      "transfersOutSeason": 1736050
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12441,6 +20073,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "On loan to Shrewsbury Town"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 256
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12499,6 +20167,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Marseille permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1719,
+      "transfersOutSeason": 20861
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12557,6 +20261,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 45,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": -8,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.25,
+      "influence": 1.4,
+      "creativity": 1.2,
+      "threat": 0,
+      "ictIndex": 0.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1757,
+      "transfersOutSeason": 5368
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12615,6 +20355,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1909,
+      "starts": 22,
+      "goals": 3,
+      "assists": 1,
+      "cleanSheets": 6,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 351,
+      "expectedGoals": 4.71,
+      "expectedAssists": 1.12,
+      "expectedGoalInvolvements": 5.83,
+      "expectedGoalsConceded": 31.27,
+      "influence": 291.6,
+      "creativity": 330,
+      "threat": 404,
+      "ictIndex": 102.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 172249,
+      "transfersOutSeason": 228192
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12673,6 +20449,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1753,
+      "starts": 21,
+      "goals": 6,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 24,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 382,
+      "expectedGoals": 3.38,
+      "expectedAssists": 2.23,
+      "expectedGoalInvolvements": 5.61,
+      "expectedGoalsConceded": 28.03,
+      "influence": 427,
+      "creativity": 402.1,
+      "threat": 398,
+      "ictIndex": 121.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 238478,
+      "transfersOutSeason": 218449
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12731,6 +20543,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2835,
+      "starts": 32,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 7,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 95,
+      "bonus": 11,
+      "bps": 530,
+      "expectedGoals": 0,
+      "expectedAssists": 0.08,
+      "expectedGoalInvolvements": 0.08,
+      "expectedGoalsConceded": 42.92,
+      "influence": 769.8,
+      "creativity": 23.2,
+      "threat": 0,
+      "ictIndex": 79.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1133258,
+      "transfersOutSeason": 844392
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12789,6 +20637,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Besiktas permanently."
+    },
+    "seasonStats": {
+      "minutes": 1100,
+      "starts": 12,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 86,
+      "expectedGoals": 0.57,
+      "expectedAssists": 0.4,
+      "expectedGoalInvolvements": 0.97,
+      "expectedGoalsConceded": 18.26,
+      "influence": 312.2,
+      "creativity": 76,
+      "threat": 75,
+      "ictIndex": 46.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 24605,
+      "transfersOutSeason": 63793
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12847,6 +20731,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 50,
+      "chanceNextRound": 50,
+      "news": "Foot injury - 50% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 170,
+      "starts": 1,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 5,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 49,
+      "expectedGoals": 0.04,
+      "expectedAssists": 0.05,
+      "expectedGoalInvolvements": 0.09,
+      "expectedGoalsConceded": 4.11,
+      "influence": 56,
+      "creativity": 18.1,
+      "threat": 6,
+      "ictIndex": 8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7428,
+      "transfersOutSeason": 15517
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12905,6 +20825,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 214,
+      "starts": 0,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 83,
+      "expectedGoals": 2,
+      "expectedAssists": 0.07,
+      "expectedGoalInvolvements": 2.07,
+      "expectedGoalsConceded": 6.16,
+      "influence": 70.2,
+      "creativity": 25,
+      "threat": 104,
+      "ictIndex": 19.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15857,
+      "transfersOutSeason": 13019
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -12963,6 +20919,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4924,
+      "transfersOutSeason": 7888
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13021,6 +21013,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 205729,
+      "transfersOutSeason": 259180
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13079,6 +21107,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Season-long loan to Benfica"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 36
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13137,6 +21201,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3114,
+      "starts": 35,
+      "goals": 10,
+      "assists": 5,
+      "cleanSheets": 8,
+      "goalsConceded": 46,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 19,
+      "bps": 700,
+      "expectedGoals": 11.26,
+      "expectedAssists": 7.26,
+      "expectedGoalInvolvements": 18.52,
+      "expectedGoalsConceded": 44.89,
+      "influence": 835.6,
+      "creativity": 1063.2,
+      "threat": 747,
+      "ictIndex": 264.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 12.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5932714,
+      "transfersOutSeason": 5109104
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13195,6 +21295,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2930,
+      "starts": 33,
+      "goals": 5,
+      "assists": 6,
+      "cleanSheets": 10,
+      "goalsConceded": 43,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 16,
+      "bps": 621,
+      "expectedGoals": 5.22,
+      "expectedAssists": 5.95,
+      "expectedGoalInvolvements": 11.17,
+      "expectedGoalsConceded": 46.5,
+      "influence": 725.8,
+      "creativity": 816.4,
+      "threat": 324,
+      "ictIndex": 186.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 549368,
+      "transfersOutSeason": 389625
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13253,6 +21389,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3297,
+      "transfersOutSeason": 17285
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13311,6 +21483,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2953,
+      "starts": 34,
+      "goals": 27,
+      "assists": 8,
+      "cleanSheets": 13,
+      "goalsConceded": 32,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 43,
+      "bps": 952,
+      "expectedGoals": 25.5,
+      "expectedAssists": 2.67,
+      "expectedGoalInvolvements": 28.17,
+      "expectedGoalsConceded": 38.6,
+      "influence": 1180.4,
+      "creativity": 320.1,
+      "threat": 1520,
+      "ictIndex": 302.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 62.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8764362,
+      "transfersOutSeason": 4565074
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13369,6 +21577,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 839,
+      "starts": 12,
+      "goals": 2,
+      "assists": 5,
+      "cleanSheets": 4,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 172,
+      "expectedGoals": 2.91,
+      "expectedAssists": 2.14,
+      "expectedGoalInvolvements": 5.05,
+      "expectedGoalsConceded": 10.29,
+      "influence": 183.4,
+      "creativity": 230.9,
+      "threat": 314,
+      "ictIndex": 72.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 873801,
+      "transfersOutSeason": 940758
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13427,6 +21671,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3119,
+      "starts": 35,
+      "goals": 1,
+      "assists": 4,
+      "cleanSheets": 8,
+      "goalsConceded": 49,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 586,
+      "expectedGoals": 2.47,
+      "expectedAssists": 2.2,
+      "expectedGoalInvolvements": 4.67,
+      "expectedGoalsConceded": 48.66,
+      "influence": 592.2,
+      "creativity": 384.8,
+      "threat": 166,
+      "ictIndex": 114.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 158478,
+      "transfersOutSeason": 94226
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13485,6 +21765,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Marseille on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 165,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 20,
+      "expectedGoals": 0.23,
+      "expectedAssists": 0.08,
+      "expectedGoalInvolvements": 0.31,
+      "expectedGoalsConceded": 0.73,
+      "influence": 8.6,
+      "creativity": 22.5,
+      "threat": 24,
+      "ictIndex": 5.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13149,
+      "transfersOutSeason": 37244
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13543,6 +21859,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 318,
+      "starts": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 5,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 53,
+      "expectedGoals": 0.01,
+      "expectedAssists": 0.06,
+      "expectedGoalInvolvements": 0.07,
+      "expectedGoalsConceded": 3.7,
+      "influence": 88.6,
+      "creativity": 1.2,
+      "threat": 33,
+      "ictIndex": 12.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16875,
+      "transfersOutSeason": 30319
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13601,6 +21953,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1815,
+      "transfersOutSeason": 1232
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13659,6 +22047,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Bradford City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4530,
+      "transfersOutSeason": 15008
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13717,6 +22141,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined FC Fredericia permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4943,
+      "transfersOutSeason": 34808
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13775,6 +22235,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined AS Roma on loan for the rest of the season"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 1562
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13833,6 +22329,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 909,
+      "starts": 9,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 2,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 143,
+      "expectedGoals": 1.56,
+      "expectedAssists": 0.85,
+      "expectedGoalInvolvements": 2.41,
+      "expectedGoalsConceded": 14.48,
+      "influence": 159.4,
+      "creativity": 76.6,
+      "threat": 187,
+      "ictIndex": 42
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11516,
+      "transfersOutSeason": 15978
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13891,6 +22423,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 113,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 18,
+      "expectedGoals": 0.12,
+      "expectedAssists": 0.49,
+      "expectedGoalInvolvements": 0.61,
+      "expectedGoalsConceded": 3.21,
+      "influence": 21.8,
+      "creativity": 34.9,
+      "threat": 9,
+      "ictIndex": 6.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3005,
+      "transfersOutSeason": 2657
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -13949,6 +22517,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3035,
+      "starts": 34,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 44,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 497,
+      "expectedGoals": 1.27,
+      "expectedAssists": 0.59,
+      "expectedGoalInvolvements": 1.86,
+      "expectedGoalsConceded": 48.93,
+      "influence": 601.4,
+      "creativity": 108.3,
+      "threat": 124,
+      "ictIndex": 84
+    },
+    "marketInterest": {
+      "selectedByPercent": 7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 836516,
+      "transfersOutSeason": 2247010
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14007,6 +22611,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Ankle injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1089,
+      "starts": 11,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 186,
+      "expectedGoals": 0.97,
+      "expectedAssists": 0.6,
+      "expectedGoalInvolvements": 1.57,
+      "expectedGoalsConceded": 13.85,
+      "influence": 291.2,
+      "creativity": 63.6,
+      "threat": 108,
+      "ictIndex": 46.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 297336,
+      "transfersOutSeason": 499632
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14065,6 +22705,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Hamburger on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 933,
+      "transfersOutSeason": 4447
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14123,6 +22799,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 100,
+      "starts": 1,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 42,
+      "expectedGoals": 0.7,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 0.73,
+      "expectedGoalsConceded": 2.08,
+      "influence": 39,
+      "creativity": 6.5,
+      "threat": 36,
+      "ictIndex": 8.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27411,
+      "transfersOutSeason": 51815
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14181,6 +22893,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Borussia Dortmund permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7178,
+      "transfersOutSeason": 55563
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14239,6 +22987,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 81,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 9,
+      "expectedGoals": 0.06,
+      "expectedAssists": 0.28,
+      "expectedGoalInvolvements": 0.34,
+      "expectedGoalsConceded": 2.51,
+      "influence": 13.2,
+      "creativity": 40,
+      "threat": 21,
+      "ictIndex": 7.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 18275,
+      "transfersOutSeason": 31776
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14297,6 +23081,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 317,
+      "starts": 1,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 135,
+      "expectedGoals": 1.45,
+      "expectedAssists": 0.61,
+      "expectedGoalInvolvements": 2.06,
+      "expectedGoalsConceded": 6.5,
+      "influence": 122,
+      "creativity": 47.5,
+      "threat": 182,
+      "ictIndex": 34.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 57386,
+      "transfersOutSeason": 70435
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14355,6 +23175,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1340,
+      "starts": 14,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 190,
+      "expectedGoals": 1.32,
+      "expectedAssists": 0.15,
+      "expectedGoalInvolvements": 1.47,
+      "expectedGoalsConceded": 24.34,
+      "influence": 371.2,
+      "creativity": 37.6,
+      "threat": 96,
+      "ictIndex": 50.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 12654,
+      "transfersOutSeason": 14571
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14413,6 +23269,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Celta Vigo on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 228,
+      "starts": 2,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 38,
+      "expectedGoals": 0.16,
+      "expectedAssists": 0.61,
+      "expectedGoalInvolvements": 0.77,
+      "expectedGoalsConceded": 3.98,
+      "influence": 29,
+      "creativity": 61,
+      "threat": 37,
+      "ictIndex": 12.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1383,
+      "transfersOutSeason": 5009
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14471,6 +23363,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3130,
+      "starts": 34,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 10,
+      "goalsConceded": 41,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 514,
+      "expectedGoals": 2.06,
+      "expectedAssists": 3.31,
+      "expectedGoalInvolvements": 5.37,
+      "expectedGoalsConceded": 44.61,
+      "influence": 505,
+      "creativity": 444.8,
+      "threat": 284,
+      "ictIndex": 123.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 282610,
+      "transfersOutSeason": 135251
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14529,6 +23457,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 378,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 5,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 8,
+      "bonus": 0,
+      "bps": 50,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 4.12,
+      "influence": 79.8,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 7.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 19782,
+      "transfersOutSeason": 30780
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14587,6 +23551,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Stevenage permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 1303
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14645,6 +23645,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 488,
+      "transfersOutSeason": 198
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14703,6 +23739,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2100,
+      "starts": 25,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 45,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 357,
+      "expectedGoals": 0.64,
+      "expectedAssists": 0.52,
+      "expectedGoalInvolvements": 1.16,
+      "expectedGoalsConceded": 46.26,
+      "influence": 421,
+      "creativity": 234.5,
+      "threat": 56,
+      "ictIndex": 71.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16099,
+      "transfersOutSeason": 14204
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14761,6 +23833,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2374,
+      "starts": 27,
+      "goals": 5,
+      "assists": 4,
+      "cleanSheets": 10,
+      "goalsConceded": 32,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 17,
+      "bps": 521,
+      "expectedGoals": 6.83,
+      "expectedAssists": 5.14,
+      "expectedGoalInvolvements": 11.96,
+      "expectedGoalsConceded": 33.99,
+      "influence": 526.4,
+      "creativity": 908.2,
+      "threat": 665,
+      "ictIndex": 210
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2369824,
+      "transfersOutSeason": 5034345
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14819,6 +23927,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2741,
+      "starts": 32,
+      "goals": 6,
+      "assists": 7,
+      "cleanSheets": 11,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 412,
+      "expectedGoals": 10.64,
+      "expectedAssists": 1.48,
+      "expectedGoalInvolvements": 12.12,
+      "expectedGoalsConceded": 39.02,
+      "influence": 350.6,
+      "creativity": 397.9,
+      "threat": 809,
+      "ictIndex": 155.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1344382,
+      "transfersOutSeason": 1313666
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14877,6 +24021,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Portsmouth permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 860,
+      "transfersOutSeason": 3079
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14935,6 +24115,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Coventry City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 88,
+      "starts": 0,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 41,
+      "expectedGoals": 0,
+      "expectedAssists": 0.36,
+      "expectedGoalInvolvements": 0.36,
+      "expectedGoalsConceded": 2.02,
+      "influence": 28.4,
+      "creativity": 13.6,
+      "threat": 4,
+      "ictIndex": 4.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5396,
+      "transfersOutSeason": 9001
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -14993,6 +24209,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3840,
+      "transfersOutSeason": 1698
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15051,6 +24303,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1162,
+      "starts": 12,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 215,
+      "expectedGoals": 0.21,
+      "expectedAssists": 1.06,
+      "expectedGoalInvolvements": 1.27,
+      "expectedGoalsConceded": 21.35,
+      "influence": 191.2,
+      "creativity": 141.3,
+      "threat": 37,
+      "ictIndex": 37.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 151269,
+      "transfersOutSeason": 178199
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15109,6 +24397,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1482,
+      "transfersOutSeason": 1188
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15167,6 +24491,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 212,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 9,
+      "bonus": 0,
+      "bps": 34,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 4.76,
+      "influence": 83.8,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 8.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 62212,
+      "transfersOutSeason": 37092
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15225,6 +24585,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2750,
+      "starts": 30,
+      "goals": 3,
+      "assists": 5,
+      "cleanSheets": 18,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 30,
+      "bps": 724,
+      "expectedGoals": 2.94,
+      "expectedAssists": 1.75,
+      "expectedGoalInvolvements": 4.69,
+      "expectedGoalsConceded": 22.01,
+      "influence": 824,
+      "creativity": 128.5,
+      "threat": 298,
+      "ictIndex": 125
+    },
+    "marketInterest": {
+      "selectedByPercent": 45.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9241680,
+      "transfersOutSeason": 6017049
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15283,6 +24679,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 418,
+      "starts": 3,
+      "goals": 3,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 6,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 92,
+      "expectedGoals": 2.71,
+      "expectedAssists": 0.26,
+      "expectedGoalInvolvements": 2.97,
+      "expectedGoalsConceded": 3.97,
+      "influence": 141.8,
+      "creativity": 54.3,
+      "threat": 281,
+      "ictIndex": 47.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 156814,
+      "transfersOutSeason": 134920
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15341,6 +24773,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 2637,
+      "starts": 31,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 5,
+      "goalsConceded": 45,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 286,
+      "expectedGoals": 1.1,
+      "expectedAssists": 2.89,
+      "expectedGoalInvolvements": 3.98,
+      "expectedGoalsConceded": 41.06,
+      "influence": 442.6,
+      "creativity": 363.7,
+      "threat": 158,
+      "ictIndex": 96.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1004619,
+      "transfersOutSeason": 1050434
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15399,6 +24867,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1065,
+      "starts": 11,
+      "goals": 1,
+      "assists": 5,
+      "cleanSheets": 2,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 195,
+      "expectedGoals": 4.12,
+      "expectedAssists": 1.27,
+      "expectedGoalInvolvements": 5.39,
+      "expectedGoalsConceded": 10.51,
+      "influence": 204.6,
+      "creativity": 202.2,
+      "threat": 390,
+      "ictIndex": 79
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 203187,
+      "transfersOutSeason": 278367
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15457,6 +24961,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 12739,
+      "transfersOutSeason": 13770
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15515,6 +25055,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sparta Prague permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2219,
+      "transfersOutSeason": 7454
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15573,6 +25149,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 583,
+      "transfersOutSeason": 464
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15631,6 +25243,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Bristol City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 8,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 0.73,
+      "influence": 0,
+      "creativity": 1.5,
+      "threat": 2,
+      "ictIndex": 0.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3770,
+      "transfersOutSeason": 9682
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15689,6 +25337,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 25,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 5,
+      "expectedGoals": 0.04,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.05,
+      "expectedGoalsConceded": 0.61,
+      "influence": 0,
+      "creativity": 1.7,
+      "threat": 2,
+      "ictIndex": 0.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1438,
+      "transfersOutSeason": 920
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15747,6 +25431,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2009,
+      "transfersOutSeason": 1171
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15805,6 +25525,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1776,
+      "starts": 20,
+      "goals": 3,
+      "assists": 5,
+      "cleanSheets": 7,
+      "goalsConceded": 20,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 290,
+      "expectedGoals": 2.9,
+      "expectedAssists": 2.9,
+      "expectedGoalInvolvements": 5.8,
+      "expectedGoalsConceded": 21.59,
+      "influence": 338.6,
+      "creativity": 349.5,
+      "threat": 448,
+      "ictIndex": 113.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 145213,
+      "transfersOutSeason": 266355
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15863,6 +25619,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3060,
+      "starts": 34,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 15,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 78,
+      "bonus": 5,
+      "bps": 567,
+      "expectedGoals": 0,
+      "expectedAssists": 0.13,
+      "expectedGoalInvolvements": 0.13,
+      "expectedGoalsConceded": 38.5,
+      "influence": 666.6,
+      "creativity": 10.3,
+      "threat": 2,
+      "ictIndex": 68
+    },
+    "marketInterest": {
+      "selectedByPercent": 9.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2342969,
+      "transfersOutSeason": 1560137
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15921,6 +25713,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 867,
+      "starts": 10,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 34,
+      "bonus": 2,
+      "bps": 139,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 13.29,
+      "influence": 275.6,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 27.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 203916,
+      "transfersOutSeason": 200106
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -15979,6 +25807,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Sep"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2052,
+      "transfersOutSeason": 2636
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16037,6 +25901,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 637,
+      "transfersOutSeason": 573
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16095,6 +25995,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Real Sociedad permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 796
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16153,6 +26089,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2901,
+      "starts": 32,
+      "goals": 1,
+      "assists": 6,
+      "cleanSheets": 9,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 603,
+      "expectedGoals": 1.01,
+      "expectedAssists": 3.73,
+      "expectedGoalInvolvements": 4.74,
+      "expectedGoalsConceded": 45.68,
+      "influence": 685,
+      "creativity": 595.3,
+      "threat": 101,
+      "ictIndex": 138.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1416818,
+      "transfersOutSeason": 1412158
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16211,6 +26183,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2790,
+      "starts": 31,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 7,
+      "goalsConceded": 50,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 83,
+      "bonus": 6,
+      "bps": 412,
+      "expectedGoals": 0,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.04,
+      "expectedGoalsConceded": 46.21,
+      "influence": 709.2,
+      "creativity": 10.1,
+      "threat": 0,
+      "ictIndex": 72.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1364134,
+      "transfersOutSeason": 1530718
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16269,6 +26277,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Valencia on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 175,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 30,
+      "expectedGoals": 0.03,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.07,
+      "expectedGoalsConceded": 2.59,
+      "influence": 9.8,
+      "creativity": 6,
+      "threat": 2,
+      "ictIndex": 1.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2295,
+      "transfersOutSeason": 6270
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16327,6 +26371,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Swansea City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1544,
+      "transfersOutSeason": 2374
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16385,6 +26465,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1403,
+      "starts": 15,
+      "goals": 2,
+      "assists": 6,
+      "cleanSheets": 5,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 209,
+      "expectedGoals": 3.27,
+      "expectedAssists": 0.85,
+      "expectedGoalInvolvements": 4.12,
+      "expectedGoalsConceded": 21.52,
+      "influence": 166.2,
+      "creativity": 153.8,
+      "threat": 234,
+      "ictIndex": 53.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 32269,
+      "transfersOutSeason": 34239
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16443,6 +26559,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 90,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 1,
+      "bonus": 0,
+      "bps": 1,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.97,
+      "influence": 13,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 1.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 105071,
+      "transfersOutSeason": 91216
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16501,6 +26653,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Marseille on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 16,
+      "starts": 0,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 12,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.4,
+      "influence": 21.2,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 3.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 114900,
+      "transfersOutSeason": 166112
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16559,6 +26747,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Lugano permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 26052,
+      "transfersOutSeason": 44063
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16617,6 +26841,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1219,
+      "starts": 15,
+      "goals": 1,
+      "assists": 5,
+      "cleanSheets": 2,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 261,
+      "expectedGoals": 0.91,
+      "expectedAssists": 2.08,
+      "expectedGoalInvolvements": 2.98,
+      "expectedGoalsConceded": 28.29,
+      "influence": 252.8,
+      "creativity": 330.9,
+      "threat": 128,
+      "ictIndex": 71
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 32332,
+      "transfersOutSeason": 36840
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16675,6 +26935,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 524,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 84,
+      "expectedGoals": 0.79,
+      "expectedAssists": 0.22,
+      "expectedGoalInvolvements": 1.01,
+      "expectedGoalsConceded": 10.93,
+      "influence": 60,
+      "creativity": 69.7,
+      "threat": 78,
+      "ictIndex": 21
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 14189,
+      "transfersOutSeason": 21170
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16733,6 +27029,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Bradford City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8541,
+      "transfersOutSeason": 17397
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16791,6 +27123,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9964,
+      "transfersOutSeason": 11755
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16849,6 +27217,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 89,
+      "starts": 1,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 48,
+      "expectedGoals": 0.13,
+      "expectedAssists": 0.45,
+      "expectedGoalInvolvements": 0.58,
+      "expectedGoalsConceded": 3.43,
+      "influence": 42,
+      "creativity": 44.4,
+      "threat": 11,
+      "ictIndex": 9.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 90313,
+      "transfersOutSeason": 86799
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16907,6 +27311,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Norwich City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1160,
+      "transfersOutSeason": 14637
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -16965,6 +27405,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Rotherham United on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27606,
+      "transfersOutSeason": 24948
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17023,6 +27499,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 92,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 11,
+      "expectedGoals": 0,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 0.03,
+      "expectedGoalsConceded": 1.04,
+      "influence": 10.2,
+      "creativity": 5.1,
+      "threat": 2,
+      "ictIndex": 1.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1117,
+      "transfersOutSeason": 622
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17081,6 +27593,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1649,
+      "starts": 19,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 7,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 315,
+      "expectedGoals": 1.12,
+      "expectedAssists": 0.5,
+      "expectedGoalInvolvements": 1.62,
+      "expectedGoalsConceded": 22.95,
+      "influence": 381.6,
+      "creativity": 62.5,
+      "threat": 184,
+      "ictIndex": 63
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 392863,
+      "transfersOutSeason": 292617
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17139,6 +27687,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Cardiff City permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4633,
+      "transfersOutSeason": 10893
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17197,6 +27781,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2674,
+      "starts": 32,
+      "goals": 10,
+      "assists": 9,
+      "cleanSheets": 9,
+      "goalsConceded": 38,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 21,
+      "bps": 637,
+      "expectedGoals": 5.88,
+      "expectedAssists": 4.77,
+      "expectedGoalInvolvements": 10.65,
+      "expectedGoalsConceded": 40.14,
+      "influence": 707.2,
+      "creativity": 661.1,
+      "threat": 601,
+      "ictIndex": 196.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 17.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6013826,
+      "transfersOutSeason": 3902308
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17255,6 +27875,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1951,
+      "starts": 19,
+      "goals": 7,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 31,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 349,
+      "expectedGoals": 6.84,
+      "expectedAssists": 2.72,
+      "expectedGoalInvolvements": 9.56,
+      "expectedGoalsConceded": 30.3,
+      "influence": 404,
+      "creativity": 387.5,
+      "threat": 682,
+      "ictIndex": 147
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 804370,
+      "transfersOutSeason": 725659
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17313,6 +27969,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 110,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 17,
+      "expectedGoals": 0.29,
+      "expectedAssists": 0.08,
+      "expectedGoalInvolvements": 0.37,
+      "expectedGoalsConceded": 1.74,
+      "influence": 11.8,
+      "creativity": 31.7,
+      "threat": 31,
+      "ictIndex": 7.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 95040,
+      "transfersOutSeason": 104382
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17371,6 +28063,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1539,
+      "starts": 17,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 34,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 159,
+      "expectedGoals": 0.25,
+      "expectedAssists": 0.32,
+      "expectedGoalInvolvements": 0.57,
+      "expectedGoalsConceded": 31.03,
+      "influence": 372,
+      "creativity": 55.8,
+      "threat": 88,
+      "ictIndex": 51.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 254868,
+      "transfersOutSeason": 221213
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17429,6 +28157,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2359,
+      "starts": 26,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 4,
+      "goalsConceded": 44,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 325,
+      "expectedGoals": 0.86,
+      "expectedAssists": 3.49,
+      "expectedGoalInvolvements": 4.35,
+      "expectedGoalsConceded": 40.19,
+      "influence": 554.6,
+      "creativity": 673.9,
+      "threat": 172,
+      "ictIndex": 140.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 64784,
+      "transfersOutSeason": 56092
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17487,6 +28251,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Achilles injury - Expected back 01 Jul"
+    },
+    "seasonStats": {
+      "minutes": 1797,
+      "starts": 21,
+      "goals": 11,
+      "assists": 4,
+      "cleanSheets": 7,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 22,
+      "bps": 433,
+      "expectedGoals": 10.1,
+      "expectedAssists": 2.45,
+      "expectedGoalInvolvements": 12.55,
+      "expectedGoalsConceded": 26.11,
+      "influence": 525.8,
+      "creativity": 307.2,
+      "threat": 739,
+      "ictIndex": 156.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 15.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9187479,
+      "transfersOutSeason": 9633120
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17545,6 +28345,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1439,
+      "starts": 18,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 165,
+      "expectedGoals": 2.37,
+      "expectedAssists": 1.57,
+      "expectedGoalInvolvements": 3.94,
+      "expectedGoalsConceded": 23.37,
+      "influence": 163.4,
+      "creativity": 216.5,
+      "threat": 166,
+      "ictIndex": 53.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 55545,
+      "transfersOutSeason": 62652
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17603,6 +28439,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1590,
+      "starts": 17,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 242,
+      "expectedGoals": 1.26,
+      "expectedAssists": 2.39,
+      "expectedGoalInvolvements": 3.65,
+      "expectedGoalsConceded": 26.64,
+      "influence": 336.6,
+      "creativity": 373.4,
+      "threat": 231,
+      "ictIndex": 94.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 89595,
+      "transfersOutSeason": 125987
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17661,6 +28533,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1296,
+      "transfersOutSeason": 2954
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17719,6 +28627,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2073,
+      "starts": 25,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 8,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 366,
+      "expectedGoals": 1.16,
+      "expectedAssists": 1.8,
+      "expectedGoalInvolvements": 2.96,
+      "expectedGoalsConceded": 33.17,
+      "influence": 434.4,
+      "creativity": 205.9,
+      "threat": 126,
+      "ictIndex": 76.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13218,
+      "transfersOutSeason": 15590
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17777,6 +28721,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3090,
+      "starts": 36,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 10,
+      "goalsConceded": 45,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 532,
+      "expectedGoals": 1.19,
+      "expectedAssists": 0.98,
+      "expectedGoalInvolvements": 2.17,
+      "expectedGoalsConceded": 40.66,
+      "influence": 779.2,
+      "creativity": 160.5,
+      "threat": 119,
+      "ictIndex": 106.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 928187,
+      "transfersOutSeason": 902913
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17835,6 +28815,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 50,
+      "chanceNextRound": 50,
+      "news": "Lack of match fitness - 50% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 2094,
+      "starts": 25,
+      "goals": 2,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 419,
+      "expectedGoals": 1.99,
+      "expectedAssists": 1.84,
+      "expectedGoalInvolvements": 3.83,
+      "expectedGoalsConceded": 31.26,
+      "influence": 382.6,
+      "creativity": 259.2,
+      "threat": 208,
+      "ictIndex": 85.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 30050,
+      "transfersOutSeason": 34661
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17893,6 +28909,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2293,
+      "starts": 28,
+      "goals": 6,
+      "assists": 6,
+      "cleanSheets": 9,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 13,
+      "bps": 407,
+      "expectedGoals": 6.48,
+      "expectedAssists": 1.26,
+      "expectedGoalInvolvements": 7.74,
+      "expectedGoalsConceded": 38.77,
+      "influence": 420.6,
+      "creativity": 240.7,
+      "threat": 726,
+      "ictIndex": 136.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 705744,
+      "transfersOutSeason": 523077
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -17951,6 +29003,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 103,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 10,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 4.66,
+      "influence": 25.8,
+      "creativity": 10.6,
+      "threat": 0,
+      "ictIndex": 3.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11608,
+      "transfersOutSeason": 12023
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18009,6 +29097,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3282,
+      "starts": 37,
+      "goals": 22,
+      "assists": 1,
+      "cleanSheets": 10,
+      "goalsConceded": 50,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 22,
+      "bps": 710,
+      "expectedGoals": 20.6,
+      "expectedAssists": 1.83,
+      "expectedGoalInvolvements": 22.43,
+      "expectedGoalsConceded": 53.17,
+      "influence": 1019.4,
+      "creativity": 382.5,
+      "threat": 1170,
+      "ictIndex": 256.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 30.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 10092741,
+      "transfersOutSeason": 6495947
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18067,6 +29191,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1318,
+      "starts": 15,
+      "goals": 0,
+      "assists": 4,
+      "cleanSheets": 5,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 245,
+      "expectedGoals": 0.49,
+      "expectedAssists": 0.86,
+      "expectedGoalInvolvements": 1.35,
+      "expectedGoalsConceded": 25.27,
+      "influence": 199.4,
+      "creativity": 171,
+      "threat": 64,
+      "ictIndex": 43.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 23047,
+      "transfersOutSeason": 21305
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18125,6 +29285,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2781,
+      "starts": 32,
+      "goals": 6,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 44,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 540,
+      "expectedGoals": 6.68,
+      "expectedAssists": 4.41,
+      "expectedGoalInvolvements": 11.09,
+      "expectedGoalsConceded": 42.68,
+      "influence": 605.8,
+      "creativity": 479.2,
+      "threat": 578,
+      "ictIndex": 166.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1987193,
+      "transfersOutSeason": 2706216
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18183,6 +29379,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Galatasaray permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1928,
+      "transfersOutSeason": 19921
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18241,6 +29473,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15916,
+      "transfersOutSeason": 66623
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18299,6 +29567,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Paris Saint-Germain permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 8231
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18357,6 +29661,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has departed the club as a free agent."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 1613
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18415,6 +29755,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Accrington on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 458,
+      "transfersOutSeason": 3784
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18473,6 +29849,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Werder Bremen on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 788,
+      "transfersOutSeason": 16100
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18531,6 +29943,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2173,
+      "starts": 24,
+      "goals": 9,
+      "assists": 2,
+      "cleanSheets": 9,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 359,
+      "expectedGoals": 10.93,
+      "expectedAssists": 1.17,
+      "expectedGoalInvolvements": 12.09,
+      "expectedGoalsConceded": 31.25,
+      "influence": 479.8,
+      "creativity": 269.4,
+      "threat": 601,
+      "ictIndex": 135.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 5.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3266182,
+      "transfersOutSeason": 3172191
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18589,6 +30037,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Shrewsbury Town on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6731,
+      "transfersOutSeason": 30392
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18647,6 +30131,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 812,
+      "starts": 8,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 103,
+      "expectedGoals": 0.8,
+      "expectedAssists": 0.05,
+      "expectedGoalInvolvements": 0.85,
+      "expectedGoalsConceded": 12.42,
+      "influence": 190.8,
+      "creativity": 8,
+      "threat": 31,
+      "ictIndex": 23
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9196,
+      "transfersOutSeason": 12737
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18705,6 +30225,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Shrewsbury on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 52422,
+      "transfersOutSeason": 82860
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18763,6 +30319,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 107,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 10,
+      "expectedGoals": 0.03,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.05,
+      "expectedGoalsConceded": 1.86,
+      "influence": 18.6,
+      "creativity": 24.4,
+      "threat": 5,
+      "ictIndex": 4.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15800,
+      "transfersOutSeason": 15248
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18821,6 +30413,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Foot injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1627,
+      "starts": 18,
+      "goals": 2,
+      "assists": 6,
+      "cleanSheets": 7,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 12,
+      "bps": 356,
+      "expectedGoals": 2.05,
+      "expectedAssists": 3.37,
+      "expectedGoalInvolvements": 5.41,
+      "expectedGoalsConceded": 25.81,
+      "influence": 374.2,
+      "creativity": 520.5,
+      "threat": 397,
+      "ictIndex": 129.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 5.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3790856,
+      "transfersOutSeason": 3796814
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18879,6 +30507,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined ACF Fiorentina on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 262,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 5,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 51,
+      "expectedGoals": 0.28,
+      "expectedAssists": 0.23,
+      "expectedGoalInvolvements": 0.51,
+      "expectedGoalsConceded": 3.82,
+      "influence": 30,
+      "creativity": 49.4,
+      "threat": 35,
+      "ictIndex": 11.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6000,
+      "transfersOutSeason": 18812
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18937,6 +30601,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1736,
+      "starts": 20,
+      "goals": 4,
+      "assists": 5,
+      "cleanSheets": 7,
+      "goalsConceded": 23,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 317,
+      "expectedGoals": 4.94,
+      "expectedAssists": 2.34,
+      "expectedGoalInvolvements": 7.28,
+      "expectedGoalsConceded": 27.83,
+      "influence": 312.6,
+      "creativity": 228,
+      "threat": 412,
+      "ictIndex": 94.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 260749,
+      "transfersOutSeason": 70206
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -18995,6 +30695,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Leyton Orient on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 723,
+      "transfersOutSeason": 2880
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19053,6 +30789,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 298,
+      "transfersOutSeason": 141
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19111,6 +30883,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1834,
+      "starts": 19,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 156,
+      "expectedGoals": 0.33,
+      "expectedAssists": 1.6,
+      "expectedGoalInvolvements": 1.93,
+      "expectedGoalsConceded": 30.68,
+      "influence": 318.2,
+      "creativity": 349.9,
+      "threat": 69,
+      "ictIndex": 73.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7363,
+      "transfersOutSeason": 7204
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19169,6 +30977,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1014,
+      "starts": 10,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 123,
+      "expectedGoals": 1.37,
+      "expectedAssists": 1.16,
+      "expectedGoalInvolvements": 2.53,
+      "expectedGoalsConceded": 23.46,
+      "influence": 121,
+      "creativity": 212.4,
+      "threat": 140,
+      "ictIndex": 47.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6779,
+      "transfersOutSeason": 9341
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19227,6 +31071,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1606,
+      "starts": 19,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 8,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 314,
+      "expectedGoals": 3.07,
+      "expectedAssists": 2.66,
+      "expectedGoalInvolvements": 5.73,
+      "expectedGoalsConceded": 24.35,
+      "influence": 330.8,
+      "creativity": 393.7,
+      "threat": 346,
+      "ictIndex": 106
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 174198,
+      "transfersOutSeason": 355496
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19285,6 +31165,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1441,
+      "starts": 15,
+      "goals": 2,
+      "assists": 3,
+      "cleanSheets": 1,
+      "goalsConceded": 31,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 303,
+      "expectedGoals": 1.2,
+      "expectedAssists": 1.45,
+      "expectedGoalInvolvements": 2.65,
+      "expectedGoalsConceded": 27.24,
+      "influence": 304.4,
+      "creativity": 330.3,
+      "threat": 165,
+      "ictIndex": 79.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 38141,
+      "transfersOutSeason": 82368
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19343,6 +31259,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Harrogate Town on loan until January."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3175,
+      "transfersOutSeason": 16833
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19401,6 +31353,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 863,
+      "starts": 9,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 141,
+      "expectedGoals": 0.61,
+      "expectedAssists": 1.87,
+      "expectedGoalInvolvements": 2.48,
+      "expectedGoalsConceded": 14.11,
+      "influence": 130.2,
+      "creativity": 290.6,
+      "threat": 193,
+      "ictIndex": 61.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 53465,
+      "transfersOutSeason": 56572
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19459,6 +31447,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2717,
+      "starts": 32,
+      "goals": 8,
+      "assists": 4,
+      "cleanSheets": 4,
+      "goalsConceded": 59,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 513,
+      "expectedGoals": 5.11,
+      "expectedAssists": 2.85,
+      "expectedGoalInvolvements": 7.96,
+      "expectedGoalsConceded": 59,
+      "influence": 586.8,
+      "creativity": 552.2,
+      "threat": 619,
+      "ictIndex": 175.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1365842,
+      "transfersOutSeason": 1162272
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19517,6 +31541,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 514,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 48,
+      "expectedGoals": 0.27,
+      "expectedAssists": 0.06,
+      "expectedGoalInvolvements": 0.33,
+      "expectedGoalsConceded": 10.35,
+      "influence": 98,
+      "creativity": 15.2,
+      "threat": 29,
+      "ictIndex": 14.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4036,
+      "transfersOutSeason": 9128
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19575,6 +31635,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1888,
+      "starts": 21,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 323,
+      "expectedGoals": 0.9,
+      "expectedAssists": 0.75,
+      "expectedGoalInvolvements": 1.65,
+      "expectedGoalsConceded": 31.48,
+      "influence": 531.8,
+      "creativity": 84.5,
+      "threat": 243,
+      "ictIndex": 86
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 295633,
+      "transfersOutSeason": 157310
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19633,6 +31729,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3118,
+      "starts": 35,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 10,
+      "goalsConceded": 46,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 368,
+      "expectedGoals": 1.67,
+      "expectedAssists": 1,
+      "expectedGoalInvolvements": 2.67,
+      "expectedGoalsConceded": 53.49,
+      "influence": 582.8,
+      "creativity": 282.9,
+      "threat": 206,
+      "ictIndex": 107.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 211174,
+      "transfersOutSeason": 198173
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19691,6 +31823,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Porto on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1119,
+      "transfersOutSeason": 10955
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19749,6 +31917,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Leicester City permanently."
+    },
+    "seasonStats": {
+      "minutes": 19,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0.04,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0.04,
+      "expectedGoalsConceded": 0.55,
+      "influence": 10.2,
+      "creativity": 0,
+      "threat": 7,
+      "ictIndex": 1.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2754,
+      "transfersOutSeason": 9170
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19807,6 +32011,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined West Brom on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 8,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.61,
+      "influence": 0.2,
+      "creativity": 0.3,
+      "threat": 0,
+      "ictIndex": 0.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8790,
+      "transfersOutSeason": 11047
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19865,6 +32105,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3413,
+      "starts": 38,
+      "goals": 2,
+      "assists": 7,
+      "cleanSheets": 11,
+      "goalsConceded": 50,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 12,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 13,
+      "bps": 818,
+      "expectedGoals": 2.1,
+      "expectedAssists": 6.18,
+      "expectedGoalInvolvements": 8.28,
+      "expectedGoalsConceded": 56.18,
+      "influence": 887,
+      "creativity": 958,
+      "threat": 237,
+      "ictIndex": 208.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1336447,
+      "transfersOutSeason": 907926
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19923,6 +32199,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2102,
+      "starts": 22,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 24,
+      "ownGoals": 2,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 386,
+      "expectedGoals": 0.89,
+      "expectedAssists": 1.16,
+      "expectedGoalInvolvements": 2.04,
+      "expectedGoalsConceded": 33.42,
+      "influence": 579.4,
+      "creativity": 161.7,
+      "threat": 119,
+      "ictIndex": 86.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 7.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1442738,
+      "transfersOutSeason": 588407
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -19981,6 +32293,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1893,
+      "starts": 21,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 6,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 338,
+      "expectedGoals": 1.83,
+      "expectedAssists": 1.16,
+      "expectedGoalInvolvements": 2.99,
+      "expectedGoalsConceded": 33.01,
+      "influence": 469.8,
+      "creativity": 190.9,
+      "threat": 220,
+      "ictIndex": 88.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 418683,
+      "transfersOutSeason": 145369
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20039,6 +32387,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 34,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 5,
+      "expectedGoals": 0.21,
+      "expectedAssists": 0.06,
+      "expectedGoalInvolvements": 0.27,
+      "expectedGoalsConceded": 0.65,
+      "influence": 2.8,
+      "creativity": 9.5,
+      "threat": 15,
+      "ictIndex": 2.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 26746,
+      "transfersOutSeason": 27237
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20097,6 +32481,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 288,
+      "starts": 2,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 60,
+      "expectedGoals": 0.18,
+      "expectedAssists": 0.37,
+      "expectedGoalInvolvements": 0.55,
+      "expectedGoalsConceded": 7.34,
+      "influence": 51.6,
+      "creativity": 82,
+      "threat": 39,
+      "ictIndex": 17.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13870,
+      "transfersOutSeason": 27412
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20155,6 +32575,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Ajax on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1737,
+      "transfersOutSeason": 4136
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20213,6 +32669,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 772,
+      "starts": 7,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 158,
+      "expectedGoals": 1.03,
+      "expectedAssists": 0.66,
+      "expectedGoalInvolvements": 1.69,
+      "expectedGoalsConceded": 12.82,
+      "influence": 139,
+      "creativity": 151.4,
+      "threat": 59,
+      "ictIndex": 34.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 19906,
+      "transfersOutSeason": 25164
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20271,6 +32763,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.36,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2125,
+      "transfersOutSeason": 1980
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20329,6 +32857,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3330,
+      "starts": 37,
+      "goals": 2,
+      "assists": 3,
+      "cleanSheets": 11,
+      "goalsConceded": 48,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 12,
+      "bps": 592,
+      "expectedGoals": 2.53,
+      "expectedAssists": 2.1,
+      "expectedGoalInvolvements": 4.63,
+      "expectedGoalsConceded": 53.54,
+      "influence": 995.6,
+      "creativity": 235.6,
+      "threat": 422,
+      "ictIndex": 165.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 12.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3169894,
+      "transfersOutSeason": 2418718
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20387,6 +32951,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 360,
+      "starts": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 6,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 14,
+      "bonus": 0,
+      "bps": 67,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 5.74,
+      "influence": 118,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 11.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 102469,
+      "transfersOutSeason": 276190
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20445,6 +33045,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1092,
+      "starts": 12,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 248,
+      "expectedGoals": 0.24,
+      "expectedAssists": 1.87,
+      "expectedGoalInvolvements": 2.11,
+      "expectedGoalsConceded": 23.32,
+      "influence": 215,
+      "creativity": 384.4,
+      "threat": 22,
+      "ictIndex": 62.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 25730,
+      "transfersOutSeason": 53072
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20503,6 +33139,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6566,
+      "transfersOutSeason": 3228
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20561,6 +33233,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 62596,
+      "transfersOutSeason": 48936
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20619,6 +33327,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 25,
+      "chanceNextRound": 25,
+      "news": "Hamstring injury - 25% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 486,
+      "starts": 5,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 1,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 99,
+      "expectedGoals": 0.81,
+      "expectedAssists": 0.94,
+      "expectedGoalInvolvements": 1.75,
+      "expectedGoalsConceded": 8.89,
+      "influence": 93,
+      "creativity": 130.4,
+      "threat": 91,
+      "ictIndex": 31.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 17282,
+      "transfersOutSeason": 42284
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20677,6 +33421,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3210,
+      "starts": 36,
+      "goals": 3,
+      "assists": 3,
+      "cleanSheets": 10,
+      "goalsConceded": 44,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 575,
+      "expectedGoals": 3.31,
+      "expectedAssists": 1.57,
+      "expectedGoalInvolvements": 4.87,
+      "expectedGoalsConceded": 46.27,
+      "influence": 980.6,
+      "creativity": 240.4,
+      "threat": 295,
+      "ictIndex": 152
+    },
+    "marketInterest": {
+      "selectedByPercent": 10.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2293857,
+      "transfersOutSeason": 1064675
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20735,6 +33515,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 678,
+      "starts": 7,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 108,
+      "expectedGoals": 0.34,
+      "expectedAssists": 0.11,
+      "expectedGoalInvolvements": 0.45,
+      "expectedGoalsConceded": 9.43,
+      "influence": 175,
+      "creativity": 42.8,
+      "threat": 75,
+      "ictIndex": 29.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 73030,
+      "transfersOutSeason": 124054
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20793,6 +33609,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3406,
+      "starts": 38,
+      "goals": 9,
+      "assists": 13,
+      "cleanSheets": 8,
+      "goalsConceded": 63,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 28,
+      "bps": 731,
+      "expectedGoals": 7.22,
+      "expectedAssists": 5.21,
+      "expectedGoalInvolvements": 12.43,
+      "expectedGoalsConceded": 58.16,
+      "influence": 881.4,
+      "creativity": 694,
+      "threat": 813,
+      "ictIndex": 238.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 17.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4517725,
+      "transfersOutSeason": 4109146
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20851,6 +33703,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 12848,
+      "transfersOutSeason": 42173
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20909,6 +33797,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined MK Dons permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 30710,
+      "transfersOutSeason": 46727
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -20967,6 +33891,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4003,
+      "transfersOutSeason": 5450
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21025,6 +33985,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1331,
+      "starts": 14,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 5,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 216,
+      "expectedGoals": 1.48,
+      "expectedAssists": 0.33,
+      "expectedGoalInvolvements": 1.81,
+      "expectedGoalsConceded": 23.84,
+      "influence": 362.4,
+      "creativity": 63.8,
+      "threat": 56,
+      "ictIndex": 48.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 95627,
+      "transfersOutSeason": 35276
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21083,6 +34079,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2795,
+      "starts": 32,
+      "goals": 1,
+      "assists": 5,
+      "cleanSheets": 6,
+      "goalsConceded": 44,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 311,
+      "expectedGoals": 2.08,
+      "expectedAssists": 3.11,
+      "expectedGoalInvolvements": 5.19,
+      "expectedGoalsConceded": 39.93,
+      "influence": 436,
+      "creativity": 346.1,
+      "threat": 218,
+      "ictIndex": 100.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 144807,
+      "transfersOutSeason": 114973
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21141,6 +34173,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9853,
+      "transfersOutSeason": 20477
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21199,6 +34267,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 127,
+      "transfersOutSeason": 40
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21257,6 +34361,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Rangers on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 279,
+      "transfersOutSeason": 11084
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21315,6 +34455,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Derby County on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 9,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 2,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.05,
+      "influence": 0,
+      "creativity": 0.5,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7482,
+      "transfersOutSeason": 9313
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21373,6 +34549,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 379,
+      "transfersOutSeason": 144
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21431,6 +34643,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1817,
+      "starts": 22,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 160,
+      "expectedGoals": 0.25,
+      "expectedAssists": 0.32,
+      "expectedGoalInvolvements": 0.57,
+      "expectedGoalsConceded": 33.73,
+      "influence": 383.4,
+      "creativity": 66.6,
+      "threat": 26,
+      "ictIndex": 47.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13494,
+      "transfersOutSeason": 21090
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21489,6 +34737,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2210,
+      "starts": 25,
+      "goals": 12,
+      "assists": 0,
+      "cleanSheets": 8,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 13,
+      "bps": 397,
+      "expectedGoals": 14.42,
+      "expectedAssists": 1.32,
+      "expectedGoalInvolvements": 15.74,
+      "expectedGoalsConceded": 31.77,
+      "influence": 567.2,
+      "creativity": 160.6,
+      "threat": 786,
+      "ictIndex": 150.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5199821,
+      "transfersOutSeason": 5396003
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21547,6 +34831,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1239,
+      "starts": 15,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 208,
+      "expectedGoals": 1.04,
+      "expectedAssists": 1.06,
+      "expectedGoalInvolvements": 2.1,
+      "expectedGoalsConceded": 23.51,
+      "influence": 195.4,
+      "creativity": 210.3,
+      "threat": 145,
+      "ictIndex": 54.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7632,
+      "transfersOutSeason": 13799
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21605,6 +34925,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1722,
+      "starts": 18,
+      "goals": 0,
+      "assists": 5,
+      "cleanSheets": 7,
+      "goalsConceded": 25,
+      "ownGoals": 2,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 296,
+      "expectedGoals": 1.84,
+      "expectedAssists": 1.48,
+      "expectedGoalInvolvements": 3.32,
+      "expectedGoalsConceded": 25.11,
+      "influence": 287.6,
+      "creativity": 207.2,
+      "threat": 233,
+      "ictIndex": 72.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 20181,
+      "transfersOutSeason": 19402
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21663,6 +35019,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2276,
+      "transfersOutSeason": 1559
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21721,6 +35113,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Bradford City permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 115
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21779,6 +35207,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Wolfsburg on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 133,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 11,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 1.33,
+      "influence": 33.6,
+      "creativity": 2.4,
+      "threat": 0,
+      "ictIndex": 3.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3016,
+      "transfersOutSeason": 25497
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21837,6 +35301,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1032,
+      "starts": 12,
+      "goals": 0,
+      "assists": 5,
+      "cleanSheets": 5,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 237,
+      "expectedGoals": 0.5,
+      "expectedAssists": 1.55,
+      "expectedGoalInvolvements": 2.05,
+      "expectedGoalsConceded": 12.97,
+      "influence": 133.2,
+      "creativity": 244.6,
+      "threat": 186,
+      "ictIndex": 56.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 716322,
+      "transfersOutSeason": 3446807
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21895,6 +35395,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1773,
+      "starts": 19,
+      "goals": 5,
+      "assists": 8,
+      "cleanSheets": 8,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 15,
+      "bps": 526,
+      "expectedGoals": 2.87,
+      "expectedAssists": 5.86,
+      "expectedGoalInvolvements": 8.73,
+      "expectedGoalsConceded": 23.2,
+      "influence": 540.2,
+      "creativity": 841.6,
+      "threat": 645,
+      "ictIndex": 202.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 6.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2759776,
+      "transfersOutSeason": 2167017
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -21953,6 +35489,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Middlesbrough on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 197,
+      "transfersOutSeason": 2983
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22011,6 +35583,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 16,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 2,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.42,
+      "influence": 3.2,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2908,
+      "transfersOutSeason": 1485
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22069,6 +35677,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 45,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 5,
+      "expectedGoals": 0.1,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.12,
+      "expectedGoalsConceded": 1.09,
+      "influence": 4.6,
+      "creativity": 6.4,
+      "threat": 25,
+      "ictIndex": 3.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 179,
+      "transfersOutSeason": 65
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22127,6 +35771,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Stoke City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4359,
+      "transfersOutSeason": 9630
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22185,6 +35865,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Palmeiras permanently."
+    },
+    "seasonStats": {
+      "minutes": 1117,
+      "starts": 14,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 21,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 175,
+      "expectedGoals": 3.38,
+      "expectedAssists": 0.62,
+      "expectedGoalInvolvements": 4,
+      "expectedGoalsConceded": 16,
+      "influence": 171,
+      "creativity": 204,
+      "threat": 148,
+      "ictIndex": 52.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 20148,
+      "transfersOutSeason": 82652
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22243,6 +35959,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 118,
+      "transfersOutSeason": 35
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22301,6 +36053,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 64,
+      "transfersOutSeason": 21
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22359,6 +36147,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Suspended until 29 Aug"
+    },
+    "seasonStats": {
+      "minutes": 2882,
+      "starts": 33,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 8,
+      "goalsConceded": 45,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 424,
+      "expectedGoals": 1.43,
+      "expectedAssists": 1.83,
+      "expectedGoalInvolvements": 3.26,
+      "expectedGoalsConceded": 44.88,
+      "influence": 790.6,
+      "creativity": 131,
+      "threat": 148,
+      "ictIndex": 107
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1615116,
+      "transfersOutSeason": 1605514
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22417,6 +36241,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2192,
+      "starts": 23,
+      "goals": 5,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 17,
+      "bps": 518,
+      "expectedGoals": 2.72,
+      "expectedAssists": 0.65,
+      "expectedGoalInvolvements": 3.37,
+      "expectedGoalsConceded": 32.6,
+      "influence": 638,
+      "creativity": 147.8,
+      "threat": 295,
+      "ictIndex": 108.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 397911,
+      "transfersOutSeason": 375777
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22475,6 +36335,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Besiktas on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 11,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 6,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 5,
+      "creativity": 0.5,
+      "threat": 4,
+      "ictIndex": 1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1029,
+      "transfersOutSeason": 9175
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22533,6 +36429,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2658,
+      "starts": 31,
+      "goals": 15,
+      "assists": 9,
+      "cleanSheets": 10,
+      "goalsConceded": 36,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 30,
+      "bps": 715,
+      "expectedGoals": 14.91,
+      "expectedAssists": 1.96,
+      "expectedGoalInvolvements": 16.87,
+      "expectedGoalsConceded": 37.25,
+      "influence": 758.4,
+      "creativity": 456.6,
+      "threat": 909,
+      "ictIndex": 212.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 34.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9178198,
+      "transfersOutSeason": 11489381
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22591,6 +36523,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 142,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0.02,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 0.05,
+      "expectedGoalsConceded": 2.61,
+      "influence": 12.8,
+      "creativity": 31.9,
+      "threat": 17,
+      "ictIndex": 6.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2903,
+      "transfersOutSeason": 1793
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22649,6 +36617,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2829,
+      "starts": 32,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 56,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 529,
+      "expectedGoals": 1.29,
+      "expectedAssists": 2.09,
+      "expectedGoalInvolvements": 3.38,
+      "expectedGoalsConceded": 48.6,
+      "influence": 486.6,
+      "creativity": 353.4,
+      "threat": 176,
+      "ictIndex": 102
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 112107,
+      "transfersOutSeason": 94086
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22707,6 +36711,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Barrow FC permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 39413,
+      "transfersOutSeason": 67642
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22765,6 +36805,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Port Vale on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 17885
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22823,6 +36899,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Hull City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2913
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22881,6 +36993,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 594,
+      "starts": 7,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 94,
+      "expectedGoals": 0.28,
+      "expectedAssists": 0.64,
+      "expectedGoalInvolvements": 0.92,
+      "expectedGoalsConceded": 9.31,
+      "influence": 122.8,
+      "creativity": 77.8,
+      "threat": 31,
+      "ictIndex": 23.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 25675,
+      "transfersOutSeason": 31479
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22939,6 +37087,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Signed by CD Tondela"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 5836
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -22997,6 +37181,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Stevenage permanently."
+    },
+    "seasonStats": {
+      "minutes": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11030,
+      "transfersOutSeason": 15541
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23055,6 +37275,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2952,
+      "starts": 33,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 6,
+      "goalsConceded": 53,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 373,
+      "expectedGoals": 1.4,
+      "expectedAssists": 0.56,
+      "expectedGoalInvolvements": 1.96,
+      "expectedGoalsConceded": 48.54,
+      "influence": 707.2,
+      "creativity": 137.3,
+      "threat": 242,
+      "ictIndex": 109.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1251264,
+      "transfersOutSeason": 1164785
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23113,6 +37369,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Bradford City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 117,
+      "transfersOutSeason": 1264
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23171,6 +37463,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 972,
+      "starts": 10,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 166,
+      "expectedGoals": 1.26,
+      "expectedAssists": 1.07,
+      "expectedGoalInvolvements": 2.33,
+      "expectedGoalsConceded": 17.83,
+      "influence": 145.4,
+      "creativity": 205.8,
+      "threat": 204,
+      "ictIndex": 55.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15177,
+      "transfersOutSeason": 14496
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23229,6 +37557,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 496,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 40,
+      "expectedGoals": 0.08,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.1,
+      "expectedGoalsConceded": 11.68,
+      "influence": 147.4,
+      "creativity": 1.5,
+      "threat": 19,
+      "ictIndex": 17
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 31852,
+      "transfersOutSeason": 31249
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23287,6 +37651,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 7,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 6,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.73,
+      "influence": 1.4,
+      "creativity": 1,
+      "threat": 0,
+      "ictIndex": 0.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 919,
+      "transfersOutSeason": 594
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23345,6 +37745,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 244,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 42,
+      "expectedGoals": 0.9,
+      "expectedAssists": 0.13,
+      "expectedGoalInvolvements": 1.03,
+      "expectedGoalsConceded": 6.81,
+      "influence": 13.6,
+      "creativity": 38.1,
+      "threat": 120,
+      "ictIndex": 16.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 40417,
+      "transfersOutSeason": 222523
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23403,6 +37839,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1047,
+      "starts": 9,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 176,
+      "expectedGoals": 1.15,
+      "expectedAssists": 0.2,
+      "expectedGoalInvolvements": 1.35,
+      "expectedGoalsConceded": 17.27,
+      "influence": 247,
+      "creativity": 80.5,
+      "threat": 68,
+      "ictIndex": 39.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 25129,
+      "transfersOutSeason": 39644
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23461,6 +37933,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Thigh injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1950,
+      "starts": 23,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 304,
+      "expectedGoals": 2.36,
+      "expectedAssists": 1.35,
+      "expectedGoalInvolvements": 3.71,
+      "expectedGoalsConceded": 28.75,
+      "influence": 324.4,
+      "creativity": 296.3,
+      "threat": 329,
+      "ictIndex": 95
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 82462,
+      "transfersOutSeason": 112850
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23519,6 +38027,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2136,
+      "starts": 28,
+      "goals": 5,
+      "assists": 4,
+      "cleanSheets": 8,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 443,
+      "expectedGoals": 3,
+      "expectedAssists": 4.11,
+      "expectedGoalInvolvements": 7.11,
+      "expectedGoalsConceded": 33.08,
+      "influence": 459.8,
+      "creativity": 605.3,
+      "threat": 309,
+      "ictIndex": 137.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 266912,
+      "transfersOutSeason": 274130
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23577,6 +38121,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2082,
+      "transfersOutSeason": 1365
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23635,6 +38215,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 436,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 55,
+      "expectedGoals": 0,
+      "expectedAssists": 0.09,
+      "expectedGoalInvolvements": 0.09,
+      "expectedGoalsConceded": 6.62,
+      "influence": 101.8,
+      "creativity": 24.4,
+      "threat": 4,
+      "ictIndex": 13
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 57411,
+      "transfersOutSeason": 111982
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23693,6 +38309,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 437,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 6,
+      "bonus": 0,
+      "bps": 32,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 6.13,
+      "influence": 56.4,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 5.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 66562,
+      "transfersOutSeason": 53208
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23751,6 +38403,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 49,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 19,
+      "expectedGoals": 0,
+      "expectedAssists": 0.07,
+      "expectedGoalInvolvements": 0.07,
+      "expectedGoalsConceded": 1.1,
+      "influence": 3.2,
+      "creativity": 12,
+      "threat": 8,
+      "ictIndex": 2.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 23636,
+      "transfersOutSeason": 19066
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23809,6 +38497,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2385,
+      "transfersOutSeason": 15994
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23867,6 +38591,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1911,
+      "starts": 22,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 6,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 343,
+      "expectedGoals": 0.33,
+      "expectedAssists": 2.31,
+      "expectedGoalInvolvements": 2.64,
+      "expectedGoalsConceded": 28.16,
+      "influence": 336.6,
+      "creativity": 358.3,
+      "threat": 49,
+      "ictIndex": 74.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 101717,
+      "transfersOutSeason": 109214
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23925,6 +38685,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3420,
+      "starts": 38,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 11,
+      "goalsConceded": 50,
+      "ownGoals": 0,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 100,
+      "bonus": 11,
+      "bps": 545,
+      "expectedGoals": 0,
+      "expectedAssists": 0.2,
+      "expectedGoalInvolvements": 0.2,
+      "expectedGoalsConceded": 56.24,
+      "influence": 885.2,
+      "creativity": 20.3,
+      "threat": 2,
+      "ictIndex": 90.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 13,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1944492,
+      "transfersOutSeason": 1757209
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -23983,6 +38779,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 935,
+      "starts": 11,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 155,
+      "expectedGoals": 0.05,
+      "expectedAssists": 0.53,
+      "expectedGoalInvolvements": 0.58,
+      "expectedGoalsConceded": 14.7,
+      "influence": 249.6,
+      "creativity": 47.2,
+      "threat": 14,
+      "ictIndex": 31.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7120,
+      "transfersOutSeason": 8596
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24041,6 +38873,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2301,
+      "starts": 26,
+      "goals": 4,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 41,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 215,
+      "expectedGoals": 5.3,
+      "expectedAssists": 1.12,
+      "expectedGoalInvolvements": 6.42,
+      "expectedGoalsConceded": 36.03,
+      "influence": 265.2,
+      "creativity": 203.1,
+      "threat": 469,
+      "ictIndex": 91.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 527882,
+      "transfersOutSeason": 883037
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24099,6 +38967,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1139,
+      "starts": 12,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 93,
+      "expectedGoals": 0.3,
+      "expectedAssists": 0.61,
+      "expectedGoalInvolvements": 0.91,
+      "expectedGoalsConceded": 18.5,
+      "influence": 233.2,
+      "creativity": 114.9,
+      "threat": 36,
+      "ictIndex": 38.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 22950,
+      "transfersOutSeason": 44065
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24157,6 +39061,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2070,
+      "starts": 23,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 65,
+      "bonus": 8,
+      "bps": 303,
+      "expectedGoals": 0,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.04,
+      "expectedGoalsConceded": 35.24,
+      "influence": 514.2,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 52.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 132847,
+      "transfersOutSeason": 228864
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24215,6 +39155,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 657,
+      "starts": 8,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 118,
+      "expectedGoals": 0.62,
+      "expectedAssists": 0.13,
+      "expectedGoalInvolvements": 0.75,
+      "expectedGoalsConceded": 15.66,
+      "influence": 132.6,
+      "creativity": 40.9,
+      "threat": 70,
+      "ictIndex": 24.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 663404,
+      "transfersOutSeason": 561224
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24273,6 +39249,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 30 Sep"
+    },
+    "seasonStats": {
+      "minutes": 1513,
+      "starts": 18,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 29,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 321,
+      "expectedGoals": 0.94,
+      "expectedAssists": 1.36,
+      "expectedGoalInvolvements": 2.3,
+      "expectedGoalsConceded": 32.5,
+      "influence": 342,
+      "creativity": 218.1,
+      "threat": 98,
+      "ictIndex": 66
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 568832,
+      "transfersOutSeason": 546077
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24331,6 +39343,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 5,
+      "expectedGoals": 0.08,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0.08,
+      "expectedGoalsConceded": 0.05,
+      "influence": 0.4,
+      "creativity": 11.3,
+      "threat": 4,
+      "ictIndex": 1.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 285,
+      "transfersOutSeason": 278
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24389,6 +39437,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 827,
+      "transfersOutSeason": 129
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24447,6 +39531,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1290,
+      "starts": 15,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 225,
+      "expectedGoals": 2.47,
+      "expectedAssists": 0.66,
+      "expectedGoalInvolvements": 3.13,
+      "expectedGoalsConceded": 18.97,
+      "influence": 207.4,
+      "creativity": 198.7,
+      "threat": 336,
+      "ictIndex": 73.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1013414,
+      "transfersOutSeason": 940159
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24505,6 +39625,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1752,
+      "starts": 18,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 41,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 232,
+      "expectedGoals": 0.87,
+      "expectedAssists": 0.48,
+      "expectedGoalInvolvements": 1.35,
+      "expectedGoalsConceded": 39.2,
+      "influence": 298,
+      "creativity": 185.1,
+      "threat": 111,
+      "ictIndex": 58.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6524,
+      "transfersOutSeason": 7502
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24563,6 +39719,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 34995,
+      "transfersOutSeason": 35855
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24621,6 +39813,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 180,
+      "transfersOutSeason": 99
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24679,6 +39907,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 607,
+      "starts": 5,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 146,
+      "expectedGoals": 2.74,
+      "expectedAssists": 0.34,
+      "expectedGoalInvolvements": 3.08,
+      "expectedGoalsConceded": 9.41,
+      "influence": 164.4,
+      "creativity": 177.7,
+      "threat": 245,
+      "ictIndex": 58.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 112749,
+      "transfersOutSeason": 133905
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24737,6 +40001,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1370,
+      "starts": 16,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 303,
+      "expectedGoals": 2.25,
+      "expectedAssists": 0.7,
+      "expectedGoalInvolvements": 2.95,
+      "expectedGoalsConceded": 16.05,
+      "influence": 369,
+      "creativity": 109.5,
+      "threat": 218,
+      "ictIndex": 69.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1380358,
+      "transfersOutSeason": 2201303
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24795,6 +40095,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Celtic on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 47440,
+      "transfersOutSeason": 137203
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24853,6 +40189,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13518,
+      "transfersOutSeason": 12014
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24911,6 +40283,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Strasbourg permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 105,
+      "transfersOutSeason": 2971
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -24969,6 +40377,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 34,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 2,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 1.62,
+      "influence": 1.8,
+      "creativity": 2.5,
+      "threat": 2,
+      "ictIndex": 0.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 18486,
+      "transfersOutSeason": 34789
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25027,6 +40471,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0.4,
+      "creativity": 0.5,
+      "threat": 0,
+      "ictIndex": 0.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2298,
+      "transfersOutSeason": 2402
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25085,6 +40565,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1663,
+      "starts": 21,
+      "goals": 13,
+      "assists": 0,
+      "cleanSheets": 10,
+      "goalsConceded": 21,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 13,
+      "bps": 480,
+      "expectedGoals": 8.31,
+      "expectedAssists": 1.51,
+      "expectedGoalInvolvements": 9.82,
+      "expectedGoalsConceded": 25.91,
+      "influence": 532.2,
+      "creativity": 306.9,
+      "threat": 563,
+      "ictIndex": 139.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 7.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2414496,
+      "transfersOutSeason": 1611147
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25143,6 +40659,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 25,
+      "chanceNextRound": 25,
+      "news": "Lack of match fitness - 25% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 2452,
+      "starts": 28,
+      "goals": 3,
+      "assists": 6,
+      "cleanSheets": 13,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 532,
+      "expectedGoals": 4.71,
+      "expectedAssists": 1.53,
+      "expectedGoalInvolvements": 6.24,
+      "expectedGoalsConceded": 17.45,
+      "influence": 499,
+      "creativity": 402.6,
+      "threat": 352,
+      "ictIndex": 125.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 15.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6784707,
+      "transfersOutSeason": 5670508
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25201,6 +40753,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 785,
+      "starts": 7,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 108,
+      "expectedGoals": 2.38,
+      "expectedAssists": 0.39,
+      "expectedGoalInvolvements": 2.77,
+      "expectedGoalsConceded": 14.71,
+      "influence": 115,
+      "creativity": 101.8,
+      "threat": 168,
+      "ictIndex": 38.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 309072,
+      "transfersOutSeason": 377576
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25259,6 +40847,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 945,
+      "starts": 10,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 147,
+      "expectedGoals": 2.31,
+      "expectedAssists": 1.55,
+      "expectedGoalInvolvements": 3.86,
+      "expectedGoalsConceded": 17.96,
+      "influence": 148,
+      "creativity": 305.1,
+      "threat": 135,
+      "ictIndex": 58.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 197524,
+      "transfersOutSeason": 254152
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25317,6 +40941,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Reading on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 102090,
+      "transfersOutSeason": 135893
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25375,6 +41035,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 2,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.65,
+      "influence": 0,
+      "creativity": 0.1,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6468,
+      "transfersOutSeason": 7625
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25433,6 +41129,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Leyton Orient on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 13500
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25491,6 +41223,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 577,
+      "starts": 7,
+      "goals": 2,
+      "assists": 3,
+      "cleanSheets": 4,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 143,
+      "expectedGoals": 3.31,
+      "expectedAssists": 0.64,
+      "expectedGoalInvolvements": 3.95,
+      "expectedGoalsConceded": 6.68,
+      "influence": 152.6,
+      "creativity": 134.6,
+      "threat": 210,
+      "ictIndex": 49.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 197946,
+      "transfersOutSeason": 255689
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25549,6 +41317,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sheffield United on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4052,
+      "transfersOutSeason": 8585
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25607,6 +41411,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1980,
+      "starts": 22,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 5,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 63,
+      "bonus": 3,
+      "bps": 334,
+      "expectedGoals": 0,
+      "expectedAssists": 0.05,
+      "expectedGoalInvolvements": 0.05,
+      "expectedGoalsConceded": 28.36,
+      "influence": 531.4,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 53.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 6.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 941650,
+      "transfersOutSeason": 395339
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25665,6 +41505,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Werder Bremen on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5545,
+      "transfersOutSeason": 48759
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25723,6 +41599,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 2,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.02,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2695,
+      "transfersOutSeason": 1874
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25781,6 +41693,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1960,
+      "starts": 22,
+      "goals": 3,
+      "assists": 4,
+      "cleanSheets": 9,
+      "goalsConceded": 32,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 356,
+      "expectedGoals": 3.01,
+      "expectedAssists": 2.51,
+      "expectedGoalInvolvements": 5.52,
+      "expectedGoalsConceded": 33.74,
+      "influence": 378.2,
+      "creativity": 332.2,
+      "threat": 353,
+      "ictIndex": 106.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 529325,
+      "transfersOutSeason": 395674
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25839,6 +41787,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 733,
+      "transfersOutSeason": 558
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25897,6 +41881,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined River Plate on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 956
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -25955,6 +41975,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1791,
+      "starts": 21,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 6,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 318,
+      "expectedGoals": 0.92,
+      "expectedAssists": 1.46,
+      "expectedGoalInvolvements": 2.38,
+      "expectedGoalsConceded": 25.79,
+      "influence": 416,
+      "creativity": 214.1,
+      "threat": 108,
+      "ictIndex": 73.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 182447,
+      "transfersOutSeason": 182321
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26013,6 +42069,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 90,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 2,
+      "bonus": 0,
+      "bps": 11,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.98,
+      "influence": 19.8,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 23561,
+      "transfersOutSeason": 79865
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26071,6 +42163,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1489,
+      "starts": 17,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 219,
+      "expectedGoals": 0.62,
+      "expectedAssists": 0.28,
+      "expectedGoalInvolvements": 0.9,
+      "expectedGoalsConceded": 20.15,
+      "influence": 407,
+      "creativity": 49.5,
+      "threat": 96,
+      "ictIndex": 55.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 31554,
+      "transfersOutSeason": 35107
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26129,6 +42257,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1030,
+      "starts": 9,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 4,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 183,
+      "expectedGoals": 1.21,
+      "expectedAssists": 1.47,
+      "expectedGoalInvolvements": 2.68,
+      "expectedGoalsConceded": 14.57,
+      "influence": 216,
+      "creativity": 246.6,
+      "threat": 243,
+      "ictIndex": 70.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 35332,
+      "transfersOutSeason": 32474
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26187,6 +42351,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2744,
+      "starts": 32,
+      "goals": 8,
+      "assists": 5,
+      "cleanSheets": 11,
+      "goalsConceded": 34,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 6,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 385,
+      "expectedGoals": 12.08,
+      "expectedAssists": 2.05,
+      "expectedGoalInvolvements": 14.13,
+      "expectedGoalsConceded": 40.05,
+      "influence": 536.8,
+      "creativity": 380.1,
+      "threat": 821,
+      "ictIndex": 172.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 969326,
+      "transfersOutSeason": 862088
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26245,6 +42445,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sheffield United on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 423,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 38,
+      "expectedGoals": 0.02,
+      "expectedAssists": 0.36,
+      "expectedGoalInvolvements": 0.38,
+      "expectedGoalsConceded": 9.36,
+      "influence": 101.4,
+      "creativity": 87.8,
+      "threat": 13,
+      "ictIndex": 20.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 121813,
+      "transfersOutSeason": 273694
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26303,6 +42539,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 256,
+      "transfersOutSeason": 132
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26361,6 +42633,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1220,
+      "transfersOutSeason": 1010
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26419,6 +42727,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1586,
+      "starts": 18,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 225,
+      "expectedGoals": 0.08,
+      "expectedAssists": 2.06,
+      "expectedGoalInvolvements": 2.14,
+      "expectedGoalsConceded": 21.28,
+      "influence": 288,
+      "creativity": 488.5,
+      "threat": 14,
+      "ictIndex": 79
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 265222,
+      "transfersOutSeason": 388304
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26477,6 +42821,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2629,
+      "starts": 30,
+      "goals": 8,
+      "assists": 7,
+      "cleanSheets": 8,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 18,
+      "bps": 598,
+      "expectedGoals": 4.35,
+      "expectedAssists": 5.34,
+      "expectedGoalInvolvements": 9.69,
+      "expectedGoalsConceded": 40.38,
+      "influence": 619.4,
+      "creativity": 601.1,
+      "threat": 438,
+      "ictIndex": 166
+    },
+    "marketInterest": {
+      "selectedByPercent": 7.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2694422,
+      "transfersOutSeason": 2222489
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26535,6 +42915,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Kaiserslautern on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4108,
+      "transfersOutSeason": 15883
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26593,6 +43009,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Union SG permanently"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 209
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26651,6 +43103,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1653,
+      "starts": 16,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 22,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 340,
+      "expectedGoals": 0.48,
+      "expectedAssists": 1.27,
+      "expectedGoalInvolvements": 1.75,
+      "expectedGoalsConceded": 22.88,
+      "influence": 365,
+      "creativity": 360.1,
+      "threat": 94,
+      "ictIndex": 82.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 304626,
+      "transfersOutSeason": 228683
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26709,6 +43197,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2532,
+      "starts": 27,
+      "goals": 3,
+      "assists": 0,
+      "cleanSheets": 6,
+      "goalsConceded": 44,
+      "ownGoals": 2,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 386,
+      "expectedGoals": 2.47,
+      "expectedAssists": 0.7,
+      "expectedGoalInvolvements": 3.17,
+      "expectedGoalsConceded": 41.03,
+      "influence": 777.2,
+      "creativity": 66.6,
+      "threat": 294,
+      "ictIndex": 113.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 460159,
+      "transfersOutSeason": 129536
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26767,6 +43291,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined AS Roma on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1669,
+      "transfersOutSeason": 12313
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26825,6 +43385,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1805,
+      "starts": 20,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 5,
+      "goalsConceded": 32,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 211,
+      "expectedGoals": 0.69,
+      "expectedAssists": 0.73,
+      "expectedGoalInvolvements": 1.42,
+      "expectedGoalsConceded": 31.51,
+      "influence": 401.4,
+      "creativity": 59.1,
+      "threat": 165,
+      "ictIndex": 62.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 44558,
+      "transfersOutSeason": 46039
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26883,6 +43479,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined MTK Budapest on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11331,
+      "transfersOutSeason": 22009
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26941,6 +43573,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3095,
+      "starts": 35,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 66,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 242,
+      "expectedGoals": 0.15,
+      "expectedAssists": 1.29,
+      "expectedGoalInvolvements": 1.44,
+      "expectedGoalsConceded": 67.53,
+      "influence": 506,
+      "creativity": 237.2,
+      "threat": 28,
+      "ictIndex": 77.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 173367,
+      "transfersOutSeason": 277687
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -26999,6 +43667,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1378,
+      "starts": 15,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 219,
+      "expectedGoals": 1.13,
+      "expectedAssists": 0.37,
+      "expectedGoalInvolvements": 1.5,
+      "expectedGoalsConceded": 27.62,
+      "influence": 267,
+      "creativity": 124.5,
+      "threat": 106,
+      "ictIndex": 49.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 39154,
+      "transfersOutSeason": 58832
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27057,6 +43761,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2356,
+      "starts": 27,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 46,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 235,
+      "expectedGoals": 2.23,
+      "expectedAssists": 1.49,
+      "expectedGoalInvolvements": 3.72,
+      "expectedGoalsConceded": 40.29,
+      "influence": 536.6,
+      "creativity": 147.5,
+      "threat": 278,
+      "ictIndex": 96.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 29151,
+      "transfersOutSeason": 24301
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27115,6 +43855,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1042,
+      "starts": 11,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 121,
+      "expectedGoals": 0,
+      "expectedAssists": 0.2,
+      "expectedGoalInvolvements": 0.2,
+      "expectedGoalsConceded": 15.38,
+      "influence": 133,
+      "creativity": 59.4,
+      "threat": 14,
+      "ictIndex": 20.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 114072,
+      "transfersOutSeason": 100401
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27173,6 +43949,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 0
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27231,6 +44043,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1685,
+      "transfersOutSeason": 1532
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27289,6 +44137,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Valencia on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 203,
+      "transfersOutSeason": 4347
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27347,6 +44231,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Real Oviedo permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2169,
+      "transfersOutSeason": 33857
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27405,6 +44325,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1997,
+      "starts": 21,
+      "goals": 6,
+      "assists": 6,
+      "cleanSheets": 11,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 445,
+      "expectedGoals": 5.6,
+      "expectedAssists": 3.59,
+      "expectedGoalInvolvements": 9.18,
+      "expectedGoalsConceded": 13.94,
+      "influence": 494,
+      "creativity": 545.5,
+      "threat": 541,
+      "ictIndex": 158.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 726467,
+      "transfersOutSeason": 554690
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27463,6 +44419,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1730,
+      "starts": 18,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 191,
+      "expectedGoals": 1.34,
+      "expectedAssists": 0.59,
+      "expectedGoalInvolvements": 1.93,
+      "expectedGoalsConceded": 26.83,
+      "influence": 327,
+      "creativity": 83.1,
+      "threat": 124,
+      "ictIndex": 53.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 228890,
+      "transfersOutSeason": 326156
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27521,6 +44513,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sheffield United on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1255,
+      "transfersOutSeason": 1589
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27579,6 +44607,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4880,
+      "transfersOutSeason": 3210
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27637,6 +44701,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 450,
+      "starts": 3,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 0,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 69,
+      "expectedGoals": 0.5,
+      "expectedAssists": 1.46,
+      "expectedGoalInvolvements": 1.96,
+      "expectedGoalsConceded": 7.03,
+      "influence": 71.2,
+      "creativity": 160.4,
+      "threat": 69,
+      "ictIndex": 30.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 10030,
+      "transfersOutSeason": 52941
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27695,6 +44795,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6702,
+      "transfersOutSeason": 8591
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27753,6 +44889,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 852,
+      "transfersOutSeason": 816
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27811,6 +44983,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2330,
+      "starts": 27,
+      "goals": 3,
+      "assists": 3,
+      "cleanSheets": 3,
+      "goalsConceded": 51,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 374,
+      "expectedGoals": 2.5,
+      "expectedAssists": 0.41,
+      "expectedGoalInvolvements": 2.91,
+      "expectedGoalsConceded": 52.82,
+      "influence": 412.2,
+      "creativity": 181.5,
+      "threat": 210,
+      "ictIndex": 80.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 45849,
+      "transfersOutSeason": 42639
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27869,6 +45077,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 225,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 30,
+      "expectedGoals": 0,
+      "expectedAssists": 0.12,
+      "expectedGoalInvolvements": 0.12,
+      "expectedGoalsConceded": 3.36,
+      "influence": 66,
+      "creativity": 7.6,
+      "threat": 6,
+      "ictIndex": 8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8167,
+      "transfersOutSeason": 31558
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27927,6 +45171,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 872,
+      "starts": 8,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 190,
+      "expectedGoals": 0.07,
+      "expectedAssists": 0.52,
+      "expectedGoalInvolvements": 0.59,
+      "expectedGoalsConceded": 14,
+      "influence": 206.8,
+      "creativity": 183.8,
+      "threat": 12,
+      "ictIndex": 40.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11970,
+      "transfersOutSeason": 11534
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -27985,6 +45265,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Preston North End on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 889,
+      "transfersOutSeason": 5455
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28043,6 +45359,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2837,
+      "starts": 31,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 7,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 443,
+      "expectedGoals": 1.83,
+      "expectedAssists": 0.56,
+      "expectedGoalInvolvements": 2.39,
+      "expectedGoalsConceded": 41.9,
+      "influence": 649.6,
+      "creativity": 125.5,
+      "threat": 210,
+      "ictIndex": 98.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 187324,
+      "transfersOutSeason": 231096
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28101,6 +45453,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2176,
+      "starts": 24,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 347,
+      "expectedGoals": 1.01,
+      "expectedAssists": 2.78,
+      "expectedGoalInvolvements": 3.79,
+      "expectedGoalsConceded": 37.72,
+      "influence": 550.2,
+      "creativity": 433.6,
+      "threat": 196,
+      "ictIndex": 118
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 974490,
+      "transfersOutSeason": 796951
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28159,6 +45547,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Leg injury - Expected back 01 Jul"
+    },
+    "seasonStats": {
+      "minutes": 1493,
+      "starts": 15,
+      "goals": 1,
+      "assists": 4,
+      "cleanSheets": 2,
+      "goalsConceded": 22,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 334,
+      "expectedGoals": 1.36,
+      "expectedAssists": 2.1,
+      "expectedGoalInvolvements": 3.46,
+      "expectedGoalsConceded": 21.22,
+      "influence": 342.6,
+      "creativity": 251.4,
+      "threat": 136,
+      "ictIndex": 73
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 681491,
+      "transfersOutSeason": 770154
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28217,6 +45641,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Wrexham permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 118
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28275,6 +45735,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Stevenage on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1052,
+      "transfersOutSeason": 12054
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28333,6 +45829,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1092,
+      "starts": 12,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 123,
+      "expectedGoals": 4.54,
+      "expectedAssists": 0.23,
+      "expectedGoalInvolvements": 4.76,
+      "expectedGoalsConceded": 16.67,
+      "influence": 67.8,
+      "creativity": 73.7,
+      "threat": 349,
+      "ictIndex": 47.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 114678,
+      "transfersOutSeason": 472428
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28391,6 +45923,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Rotherham on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 22076,
+      "transfersOutSeason": 40217
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28449,6 +46017,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1229,
+      "starts": 13,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 5,
+      "goalsConceded": 15,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 241,
+      "expectedGoals": 0.15,
+      "expectedAssists": 0.6,
+      "expectedGoalInvolvements": 0.75,
+      "expectedGoalsConceded": 15.22,
+      "influence": 302.8,
+      "creativity": 94.9,
+      "threat": 19,
+      "ictIndex": 42
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 177499,
+      "transfersOutSeason": 157689
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28507,6 +46111,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 126,
+      "starts": 1,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 33,
+      "expectedGoals": 0.79,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.8,
+      "expectedGoalsConceded": 1.89,
+      "influence": 37.2,
+      "creativity": 13,
+      "threat": 39,
+      "ictIndex": 8.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6389,
+      "transfersOutSeason": 4938
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28565,6 +46205,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1259,
+      "starts": 14,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 24,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 208,
+      "expectedGoals": 1.27,
+      "expectedAssists": 0.91,
+      "expectedGoalInvolvements": 2.18,
+      "expectedGoalsConceded": 25.04,
+      "influence": 185.8,
+      "creativity": 231.1,
+      "threat": 173,
+      "ictIndex": 59.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6578,
+      "transfersOutSeason": 6410
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28623,6 +46299,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Paris FC on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 68,
+      "transfersOutSeason": 3043
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28681,6 +46393,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 353,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 5,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 33,
+      "expectedGoals": 0,
+      "expectedAssists": 0.41,
+      "expectedGoalInvolvements": 0.41,
+      "expectedGoalsConceded": 7.87,
+      "influence": 63.4,
+      "creativity": 30.1,
+      "threat": 10,
+      "ictIndex": 10.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 960,
+      "transfersOutSeason": 485
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28739,6 +46487,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1083,
+      "transfersOutSeason": 618
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28797,6 +46581,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 955,
+      "starts": 11,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 3,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 163,
+      "expectedGoals": 1.23,
+      "expectedAssists": 0.43,
+      "expectedGoalInvolvements": 1.66,
+      "expectedGoalsConceded": 13.66,
+      "influence": 164.6,
+      "creativity": 106.4,
+      "threat": 147,
+      "ictIndex": 41.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 105068,
+      "transfersOutSeason": 113224
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28855,6 +46675,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1842,
+      "starts": 21,
+      "goals": 0,
+      "assists": 7,
+      "cleanSheets": 7,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 381,
+      "expectedGoals": 0.67,
+      "expectedAssists": 3.28,
+      "expectedGoalInvolvements": 3.95,
+      "expectedGoalsConceded": 27.79,
+      "influence": 400.2,
+      "creativity": 455.5,
+      "threat": 130,
+      "ictIndex": 98.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 355694,
+      "transfersOutSeason": 398719
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28913,6 +46769,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1440,
+      "starts": 16,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 38,
+      "bonus": 3,
+      "bps": 153,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 26.68,
+      "influence": 322.4,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 32.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 55482,
+      "transfersOutSeason": 74186
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -28971,6 +46863,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1405,
+      "starts": 15,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 127,
+      "expectedGoals": 0.6,
+      "expectedAssists": 1.46,
+      "expectedGoalInvolvements": 2.06,
+      "expectedGoalsConceded": 28.19,
+      "influence": 247,
+      "creativity": 294.6,
+      "threat": 117,
+      "ictIndex": 65.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 50650,
+      "transfersOutSeason": 44866
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29029,6 +46957,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Flamengo permanently."
+    },
+    "seasonStats": {
+      "minutes": 1513,
+      "starts": 18,
+      "goals": 4,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 291,
+      "expectedGoals": 2.85,
+      "expectedAssists": 2,
+      "expectedGoalInvolvements": 4.85,
+      "expectedGoalsConceded": 24.22,
+      "influence": 374.6,
+      "creativity": 397.2,
+      "threat": 186,
+      "ictIndex": 95.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 897173,
+      "transfersOutSeason": 978768
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29087,6 +47051,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Bayern Munch permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 7389
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29145,6 +47145,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Vasco de Gama on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 94,
+      "transfersOutSeason": 122
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29203,6 +47239,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sporting CP permanently."
+    },
+    "seasonStats": {
+      "minutes": 121,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 11,
+      "expectedGoals": 0.07,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 0.1,
+      "expectedGoalsConceded": 1.82,
+      "influence": 9.2,
+      "creativity": 14.5,
+      "threat": 4,
+      "ictIndex": 2.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 868,
+      "transfersOutSeason": 3450
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29261,6 +47333,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Moreirense on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5979,
+      "transfersOutSeason": 20562
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29319,6 +47427,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Cruzeiro on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 396,
+      "transfersOutSeason": 3906
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29377,6 +47521,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 569,
+      "transfersOutSeason": 313
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29435,6 +47615,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Hamburger SV on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7334,
+      "transfersOutSeason": 92881
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29493,6 +47709,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1065,
+      "starts": 10,
+      "goals": 6,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 268,
+      "expectedGoals": 7.25,
+      "expectedAssists": 1.58,
+      "expectedGoalInvolvements": 8.83,
+      "expectedGoalsConceded": 21.84,
+      "influence": 290.4,
+      "creativity": 153.5,
+      "threat": 434,
+      "ictIndex": 87.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 220306,
+      "transfersOutSeason": 234636
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29551,6 +47803,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8920,
+      "transfersOutSeason": 6586
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29609,6 +47897,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Oxford United on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 316
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29667,6 +47991,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 565,
+      "starts": 5,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 90,
+      "expectedGoals": 0.15,
+      "expectedAssists": 0.13,
+      "expectedGoalInvolvements": 0.28,
+      "expectedGoalsConceded": 9.24,
+      "influence": 103,
+      "creativity": 27.6,
+      "threat": 40,
+      "ictIndex": 17.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 12369,
+      "transfersOutSeason": 10074
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29725,6 +48085,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1446,
+      "transfersOutSeason": 1038
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29783,6 +48179,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3220,
+      "starts": 38,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 10,
+      "goalsConceded": 45,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 449,
+      "expectedGoals": 0.72,
+      "expectedAssists": 1.98,
+      "expectedGoalInvolvements": 2.69,
+      "expectedGoalsConceded": 44.9,
+      "influence": 560.2,
+      "creativity": 314.8,
+      "threat": 97,
+      "ictIndex": 97.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 262666,
+      "transfersOutSeason": 170962
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29841,6 +48273,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1681,
+      "starts": 17,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 231,
+      "expectedGoals": 0.79,
+      "expectedAssists": 0.85,
+      "expectedGoalInvolvements": 1.64,
+      "expectedGoalsConceded": 30.92,
+      "influence": 274.6,
+      "creativity": 135.7,
+      "threat": 102,
+      "ictIndex": 51.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11678,
+      "transfersOutSeason": 8582
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29899,6 +48367,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1361,
+      "starts": 15,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 202,
+      "expectedGoals": 3.22,
+      "expectedAssists": 0.37,
+      "expectedGoalInvolvements": 3.59,
+      "expectedGoalsConceded": 27.91,
+      "influence": 219,
+      "creativity": 147,
+      "threat": 262,
+      "ictIndex": 62.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 458423,
+      "transfersOutSeason": 455566
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -29957,6 +48461,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1620,
+      "starts": 18,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 7,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 55,
+      "bonus": 8,
+      "bps": 282,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 23.98,
+      "influence": 422,
+      "creativity": 20,
+      "threat": 0,
+      "ictIndex": 44.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 160951,
+      "transfersOutSeason": 77084
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30015,6 +48555,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Southampton permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 211,
+      "transfersOutSeason": 3940
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30073,6 +48649,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Blackpool permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 751
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30131,6 +48743,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2125,
+      "transfersOutSeason": 1465
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30189,6 +48837,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Morecambe on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 10218,
+      "transfersOutSeason": 22844
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30247,6 +48931,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2963,
+      "starts": 33,
+      "goals": 4,
+      "assists": 0,
+      "cleanSheets": 5,
+      "goalsConceded": 52,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 12,
+      "bps": 436,
+      "expectedGoals": 4.8,
+      "expectedAssists": 0.96,
+      "expectedGoalInvolvements": 5.76,
+      "expectedGoalsConceded": 49.21,
+      "influence": 868,
+      "creativity": 114.3,
+      "threat": 409,
+      "ictIndex": 138.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1930326,
+      "transfersOutSeason": 1361374
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30305,6 +49025,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Swansea City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 1268
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30363,6 +49119,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2255,
+      "starts": 26,
+      "goals": 2,
+      "assists": 3,
+      "cleanSheets": 7,
+      "goalsConceded": 36,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 406,
+      "expectedGoals": 1.56,
+      "expectedAssists": 2.97,
+      "expectedGoalInvolvements": 4.53,
+      "expectedGoalsConceded": 37.13,
+      "influence": 443.6,
+      "creativity": 448.5,
+      "threat": 205,
+      "ictIndex": 109.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 559012,
+      "transfersOutSeason": 579017
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30421,6 +49213,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 100,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 4,
+      "expectedGoals": 0.35,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0.35,
+      "expectedGoalsConceded": 1.63,
+      "influence": 6.4,
+      "creativity": 0.1,
+      "threat": 7,
+      "ictIndex": 1.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3876,
+      "transfersOutSeason": 4193
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30479,6 +49307,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Fiorentina on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 115,
+      "transfersOutSeason": 1483
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30537,6 +49401,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Inter Milan on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9281,
+      "transfersOutSeason": 85774
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30595,6 +49495,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Maccabi Haifa permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1070,
+      "transfersOutSeason": 3162
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30653,6 +49589,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 876,
+      "starts": 8,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 183,
+      "expectedGoals": 0.72,
+      "expectedAssists": 0.16,
+      "expectedGoalInvolvements": 0.88,
+      "expectedGoalsConceded": 18.22,
+      "influence": 167.2,
+      "creativity": 83.6,
+      "threat": 48,
+      "ictIndex": 29.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 30749,
+      "transfersOutSeason": 40565
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30711,6 +49683,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2706,
+      "starts": 31,
+      "goals": 1,
+      "assists": 4,
+      "cleanSheets": 9,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 468,
+      "expectedGoals": 2.34,
+      "expectedAssists": 3.23,
+      "expectedGoalInvolvements": 5.57,
+      "expectedGoalsConceded": 41.45,
+      "influence": 562.8,
+      "creativity": 577.8,
+      "threat": 309,
+      "ictIndex": 145.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 14.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3094674,
+      "transfersOutSeason": 3953194
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30769,6 +49777,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3150,
+      "starts": 35,
+      "goals": 3,
+      "assists": 5,
+      "cleanSheets": 14,
+      "goalsConceded": 35,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 14,
+      "bps": 688,
+      "expectedGoals": 4.05,
+      "expectedAssists": 2.37,
+      "expectedGoalInvolvements": 6.42,
+      "expectedGoalsConceded": 44.58,
+      "influence": 901.6,
+      "creativity": 304.6,
+      "threat": 402,
+      "ictIndex": 160.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 32.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6708601,
+      "transfersOutSeason": 4328970
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30827,6 +49871,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 265,
+      "starts": 1,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 19,
+      "expectedGoals": 1.54,
+      "expectedAssists": 0.29,
+      "expectedGoalInvolvements": 1.83,
+      "expectedGoalsConceded": 5.89,
+      "influence": 24.6,
+      "creativity": 40.1,
+      "threat": 86,
+      "ictIndex": 13.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 5.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1319420,
+      "transfersOutSeason": 2890932
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30885,6 +49965,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 585,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 19,
+      "bonus": 0,
+      "bps": 75,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 11.02,
+      "influence": 139.2,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 13.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 85879,
+      "transfersOutSeason": 117979
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -30943,6 +50059,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3288,
+      "starts": 37,
+      "goals": 0,
+      "assists": 6,
+      "cleanSheets": 11,
+      "goalsConceded": 53,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 14,
+      "bps": 571,
+      "expectedGoals": 1.53,
+      "expectedAssists": 4.72,
+      "expectedGoalInvolvements": 6.25,
+      "expectedGoalsConceded": 54.77,
+      "influence": 1114.4,
+      "creativity": 367.8,
+      "threat": 201,
+      "ictIndex": 168.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 22,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6418141,
+      "transfersOutSeason": 3908148
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31001,6 +50153,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 72915,
+      "transfersOutSeason": 57129
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31059,6 +50247,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1058,
+      "starts": 11,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 1,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 189,
+      "expectedGoals": 1.49,
+      "expectedAssists": 1.84,
+      "expectedGoalInvolvements": 3.33,
+      "expectedGoalsConceded": 24.61,
+      "influence": 180,
+      "creativity": 283.9,
+      "threat": 226,
+      "ictIndex": 68.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27070,
+      "transfersOutSeason": 29360
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31117,6 +50341,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Barcelona on loan for the rest of the season"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2160
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31175,6 +50435,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2732,
+      "starts": 31,
+      "goals": 7,
+      "assists": 4,
+      "cleanSheets": 11,
+      "goalsConceded": 44,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 14,
+      "bps": 552,
+      "expectedGoals": 9.06,
+      "expectedAssists": 4.6,
+      "expectedGoalInvolvements": 13.66,
+      "expectedGoalsConceded": 41.06,
+      "influence": 656.8,
+      "creativity": 816.6,
+      "threat": 605,
+      "ictIndex": 207.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1646857,
+      "transfersOutSeason": 1190309
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31233,6 +50529,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7392,
+      "transfersOutSeason": 11599
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31291,6 +50623,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5298,
+      "transfersOutSeason": 13044
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31349,6 +50717,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Swansea City permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 245,
+      "transfersOutSeason": 5744
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31407,6 +50811,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1910,
+      "transfersOutSeason": 1535
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31465,6 +50905,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Paris FC on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 872,
+      "starts": 9,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 0,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 131,
+      "expectedGoals": 1.64,
+      "expectedAssists": 0.38,
+      "expectedGoalInvolvements": 2.02,
+      "expectedGoalsConceded": 13.36,
+      "influence": 163.6,
+      "creativity": 61.8,
+      "threat": 196,
+      "ictIndex": 42.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 19177,
+      "transfersOutSeason": 23262
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31523,6 +50999,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Strasbourg permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 898,
+      "transfersOutSeason": 6644
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31581,6 +51093,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3150,
+      "starts": 35,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 71,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 127,
+      "bonus": 7,
+      "bps": 436,
+      "expectedGoals": 0,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.04,
+      "expectedGoalsConceded": 71.26,
+      "influence": 976.4,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 97.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 25.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1829372,
+      "transfersOutSeason": 2397331
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31639,6 +51187,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1363,
+      "starts": 16,
+      "goals": 1,
+      "assists": 7,
+      "cleanSheets": 6,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 306,
+      "expectedGoals": 1.25,
+      "expectedAssists": 3.65,
+      "expectedGoalInvolvements": 4.9,
+      "expectedGoalsConceded": 16.2,
+      "influence": 311.8,
+      "creativity": 564.4,
+      "threat": 168,
+      "ictIndex": 104.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 409252,
+      "transfersOutSeason": 664528
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31697,6 +51281,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Port Vale on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9203,
+      "transfersOutSeason": 26881
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31755,6 +51375,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2991,
+      "starts": 34,
+      "goals": 5,
+      "assists": 1,
+      "cleanSheets": 16,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 604,
+      "expectedGoals": 2.84,
+      "expectedAssists": 2.27,
+      "expectedGoalInvolvements": 5.11,
+      "expectedGoalsConceded": 26.09,
+      "influence": 603.2,
+      "creativity": 385.1,
+      "threat": 271,
+      "ictIndex": 126.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1383151,
+      "transfersOutSeason": 1353576
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31813,6 +51469,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1010,
+      "starts": 12,
+      "goals": 3,
+      "assists": 0,
+      "cleanSheets": 5,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 201,
+      "expectedGoals": 1.56,
+      "expectedAssists": 1.62,
+      "expectedGoalInvolvements": 3.18,
+      "expectedGoalsConceded": 12.46,
+      "influence": 201.2,
+      "creativity": 214.1,
+      "threat": 165,
+      "ictIndex": 58
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 185755,
+      "transfersOutSeason": 200331
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31871,6 +51563,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16680,
+      "transfersOutSeason": 34082
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31929,6 +51657,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined RCD Mallorca on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2431
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -31987,6 +51751,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 125,
+      "starts": 1,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 41,
+      "expectedGoals": 0.13,
+      "expectedAssists": 0.42,
+      "expectedGoalInvolvements": 0.55,
+      "expectedGoalsConceded": 4,
+      "influence": 46,
+      "creativity": 65.5,
+      "threat": 3,
+      "ictIndex": 11.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3111,
+      "transfersOutSeason": 3697
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32045,6 +51845,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3017,
+      "starts": 35,
+      "goals": 3,
+      "assists": 4,
+      "cleanSheets": 8,
+      "goalsConceded": 50,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 659,
+      "expectedGoals": 1.99,
+      "expectedAssists": 2.96,
+      "expectedGoalInvolvements": 4.95,
+      "expectedGoalsConceded": 48.3,
+      "influence": 657.2,
+      "creativity": 622.8,
+      "threat": 183,
+      "ictIndex": 146.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 177675,
+      "transfersOutSeason": 105524
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32103,6 +51939,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1787,
+      "starts": 19,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 5,
+      "goalsConceded": 30,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 314,
+      "expectedGoals": 2.01,
+      "expectedAssists": 3.69,
+      "expectedGoalInvolvements": 5.7,
+      "expectedGoalsConceded": 31.75,
+      "influence": 328.2,
+      "creativity": 489.6,
+      "threat": 283,
+      "ictIndex": 109.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 643247,
+      "transfersOutSeason": 474157
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32161,6 +52033,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined CR Vasco da Gama on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 95,
+      "transfersOutSeason": 1658
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32219,6 +52127,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2861,
+      "starts": 32,
+      "goals": 1,
+      "assists": 8,
+      "cleanSheets": 12,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 16,
+      "bps": 676,
+      "expectedGoals": 0.34,
+      "expectedAssists": 2.23,
+      "expectedGoalInvolvements": 2.57,
+      "expectedGoalsConceded": 34.89,
+      "influence": 696,
+      "creativity": 545,
+      "threat": 131,
+      "ictIndex": 137.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1062481,
+      "transfersOutSeason": 789254
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32277,6 +52221,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2493,
+      "starts": 29,
+      "goals": 10,
+      "assists": 4,
+      "cleanSheets": 8,
+      "goalsConceded": 35,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 14,
+      "bps": 591,
+      "expectedGoals": 6.9,
+      "expectedAssists": 3.36,
+      "expectedGoalInvolvements": 10.26,
+      "expectedGoalsConceded": 35.75,
+      "influence": 675.8,
+      "creativity": 545.4,
+      "threat": 801,
+      "ictIndex": 202.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3667224,
+      "transfersOutSeason": 3604413
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32335,6 +52315,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2239,
+      "starts": 26,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 9,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 465,
+      "expectedGoals": 2.21,
+      "expectedAssists": 6.06,
+      "expectedGoalInvolvements": 8.27,
+      "expectedGoalsConceded": 35.72,
+      "influence": 435.6,
+      "creativity": 632.7,
+      "threat": 201,
+      "ictIndex": 126.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 33274,
+      "transfersOutSeason": 27550
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32393,6 +52409,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 48,
+      "transfersOutSeason": 8
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32451,6 +52503,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1334,
+      "starts": 13,
+      "goals": 4,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 266,
+      "expectedGoals": 2.47,
+      "expectedAssists": 2.43,
+      "expectedGoalInvolvements": 4.89,
+      "expectedGoalsConceded": 17.29,
+      "influence": 303.4,
+      "creativity": 457.2,
+      "threat": 312,
+      "ictIndex": 107.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 96405,
+      "transfersOutSeason": 53459
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32509,6 +52597,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1901,
+      "starts": 23,
+      "goals": 2,
+      "assists": 4,
+      "cleanSheets": 6,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 398,
+      "expectedGoals": 1.92,
+      "expectedAssists": 1.86,
+      "expectedGoalInvolvements": 3.78,
+      "expectedGoalsConceded": 23.95,
+      "influence": 477,
+      "creativity": 291.1,
+      "threat": 209,
+      "ictIndex": 97.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 180281,
+      "transfersOutSeason": 156497
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32567,6 +52691,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knock - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 786,
+      "starts": 11,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 59,
+      "expectedGoals": 0.09,
+      "expectedAssists": 0.19,
+      "expectedGoalInvolvements": 0.28,
+      "expectedGoalsConceded": 14.13,
+      "influence": 132.4,
+      "creativity": 51.1,
+      "threat": 20,
+      "ictIndex": 20.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7251,
+      "transfersOutSeason": 21656
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32625,6 +52785,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 202,
+      "starts": 2,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 3,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 48,
+      "expectedGoals": 1.21,
+      "expectedAssists": 0.18,
+      "expectedGoalInvolvements": 1.39,
+      "expectedGoalsConceded": 2.53,
+      "influence": 65.4,
+      "creativity": 67.7,
+      "threat": 63,
+      "ictIndex": 19.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 133640,
+      "transfersOutSeason": 200965
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32683,6 +52879,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Middlesbrough on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3759,
+      "transfersOutSeason": 45695
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32741,6 +52973,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Lyon permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 16045
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32799,6 +53067,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Shrewsbury Town on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11791,
+      "transfersOutSeason": 16383
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32857,6 +53161,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Back injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1170,
+      "starts": 13,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 169,
+      "expectedGoals": 1.38,
+      "expectedAssists": 0.83,
+      "expectedGoalInvolvements": 2.21,
+      "expectedGoalsConceded": 18.73,
+      "influence": 276.6,
+      "creativity": 60.2,
+      "threat": 122,
+      "ictIndex": 45.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 419902,
+      "transfersOutSeason": 553255
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32915,6 +53255,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3016,
+      "starts": 34,
+      "goals": 3,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 38,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 450,
+      "expectedGoals": 1.14,
+      "expectedAssists": 2.94,
+      "expectedGoalInvolvements": 4.08,
+      "expectedGoalsConceded": 45.45,
+      "influence": 643,
+      "creativity": 510.7,
+      "threat": 221,
+      "ictIndex": 137.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 7.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2994809,
+      "transfersOutSeason": 2459799
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -32973,6 +53349,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2667,
+      "starts": 30,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 7,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 95,
+      "bonus": 3,
+      "bps": 431,
+      "expectedGoals": 0,
+      "expectedAssists": 0.06,
+      "expectedGoalInvolvements": 0.06,
+      "expectedGoalsConceded": 45.12,
+      "influence": 730,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 74
+    },
+    "marketInterest": {
+      "selectedByPercent": 5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 495479,
+      "transfersOutSeason": 2082249
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33031,6 +53443,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 135,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 27,
+      "expectedGoals": 0.26,
+      "expectedAssists": 0.06,
+      "expectedGoalInvolvements": 0.32,
+      "expectedGoalsConceded": 1.54,
+      "influence": 34,
+      "creativity": 14.8,
+      "threat": 26,
+      "ictIndex": 7.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5494,
+      "transfersOutSeason": 5081
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33089,6 +53537,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 152,
+      "starts": 1,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 51,
+      "expectedGoals": 1.19,
+      "expectedAssists": 0.3,
+      "expectedGoalInvolvements": 1.49,
+      "expectedGoalsConceded": 0.88,
+      "influence": 45.2,
+      "creativity": 55.5,
+      "threat": 65,
+      "ictIndex": 16.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 291075,
+      "transfersOutSeason": 193138
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33147,6 +53631,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 580,
+      "transfersOutSeason": 458
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33205,6 +53725,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 270,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 10,
+      "bonus": 0,
+      "bps": 39,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 4.82,
+      "influence": 76.8,
+      "creativity": 10,
+      "threat": 0,
+      "ictIndex": 8.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 20012,
+      "transfersOutSeason": 19233
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33263,6 +53819,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3085,
+      "starts": 35,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 11,
+      "goalsConceded": 47,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 529,
+      "expectedGoals": 2.45,
+      "expectedAssists": 0.83,
+      "expectedGoalInvolvements": 3.28,
+      "expectedGoalsConceded": 44.04,
+      "influence": 822,
+      "creativity": 106.4,
+      "threat": 316,
+      "ictIndex": 124.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 7.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2257486,
+      "transfersOutSeason": 1564812
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33321,6 +53913,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1404,
+      "starts": 17,
+      "goals": 2,
+      "assists": 3,
+      "cleanSheets": 5,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 318,
+      "expectedGoals": 1.66,
+      "expectedAssists": 4.08,
+      "expectedGoalInvolvements": 5.74,
+      "expectedGoalsConceded": 24.09,
+      "influence": 327.8,
+      "creativity": 516.6,
+      "threat": 154,
+      "ictIndex": 99.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 297957,
+      "transfersOutSeason": 754092
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33379,6 +54007,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2933,
+      "starts": 34,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 70,
+      "ownGoals": 2,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 264,
+      "expectedGoals": 0.73,
+      "expectedAssists": 0.59,
+      "expectedGoalInvolvements": 1.32,
+      "expectedGoalsConceded": 67.06,
+      "influence": 745.4,
+      "creativity": 92.5,
+      "threat": 97,
+      "ictIndex": 93.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 846727,
+      "transfersOutSeason": 2123523
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33437,6 +54101,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1559,
+      "starts": 17,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 80,
+      "expectedGoals": 0.56,
+      "expectedAssists": 0.25,
+      "expectedGoalInvolvements": 0.81,
+      "expectedGoalsConceded": 33.28,
+      "influence": 392.4,
+      "creativity": 55.8,
+      "threat": 60,
+      "ictIndex": 50.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 30991,
+      "transfersOutSeason": 52505
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33495,6 +54195,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Genoa on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 246,
+      "transfersOutSeason": 3237
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33553,6 +54289,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 270,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 10,
+      "bonus": 3,
+      "bps": 62,
+      "expectedGoals": 0,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.02,
+      "expectedGoalsConceded": 4.1,
+      "influence": 73.6,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 7.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27780,
+      "transfersOutSeason": 18770
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33611,6 +54383,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 675,
+      "starts": 6,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 98,
+      "expectedGoals": 0.67,
+      "expectedAssists": 0.35,
+      "expectedGoalInvolvements": 1.02,
+      "expectedGoalsConceded": 13.31,
+      "influence": 113,
+      "creativity": 87.4,
+      "threat": 62,
+      "ictIndex": 26.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3065,
+      "transfersOutSeason": 2038
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33669,6 +54477,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3258,
+      "starts": 37,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 10,
+      "goalsConceded": 49,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 494,
+      "expectedGoals": 1.28,
+      "expectedAssists": 2.89,
+      "expectedGoalInvolvements": 4.17,
+      "expectedGoalsConceded": 52.65,
+      "influence": 613.8,
+      "creativity": 470.2,
+      "threat": 130,
+      "ictIndex": 121.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 298401,
+      "transfersOutSeason": 198389
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33727,6 +54571,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2588,
+      "starts": 29,
+      "goals": 3,
+      "assists": 1,
+      "cleanSheets": 7,
+      "goalsConceded": 42,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 404,
+      "expectedGoals": 2.3,
+      "expectedAssists": 0.49,
+      "expectedGoalInvolvements": 2.79,
+      "expectedGoalsConceded": 44.52,
+      "influence": 770.4,
+      "creativity": 47.4,
+      "threat": 299,
+      "ictIndex": 111.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1597347,
+      "transfersOutSeason": 1269888
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33785,6 +54665,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Blackpool on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4151,
+      "transfersOutSeason": 40849
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33843,6 +54759,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3041,
+      "starts": 35,
+      "goals": 4,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 50,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 431,
+      "expectedGoals": 2.82,
+      "expectedAssists": 0.38,
+      "expectedGoalInvolvements": 3.2,
+      "expectedGoalsConceded": 42.99,
+      "influence": 683.4,
+      "creativity": 95.2,
+      "threat": 218,
+      "ictIndex": 99.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 17.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3663747,
+      "transfersOutSeason": 4753594
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33901,6 +54853,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined RC Strasbourg on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 347
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -33959,6 +54947,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 37,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 18,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 1.65,
+      "influence": 7.2,
+      "creativity": 15.2,
+      "threat": 2,
+      "ictIndex": 2.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 20926,
+      "transfersOutSeason": 18890
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34017,6 +55041,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1024,
+      "starts": 10,
+      "goals": 4,
+      "assists": 3,
+      "cleanSheets": 4,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 236,
+      "expectedGoals": 3.36,
+      "expectedAssists": 1.45,
+      "expectedGoalInvolvements": 4.81,
+      "expectedGoalsConceded": 7.36,
+      "influence": 304.4,
+      "creativity": 191.8,
+      "threat": 244,
+      "ictIndex": 73.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 836318,
+      "transfersOutSeason": 847590
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34075,6 +55135,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Rangers on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 689
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34133,6 +55229,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2046,
+      "starts": 24,
+      "goals": 4,
+      "assists": 4,
+      "cleanSheets": 5,
+      "goalsConceded": 32,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 467,
+      "expectedGoals": 2.61,
+      "expectedAssists": 5.43,
+      "expectedGoalInvolvements": 8.04,
+      "expectedGoalsConceded": 31.55,
+      "influence": 530.6,
+      "creativity": 691.3,
+      "threat": 326,
+      "ictIndex": 155
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 214963,
+      "transfersOutSeason": 244417
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34191,6 +55323,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 639,
+      "transfersOutSeason": 3608
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34249,6 +55417,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2251,
+      "starts": 27,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 6,
+      "goalsConceded": 37,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 357,
+      "expectedGoals": 1.5,
+      "expectedAssists": 0.69,
+      "expectedGoalInvolvements": 2.19,
+      "expectedGoalsConceded": 30.1,
+      "influence": 434.6,
+      "creativity": 415.8,
+      "threat": 141,
+      "ictIndex": 99.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 386883,
+      "transfersOutSeason": 855051
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34307,6 +55511,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 68422,
+      "transfersOutSeason": 53510
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34365,6 +55605,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1714,
+      "starts": 19,
+      "goals": 3,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 247,
+      "expectedGoals": 4.04,
+      "expectedAssists": 2.74,
+      "expectedGoalInvolvements": 6.78,
+      "expectedGoalsConceded": 23.76,
+      "influence": 288.4,
+      "creativity": 422.3,
+      "threat": 416,
+      "ictIndex": 112.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 398054,
+      "transfersOutSeason": 965064
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34423,6 +55699,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 67,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 29,
+      "expectedGoals": 0.07,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.11,
+      "expectedGoalsConceded": 2,
+      "influence": 18,
+      "creativity": 13.2,
+      "threat": 12,
+      "ictIndex": 4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2553,
+      "transfersOutSeason": 1680
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34481,6 +55793,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2144,
+      "starts": 23,
+      "goals": 7,
+      "assists": 7,
+      "cleanSheets": 7,
+      "goalsConceded": 35,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 392,
+      "expectedGoals": 8.23,
+      "expectedAssists": 5.44,
+      "expectedGoalInvolvements": 13.67,
+      "expectedGoalsConceded": 30.94,
+      "influence": 524.8,
+      "creativity": 740.7,
+      "threat": 805,
+      "ictIndex": 207.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 15.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1789545,
+      "transfersOutSeason": 6177531
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34539,6 +55887,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Thigh injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1535,
+      "starts": 19,
+      "goals": 2,
+      "assists": 6,
+      "cleanSheets": 7,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 257,
+      "expectedGoals": 1.92,
+      "expectedAssists": 2.41,
+      "expectedGoalInvolvements": 4.33,
+      "expectedGoalsConceded": 22.74,
+      "influence": 333.4,
+      "creativity": 413.8,
+      "threat": 302,
+      "ictIndex": 104.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 9.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3264066,
+      "transfersOutSeason": 5233055
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34597,6 +55981,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2796,
+      "starts": 32,
+      "goals": 3,
+      "assists": 1,
+      "cleanSheets": 6,
+      "goalsConceded": 47,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 11,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 580,
+      "expectedGoals": 1.45,
+      "expectedAssists": 2.38,
+      "expectedGoalInvolvements": 3.83,
+      "expectedGoalsConceded": 42.54,
+      "influence": 562.4,
+      "creativity": 403.1,
+      "threat": 128,
+      "ictIndex": 109.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 7.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3298771,
+      "transfersOutSeason": 3307423
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34655,6 +56075,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3101,
+      "starts": 35,
+      "goals": 15,
+      "assists": 4,
+      "cleanSheets": 10,
+      "goalsConceded": 45,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 18,
+      "bps": 712,
+      "expectedGoals": 10.81,
+      "expectedAssists": 2.91,
+      "expectedGoalInvolvements": 13.72,
+      "expectedGoalsConceded": 49.7,
+      "influence": 843.8,
+      "creativity": 747.7,
+      "threat": 836,
+      "ictIndex": 242.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 9.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2632310,
+      "transfersOutSeason": 2094293
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34713,6 +56169,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3280,
+      "starts": 37,
+      "goals": 10,
+      "assists": 8,
+      "cleanSheets": 9,
+      "goalsConceded": 48,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 17,
+      "bps": 605,
+      "expectedGoals": 6.84,
+      "expectedAssists": 4.32,
+      "expectedGoalInvolvements": 11.16,
+      "expectedGoalsConceded": 51.55,
+      "influence": 746.2,
+      "creativity": 706.2,
+      "threat": 871,
+      "ictIndex": 232
+    },
+    "marketInterest": {
+      "selectedByPercent": 20.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6873325,
+      "transfersOutSeason": 5463430
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34771,6 +56263,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Muscle injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 2130,
+      "starts": 25,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 6,
+      "goalsConceded": 29,
+      "ownGoals": 2,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 333,
+      "expectedGoals": 0.73,
+      "expectedAssists": 0.47,
+      "expectedGoalInvolvements": 1.2,
+      "expectedGoalsConceded": 32.99,
+      "influence": 542.2,
+      "creativity": 115.5,
+      "threat": 82,
+      "ictIndex": 74
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 315788,
+      "transfersOutSeason": 868695
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34829,6 +56357,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Suspended - unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1257,
+      "transfersOutSeason": 1455
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34887,6 +56451,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 697,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 110,
+      "expectedGoals": 0.1,
+      "expectedAssists": 0.2,
+      "expectedGoalInvolvements": 0.3,
+      "expectedGoalsConceded": 9.01,
+      "influence": 73.2,
+      "creativity": 74.6,
+      "threat": 29,
+      "ictIndex": 17.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 216990,
+      "transfersOutSeason": 478401
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -34945,6 +56545,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Oxford United permanently."
+    },
+    "seasonStats": {
+      "minutes": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 2,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3881,
+      "transfersOutSeason": 6546
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35003,6 +56639,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined AJ Auxerre permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5497,
+      "transfersOutSeason": 7977
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35061,6 +56733,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 686,
+      "starts": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 151,
+      "expectedGoals": 0.72,
+      "expectedAssists": 0.53,
+      "expectedGoalInvolvements": 1.25,
+      "expectedGoalsConceded": 9.85,
+      "influence": 132.4,
+      "creativity": 111.7,
+      "threat": 78,
+      "ictIndex": 32.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 47785,
+      "transfersOutSeason": 89893
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35119,6 +56827,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2971,
+      "starts": 32,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 9,
+      "goalsConceded": 44,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 450,
+      "expectedGoals": 2.24,
+      "expectedAssists": 1.71,
+      "expectedGoalInvolvements": 3.95,
+      "expectedGoalsConceded": 47.52,
+      "influence": 848.6,
+      "creativity": 143.8,
+      "threat": 325,
+      "ictIndex": 131.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 746929,
+      "transfersOutSeason": 645720
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35177,6 +56921,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 289423,
+      "transfersOutSeason": 391342
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35235,6 +57015,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 238,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 67,
+      "expectedGoals": 0.03,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.07,
+      "expectedGoalsConceded": 3.67,
+      "influence": 65.6,
+      "creativity": 6.4,
+      "threat": 17,
+      "ictIndex": 8.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6247,
+      "transfersOutSeason": 7533
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35293,6 +57109,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 592,
+      "starts": 7,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 12,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 50,
+      "expectedGoals": 0.43,
+      "expectedAssists": 0.6,
+      "expectedGoalInvolvements": 1.03,
+      "expectedGoalsConceded": 10.44,
+      "influence": 105.2,
+      "creativity": 55,
+      "threat": 33,
+      "ictIndex": 19.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 94580,
+      "transfersOutSeason": 117540
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35351,6 +57203,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Marseille permanently."
+    },
+    "seasonStats": {
+      "minutes": 180,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": -1,
+      "expectedGoals": 0.1,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 0.13,
+      "expectedGoalsConceded": 3.42,
+      "influence": 39,
+      "creativity": 3.9,
+      "threat": 8,
+      "ictIndex": 5.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1288,
+      "transfersOutSeason": 12380
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35409,6 +57297,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Arka on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3530,
+      "transfersOutSeason": 20315
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35467,6 +57391,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3203,
+      "starts": 36,
+      "goals": 2,
+      "assists": 3,
+      "cleanSheets": 9,
+      "goalsConceded": 48,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 15,
+      "bps": 531,
+      "expectedGoals": 2.01,
+      "expectedAssists": 3.97,
+      "expectedGoalInvolvements": 5.98,
+      "expectedGoalsConceded": 51.36,
+      "influence": 804,
+      "creativity": 572.3,
+      "threat": 380,
+      "ictIndex": 175.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 693564,
+      "transfersOutSeason": 1285030
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35525,6 +57485,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Minnesota United permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2951,
+      "transfersOutSeason": 8714
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35583,6 +57579,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3357,
+      "transfersOutSeason": 2509
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35641,6 +57673,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Wycombe Wanderers on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1038,
+      "transfersOutSeason": 16354
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35699,6 +57767,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2416,
+      "starts": 27,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 7,
+      "goalsConceded": 38,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 89,
+      "bonus": 3,
+      "bps": 414,
+      "expectedGoals": 0.16,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0.16,
+      "expectedGoalsConceded": 32.89,
+      "influence": 671,
+      "creativity": 0,
+      "threat": 35,
+      "ictIndex": 70.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1569571,
+      "transfersOutSeason": 1614872
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35757,6 +57861,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1896,
+      "starts": 24,
+      "goals": 8,
+      "assists": 4,
+      "cleanSheets": 8,
+      "goalsConceded": 29,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 12,
+      "bps": 399,
+      "expectedGoals": 6.59,
+      "expectedAssists": 1.53,
+      "expectedGoalInvolvements": 8.12,
+      "expectedGoalsConceded": 25.67,
+      "influence": 447.2,
+      "creativity": 314.4,
+      "threat": 425,
+      "ictIndex": 117.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 6.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5489495,
+      "transfersOutSeason": 4844619
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35815,6 +57955,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined AC Milan on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 407,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 28,
+      "expectedGoals": 0.93,
+      "expectedAssists": 0.21,
+      "expectedGoalInvolvements": 1.14,
+      "expectedGoalsConceded": 8.59,
+      "influence": 26,
+      "creativity": 85.1,
+      "threat": 130,
+      "ictIndex": 23.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 47611,
+      "transfersOutSeason": 393446
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35873,6 +58049,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1561,
+      "starts": 17,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 7,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 337,
+      "expectedGoals": 0.68,
+      "expectedAssists": 1.12,
+      "expectedGoalInvolvements": 1.8,
+      "expectedGoalsConceded": 20.35,
+      "influence": 309.8,
+      "creativity": 234.1,
+      "threat": 72,
+      "ictIndex": 61.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 28919,
+      "transfersOutSeason": 32144
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35931,6 +58143,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2643,
+      "starts": 29,
+      "goals": 5,
+      "assists": 4,
+      "cleanSheets": 14,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 567,
+      "expectedGoals": 6.12,
+      "expectedAssists": 2.67,
+      "expectedGoalInvolvements": 8.79,
+      "expectedGoalsConceded": 34.97,
+      "influence": 653.8,
+      "creativity": 413.9,
+      "threat": 573,
+      "ictIndex": 164.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 19.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4540622,
+      "transfersOutSeason": 2118601
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -35989,6 +58237,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1168,
+      "starts": 17,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 229,
+      "expectedGoals": 1.47,
+      "expectedAssists": 0.77,
+      "expectedGoalInvolvements": 2.24,
+      "expectedGoalsConceded": 23.21,
+      "influence": 264.8,
+      "creativity": 193.5,
+      "threat": 138,
+      "ictIndex": 59.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5792,
+      "transfersOutSeason": 4707
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36047,6 +58331,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Bayern Munich on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4962,
+      "transfersOutSeason": 15425
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36105,6 +58425,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 1025,
+      "starts": 11,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 131,
+      "expectedGoals": 1.34,
+      "expectedAssists": 0.45,
+      "expectedGoalInvolvements": 1.79,
+      "expectedGoalsConceded": 15.04,
+      "influence": 216.6,
+      "creativity": 123.2,
+      "threat": 94,
+      "ictIndex": 43.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 46825,
+      "transfersOutSeason": 45028
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36163,6 +58519,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3375,
+      "starts": 37,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 51,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 401,
+      "expectedGoals": 0.83,
+      "expectedAssists": 0.68,
+      "expectedGoalInvolvements": 1.51,
+      "expectedGoalsConceded": 54.98,
+      "influence": 680.4,
+      "creativity": 66.9,
+      "threat": 120,
+      "ictIndex": 86.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 419271,
+      "transfersOutSeason": 1109562
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36221,6 +58613,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 401,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 6,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 43,
+      "expectedGoals": 0.77,
+      "expectedAssists": 0.12,
+      "expectedGoalInvolvements": 0.89,
+      "expectedGoalsConceded": 7.26,
+      "influence": 45.4,
+      "creativity": 44.3,
+      "threat": 89,
+      "ictIndex": 17.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1192,
+      "transfersOutSeason": 942
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36279,6 +58707,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Calf injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1553,
+      "starts": 19,
+      "goals": 8,
+      "assists": 3,
+      "cleanSheets": 6,
+      "goalsConceded": 26,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 354,
+      "expectedGoals": 5.25,
+      "expectedAssists": 1.32,
+      "expectedGoalInvolvements": 6.57,
+      "expectedGoalsConceded": 24.54,
+      "influence": 438.8,
+      "creativity": 275,
+      "threat": 435,
+      "ictIndex": 115
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 573381,
+      "transfersOutSeason": 462800
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36337,6 +58801,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2891,
+      "starts": 33,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 9,
+      "goalsConceded": 42,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 410,
+      "expectedGoals": 1.43,
+      "expectedAssists": 1.46,
+      "expectedGoalInvolvements": 2.89,
+      "expectedGoalsConceded": 41.39,
+      "influence": 347.6,
+      "creativity": 333.3,
+      "threat": 162,
+      "ictIndex": 84.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13752,
+      "transfersOutSeason": 14212
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36395,6 +58895,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1205,
+      "starts": 16,
+      "goals": 3,
+      "assists": 1,
+      "cleanSheets": 8,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 254,
+      "expectedGoals": 1.23,
+      "expectedAssists": 2.86,
+      "expectedGoalInvolvements": 4.09,
+      "expectedGoalsConceded": 12.77,
+      "influence": 257.4,
+      "creativity": 352.8,
+      "threat": 404,
+      "ictIndex": 101.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 391478,
+      "transfersOutSeason": 439154
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36453,6 +58989,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1551,
+      "starts": 17,
+      "goals": 9,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 15,
+      "bps": 343,
+      "expectedGoals": 8.9,
+      "expectedAssists": 0.23,
+      "expectedGoalInvolvements": 9.13,
+      "expectedGoalsConceded": 24.16,
+      "influence": 445.8,
+      "creativity": 159.8,
+      "threat": 655,
+      "ictIndex": 124.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 731149,
+      "transfersOutSeason": 1274318
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36511,6 +59083,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Botafogo permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 16686
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36569,6 +59177,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2784,
+      "starts": 32,
+      "goals": 3,
+      "assists": 5,
+      "cleanSheets": 9,
+      "goalsConceded": 40,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 489,
+      "expectedGoals": 1.62,
+      "expectedAssists": 2.65,
+      "expectedGoalInvolvements": 4.27,
+      "expectedGoalsConceded": 44.71,
+      "influence": 733.6,
+      "creativity": 353.1,
+      "threat": 242,
+      "ictIndex": 132.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2943090,
+      "transfersOutSeason": 1921353
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36627,6 +59271,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 977,
+      "starts": 11,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 5,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 233,
+      "expectedGoals": 0.19,
+      "expectedAssists": 0.35,
+      "expectedGoalInvolvements": 0.53,
+      "expectedGoalsConceded": 12.99,
+      "influence": 209,
+      "creativity": 122.4,
+      "threat": 37,
+      "ictIndex": 36.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 47395,
+      "transfersOutSeason": 61652
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36685,6 +59365,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined RC Lens permanently."
+    },
+    "seasonStats": {
+      "minutes": 2,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 6,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.27,
+      "influence": 2,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9044,
+      "transfersOutSeason": 89746
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36743,6 +59459,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Sevilla on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2530
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36801,6 +59553,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 75,
+      "news": "Lack of match fitness - 75% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 1587,
+      "starts": 18,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 264,
+      "expectedGoals": 0.41,
+      "expectedAssists": 0.84,
+      "expectedGoalInvolvements": 1.25,
+      "expectedGoalsConceded": 25.31,
+      "influence": 285.2,
+      "creativity": 160.3,
+      "threat": 58,
+      "ictIndex": 50.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 352773,
+      "transfersOutSeason": 1678500
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36859,6 +59647,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Ajax permanently."
+    },
+    "seasonStats": {
+      "minutes": 352,
+      "starts": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 6,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 56,
+      "expectedGoals": 0.07,
+      "expectedAssists": 0.36,
+      "expectedGoalInvolvements": 0.43,
+      "expectedGoalsConceded": 5.02,
+      "influence": 80.8,
+      "creativity": 83.4,
+      "threat": 22,
+      "ictIndex": 18.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 26902,
+      "transfersOutSeason": 54106
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36917,6 +59741,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 985,
+      "transfersOutSeason": 781
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -36975,6 +59835,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sparta Prague on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 164,
+      "starts": 1,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 20,
+      "expectedGoals": 0.55,
+      "expectedAssists": 0.08,
+      "expectedGoalInvolvements": 0.63,
+      "expectedGoalsConceded": 3.79,
+      "influence": 44.8,
+      "creativity": 18.1,
+      "threat": 30,
+      "ictIndex": 9.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 34622,
+      "transfersOutSeason": 37617
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37033,6 +59929,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 799,
+      "starts": 9,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 171,
+      "expectedGoals": 0.05,
+      "expectedAssists": 0.47,
+      "expectedGoalInvolvements": 0.52,
+      "expectedGoalsConceded": 10.87,
+      "influence": 215.6,
+      "creativity": 82.2,
+      "threat": 12,
+      "ictIndex": 31.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 23481,
+      "transfersOutSeason": 22691
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37091,6 +60023,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 656,
+      "starts": 9,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 16,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 88,
+      "expectedGoals": 0.18,
+      "expectedAssists": 0.32,
+      "expectedGoalInvolvements": 0.5,
+      "expectedGoalsConceded": 13.38,
+      "influence": 142.2,
+      "creativity": 82.1,
+      "threat": 22,
+      "ictIndex": 24.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5219,
+      "transfersOutSeason": 7385
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37149,6 +60117,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 546,
+      "transfersOutSeason": 291
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37207,6 +60211,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2833,
+      "starts": 33,
+      "goals": 16,
+      "assists": 4,
+      "cleanSheets": 9,
+      "goalsConceded": 38,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 26,
+      "bps": 623,
+      "expectedGoals": 15.4,
+      "expectedAssists": 1.18,
+      "expectedGoalInvolvements": 16.58,
+      "expectedGoalsConceded": 43.39,
+      "influence": 720.2,
+      "creativity": 330.9,
+      "threat": 1206,
+      "ictIndex": 225.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 13,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3761213,
+      "transfersOutSeason": 5154207
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37265,6 +60305,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Cercle Brugge on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2773
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37323,6 +60399,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 50,
+      "chanceNextRound": 50,
+      "news": "Knock - 50% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 2797,
+      "starts": 32,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 10,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 400,
+      "expectedGoals": 1.62,
+      "expectedAssists": 0.91,
+      "expectedGoalInvolvements": 2.52,
+      "expectedGoalsConceded": 44.52,
+      "influence": 749,
+      "creativity": 138.1,
+      "threat": 279,
+      "ictIndex": 117
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1741826,
+      "transfersOutSeason": 1278931
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37381,6 +60493,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 691,
+      "starts": 8,
+      "goals": 3,
+      "assists": 3,
+      "cleanSheets": 4,
+      "goalsConceded": 5,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 182,
+      "expectedGoals": 2.78,
+      "expectedAssists": 0.77,
+      "expectedGoalInvolvements": 3.55,
+      "expectedGoalsConceded": 7.92,
+      "influence": 203.2,
+      "creativity": 159.8,
+      "threat": 284,
+      "ictIndex": 64.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 350835,
+      "transfersOutSeason": 1310361
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37439,6 +60587,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Rio Ave on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 345,
+      "transfersOutSeason": 4148
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37497,6 +60681,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1676,
+      "starts": 17,
+      "goals": 1,
+      "assists": 7,
+      "cleanSheets": 6,
+      "goalsConceded": 24,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 329,
+      "expectedGoals": 2.01,
+      "expectedAssists": 3.87,
+      "expectedGoalInvolvements": 5.88,
+      "expectedGoalsConceded": 24.42,
+      "influence": 333.6,
+      "creativity": 527.1,
+      "threat": 356,
+      "ictIndex": 121.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 35116,
+      "transfersOutSeason": 30653
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37555,6 +60775,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1030,
+      "starts": 11,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 182,
+      "expectedGoals": 1.47,
+      "expectedAssists": 2.1,
+      "expectedGoalInvolvements": 3.57,
+      "expectedGoalsConceded": 12.71,
+      "influence": 140.4,
+      "creativity": 315.4,
+      "threat": 205,
+      "ictIndex": 66.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 93356,
+      "transfersOutSeason": 103428
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37613,6 +60869,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16969,
+      "transfersOutSeason": 21996
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37671,6 +60963,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Stockport County on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2401
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37729,6 +61057,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 819,
+      "starts": 10,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 12,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 102,
+      "expectedGoals": 1.05,
+      "expectedAssists": 1.11,
+      "expectedGoalInvolvements": 2.16,
+      "expectedGoalsConceded": 12.82,
+      "influence": 111.8,
+      "creativity": 191.5,
+      "threat": 108,
+      "ictIndex": 41.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7342,
+      "transfersOutSeason": 5527
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37787,6 +61151,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1388,
+      "starts": 13,
+      "goals": 2,
+      "assists": 4,
+      "cleanSheets": 3,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 313,
+      "expectedGoals": 1.63,
+      "expectedAssists": 1.11,
+      "expectedGoalInvolvements": 2.74,
+      "expectedGoalsConceded": 26.67,
+      "influence": 336,
+      "creativity": 188.3,
+      "threat": 156,
+      "ictIndex": 68.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 418435,
+      "transfersOutSeason": 620573
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37845,6 +61245,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Norwich City permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4038,
+      "transfersOutSeason": 5660
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37903,6 +61339,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1636,
+      "starts": 18,
+      "goals": 1,
+      "assists": 6,
+      "cleanSheets": 6,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 389,
+      "expectedGoals": 1.39,
+      "expectedAssists": 3.95,
+      "expectedGoalInvolvements": 5.34,
+      "expectedGoalsConceded": 20.36,
+      "influence": 397.2,
+      "creativity": 668.2,
+      "threat": 220,
+      "ictIndex": 128.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 564723,
+      "transfersOutSeason": 180960
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -37961,6 +61433,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2935,
+      "starts": 33,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 7,
+      "goalsConceded": 48,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 412,
+      "expectedGoals": 3.06,
+      "expectedAssists": 0.76,
+      "expectedGoalInvolvements": 3.82,
+      "expectedGoalsConceded": 42.92,
+      "influence": 697.4,
+      "creativity": 161.5,
+      "threat": 272,
+      "ictIndex": 113.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 573988,
+      "transfersOutSeason": 378934
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38019,6 +61527,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has departed the club as a free agent."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16144,
+      "transfersOutSeason": 203440
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38077,6 +61621,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1440,
+      "starts": 15,
+      "goals": 4,
+      "assists": 4,
+      "cleanSheets": 4,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 321,
+      "expectedGoals": 2.39,
+      "expectedAssists": 1.84,
+      "expectedGoalInvolvements": 4.23,
+      "expectedGoalsConceded": 19.61,
+      "influence": 469,
+      "creativity": 394.2,
+      "threat": 341,
+      "ictIndex": 120.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1795401,
+      "transfersOutSeason": 2249436
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38135,6 +61715,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Birmingham City permanently."
+    },
+    "seasonStats": {
+      "minutes": 27,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 4,
+      "expectedGoals": 0.03,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.05,
+      "expectedGoalsConceded": 0.66,
+      "influence": 1.8,
+      "creativity": 7.3,
+      "threat": 5,
+      "ictIndex": 1.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 462,
+      "transfersOutSeason": 4093
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38193,6 +61809,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1673,
+      "starts": 18,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 5,
+      "goalsConceded": 19,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 280,
+      "expectedGoals": 1.33,
+      "expectedAssists": 0.39,
+      "expectedGoalInvolvements": 1.72,
+      "expectedGoalsConceded": 22.81,
+      "influence": 321.8,
+      "creativity": 47.1,
+      "threat": 79,
+      "ictIndex": 45.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 75312,
+      "transfersOutSeason": 101789
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38251,6 +61903,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 257,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 6,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 18,
+      "expectedGoals": 0.35,
+      "expectedAssists": 0.37,
+      "expectedGoalInvolvements": 0.72,
+      "expectedGoalsConceded": 4.54,
+      "influence": 36.4,
+      "creativity": 48.5,
+      "threat": 39,
+      "ictIndex": 12.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11992,
+      "transfersOutSeason": 91788
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38309,6 +61997,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2629,
+      "starts": 30,
+      "goals": 5,
+      "assists": 7,
+      "cleanSheets": 11,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 543,
+      "expectedGoals": 4.59,
+      "expectedAssists": 6.84,
+      "expectedGoalInvolvements": 11.43,
+      "expectedGoalsConceded": 37.54,
+      "influence": 523,
+      "creativity": 836.2,
+      "threat": 505,
+      "ictIndex": 186.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2038164,
+      "transfersOutSeason": 2117351
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38367,6 +62091,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2793,
+      "starts": 32,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 9,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 10,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 502,
+      "expectedGoals": 1.05,
+      "expectedAssists": 4.37,
+      "expectedGoalInvolvements": 5.42,
+      "expectedGoalsConceded": 37.75,
+      "influence": 690.2,
+      "creativity": 881.7,
+      "threat": 202,
+      "ictIndex": 177.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 11.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1941721,
+      "transfersOutSeason": 3159803
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38425,6 +62185,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined AC Milan permanently"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 1991
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38483,6 +62279,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2078,
+      "starts": 23,
+      "goals": 7,
+      "assists": 5,
+      "cleanSheets": 11,
+      "goalsConceded": 19,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 13,
+      "bps": 563,
+      "expectedGoals": 6.03,
+      "expectedAssists": 4.76,
+      "expectedGoalInvolvements": 10.79,
+      "expectedGoalsConceded": 27.38,
+      "influence": 583.2,
+      "creativity": 918.8,
+      "threat": 520,
+      "ictIndex": 201.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 7.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6220998,
+      "transfersOutSeason": 5631206
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38541,6 +62373,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Midtjylland permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 598,
+      "transfersOutSeason": 6650
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38599,6 +62467,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1787,
+      "starts": 20,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 5,
+      "goalsConceded": 19,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 335,
+      "expectedGoals": 0.36,
+      "expectedAssists": 1.67,
+      "expectedGoalInvolvements": 2.03,
+      "expectedGoalsConceded": 17.53,
+      "influence": 453.6,
+      "creativity": 184.7,
+      "threat": 72,
+      "ictIndex": 70.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 625158,
+      "transfersOutSeason": 522735
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38657,6 +62561,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined AS Saint-Etienne permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 1815
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38715,6 +62655,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1825,
+      "starts": 21,
+      "goals": 0,
+      "assists": 6,
+      "cleanSheets": 3,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 228,
+      "expectedGoals": 0.32,
+      "expectedAssists": 1.98,
+      "expectedGoalInvolvements": 2.3,
+      "expectedGoalsConceded": 42.91,
+      "influence": 422.2,
+      "creativity": 288.8,
+      "threat": 83,
+      "ictIndex": 79.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 192912,
+      "transfersOutSeason": 194950
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38773,6 +62749,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 515,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 34,
+      "expectedGoals": 0.31,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.32,
+      "expectedGoalsConceded": 12.26,
+      "influence": 130.6,
+      "creativity": 3.2,
+      "threat": 27,
+      "ictIndex": 16.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4541,
+      "transfersOutSeason": 3632
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38831,6 +62843,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1655,
+      "starts": 21,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 4,
+      "goalsConceded": 31,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 150,
+      "expectedGoals": 2.07,
+      "expectedAssists": 1.63,
+      "expectedGoalInvolvements": 3.7,
+      "expectedGoalsConceded": 25.24,
+      "influence": 169.6,
+      "creativity": 267.3,
+      "threat": 287,
+      "ictIndex": 71
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 152124,
+      "transfersOutSeason": 134072
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38889,6 +62937,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Napoli on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5437,
+      "transfersOutSeason": 56872
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -38947,6 +63031,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2183,
+      "starts": 27,
+      "goals": 9,
+      "assists": 5,
+      "cleanSheets": 9,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 410,
+      "expectedGoals": 11.58,
+      "expectedAssists": 0.9,
+      "expectedGoalInvolvements": 12.48,
+      "expectedGoalsConceded": 34.95,
+      "influence": 479.4,
+      "creativity": 331.5,
+      "threat": 729,
+      "ictIndex": 153.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 895899,
+      "transfersOutSeason": 942139
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39005,6 +63125,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 971,
+      "starts": 12,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 5,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 237,
+      "expectedGoals": 0.53,
+      "expectedAssists": 2.01,
+      "expectedGoalInvolvements": 2.54,
+      "expectedGoalsConceded": 12.25,
+      "influence": 195.6,
+      "creativity": 216.4,
+      "threat": 90,
+      "ictIndex": 50.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 4.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 664479,
+      "transfersOutSeason": 2494969
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39063,6 +63219,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1772,
+      "starts": 19,
+      "goals": 4,
+      "assists": 13,
+      "cleanSheets": 8,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 16,
+      "bps": 580,
+      "expectedGoals": 4.28,
+      "expectedAssists": 8.87,
+      "expectedGoalInvolvements": 13.14,
+      "expectedGoalsConceded": 25.23,
+      "influence": 604.2,
+      "creativity": 996.6,
+      "threat": 579,
+      "ictIndex": 218.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 17.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4695485,
+      "transfersOutSeason": 3470637
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39121,6 +63313,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1110,
+      "starts": 13,
+      "goals": 5,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 238,
+      "expectedGoals": 2.67,
+      "expectedAssists": 1.84,
+      "expectedGoalInvolvements": 4.51,
+      "expectedGoalsConceded": 19.14,
+      "influence": 277.6,
+      "creativity": 211.9,
+      "threat": 263,
+      "ictIndex": 75.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 594702,
+      "transfersOutSeason": 301140
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39179,6 +63407,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1957,
+      "starts": 20,
+      "goals": 2,
+      "assists": 6,
+      "cleanSheets": 8,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 493,
+      "expectedGoals": 1.04,
+      "expectedAssists": 3.2,
+      "expectedGoalInvolvements": 4.24,
+      "expectedGoalsConceded": 28.75,
+      "influence": 459,
+      "creativity": 483.7,
+      "threat": 116,
+      "ictIndex": 106.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2212085,
+      "transfersOutSeason": 2272671
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39237,6 +63501,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8882,
+      "transfersOutSeason": 16325
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39295,6 +63595,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 349,
+      "transfersOutSeason": 279
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39353,6 +63689,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1966,
+      "starts": 23,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 6,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 281,
+      "expectedGoals": 0.13,
+      "expectedAssists": 0.62,
+      "expectedGoalInvolvements": 0.75,
+      "expectedGoalsConceded": 26.72,
+      "influence": 376.4,
+      "creativity": 130.2,
+      "threat": 39,
+      "ictIndex": 54.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 677194,
+      "transfersOutSeason": 1104738
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39411,6 +63783,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 118,
+      "starts": 0,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 39,
+      "expectedGoals": 0.71,
+      "expectedAssists": 0.11,
+      "expectedGoalInvolvements": 0.82,
+      "expectedGoalsConceded": 3.02,
+      "influence": 42.6,
+      "creativity": 32.6,
+      "threat": 29,
+      "ictIndex": 10
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11237,
+      "transfersOutSeason": 18925
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39469,6 +63877,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6758,
+      "transfersOutSeason": 9670
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39527,6 +63971,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 28243,
+      "transfersOutSeason": 23995
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39585,6 +64065,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 165,
+      "transfersOutSeason": 49
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39643,6 +64159,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 104331,
+      "transfersOutSeason": 71655
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39701,6 +64253,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1697,
+      "starts": 22,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 13,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 389,
+      "expectedGoals": 3.36,
+      "expectedAssists": 0.76,
+      "expectedGoalInvolvements": 4.12,
+      "expectedGoalsConceded": 9.72,
+      "influence": 283,
+      "creativity": 182.3,
+      "threat": 313,
+      "ictIndex": 77.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2701773,
+      "transfersOutSeason": 2532675
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39759,6 +64347,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1954,
+      "starts": 20,
+      "goals": 11,
+      "assists": 4,
+      "cleanSheets": 7,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 17,
+      "bps": 505,
+      "expectedGoals": 8.64,
+      "expectedAssists": 1.46,
+      "expectedGoalInvolvements": 10.1,
+      "expectedGoalsConceded": 25.64,
+      "influence": 602.6,
+      "creativity": 239.6,
+      "threat": 815,
+      "ictIndex": 165.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3496546,
+      "transfersOutSeason": 3143422
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39817,6 +64441,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1322,
+      "starts": 14,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 22,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 144,
+      "expectedGoals": 0.18,
+      "expectedAssists": 0.54,
+      "expectedGoalInvolvements": 0.72,
+      "expectedGoalsConceded": 23.91,
+      "influence": 151.6,
+      "creativity": 82,
+      "threat": 35,
+      "ictIndex": 26.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 26003,
+      "transfersOutSeason": 33298
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39875,6 +64535,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 401,
+      "starts": 4,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 72,
+      "expectedGoals": 0.19,
+      "expectedAssists": 1.39,
+      "expectedGoalInvolvements": 1.58,
+      "expectedGoalsConceded": 6.81,
+      "influence": 70.8,
+      "creativity": 112.5,
+      "threat": 55,
+      "ictIndex": 23.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 372593,
+      "transfersOutSeason": 468786
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39933,6 +64629,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 249,
+      "transfersOutSeason": 96
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -39991,6 +64723,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 90,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 21,
+      "expectedGoals": 0.02,
+      "expectedAssists": 0.16,
+      "expectedGoalInvolvements": 0.18,
+      "expectedGoalsConceded": 2.53,
+      "influence": 15.2,
+      "creativity": 30,
+      "threat": 4,
+      "ictIndex": 4.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 58563,
+      "transfersOutSeason": 56486
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40049,6 +64817,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 600,
+      "transfersOutSeason": 334
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40107,6 +64911,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 547,
+      "starts": 5,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 12,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 188,
+      "expectedGoals": 1.34,
+      "expectedAssists": 2.01,
+      "expectedGoalInvolvements": 3.35,
+      "expectedGoalsConceded": 8.92,
+      "influence": 176,
+      "creativity": 222.8,
+      "threat": 203,
+      "ictIndex": 60.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 389465,
+      "transfersOutSeason": 234010
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40165,6 +65005,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Colorado Rapids permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 3952
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40223,6 +65099,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3040,
+      "starts": 35,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 49,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 98,
+      "bonus": 7,
+      "bps": 509,
+      "expectedGoals": 0,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.04,
+      "expectedGoalsConceded": 48.64,
+      "influence": 822.2,
+      "creativity": 50,
+      "threat": 0,
+      "ictIndex": 86.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 10.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1777466,
+      "transfersOutSeason": 3376474
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40281,6 +65193,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3150,
+      "starts": 35,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 10,
+      "goalsConceded": 46,
+      "ownGoals": 0,
+      "penaltiesSaved": 1,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 109,
+      "bonus": 12,
+      "bps": 573,
+      "expectedGoals": 0,
+      "expectedAssists": 0.1,
+      "expectedGoalInvolvements": 0.1,
+      "expectedGoalsConceded": 50.05,
+      "influence": 881.6,
+      "creativity": 50,
+      "threat": 0,
+      "ictIndex": 93.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2399656,
+      "transfersOutSeason": 1576736
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40339,6 +65287,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1510,
+      "starts": 17,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 350,
+      "expectedGoals": 1.15,
+      "expectedAssists": 2.45,
+      "expectedGoalInvolvements": 3.6,
+      "expectedGoalsConceded": 20.74,
+      "influence": 358,
+      "creativity": 421.5,
+      "threat": 122,
+      "ictIndex": 90.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 72824,
+      "transfersOutSeason": 115049
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40397,6 +65381,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1880,
+      "starts": 23,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 8,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 366,
+      "expectedGoals": 0.72,
+      "expectedAssists": 0.84,
+      "expectedGoalInvolvements": 1.56,
+      "expectedGoalsConceded": 23.65,
+      "influence": 349,
+      "creativity": 197.8,
+      "threat": 124,
+      "ictIndex": 67.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 61528,
+      "transfersOutSeason": 68767
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40455,6 +65475,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 954,
+      "starts": 9,
+      "goals": 3,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 100,
+      "expectedGoals": 2.13,
+      "expectedAssists": 0.39,
+      "expectedGoalInvolvements": 2.52,
+      "expectedGoalsConceded": 14.08,
+      "influence": 185.6,
+      "creativity": 75.5,
+      "threat": 221,
+      "ictIndex": 48.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16308,
+      "transfersOutSeason": 18939
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40513,6 +65569,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 987,
+      "starts": 10,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 13,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 94,
+      "expectedGoals": 3.3,
+      "expectedAssists": 0.15,
+      "expectedGoalInvolvements": 3.45,
+      "expectedGoalsConceded": 13.83,
+      "influence": 113.2,
+      "creativity": 93.2,
+      "threat": 287,
+      "ictIndex": 47.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 274886,
+      "transfersOutSeason": 446903
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40571,6 +65663,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Coventry City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 40,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 12,
+      "expectedGoals": 0,
+      "expectedAssists": 0.04,
+      "expectedGoalInvolvements": 0.04,
+      "expectedGoalsConceded": 1.74,
+      "influence": 6.8,
+      "creativity": 2.7,
+      "threat": 6,
+      "ictIndex": 1.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11622,
+      "transfersOutSeason": 29087
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40629,6 +65757,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Auxerre permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4403,
+      "transfersOutSeason": 19887
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40687,6 +65851,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 399,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 42,
+      "expectedGoals": 0.87,
+      "expectedAssists": 0.48,
+      "expectedGoalInvolvements": 1.35,
+      "expectedGoalsConceded": 8.54,
+      "influence": 29.4,
+      "creativity": 33.6,
+      "threat": 69,
+      "ictIndex": 12.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1207,
+      "transfersOutSeason": 1749
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40745,6 +65945,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Stockport County on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9298,
+      "transfersOutSeason": 22747
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40803,6 +66039,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 38,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 19,
+      "expectedGoals": 0.09,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.1,
+      "expectedGoalsConceded": 0.39,
+      "influence": 8.4,
+      "creativity": 11.5,
+      "threat": 21,
+      "ictIndex": 4.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 17789,
+      "transfersOutSeason": 20856
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40861,6 +66133,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 75,
+      "news": "Knock - 75% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 374,
+      "starts": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 81,
+      "expectedGoals": 0.21,
+      "expectedAssists": 0.55,
+      "expectedGoalInvolvements": 0.76,
+      "expectedGoalsConceded": 8.53,
+      "influence": 34.4,
+      "creativity": 46.6,
+      "threat": 14,
+      "ictIndex": 9.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3419,
+      "transfersOutSeason": 5099
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40919,6 +66227,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1543,
+      "transfersOutSeason": 1132
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -40977,6 +66321,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 844,
+      "starts": 7,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 1,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 221,
+      "expectedGoals": 1.58,
+      "expectedAssists": 1.26,
+      "expectedGoalInvolvements": 2.84,
+      "expectedGoalsConceded": 13.2,
+      "influence": 227.8,
+      "creativity": 162.3,
+      "threat": 191,
+      "ictIndex": 58.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 17174,
+      "transfersOutSeason": 18618
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41035,6 +66415,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2139,
+      "starts": 24,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 12,
+      "goalsConceded": 22,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 453,
+      "expectedGoals": 0.57,
+      "expectedAssists": 0.65,
+      "expectedGoalInvolvements": 1.22,
+      "expectedGoalsConceded": 26.07,
+      "influence": 560.8,
+      "creativity": 152.2,
+      "threat": 96,
+      "ictIndex": 81
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 956468,
+      "transfersOutSeason": 1105716
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41093,6 +66509,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Suspended until 29 Aug"
+    },
+    "seasonStats": {
+      "minutes": 978,
+      "starts": 9,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 214,
+      "expectedGoals": 1.81,
+      "expectedAssists": 0.79,
+      "expectedGoalInvolvements": 2.6,
+      "expectedGoalsConceded": 19.14,
+      "influence": 226.6,
+      "creativity": 197,
+      "threat": 220,
+      "ictIndex": 64.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 32522,
+      "transfersOutSeason": 33634
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41151,6 +66603,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2991,
+      "starts": 34,
+      "goals": 5,
+      "assists": 5,
+      "cleanSheets": 9,
+      "goalsConceded": 42,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 17,
+      "bps": 671,
+      "expectedGoals": 1.89,
+      "expectedAssists": 2.26,
+      "expectedGoalInvolvements": 4.15,
+      "expectedGoalsConceded": 38.41,
+      "influence": 687,
+      "creativity": 497.2,
+      "threat": 220,
+      "ictIndex": 140.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2106193,
+      "transfersOutSeason": 1769549
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41209,6 +66697,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 40,
+      "transfersOutSeason": 7
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41267,6 +66791,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1704,
+      "transfersOutSeason": 1467
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41325,6 +66885,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1816,
+      "starts": 20,
+      "goals": 3,
+      "assists": 3,
+      "cleanSheets": 6,
+      "goalsConceded": 29,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 332,
+      "expectedGoals": 1.6,
+      "expectedAssists": 1.8,
+      "expectedGoalInvolvements": 3.4,
+      "expectedGoalsConceded": 26.33,
+      "influence": 413.8,
+      "creativity": 225,
+      "threat": 229,
+      "ictIndex": 86.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 148420,
+      "transfersOutSeason": 143996
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41383,6 +66979,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Wigan on loan for the rest of the season"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 955
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41441,6 +67073,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 602,
+      "starts": 2,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 0,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 123,
+      "expectedGoals": 0.49,
+      "expectedAssists": 0.37,
+      "expectedGoalInvolvements": 0.86,
+      "expectedGoalsConceded": 8.56,
+      "influence": 139,
+      "creativity": 79.7,
+      "threat": 55,
+      "ictIndex": 27.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 11094,
+      "transfersOutSeason": 19969
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41499,6 +67167,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6185,
+      "transfersOutSeason": 3286
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41557,6 +67261,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 829,
+      "transfersOutSeason": 531
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41615,6 +67355,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 8,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 1,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 1.01,
+      "influence": 5.4,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 64643,
+      "transfersOutSeason": 46209
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41673,6 +67449,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3015,
+      "transfersOutSeason": 1808
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41731,6 +67543,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Pogon Szczecin permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1234,
+      "transfersOutSeason": 10158
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41789,6 +67637,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Shoulder injury - Expected back 25 May"
+    },
+    "seasonStats": {
+      "minutes": 1080,
+      "starts": 12,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 24,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 39,
+      "bonus": 0,
+      "bps": 117,
+      "expectedGoals": 0,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.02,
+      "expectedGoalsConceded": 18.59,
+      "influence": 308,
+      "creativity": 0.1,
+      "threat": 0,
+      "ictIndex": 30.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 21265,
+      "transfersOutSeason": 27220
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41847,6 +67731,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 95367,
+      "transfersOutSeason": 52276
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41905,6 +67825,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 10552,
+      "transfersOutSeason": 18712
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -41963,6 +67919,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1067,
+      "starts": 10,
+      "goals": 3,
+      "assists": 4,
+      "cleanSheets": 2,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 242,
+      "expectedGoals": 2.1,
+      "expectedAssists": 3.36,
+      "expectedGoalInvolvements": 5.46,
+      "expectedGoalsConceded": 18.76,
+      "influence": 274,
+      "creativity": 346.7,
+      "threat": 243,
+      "ictIndex": 85.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 103284,
+      "transfersOutSeason": 97303
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42021,6 +68013,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Pisa on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1383,
+      "transfersOutSeason": 3814
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42079,6 +68107,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2904,
+      "starts": 34,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 45,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 503,
+      "expectedGoals": 1.54,
+      "expectedAssists": 1.5,
+      "expectedGoalInvolvements": 3.04,
+      "expectedGoalsConceded": 43.09,
+      "influence": 437.8,
+      "creativity": 365.1,
+      "threat": 105,
+      "ictIndex": 91
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 14400,
+      "transfersOutSeason": 15756
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42137,6 +68201,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "doubtful",
+    "availabilityDetail": {
+      "chanceThisRound": 75,
+      "chanceNextRound": 75,
+      "news": "Hamstring injury - 75% chance of playing"
+    },
+    "seasonStats": {
+      "minutes": 2534,
+      "starts": 31,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 7,
+      "goalsConceded": 38,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 477,
+      "expectedGoals": 1.75,
+      "expectedAssists": 2.87,
+      "expectedGoalInvolvements": 4.62,
+      "expectedGoalsConceded": 36.19,
+      "influence": 398,
+      "creativity": 534.1,
+      "threat": 198,
+      "ictIndex": 113.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 230144,
+      "transfersOutSeason": 342254
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42195,6 +68295,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2552,
+      "starts": 28,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 47,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 310,
+      "expectedGoals": 2.28,
+      "expectedAssists": 1.45,
+      "expectedGoalInvolvements": 3.73,
+      "expectedGoalsConceded": 43.72,
+      "influence": 611.2,
+      "creativity": 131.8,
+      "threat": 259,
+      "ictIndex": 100
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 51349,
+      "transfersOutSeason": 37995
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42253,6 +68389,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined LASK on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 14,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 1,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 0.1,
+      "influence": 1,
+      "creativity": 4.3,
+      "threat": 2,
+      "ictIndex": 0.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1691,
+      "transfersOutSeason": 10197
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42311,6 +68483,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1730,
+      "starts": 20,
+      "goals": 1,
+      "assists": 4,
+      "cleanSheets": 6,
+      "goalsConceded": 22,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 314,
+      "expectedGoals": 2.23,
+      "expectedAssists": 1.91,
+      "expectedGoalInvolvements": 4.14,
+      "expectedGoalsConceded": 27.64,
+      "influence": 317.6,
+      "creativity": 441.6,
+      "threat": 176,
+      "ictIndex": 93.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16870,
+      "transfersOutSeason": 20046
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42369,6 +68577,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 817,
+      "starts": 7,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 7,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 140,
+      "expectedGoals": 2.5,
+      "expectedAssists": 1.59,
+      "expectedGoalInvolvements": 4.09,
+      "expectedGoalsConceded": 11.24,
+      "influence": 138.6,
+      "creativity": 198.4,
+      "threat": 321,
+      "ictIndex": 65.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 37364,
+      "transfersOutSeason": 116057
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42427,6 +68671,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 19,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 13,
+      "expectedGoals": 0,
+      "expectedAssists": 0.17,
+      "expectedGoalInvolvements": 0.17,
+      "expectedGoalsConceded": 0.43,
+      "influence": 7,
+      "creativity": 19.3,
+      "threat": 0,
+      "ictIndex": 2.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 7576,
+      "transfersOutSeason": 18518
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42485,6 +68765,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1003,
+      "starts": 10,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 1,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 273,
+      "expectedGoals": 1.23,
+      "expectedAssists": 1.87,
+      "expectedGoalInvolvements": 3.1,
+      "expectedGoalsConceded": 15.88,
+      "influence": 291.8,
+      "creativity": 403.7,
+      "threat": 116,
+      "ictIndex": 81.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 179724,
+      "transfersOutSeason": 184050
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42543,6 +68859,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 13,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 2,
+      "expectedGoals": 0.03,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0.03,
+      "expectedGoalsConceded": 0.37,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 5,
+      "ictIndex": 0.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27694,
+      "transfersOutSeason": 38624
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42601,6 +68953,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 429,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 5,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 73,
+      "expectedGoals": 0.2,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.21,
+      "expectedGoalsConceded": 8.71,
+      "influence": 98.6,
+      "creativity": 6.3,
+      "threat": 19,
+      "ictIndex": 12.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 24820,
+      "transfersOutSeason": 21277
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42659,6 +69047,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Lausanne-Sport on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9069,
+      "transfersOutSeason": 13812
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42717,6 +69141,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2880,
+      "starts": 32,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 8,
+      "goalsConceded": 39,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 79,
+      "bonus": 11,
+      "bps": 413,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 39.25,
+      "influence": 635.6,
+      "creativity": 0,
+      "threat": 2,
+      "ictIndex": 63.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 3.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 758836,
+      "transfersOutSeason": 397527
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42775,6 +69235,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2761,
+      "starts": 30,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 41,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 435,
+      "expectedGoals": 3.36,
+      "expectedAssists": 1.45,
+      "expectedGoalInvolvements": 4.81,
+      "expectedGoalsConceded": 41.59,
+      "influence": 659,
+      "creativity": 98,
+      "threat": 305,
+      "ictIndex": 106.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 360666,
+      "transfersOutSeason": 292925
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42833,6 +69329,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 957,
+      "transfersOutSeason": 630
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42891,6 +69423,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 100830,
+      "transfersOutSeason": 70181
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -42949,6 +69517,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 40,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 9,
+      "expectedGoals": 0.1,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.11,
+      "expectedGoalsConceded": 0.51,
+      "influence": 4,
+      "creativity": 2.1,
+      "threat": 16,
+      "ictIndex": 1.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4154,
+      "transfersOutSeason": 2979
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43007,6 +69611,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.05,
+      "influence": 2,
+      "creativity": 0.3,
+      "threat": 0,
+      "ictIndex": 0.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 246,
+      "transfersOutSeason": 14
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43065,6 +69705,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Sparta Rotterdam on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 202,
+      "transfersOutSeason": 9743
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43123,6 +69799,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined AS Monaco on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 649,
+      "starts": 9,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 4,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 81,
+      "expectedGoals": 0.35,
+      "expectedAssists": 0.62,
+      "expectedGoalInvolvements": 0.97,
+      "expectedGoalsConceded": 11.3,
+      "influence": 81.4,
+      "creativity": 116.8,
+      "threat": 75,
+      "ictIndex": 27
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 90681,
+      "transfersOutSeason": 232205
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43181,6 +69893,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 19649,
+      "transfersOutSeason": 38714
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43239,6 +69987,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 38,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 18,
+      "expectedGoals": 0.04,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.06,
+      "expectedGoalsConceded": 0.58,
+      "influence": 7.4,
+      "creativity": 2.2,
+      "threat": 23,
+      "ictIndex": 3.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3768,
+      "transfersOutSeason": 4410
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43297,6 +70081,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Los Angeles FC permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 25651
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43355,6 +70175,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 971,
+      "starts": 11,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 185,
+      "expectedGoals": 0.44,
+      "expectedAssists": 0.32,
+      "expectedGoalInvolvements": 0.76,
+      "expectedGoalsConceded": 19.03,
+      "influence": 182,
+      "creativity": 83.4,
+      "threat": 44,
+      "ictIndex": 31
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5660,
+      "transfersOutSeason": 5281
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43413,6 +70269,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Hamstring injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 43880,
+      "transfersOutSeason": 23591
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43471,6 +70363,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 270,
+      "starts": 3,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 8,
+      "bonus": 0,
+      "bps": 38,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 4.65,
+      "influence": 68.6,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 6.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 14824,
+      "transfersOutSeason": 28131
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43529,6 +70457,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 132,
+      "starts": 1,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 55,
+      "expectedGoals": 0.44,
+      "expectedAssists": 0.11,
+      "expectedGoalInvolvements": 0.55,
+      "expectedGoalsConceded": 2.59,
+      "influence": 66.6,
+      "creativity": 65.7,
+      "threat": 44,
+      "ictIndex": 17.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 13803,
+      "transfersOutSeason": 23710
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43587,6 +70551,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Watford on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3208,
+      "transfersOutSeason": 4023
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43645,6 +70645,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Feyenoord on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 577,
+      "transfersOutSeason": 945
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43703,6 +70739,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1834,
+      "starts": 21,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 27,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 332,
+      "expectedGoals": 1.73,
+      "expectedAssists": 0.86,
+      "expectedGoalInvolvements": 2.59,
+      "expectedGoalsConceded": 27.58,
+      "influence": 597,
+      "creativity": 85.8,
+      "threat": 190,
+      "ictIndex": 87.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 106359,
+      "transfersOutSeason": 115014
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43761,6 +70833,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 328,
+      "transfersOutSeason": 2697
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43819,6 +70927,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 480,
+      "starts": 3,
+      "goals": 4,
+      "assists": 2,
+      "cleanSheets": 1,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 170,
+      "expectedGoals": 3.68,
+      "expectedAssists": 0.77,
+      "expectedGoalInvolvements": 4.45,
+      "expectedGoalsConceded": 10.35,
+      "influence": 177.2,
+      "creativity": 79,
+      "threat": 235,
+      "ictIndex": 48.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 53287,
+      "transfersOutSeason": 100401
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43877,6 +71021,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Borussia Mönchengladbach on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1005,
+      "transfersOutSeason": 9209
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43935,6 +71115,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 273,
+      "transfersOutSeason": 57
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -43993,6 +71209,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 278,
+      "starts": 2,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 8,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 93,
+      "expectedGoals": 2.05,
+      "expectedAssists": 0.36,
+      "expectedGoalInvolvements": 2.41,
+      "expectedGoalsConceded": 5.12,
+      "influence": 87.2,
+      "creativity": 49.2,
+      "threat": 136,
+      "ictIndex": 27.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 92819,
+      "transfersOutSeason": 76337
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44051,6 +71303,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1307,
+      "starts": 14,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 22,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 288,
+      "expectedGoals": 1.44,
+      "expectedAssists": 1.39,
+      "expectedGoalInvolvements": 2.83,
+      "expectedGoalsConceded": 21.49,
+      "influence": 224.2,
+      "creativity": 307.6,
+      "threat": 104,
+      "ictIndex": 63.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 62165,
+      "transfersOutSeason": 68779
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44109,6 +71397,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Fiorentina permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2778,
+      "transfersOutSeason": 38727
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44167,6 +71491,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Barnsley on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 25,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 4,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.5,
+      "influence": 3.2,
+      "creativity": 0.3,
+      "threat": 0,
+      "ictIndex": 0.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 30885,
+      "transfersOutSeason": 49783
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44225,6 +71585,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 337,
+      "transfersOutSeason": 263
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44283,6 +71679,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Shrewsbury Town on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 415,
+      "transfersOutSeason": 374
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44341,6 +71773,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1898,
+      "starts": 21,
+      "goals": 8,
+      "assists": 0,
+      "cleanSheets": 7,
+      "goalsConceded": 34,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 295,
+      "expectedGoals": 8.17,
+      "expectedAssists": 0.44,
+      "expectedGoalInvolvements": 8.61,
+      "expectedGoalsConceded": 33.49,
+      "influence": 341,
+      "creativity": 207.7,
+      "threat": 501,
+      "ictIndex": 102.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 335668,
+      "transfersOutSeason": 334309
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44399,6 +71867,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1623,
+      "starts": 19,
+      "goals": 5,
+      "assists": 3,
+      "cleanSheets": 7,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 337,
+      "expectedGoals": 4.61,
+      "expectedAssists": 2.35,
+      "expectedGoalInvolvements": 6.96,
+      "expectedGoalsConceded": 18.82,
+      "influence": 340,
+      "creativity": 347.8,
+      "threat": 435,
+      "ictIndex": 111.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.9,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3562667,
+      "transfersOutSeason": 5038594
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44457,6 +71961,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1477,
+      "starts": 17,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 225,
+      "expectedGoals": 0.54,
+      "expectedAssists": 0.71,
+      "expectedGoalInvolvements": 1.25,
+      "expectedGoalsConceded": 24.64,
+      "influence": 255,
+      "creativity": 125.2,
+      "threat": 81,
+      "ictIndex": 45.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6326,
+      "transfersOutSeason": 7302
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44515,6 +72055,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Le Havre AC on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 47547,
+      "transfersOutSeason": 49617
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44573,6 +72149,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1838,
+      "starts": 20,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 31,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 294,
+      "expectedGoals": 1.5,
+      "expectedAssists": 1.47,
+      "expectedGoalInvolvements": 2.97,
+      "expectedGoalsConceded": 32.66,
+      "influence": 373,
+      "creativity": 292.2,
+      "threat": 195,
+      "ictIndex": 86.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 34783,
+      "transfersOutSeason": 30643
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44631,6 +72243,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Thigh injury - Expected back 01 Jun"
+    },
+    "seasonStats": {
+      "minutes": 1326,
+      "starts": 14,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 6,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 252,
+      "expectedGoals": 0.13,
+      "expectedAssists": 0.89,
+      "expectedGoalInvolvements": 1.02,
+      "expectedGoalsConceded": 18.62,
+      "influence": 219.4,
+      "creativity": 199.7,
+      "threat": 42,
+      "ictIndex": 46.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1106595,
+      "transfersOutSeason": 1396148
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44689,6 +72337,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1057,
+      "transfersOutSeason": 727
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44747,6 +72431,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Hull City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 505,
+      "transfersOutSeason": 9707
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44805,6 +72525,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1402,
+      "starts": 13,
+      "goals": 3,
+      "assists": 2,
+      "cleanSheets": 3,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 1,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 221,
+      "expectedGoals": 5.49,
+      "expectedAssists": 0.39,
+      "expectedGoalInvolvements": 5.88,
+      "expectedGoalsConceded": 22.89,
+      "influence": 252.4,
+      "creativity": 178.4,
+      "threat": 561,
+      "ictIndex": 98.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 70444,
+      "transfersOutSeason": 60714
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44863,6 +72619,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 756,
+      "starts": 6,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 10,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 181,
+      "expectedGoals": 1.21,
+      "expectedAssists": 0.81,
+      "expectedGoalInvolvements": 2.02,
+      "expectedGoalsConceded": 11.67,
+      "influence": 153.4,
+      "creativity": 195.6,
+      "threat": 64,
+      "ictIndex": 41.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3188,
+      "transfersOutSeason": 5184
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44921,6 +72713,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 12,
+      "starts": 0,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 27,
+      "expectedGoals": 0.23,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0.23,
+      "expectedGoalsConceded": 0.2,
+      "influence": 34.4,
+      "creativity": 0.4,
+      "threat": 23,
+      "ictIndex": 5.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 69199,
+      "transfersOutSeason": 76952
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -44979,6 +72807,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 73222,
+      "transfersOutSeason": 38541
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45037,6 +72901,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 73933,
+      "transfersOutSeason": 109504
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45095,6 +72995,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 19179,
+      "transfersOutSeason": 30974
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45153,6 +73089,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Millwall on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 57,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 15,
+      "expectedGoals": 0.04,
+      "expectedAssists": 0.03,
+      "expectedGoalInvolvements": 0.07,
+      "expectedGoalsConceded": 1.72,
+      "influence": 6,
+      "creativity": 2.4,
+      "threat": 7,
+      "ictIndex": 1.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2397,
+      "transfersOutSeason": 4337
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45211,6 +73183,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2190,
+      "starts": 24,
+      "goals": 5,
+      "assists": 2,
+      "cleanSheets": 7,
+      "goalsConceded": 43,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 428,
+      "expectedGoals": 5.73,
+      "expectedAssists": 0.52,
+      "expectedGoalInvolvements": 6.25,
+      "expectedGoalsConceded": 38.47,
+      "influence": 526.6,
+      "creativity": 191.9,
+      "threat": 483,
+      "ictIndex": 120.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 82768,
+      "transfersOutSeason": 127580
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45269,6 +73277,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 34587,
+      "transfersOutSeason": 36016
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45327,6 +73371,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 788,
+      "starts": 8,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 130,
+      "expectedGoals": 0.11,
+      "expectedAssists": 0.4,
+      "expectedGoalInvolvements": 0.5,
+      "expectedGoalsConceded": 13.25,
+      "influence": 240.4,
+      "creativity": 33.3,
+      "threat": 19,
+      "ictIndex": 29.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 110909,
+      "transfersOutSeason": 225147
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45385,6 +73465,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1423,
+      "starts": 17,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 140,
+      "expectedGoals": 0.53,
+      "expectedAssists": 0.29,
+      "expectedGoalInvolvements": 0.82,
+      "expectedGoalsConceded": 25.43,
+      "influence": 349,
+      "creativity": 92.7,
+      "threat": 73,
+      "ictIndex": 51.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9596,
+      "transfersOutSeason": 21384
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45443,6 +73559,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3032,
+      "starts": 34,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 42,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 9,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 383,
+      "expectedGoals": 2.27,
+      "expectedAssists": 2.05,
+      "expectedGoalInvolvements": 4.32,
+      "expectedGoalsConceded": 47.27,
+      "influence": 547.8,
+      "creativity": 421.3,
+      "threat": 248,
+      "ictIndex": 120.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 89257,
+      "transfersOutSeason": 82911
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45501,6 +73653,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 34014,
+      "transfersOutSeason": 24439
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45559,6 +73747,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2780,
+      "starts": 31,
+      "goals": 3,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 40,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 516,
+      "expectedGoals": 1.44,
+      "expectedAssists": 1.03,
+      "expectedGoalInvolvements": 2.47,
+      "expectedGoalsConceded": 40.83,
+      "influence": 719.2,
+      "creativity": 111.2,
+      "threat": 160,
+      "ictIndex": 99.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 8.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4846236,
+      "transfersOutSeason": 4142802
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45617,6 +73841,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 21,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 11,
+      "expectedGoals": 0.37,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.39,
+      "expectedGoalsConceded": 0.85,
+      "influence": 4.2,
+      "creativity": 13.4,
+      "threat": 4,
+      "ictIndex": 2.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 99712,
+      "transfersOutSeason": 87668
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45675,6 +73935,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Annecy on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8943,
+      "transfersOutSeason": 10853
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45733,6 +74029,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1769,
+      "starts": 21,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 7,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 346,
+      "expectedGoals": 0.63,
+      "expectedAssists": 0.63,
+      "expectedGoalInvolvements": 1.26,
+      "expectedGoalsConceded": 27.18,
+      "influence": 387,
+      "creativity": 158.2,
+      "threat": 115,
+      "ictIndex": 66.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 83628,
+      "transfersOutSeason": 96729
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45791,6 +74123,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 349,
+      "starts": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "goalsConceded": 2,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 49,
+      "expectedGoals": 0.2,
+      "expectedAssists": 0.14,
+      "expectedGoalInvolvements": 0.34,
+      "expectedGoalsConceded": 6.65,
+      "influence": 46,
+      "creativity": 61,
+      "threat": 32,
+      "ictIndex": 13.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8100,
+      "transfersOutSeason": 7691
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45849,6 +74217,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 17,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 6,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 0.33,
+      "influence": 0.8,
+      "creativity": 3,
+      "threat": 0,
+      "ictIndex": 0.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2549,
+      "transfersOutSeason": 1732
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45907,6 +74311,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 4,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.3,
+      "influence": 4,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15468,
+      "transfersOutSeason": 17282
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -45965,6 +74405,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Lyon permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 362
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46023,6 +74499,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Stockport County on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 8420,
+      "transfersOutSeason": 10280
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46081,6 +74593,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Exeter City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 160,
+      "transfersOutSeason": 145
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46139,6 +74687,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 15,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 1,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 6,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0.58,
+      "influence": 7.6,
+      "creativity": 1.5,
+      "threat": 0,
+      "ictIndex": 0.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 92496,
+      "transfersOutSeason": 70346
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46197,6 +74781,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3253,
+      "starts": 36,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 12,
+      "goalsConceded": 47,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 8,
+      "bps": 498,
+      "expectedGoals": 1.59,
+      "expectedAssists": 2.53,
+      "expectedGoalInvolvements": 4.12,
+      "expectedGoalsConceded": 49.78,
+      "influence": 649,
+      "creativity": 467.3,
+      "threat": 241,
+      "ictIndex": 136
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 556168,
+      "transfersOutSeason": 455272
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46255,6 +74875,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 351,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 9,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 55,
+      "expectedGoals": 0.64,
+      "expectedAssists": 1.19,
+      "expectedGoalInvolvements": 1.83,
+      "expectedGoalsConceded": 6.49,
+      "influence": 44.2,
+      "creativity": 66.2,
+      "threat": 132,
+      "ictIndex": 23.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 9774,
+      "transfersOutSeason": 11617
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46313,6 +74969,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1322,
+      "starts": 15,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 3,
+      "goalsConceded": 23,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 4,
+      "bps": 169,
+      "expectedGoals": 1.3,
+      "expectedAssists": 0.42,
+      "expectedGoalInvolvements": 1.72,
+      "expectedGoalsConceded": 23.37,
+      "influence": 282.6,
+      "creativity": 80.5,
+      "threat": 105,
+      "ictIndex": 46.8
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 161621,
+      "transfersOutSeason": 216139
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46371,6 +75063,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15797,
+      "transfersOutSeason": 22780
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46429,6 +75157,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1384,
+      "starts": 17,
+      "goals": 6,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 16,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 5,
+      "bps": 243,
+      "expectedGoals": 5.75,
+      "expectedAssists": 0.81,
+      "expectedGoalInvolvements": 6.56,
+      "expectedGoalsConceded": 19.75,
+      "influence": 280.6,
+      "creativity": 175.5,
+      "threat": 595,
+      "ictIndex": 103.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 85487,
+      "transfersOutSeason": 43766
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46487,6 +75251,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 367,
+      "starts": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 6,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 63,
+      "expectedGoals": 0.15,
+      "expectedAssists": 0.19,
+      "expectedGoalInvolvements": 0.34,
+      "expectedGoalsConceded": 4.42,
+      "influence": 98.4,
+      "creativity": 13.9,
+      "threat": 10,
+      "ictIndex": 12.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 6785,
+      "transfersOutSeason": 6263
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46545,6 +75345,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 942,
+      "starts": 11,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 15,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 124,
+      "expectedGoals": 0.28,
+      "expectedAssists": 0.1,
+      "expectedGoalInvolvements": 0.38,
+      "expectedGoalsConceded": 15.93,
+      "influence": 167.8,
+      "creativity": 36.6,
+      "threat": 22,
+      "ictIndex": 22.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 22854,
+      "transfersOutSeason": 16638
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46603,6 +75439,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2217,
+      "starts": 26,
+      "goals": 14,
+      "assists": 1,
+      "cleanSheets": 12,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 16,
+      "bps": 474,
+      "expectedGoals": 12.26,
+      "expectedAssists": 1.94,
+      "expectedGoalInvolvements": 14.19,
+      "expectedGoalsConceded": 17.81,
+      "influence": 539.6,
+      "creativity": 271.7,
+      "threat": 772,
+      "ictIndex": 157.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 16.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4626668,
+      "transfersOutSeason": 5611221
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46661,6 +75533,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 3420,
+      "starts": 38,
+      "goals": 6,
+      "assists": 1,
+      "cleanSheets": 10,
+      "goalsConceded": 53,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 10,
+      "bps": 593,
+      "expectedGoals": 3.77,
+      "expectedAssists": 1.44,
+      "expectedGoalInvolvements": 5.21,
+      "expectedGoalsConceded": 47.63,
+      "influence": 1169.4,
+      "creativity": 215.9,
+      "threat": 490,
+      "ictIndex": 187.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 31.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 5365152,
+      "transfersOutSeason": 4641131
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46719,6 +75627,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2959,
+      "starts": 33,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 9,
+      "goalsConceded": 47,
+      "ownGoals": 1,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 6,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 2,
+      "bps": 350,
+      "expectedGoals": 0.28,
+      "expectedAssists": 2.46,
+      "expectedGoalInvolvements": 2.74,
+      "expectedGoalsConceded": 48.41,
+      "influence": 559.2,
+      "creativity": 394.1,
+      "threat": 71,
+      "ictIndex": 102.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 183560,
+      "transfersOutSeason": 205599
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46777,6 +75721,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1434,
+      "starts": 15,
+      "goals": 1,
+      "assists": 4,
+      "cleanSheets": 5,
+      "goalsConceded": 21,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 8,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 334,
+      "expectedGoals": 0.82,
+      "expectedAssists": 2.27,
+      "expectedGoalInvolvements": 3.09,
+      "expectedGoalsConceded": 26.62,
+      "influence": 350.4,
+      "creativity": 351.8,
+      "threat": 97,
+      "ictIndex": 79
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 67811,
+      "transfersOutSeason": 59682
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46835,6 +75815,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Has joined Girona on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 856
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46893,6 +75909,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 90,
+      "starts": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 3,
+      "bonus": 0,
+      "bps": 29,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 1.12,
+      "influence": 22.8,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 2.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 22486,
+      "transfersOutSeason": 36079
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -46951,6 +76003,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1450,
+      "transfersOutSeason": 1285
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47009,6 +76097,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Aris Limassol permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3874,
+      "transfersOutSeason": 43698
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47067,6 +76191,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 0,
+      "news": "Suspended until 05 Sep"
+    },
+    "seasonStats": {
+      "minutes": 1718,
+      "starts": 20,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4,
+      "goalsConceded": 25,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 2,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 288,
+      "expectedGoals": 0.72,
+      "expectedAssists": 0.6,
+      "expectedGoalInvolvements": 1.32,
+      "expectedGoalsConceded": 25.81,
+      "influence": 463.6,
+      "creativity": 65.6,
+      "threat": 74,
+      "ictIndex": 60.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 138920,
+      "transfersOutSeason": 130225
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47125,6 +76285,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 521,
+      "starts": 4,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 1,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 134,
+      "expectedGoals": 0.4,
+      "expectedAssists": 0.77,
+      "expectedGoalInvolvements": 1.17,
+      "expectedGoalsConceded": 11.99,
+      "influence": 85.2,
+      "creativity": 129.3,
+      "threat": 61,
+      "ictIndex": 27.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 10774,
+      "transfersOutSeason": 41507
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47183,6 +76379,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Leyton Orient on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 47217,
+      "transfersOutSeason": 92983
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47241,6 +76473,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1560,
+      "starts": 19,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 5,
+      "goalsConceded": 18,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 217,
+      "expectedGoals": 1.11,
+      "expectedAssists": 1.94,
+      "expectedGoalInvolvements": 3.05,
+      "expectedGoalsConceded": 25.35,
+      "influence": 198,
+      "creativity": 322.9,
+      "threat": 90,
+      "ictIndex": 60.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 23296,
+      "transfersOutSeason": 27299
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47299,6 +76567,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Oxford United on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 5159
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47357,6 +76661,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 604,
+      "transfersOutSeason": 179
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47415,6 +76755,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 805,
+      "starts": 8,
+      "goals": 7,
+      "assists": 1,
+      "cleanSheets": 2,
+      "goalsConceded": 14,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 13,
+      "bps": 284,
+      "expectedGoals": 4.28,
+      "expectedAssists": 0.62,
+      "expectedGoalInvolvements": 4.9,
+      "expectedGoalsConceded": 14.48,
+      "influence": 256.6,
+      "creativity": 82.6,
+      "threat": 284,
+      "ictIndex": 62.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 361759,
+      "transfersOutSeason": 125181
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47473,6 +76849,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2614,
+      "starts": 30,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 15,
+      "goalsConceded": 20,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 12,
+      "bps": 581,
+      "expectedGoals": 0.88,
+      "expectedAssists": 1.21,
+      "expectedGoalInvolvements": 2.09,
+      "expectedGoalsConceded": 20.41,
+      "influence": 552.6,
+      "creativity": 201,
+      "threat": 90,
+      "ictIndex": 84.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 17.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2702830,
+      "transfersOutSeason": 2551293
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47531,6 +76943,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 43827,
+      "transfersOutSeason": 70491
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47589,6 +77037,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1148,
+      "starts": 11,
+      "goals": 6,
+      "assists": 1,
+      "cleanSheets": 4,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 266,
+      "expectedGoals": 4.7,
+      "expectedAssists": 0.38,
+      "expectedGoalInvolvements": 5.08,
+      "expectedGoalsConceded": 19.82,
+      "influence": 242,
+      "creativity": 30.4,
+      "threat": 444,
+      "ictIndex": 71.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 997059,
+      "transfersOutSeason": 911419
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47647,6 +77131,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Unknown return date"
+    },
+    "seasonStats": {
+      "minutes": 972,
+      "starts": 10,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 2,
+      "goalsConceded": 13,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 6,
+      "bps": 176,
+      "expectedGoals": 1.92,
+      "expectedAssists": 1.21,
+      "expectedGoalInvolvements": 3.13,
+      "expectedGoalsConceded": 14.24,
+      "influence": 158.8,
+      "creativity": 284.3,
+      "threat": 234,
+      "ictIndex": 67.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 16481,
+      "transfersOutSeason": 18697
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47705,6 +77225,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "injured",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "Knee injury - Expected back 01 Jan"
+    },
+    "seasonStats": {
+      "minutes": 1747,
+      "starts": 19,
+      "goals": 2,
+      "assists": 5,
+      "cleanSheets": 4,
+      "goalsConceded": 36,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 1,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 345,
+      "expectedGoals": 3.06,
+      "expectedAssists": 3.85,
+      "expectedGoalInvolvements": 6.91,
+      "expectedGoalsConceded": 30.71,
+      "influence": 349.6,
+      "creativity": 533.8,
+      "threat": 255,
+      "ictIndex": 113.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 1.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 1067756,
+      "transfersOutSeason": 994992
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47763,6 +77319,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Coventry City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 0,
+      "transfersOutSeason": 2838
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47821,6 +77413,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2389,
+      "starts": 26,
+      "goals": 3,
+      "assists": 8,
+      "cleanSheets": 11,
+      "goalsConceded": 33,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 9,
+      "bps": 466,
+      "expectedGoals": 3.81,
+      "expectedAssists": 5.06,
+      "expectedGoalInvolvements": 8.87,
+      "expectedGoalsConceded": 34.09,
+      "influence": 491.8,
+      "creativity": 691.4,
+      "threat": 617,
+      "ictIndex": 180.3
+    },
+    "marketInterest": {
+      "selectedByPercent": 2.5,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2151128,
+      "transfersOutSeason": 2014117
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47879,6 +77507,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1921,
+      "starts": 20,
+      "goals": 3,
+      "assists": 4,
+      "cleanSheets": 6,
+      "goalsConceded": 24,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 7,
+      "bps": 406,
+      "expectedGoals": 2.7,
+      "expectedAssists": 1.15,
+      "expectedGoalInvolvements": 3.85,
+      "expectedGoalsConceded": 26.85,
+      "influence": 359.8,
+      "creativity": 251.3,
+      "threat": 231,
+      "ictIndex": 84.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.4,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 218577,
+      "transfersOutSeason": 204165
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47937,6 +77601,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Anderlecht on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 4656,
+      "transfersOutSeason": 21237
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -47995,6 +77695,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2652,
+      "starts": 30,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 8,
+      "goalsConceded": 42,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 7,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 1,
+      "bps": 448,
+      "expectedGoals": 1.22,
+      "expectedAssists": 1.39,
+      "expectedGoalInvolvements": 2.61,
+      "expectedGoalsConceded": 40.31,
+      "influence": 445,
+      "creativity": 273,
+      "threat": 117,
+      "ictIndex": 83.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 27701,
+      "transfersOutSeason": 24796
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48053,6 +77789,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2074,
+      "starts": 26,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 7,
+      "goalsConceded": 28,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 331,
+      "expectedGoals": 4.53,
+      "expectedAssists": 6.12,
+      "expectedGoalInvolvements": 10.65,
+      "expectedGoalsConceded": 30.01,
+      "influence": 325.8,
+      "creativity": 718.4,
+      "threat": 371,
+      "ictIndex": 141.4
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 137024,
+      "transfersOutSeason": 120639
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48111,6 +77883,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 2137,
+      "starts": 24,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 4,
+      "goalsConceded": 40,
+      "ownGoals": 2,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 12,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 209,
+      "expectedGoals": 2.51,
+      "expectedAssists": 0.62,
+      "expectedGoalInvolvements": 3.13,
+      "expectedGoalsConceded": 36.42,
+      "influence": 426,
+      "creativity": 140.4,
+      "threat": 268,
+      "ictIndex": 83.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 21555,
+      "transfersOutSeason": 20392
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48169,6 +77977,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 517,
+      "starts": 4,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 1,
+      "goalsConceded": 11,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 70,
+      "expectedGoals": 3.13,
+      "expectedAssists": 0.54,
+      "expectedGoalInvolvements": 3.67,
+      "expectedGoalsConceded": 9.97,
+      "influence": 58,
+      "creativity": 46.7,
+      "threat": 163,
+      "ictIndex": 25.5
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.6,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 247877,
+      "transfersOutSeason": 461907
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48227,6 +78071,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1857,
+      "starts": 21,
+      "goals": 0,
+      "assists": 4,
+      "cleanSheets": 4,
+      "goalsConceded": 27,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 3,
+      "bps": 417,
+      "expectedGoals": 1.14,
+      "expectedAssists": 3.26,
+      "expectedGoalInvolvements": 4.4,
+      "expectedGoalsConceded": 31.34,
+      "influence": 432,
+      "creativity": 513.6,
+      "threat": 184,
+      "ictIndex": 113.1
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.7,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 171924,
+      "transfersOutSeason": 356117
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48285,6 +78165,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Rangers permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2418,
+      "transfersOutSeason": 14587
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48343,6 +78259,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Oxford United on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 38108,
+      "transfersOutSeason": 46431
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48401,6 +78353,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Bristol Rovers on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 675,
+      "transfersOutSeason": 664
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48459,6 +78447,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 600,
+      "starts": 7,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "goalsConceded": 17,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 99,
+      "expectedGoals": 0.36,
+      "expectedAssists": 0.1,
+      "expectedGoalInvolvements": 0.46,
+      "expectedGoalsConceded": 12.21,
+      "influence": 89.6,
+      "creativity": 25.5,
+      "threat": 23,
+      "ictIndex": 13.7
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 3806,
+      "transfersOutSeason": 15535
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48517,6 +78541,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 165,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 4,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "expectedGoals": 0,
+      "expectedAssists": 0.01,
+      "expectedGoalInvolvements": 0.01,
+      "expectedGoalsConceded": 3.47,
+      "influence": 25.4,
+      "creativity": 6.4,
+      "threat": 0,
+      "ictIndex": 3.2
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 30091,
+      "transfersOutSeason": 32960
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48575,6 +78635,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": null,
+      "chanceNextRound": null,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 53360,
+      "transfersOutSeason": 61906
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48633,6 +78729,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Olympiakos permanently."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.1,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 15405,
+      "transfersOutSeason": 21712
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48691,6 +78823,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined York City on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.2,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 23261,
+      "transfersOutSeason": 34754
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48749,6 +78917,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 69,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 10,
+      "expectedGoals": 0.24,
+      "expectedAssists": 0.02,
+      "expectedGoalInvolvements": 0.26,
+      "expectedGoalsConceded": 0.79,
+      "influence": 2.6,
+      "creativity": 5.1,
+      "threat": 20,
+      "ictIndex": 2.6
+    },
+    "marketInterest": {
+      "selectedByPercent": 0,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 2934,
+      "transfersOutSeason": 6873
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48807,6 +79011,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 0,
+      "chanceNextRound": 0,
+      "news": "has joined Huddersfield Town on loan for the rest of the season."
+    },
+    "seasonStats": {
+      "minutes": 0,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "goalsConceded": 0,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 0,
+      "expectedGoals": 0,
+      "expectedAssists": 0,
+      "expectedGoalInvolvements": 0,
+      "expectedGoalsConceded": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ictIndex": 0
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.3,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 17574,
+      "transfersOutSeason": 85482
+    },
     "provisional": true,
     "valueHistory": [
       {
@@ -48865,6 +79105,42 @@ export const realPremierPlayers = [
     "form": 0,
     "ownershipClubId": null,
     "availability": "available",
+    "availabilityDetail": {
+      "chanceThisRound": 100,
+      "chanceNextRound": 100,
+      "news": null
+    },
+    "seasonStats": {
+      "minutes": 1764,
+      "starts": 21,
+      "goals": 11,
+      "assists": 0,
+      "cleanSheets": 3,
+      "goalsConceded": 35,
+      "ownGoals": 0,
+      "penaltiesSaved": 0,
+      "penaltiesMissed": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "saves": 0,
+      "bonus": 11,
+      "bps": 371,
+      "expectedGoals": 7.94,
+      "expectedAssists": 0.41,
+      "expectedGoalInvolvements": 8.35,
+      "expectedGoalsConceded": 37.06,
+      "influence": 466,
+      "creativity": 159.5,
+      "threat": 533,
+      "ictIndex": 114.9
+    },
+    "marketInterest": {
+      "selectedByPercent": 0.8,
+      "transfersInEvent": 0,
+      "transfersOutEvent": 0,
+      "transfersInSeason": 262246,
+      "transfersOutSeason": 184453
+    },
     "provisional": true,
     "valueHistory": [
       {

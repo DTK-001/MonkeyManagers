@@ -9,7 +9,7 @@ import {
 } from 'react';
 import { GAME_DEFAULTS } from './product';
 import { createInitialDemoState } from '../data/demo';
-import type { DemoClub, DemoState } from '../types';
+import type { DemoClub, DemoPlayer, DemoState } from '../types';
 import { formatMoney } from '../lib/format';
 
 const STORAGE_KEY = 'monkey-managers-session-v1';
@@ -247,12 +247,54 @@ function loadState(): DemoState {
       ...initial,
       ...restored,
       clubs: restored.clubs,
-      players: restored.players.map((player) => ({
-        ...player,
-        ownedPoints: typeof player.ownedPoints === 'number' ? player.ownedPoints : 0,
-        ownershipStartedAt:
-          typeof player.ownershipStartedAt === 'string' ? player.ownershipStartedAt : null
-      })),
+      players: restored.players.map((player) => {
+        const storedPlayer = player as Partial<DemoPlayer>;
+        return {
+          ...player,
+          ownedPoints:
+            typeof storedPlayer.ownedPoints === 'number' ? storedPlayer.ownedPoints : 0,
+          ownershipStartedAt:
+            typeof storedPlayer.ownershipStartedAt === 'string'
+              ? storedPlayer.ownershipStartedAt
+              : null,
+          availabilityDetail: storedPlayer.availabilityDetail ?? {
+            chanceThisRound: null,
+            chanceNextRound: null,
+            news: null
+          },
+          seasonStats: storedPlayer.seasonStats ?? {
+            minutes: 0,
+            starts: 0,
+            goals: 0,
+            assists: 0,
+            cleanSheets: 0,
+            goalsConceded: 0,
+            ownGoals: 0,
+            penaltiesSaved: 0,
+            penaltiesMissed: 0,
+            yellowCards: 0,
+            redCards: 0,
+            saves: 0,
+            bonus: 0,
+            bps: 0,
+            expectedGoals: 0,
+            expectedAssists: 0,
+            expectedGoalInvolvements: 0,
+            expectedGoalsConceded: 0,
+            influence: 0,
+            creativity: 0,
+            threat: 0,
+            ictIndex: 0
+          },
+          marketInterest: storedPlayer.marketInterest ?? {
+            selectedByPercent: 0,
+            transfersInEvent: 0,
+            transfersOutEvent: 0,
+            transfersInSeason: 0,
+            transfersOutSeason: 0
+          }
+        };
+      }),
       competitions: Array.isArray(restored.competitions) ? restored.competitions : initial.competitions,
       fixtures: Array.isArray(restored.fixtures) ? restored.fixtures : initial.fixtures,
       starters: Array.isArray(restored.starters) ? restored.starters : initial.starters,
