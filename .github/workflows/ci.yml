@@ -40,10 +40,9 @@ jobs:
         run: npm run build
         env:
           VITE_BASE_PATH: /ci-project-path/
-          VITE_DEMO_MODE: 'true'
 
   e2e:
-    name: Demo journey (Playwright)
+    name: Account entry (Playwright)
     runs-on: ubuntu-latest
     timeout-minutes: 15
     needs: quality
@@ -65,8 +64,6 @@ jobs:
 
       - name: Run end-to-end tests
         run: npm run test:e2e
-        env:
-          VITE_DEMO_MODE: 'true'
 
       - name: Upload Playwright report after a failure
         if: failure()
