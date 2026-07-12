@@ -19,6 +19,9 @@ export async function loadServerMarket(
     .not('real_player_id', 'is', null)
     .not('current_value_minor', 'is', null);
   if (profileError) throw profileError;
+  if (profiles.length === 0) {
+    throw new Error('The live player catalogue is not ready. Refresh player profiles from Control room first.');
+  }
 
   const realPlayerIds = profiles.flatMap((profile) =>
     profile.real_player_id ? [String(profile.real_player_id)] : []

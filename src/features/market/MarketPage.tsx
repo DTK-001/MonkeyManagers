@@ -448,7 +448,7 @@ export default function MarketPage() {
                     <button
                       type="button"
                       onClick={() => setSelected(player)}
-                      disabled={!mine && (marketState !== 'ready' || player.valueMinor > currentClub.budgetMinor)}
+                      disabled={!mine && (marketState !== 'ready' || !player.realPlayerId || player.valueMinor > currentClub.budgetMinor)}
                       className={
                         mine
                           ? 'button-danger min-h-10 px-3 text-xs'
