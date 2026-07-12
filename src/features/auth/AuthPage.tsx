@@ -37,7 +37,7 @@ type RedirectState = { from?: { pathname?: string; search?: string; hash?: strin
 
 function requestedDestination(state: unknown): string {
   const from = (state as RedirectState | null)?.from;
-  if (!from?.pathname) return '/onboarding';
+  if (!from?.pathname) return '/app/home';
   return `${from.pathname}${from.search ?? ''}${from.hash ?? ''}`;
 }
 

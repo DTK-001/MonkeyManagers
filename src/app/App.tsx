@@ -3,6 +3,7 @@ import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from '../components/AppShell';
 import { LoadingScreen } from '../components/ui';
 import { RequireSession } from '../features/auth/RequireSession';
+import { ResumeClub } from '../features/auth/ResumeClub';
 
 const AuthPage = lazy(() => import('../features/auth/AuthPage'));
 const OnboardingPage = lazy(() => import('../features/onboarding/OnboardingPage'));
@@ -44,7 +45,9 @@ export function App() {
             path="/app"
             element={
               <RequireSession>
-                <AppShell />
+                <ResumeClub>
+                  <AppShell />
+                </ResumeClub>
               </RequireSession>
             }
           >

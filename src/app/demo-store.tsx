@@ -24,7 +24,7 @@ type DemoAction =
   | { type: 'SET_VICE_CAPTAIN'; playerId: string }
   | { type: 'SAVE_LINEUP' }
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
-  | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string }
+  | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string; resumed: boolean }
   | { type: 'CLEAR_MESSAGE' };
 
 function activityId(): string {
@@ -228,7 +228,12 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         viceCaptainId: null,
         activity: [],
         lastUpdated: new Date().toISOString(),
-        message: { kind: 'success', text: 'Club created. Your full starting purse is available.' }
+        message: {
+          kind: 'success',
+          text: action.resumed
+            ? `Welcome back to ${action.club.name}.`
+            : 'Club created. Your full starting purse is available.'
+        }
       };
     case 'CLEAR_MESSAGE':
       return { ...state, message: null };
@@ -315,7 +320,7 @@ interface DemoContextValue {
   state: DemoState;
   currentClub: DemoClub;
   startSession: () => void;
-  hydrateClub: (club: DemoClub, leagueId: string, leagueName: string) => void;
+  hydrateClub: (club: DemoClub, leagueId: string, leagueName: string, resumed?: boolean) => void;
   resetDemo: () => void;
   buyPlayer: (playerId: string) => void;
   releasePlayer: (playerId: string) => void;
@@ -340,14 +345,18 @@ export function DemoProvider({ children }: PropsWithChildren) {
   const resetDemo = useCallback(() => dispatch({ type: 'RESET_DEMO' }), []);
   const saveLineup = useCallback(() => dispatch({ type: 'SAVE_LINEUP' }), []);
   const clearMessage = useCallback(() => dispatch({ type: 'CLEAR_MESSAGE' }), []);
+  const hydrateClub = useCallback(
+    (club: DemoClub, leagueId: string, leagueName: string, resumed = false) =>
+      dispatch({ type: 'HYDRATE_CLUB', club, leagueId, leagueName, resumed }),
+    []
+  );
 
   const value = useMemo<DemoContextValue>(
     () => ({
       state,
       currentClub,
       startSession,
-      hydrateClub: (club, leagueId, leagueName) =>
-        dispatch({ type: 'HYDRATE_CLUB', club, leagueId, leagueName }),
+      hydrateClub,
       resetDemo,
       buyPlayer: (playerId) => dispatch({ type: 'BUY_PLAYER', playerId }),
       releasePlayer: (playerId) => dispatch({ type: 'RELEASE_PLAYER', playerId }),
@@ -358,7 +367,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
       updateClub: (values) => dispatch({ type: 'UPDATE_CLUB', values }),
       clearMessage
     }),
-    [state, currentClub, startSession, resetDemo, saveLineup, clearMessage]
+    [state, currentClub, startSession, resetDemo, saveLineup, clearMessage, hydrateClub]
   );
 
   return <DemoContext.Provider value={value}>{children}</DemoContext.Provider>;
