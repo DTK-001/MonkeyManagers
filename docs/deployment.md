@@ -10,14 +10,13 @@ The frontend is a static Vite PWA deployed to GitHub Pages. Supabase is deployed
 - Docker Desktop for local Supabase.
 - Supabase CLI, used through `npx supabase` in these examples.
 - A Supabase project for connected accounts and data.
-- An API-Football account only when testing real imports; demo mode needs none.
+- An API-Football account only when testing real imports; account access itself does not consume provider quota.
 
 ## Local frontend
 
 ```bash
 npm ci
 cp .env.example .env.local
-npm run dev
 ```
 
 PowerShell equivalent:
@@ -25,10 +24,9 @@ PowerShell equivalent:
 ```powershell
 npm ci
 Copy-Item .env.example .env.local
-npm run dev
 ```
 
-Leave the Supabase values blank to use the complete browser demo. The development URL is normally `http://localhost:5173/`.
+The account-first client requires the public Supabase URL and anonymous key. Complete the local Supabase setup below, copy its values into `.env.local`, then run `npm run dev`. The development URL is normally `http://localhost:5173/`.
 
 If Windows PowerShell blocks the `npm.ps1` or `npx.ps1` shims, invoke the command wrappers explicitly (`npm.cmd` and `npx.cmd`) or use a terminal with an execution policy appropriate for local development.
 
@@ -72,7 +70,6 @@ Copy the URL and anonymous key reported by `supabase status` into `.env.local`:
 VITE_SUPABASE_URL=http://127.0.0.1:54321
 VITE_SUPABASE_ANON_KEY=LOCAL_PUBLIC_ANON_KEY
 VITE_BASE_PATH=/
-VITE_DEMO_MODE=true
 ```
 
 For local functions:
@@ -102,7 +99,7 @@ npx supabase functions deploy manual-sync
 
 For a custom domain, use its origin for `ALLOWED_ORIGIN`. CORS is not an authorization boundary; the manual function still validates the user and admin role.
 
-Do not apply `supabase/seed.sql` to a production project. Create real leagues through authenticated RPCs or maintain a separate staging project for seeded demonstrations.
+Do not apply the fictional local `supabase/seed.sql` dataset to a production project. Create real leagues through authenticated RPCs or keep a separate staging project for seed-based testing.
 
 ## Frontend environment variables
 
@@ -111,7 +108,6 @@ Do not apply `supabase/seed.sql` to a production project. Create real leagues th
 | `VITE_SUPABASE_URL`      | public   | Supabase project URL                                |
 | `VITE_SUPABASE_ANON_KEY` | public   | publishable anonymous key protected by RLS          |
 | `VITE_BASE_PATH`         | public   | `/REPOSITORY_NAME/` for a project site, `/` locally |
-| `VITE_DEMO_MODE`         | public   | keeps the fictional demo path available             |
 
 Only variables prefixed with `VITE_` are compiled into the browser. That is why service-role, provider, and cron secrets must never use this prefix.
 
@@ -120,8 +116,8 @@ Only variables prefixed with `VITE_` are compiled into the browser. That is why 
 1. Push the repository to GitHub with `main` as its default branch.
 2. Open **Settings → Pages**.
 3. Under **Build and deployment**, select **GitHub Actions** as the source.
-4. Under **Settings → Secrets and variables → Actions → Variables**, add `VITE_SUPABASE_URL` if connected mode is required.
-5. Under **Actions → Secrets**, add `VITE_SUPABASE_ANON_KEY` if connected mode is required. It is designed to be public, but using a secret avoids accidental workflow echo.
+4. Configure the public `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` for your build. For a fork, replace the public project values in `.github/workflows/pages.yml` or refactor that workflow to read your Actions configuration.
+5. The anonymous key is public by design; RLS, not secrecy, protects application data.
 6. Do not add `API_FOOTBALL_KEY` or the Supabase service-role key to this repository.
 7. Run **Deploy to GitHub Pages** manually or push to `main`.
 
@@ -145,7 +141,7 @@ In **Supabase Dashboard → Authentication → URL Configuration** set:
   - `http://127.0.0.1:5173/**`
   - `https://USERNAME.github.io/REPOSITORY_NAME/**`
 
-The password reset code explicitly redirects to `https://…/REPOSITORY_NAME/#/auth/sign-in`; the wildcard must allow that deployed base. Supabase validates the requested redirect, while the browser uses the hash route after returning to the static page.
+The password-reset code explicitly redirects to `https://…/REPOSITORY_NAME/#/auth/update-password`; the wildcard must allow that deployed base. Supabase validates the requested redirect, while the browser uses the hash route after returning to the static page.
 
 If using a preview or custom domain, add that exact HTTPS base as an allowed redirect. Avoid a broad wildcard covering domains you do not control.
 
@@ -161,7 +157,7 @@ npm run build
 npm run test:e2e
 ```
 
-The build job deliberately uses `/ci-project-path/` so root-only asset bugs fail before deployment. Playwright installs Chromium and exercises the browser-only journey at a mobile viewport. External provider calls are not made.
+The build job deliberately uses `/ci-project-path/` so root-only asset bugs fail before deployment. Playwright installs Chromium and checks the account-entry journey at a mobile viewport. External provider calls are not made.
 
 Run locally:
 
@@ -188,11 +184,11 @@ Installability requires HTTPS in production (localhost is exempt). After deploym
 6. verify the shell and explicit offline guidance render;
 7. reconnect before attempting server mutations or expecting fresh scores.
 
-The service worker caches the application shell, not an authoritative offline mutation queue. Demo actions remain browser-local; connected purchases and transfers should fail clearly while offline rather than replay unpredictably.
+The service worker caches the application shell, not an authoritative offline mutation queue. Authoritative purchases and transfers should fail clearly while offline rather than replay unpredictably.
 
 ## Nightly schedule and manual operation
 
-Follow [api-football.md](api-football.md) to set the provider and cron secrets, deploy both functions, create the approximately 03:30 schedule, invoke an authenticated manual sync, and understand the current import boundary.
+Follow [api-football.md](api-football.md) to set the provider and cron secrets, deploy both functions, create the approximately 03:30 schedule, invoke an authenticated manual sync, and understand the current import boundary. In the app, **Administration → Sync now** sends a fresh idempotency key to `manual-sync` when Supabase is configured and a league is selected; the Edge Function independently verifies the caller's active admin role. The current dashboard does not yet query and render the persisted run, API-log, warning, or notification records after that request.
 
 Check Edge Function logs, `data_synchronisation_runs`, `api_request_logs`, administrator notifications, and the `club_financial_reconciliation` view. Never paste access tokens, provider keys, cron secrets, or service-role keys into support tickets or screenshots.
 

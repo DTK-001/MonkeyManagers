@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
+import { useEffect, useMemo, useState } from 'react';
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
   BarChart3,
   Bell,
@@ -29,9 +29,18 @@ const primaryNav = [
 export function AppShell() {
   const { state, currentClub, clearMessage } = useDemo();
   const location = useLocation();
+  const [activityOpen, setActivityOpen] = useState(false);
+  const recentActivity = useMemo(
+    () =>
+      [...state.activity]
+        .sort((left, right) => Date.parse(right.timestamp) - Date.parse(left.timestamp))
+        .slice(0, 6),
+    [state.activity]
+  );
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
+    setActivityOpen(false);
   }, [location.pathname]);
 
   useEffect(() => {
@@ -39,6 +48,15 @@ export function AppShell() {
     const timeout = window.setTimeout(clearMessage, 4200);
     return () => window.clearTimeout(timeout);
   }, [state.message, clearMessage]);
+
+  useEffect(() => {
+    if (!activityOpen) return undefined;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setActivityOpen(false);
+    };
+    document.addEventListener('keydown', closeOnEscape);
+    return () => document.removeEventListener('keydown', closeOnEscape);
+  }, [activityOpen]);
 
   return (
     <div className="min-h-screen lg:grid lg:grid-cols-[17rem_minmax(0,1fr)]">
@@ -131,13 +149,23 @@ export function AppShell() {
             <p className="text-sm font-semibold text-ivory">2026/27 season</p>
           </div>
           <div className="flex items-center gap-1.5">
-            <NavLink
-              to="/app/admin"
-              className="grid h-11 w-11 place-items-center rounded-xl text-muted hover:bg-white/[0.05] hover:text-ivory"
-              aria-label="Notifications and admin status"
+            <button
+              type="button"
+              className="relative grid h-11 min-h-11 w-11 place-items-center rounded-xl text-muted hover:bg-white/[0.05] hover:text-ivory"
+              aria-label={activityOpen ? 'Close local activity' : 'Open local activity'}
+              aria-expanded={activityOpen}
+              aria-controls="local-activity-panel"
+              aria-haspopup="dialog"
+              onClick={() => setActivityOpen((open) => !open)}
             >
               <Bell size={19} />
-            </NavLink>
+              {recentActivity.length > 0 ? (
+                <span
+                  className="absolute right-2 top-2 h-2 w-2 rounded-full border border-ink bg-gold"
+                  aria-hidden="true"
+                />
+              ) : null}
+            </button>
           </div>
         </header>
 
@@ -145,6 +173,71 @@ export function AppShell() {
           <Outlet />
         </main>
       </div>
+
+      {activityOpen ? (
+        <section
+          id="local-activity-panel"
+          role="dialog"
+          aria-modal="false"
+          aria-labelledby="local-activity-title"
+          className="fixed inset-x-3 top-[calc(4.5rem+var(--safe-top))] z-50 max-h-[70dvh] overflow-y-auto rounded-2xl border border-white/10 bg-navy p-4 shadow-2xl backdrop-blur-xl sm:left-auto sm:right-5 sm:w-[min(24rem,calc(100vw-2.5rem))] lg:top-20"
+        >
+          <div className="flex items-start gap-3">
+            <div className="min-w-0 flex-1">
+              <p className="eyebrow">This device</p>
+              <h2 id="local-activity-title" className="mt-1 font-display text-2xl font-bold">
+                Local activity
+              </h2>
+            </div>
+            <button
+              type="button"
+              onClick={() => setActivityOpen(false)}
+              className="grid h-11 min-h-11 w-11 place-items-center rounded-xl text-muted hover:bg-white/[0.06] hover:text-ivory"
+              aria-label="Close local activity"
+            >
+              <X size={18} />
+            </button>
+          </div>
+          <p className="mt-2 text-xs leading-5 text-muted">
+            This is a local activity preview for the current session, not the authoritative private
+            league record.
+          </p>
+
+          {recentActivity.length ? (
+            <ol className="mt-4 divide-y divide-white/[0.07] border-y border-white/[0.07]">
+              {recentActivity.map((item) => (
+                <li key={item.id} className="py-3 first:pt-3 last:pb-3">
+                  <div className="flex items-start justify-between gap-3">
+                    <p className="min-w-0 text-sm font-semibold">{item.title}</p>
+                    <time
+                      dateTime={item.timestamp}
+                      className="shrink-0 text-[0.62rem] font-semibold text-gold"
+                    >
+                      {relativeTime(item.timestamp)}
+                    </time>
+                  </div>
+                  <p className="mt-1 text-xs leading-5 text-muted">{item.detail}</p>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <div className="mt-4 rounded-xl border border-white/[0.08] bg-white/[0.025] p-4 text-center">
+              <p className="text-sm font-semibold">Nothing local yet</p>
+              <p className="mt-1 text-xs leading-5 text-muted">
+                Purchases, releases, and other actions on this device will appear here.
+              </p>
+            </div>
+          )}
+
+          <Link
+            to="/app/admin"
+            onClick={() => setActivityOpen(false)}
+            className="button-secondary mt-4 w-full"
+          >
+            View administration
+          </Link>
+        </section>
+      ) : null}
 
       <nav
         className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-white/10 bg-ink/95 px-[max(.35rem,var(--safe-left))] pb-[var(--safe-bottom)] pt-1.5 backdrop-blur-xl lg:hidden"

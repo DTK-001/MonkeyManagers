@@ -22,15 +22,18 @@ import {
 import { useDemo } from '../../app/demo-store';
 import { GAME_DEFAULTS } from '../../app/product';
 import { formatMoney } from '../../lib/format';
+import { supabase } from '../../lib/supabase';
 import { PageHeader, SectionTitle, StatusBadge } from '../../components/ui';
 
 type AdminSection = 'overview' | 'competitions' | 'scoring' | 'sync' | 'audit';
 
 export default function AdminPage() {
-  const { resetDemo } = useDemo();
+  const { resetDemo, state } = useDemo();
   const [section, setSection] = useState<AdminSection>('overview');
   const [syncConfirm, setSyncConfirm] = useState(false);
   const [syncState, setSyncState] = useState<'idle' | 'running' | 'complete'>('idle');
+  const [syncError, setSyncError] = useState<string | null>(null);
+  const canRunServerSync = Boolean(supabase && state.selectedLeagueId !== 'league-pending');
   const sections = [
     { id: 'overview', label: 'Settings', icon: Settings2 },
     { id: 'competitions', label: 'Coverage', icon: Trophy },
@@ -38,10 +41,27 @@ export default function AdminPage() {
     { id: 'sync', label: 'Data sync', icon: CloudCog },
     { id: 'audit', label: 'Audit log', icon: FileClock }
   ] as const;
-  function runSync() {
+  async function runSync() {
     setSyncConfirm(false);
     setSyncState('running');
-    window.setTimeout(() => setSyncState('complete'), 1500);
+    setSyncError(null);
+    try {
+      if (!supabase || !canRunServerSync) {
+        window.setTimeout(() => setSyncState('complete'), 1500);
+        return;
+      }
+      const response = await supabase.functions.invoke<unknown>('manual-sync', {
+        body: {
+          leagueId: state.selectedLeagueId,
+          idempotencyKey: crypto.randomUUID()
+        }
+      });
+      if (response.error) throw response.error;
+      setSyncState('complete');
+    } catch (cause) {
+      setSyncState('idle');
+      setSyncError(cause instanceof Error ? cause.message : 'The synchronisation could not be started.');
+    }
   }
   return (
     <div className="page-wrap">
@@ -72,7 +92,12 @@ export default function AdminPage() {
           {section === 'competitions' ? <CoveragePanel /> : null}
           {section === 'scoring' ? <RulesPanel /> : null}
           {section === 'sync' ? (
-            <SyncPanel state={syncState} onSync={() => setSyncConfirm(true)} />
+            <SyncPanel
+              state={syncState}
+              error={syncError}
+              canRunServerSync={canRunServerSync}
+              onSync={() => setSyncConfirm(true)}
+            />
           ) : null}
           {section === 'audit' ? <AuditPanel /> : null}
         </div>
@@ -123,10 +148,18 @@ export default function AdminPage() {
               Completed fixtures from the previous three days will be rechecked. The daily
               90-request soft budget still applies and duplicate data will not be created.
             </p>
-            <div className="mt-4 flex items-start gap-2 rounded-xl border border-gold/20 bg-gold/[0.06] p-3 text-xs leading-5 text-muted">
-              <AlertTriangle className="mt-0.5 shrink-0 text-gold" size={15} /> This preview shows
-              the sync flow; production calls the admin-only Supabase Edge Function.
-            </div>
+            {canRunServerSync ? (
+              <div className="mt-4 flex items-start gap-2 rounded-xl border border-emerald/20 bg-emerald/[0.06] p-3 text-xs leading-5 text-muted">
+                <Check className="mt-0.5 shrink-0 text-emerald" size={15} /> This calls the
+                protected Supabase Edge Function. The server independently verifies that you are
+                an admin of this league.
+              </div>
+            ) : (
+              <div className="mt-4 flex items-start gap-2 rounded-xl border border-gold/20 bg-gold/[0.06] p-3 text-xs leading-5 text-muted">
+                <AlertTriangle className="mt-0.5 shrink-0 text-gold" size={15} /> Supabase is not
+                connected to an active league, so this device will show a local preview only.
+              </div>
+            )}
             <div className="mt-5 grid grid-cols-2 gap-3">
               <button
                 className="button-secondary"
@@ -135,7 +168,7 @@ export default function AdminPage() {
               >
                 Cancel
               </button>
-              <button className="button-primary" onClick={runSync} type="button">
+              <button className="button-primary" onClick={() => void runSync()} type="button">
                 <Play size={16} /> Sync now
               </button>
             </div>
@@ -308,9 +341,13 @@ function RulesPanel() {
 
 function SyncPanel({
   state,
+  error,
+  canRunServerSync,
   onSync
 }: {
   state: 'idle' | 'running' | 'complete';
+  error: string | null;
+  canRunServerSync: boolean;
   onSync: () => void;
 }) {
   return (
@@ -331,7 +368,11 @@ function SyncPanel({
                   ? 'Manual sync complete'
                   : 'Completed successfully'}
             </h2>
-            <p className="mt-1 text-xs text-muted">10 July 2026 · 03:30–03:37 Europe/London</p>
+            <p className="mt-1 text-xs text-muted">
+              {canRunServerSync
+                ? 'Server-side import checks the configured league timezone and request budget.'
+                : 'Connect Supabase and create or join a league to run the protected server sync.'}
+            </p>
           </div>
           <button
             type="button"
@@ -343,6 +384,14 @@ function SyncPanel({
           </button>
         </div>
       </section>
+      {error ? (
+        <p
+          className="rounded-xl border border-danger/30 bg-danger/[0.08] p-3 text-xs leading-5 text-[#ffc1c1]"
+          role="alert"
+        >
+          {error}
+        </p>
+      ) : null}
       <div className="grid gap-3 sm:grid-cols-3">
         <AdminStat
           icon={<Gauge />}

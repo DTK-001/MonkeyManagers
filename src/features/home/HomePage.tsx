@@ -57,7 +57,7 @@ export default function HomePage() {
         </div>
         <aside className="space-y-5">
           <section className="rounded-2xl border border-emerald/25 bg-emerald/[0.07] p-5"><ShieldCheck className="text-emerald" /><h2 className="mt-3 font-display text-2xl font-bold">Clean league start</h2><p className="mt-2 text-xs leading-5 text-muted">There are no inherited rankings, fixtures, competition points, or other managers’ squads in this league.</p></section>
-          <section className="glass-card p-5"><p className="eyebrow">Squad status</p><p className="mt-1 font-display text-3xl font-bold">{squad.length} / 15 players</p><p className="mt-2 text-sm text-muted">Player ownership and squad value will reflect your selections as the market is used.</p><Link to="/app/market" className="mt-4 inline-flex min-h-11 items-center gap-2 text-sm font-bold text-gold">Open market <ArrowRight size={16} /></Link></section>
+          <section className="glass-card p-5"><p className="eyebrow">Squad status</p><p className="mt-1 font-display text-3xl font-bold">{squad.length} players</p><p className="mt-2 text-sm text-muted">Your squad has no arbitrary size limit: every additional signing must simply fit within your available budget.</p><Link to="/app/market" className="mt-4 inline-flex min-h-11 items-center gap-2 text-sm font-bold text-gold">Open market <ArrowRight size={16} /></Link></section>
         </aside>
       </div>
     </div>

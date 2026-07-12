@@ -1,17 +1,42 @@
 import { useState } from 'react';
 import { Check, LogOut, Save, Sparkles, UserRound } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useDemo } from '../../app/demo-store';
 import { ClubBadge } from '../../components/ClubBadge';
 import { PageHeader, SectionTitle } from '../../components/ui';
 import { formatMoney } from '../../lib/format';
+import { supabase } from '../../lib/supabase';
 
 export default function ProfilePage() {
-  const { currentClub, state, updateClub } = useDemo();
+  const { currentClub, state, updateClub, resetDemo } = useDemo();
+  const navigate = useNavigate();
   const [club, setClub] = useState({ ...currentClub });
+  const [accountStatus, setAccountStatus] = useState<string | null>(null);
+  const [signingOut, setSigningOut] = useState(false);
   const squadValue = state.players
     .filter((player) => player.ownershipClubId === currentClub.id)
     .reduce((sum, player) => sum + player.valueMinor, 0);
+
+  async function signOut() {
+    setAccountStatus(null);
+    if (!supabase) {
+      resetDemo();
+      navigate('/auth/sign-in', { replace: true });
+      return;
+    }
+
+    setSigningOut(true);
+    try {
+      const { error } = await supabase.auth.signOut();
+      if (error) throw error;
+      resetDemo();
+      navigate('/auth/sign-in', { replace: true });
+    } catch (error) {
+      setAccountStatus(error instanceof Error ? error.message : 'We could not sign you out.');
+    } finally {
+      setSigningOut(false);
+    }
+  }
   return (
     <div className="page-wrap">
       <PageHeader
@@ -149,10 +174,20 @@ export default function ProfilePage() {
                 <p className="text-sm font-semibold">Manager profile</p>
                 <p className="text-xs text-muted">Private league account</p>
               </div>
-              <Link to="/" className="button-secondary">
-                <LogOut size={16} /> Return to sign in
-              </Link>
+              <button
+                type="button"
+                onClick={() => void signOut()}
+                disabled={signingOut}
+                className="button-secondary"
+              >
+                <LogOut size={16} /> {signingOut ? 'Signing out…' : 'Sign out'}
+              </button>
             </div>
+            {accountStatus ? (
+              <p className="mt-3 text-xs text-danger" role="status">
+                {accountStatus}
+              </p>
+            ) : null}
           </section>
         </div>
       </div>

@@ -2,11 +2,11 @@
 
 ## Goal
 
-Deliver a runnable, mobile-first GitHub Pages PWA with a complete demo journey, a secure Supabase foundation, tested football domain logic, and production setup documentation. The product name will be read from one central configuration module.
+Deliver a runnable, mobile-first GitHub Pages PWA with account-first private-league access, a secure Supabase foundation, a real Premier League catalogue, tested football domain logic, and production setup documentation. The product name will be read from one central configuration module.
 
 ## Milestones
 
-1. **Runnable shell** — scaffold React, strict TypeScript, Vite, Tailwind, HashRouter, PWA assets, responsive design system, demo state, and every primary screen.
+1. **Runnable shell** — scaffold React, strict TypeScript, Vite, Tailwind, HashRouter, PWA assets, responsive design system, a clean local league view, real-player catalogue, and every primary screen.
 2. **Supabase foundation** — authentication adapter, schema migrations, row-level security, league/club setup, seeds, and environment templates.
 3. **Ownership and finances** — atomic purchase/release/transfer functions, immutable ledger, market UI, ownership constraints, and conflict handling.
 4. **Squads and scoring** — formation validation, lineup locking and substitutions, position-aware scoring explanations, competition allocation, and standings.

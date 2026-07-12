@@ -1,4 +1,5 @@
--- Deterministic fictional development data. No real people, clubs, badges or provider records.
+-- Deterministic fictional development gameplay data. The migration-owned API-Football
+-- competition catalogue remains available for locally created non-demo seasons.
 -- Reset and load with: supabase db reset
 
 begin;
@@ -40,7 +41,6 @@ truncate table
   public.enabled_competitions,
   public.real_players,
   public.real_teams,
-  public.real_competitions,
   public.fantasy_clubs,
   public.seasons,
   public.invitations,
@@ -48,6 +48,10 @@ truncate table
   public.game_leagues,
   public.profiles
 restart identity cascade;
+
+-- Leave the canonical API-Football competition catalogue installed by migrations intact while
+-- making this fixture-rich development seed repeatable if it is applied more than once.
+delete from public.real_competitions where provider = 'demo';
 
 insert into public.profiles (id, display_name) values
   ('00000000-0000-0000-0000-000000000101', 'Maya Sterling'),
@@ -81,6 +85,15 @@ insert into public.seasons (
   'open',
   'active'
 );
+
+-- The season trigger correctly enables the canonical provider catalogue. This particular
+-- development season is deliberately all-fictional, so it must not receive fake registrations,
+-- scores, or totals against real competitions. The catalogue itself remains for later seasons.
+delete from public.enabled_competitions enabled
+using public.real_competitions competition
+where enabled.season_id = '20000000-0000-0000-0000-000000000001'
+  and competition.id = enabled.real_competition_id
+  and competition.provider <> 'demo';
 
 insert into public.fantasy_clubs (
   id, league_id, owner_profile_id, name, abbreviation, manager_display_name, stadium_name,
@@ -160,7 +173,9 @@ select
   now()
 from public.real_players p
 cross join lateral (select substring(p.provider_external_id from '[0-9]+$')::integer as n) parsed
-cross join public.real_competitions c;
+cross join public.real_competitions c
+where p.provider = 'demo'
+  and c.provider = 'demo';
 
 insert into public.competition_rounds (
   id, enabled_competition_id, provider_round_name, display_name, starts_at, lock_deadline_at, ends_at, status, locked_at, completed_at
@@ -290,7 +305,9 @@ select
   '{"tackles":6,"keyPasses":5,"saves":10}',
   '{"minutes":true,"goals":true,"assists":true}',
   true
-from public.enabled_competitions ec;
+from public.enabled_competitions ec
+join public.real_competitions competition on competition.id = ec.real_competition_id
+where competition.provider = 'demo';
 
 insert into public.player_match_points (
   enabled_competition_id, fixture_id, real_player_id, fixture_player_statistics_id,
@@ -310,6 +327,8 @@ from public.fixture_player_statistics s
 join public.fixtures f on f.id = s.fixture_id
 join public.enabled_competitions ec
   on ec.real_competition_id = f.real_competition_id and ec.provider_season_id = f.provider_season_id
+join public.real_competitions competition
+  on competition.id = ec.real_competition_id and competition.provider = 'demo'
 join public.scoring_rule_sets rules on rules.enabled_competition_id = ec.id and rules.active;
 
 insert into public.point_breakdowns (
@@ -342,7 +361,8 @@ select
   ),
   'demo-v1'
 from public.real_players p
-cross join lateral (select substring(p.provider_external_id from '[0-9]+$')::integer n) parsed;
+cross join lateral (select substring(p.provider_external_id from '[0-9]+$')::integer n) parsed
+where p.provider = 'demo';
 
 insert into public.player_value_history (
   dynamic_player_value_id, value_minor, target_value_minor, explanation, formula_version, valued_on
@@ -377,7 +397,8 @@ select
 from public.real_players p
 join public.dynamic_player_values v on v.real_player_id = p.id
 cross join lateral (select substring(p.provider_external_id from '[0-9]+$')::integer n) parsed
-where n <= 60;
+where p.provider = 'demo'
+  and n <= 60;
 
 insert into public.ownership_history (
   ownership_id, league_id, season_id, real_player_id, to_fantasy_club_id,
@@ -623,25 +644,58 @@ select
   round((42 + club_number * 2.2)::numeric, 2),
   md5(ec.id::text || c.id::text || '-demo-v1')
 from public.enabled_competitions ec
+join public.real_competitions competition on competition.id = ec.real_competition_id
 cross join lateral (select right(ec.id::text, 12)::integer ec_number) er
 cross join public.fantasy_clubs c
-cross join lateral (select right(c.id::text, 12)::integer club_number) cr;
+cross join lateral (select right(c.id::text, 12)::integer club_number) cr
+where competition.provider = 'demo';
 
+-- The overall private table intentionally includes domestic-league points only. Cups and
+-- continental competitions retain their own totals and must never affect these standings.
+with domestic_totals as (
+  select
+    total.fantasy_club_id,
+    sum(total.points)::numeric(14,2) as total_points,
+    sum(total.rounds_won)::integer as competition_wins,
+    max(total.highest_round_score)::numeric(14,2) as highest_round_score
+  from public.competition_totals total
+  join public.enabled_competitions enabled on enabled.id = total.enabled_competition_id
+  join public.real_competitions competition on competition.id = enabled.real_competition_id
+  where enabled.season_id = '20000000-0000-0000-0000-000000000001'
+    and competition.format = 'domestic_league'::public.competition_format
+  group by total.fantasy_club_id
+), ranked as (
+  select
+    c.id as fantasy_club_id,
+    coalesce(domestic.total_points, 0)::numeric(14,2) as total_points,
+    coalesce(domestic.competition_wins, 0)::integer as competition_wins,
+    coalesce(domestic.highest_round_score, 0)::numeric(14,2) as highest_round_score,
+    right(c.id::text, 12)::integer as club_number,
+    (row_number() over (
+      order by
+        coalesce(domestic.total_points, 0) desc,
+        coalesce(domestic.competition_wins, 0) desc,
+        coalesce(domestic.highest_round_score, 0) desc,
+        c.name asc
+    ))::integer as standing_rank
+  from public.fantasy_clubs c
+  left join domestic_totals domestic on domestic.fantasy_club_id = c.id
+  where c.league_id = '10000000-0000-0000-0000-000000000001'
+)
 insert into public.league_standings (
   season_id, fantasy_club_id, rank, total_points, competition_wins,
   highest_round_score, recent_form, calculation_fingerprint
 )
 select
   '20000000-0000-0000-0000-000000000001',
-  c.id,
-  club_number,
-  (array[312.40, 298.75, 286.10, 271.95])[club_number],
-  (array[2, 1, 1, 0])[club_number],
-  (array[55.80, 53.45, 49.90, 47.25])[club_number],
+  fantasy_club_id,
+  standing_rank,
+  total_points,
+  competition_wins,
+  highest_round_score,
   array[36.2 + club_number, 40.1 + club_number, 44.4 + club_number]::numeric[],
-  md5(c.id::text || '-standings-demo-v1')
-from public.fantasy_clubs c
-cross join lateral (select right(c.id::text, 12)::integer club_number) ranked;
+  md5(fantasy_club_id::text || '-standings-domestic-demo-v1')
+from ranked;
 
 insert into public.activity_feed_entries (
   league_id, season_id, event_type, fantasy_club_id, headline, payload, created_at

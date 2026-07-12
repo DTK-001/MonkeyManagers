@@ -178,6 +178,7 @@ export default function OnboardingPage() {
           rank: 0,
           form: []
         },
+        resolvedLeague.id,
         resolvedLeague.name
       );
       navigate('/app/market');

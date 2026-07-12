@@ -99,7 +99,7 @@ The default stop is 90 requests per UTC logging day, leaving a margin below a 10
 
 Running the same idempotency key again returns the existing run. Provider/entity uniqueness and source fingerprints prevent duplicate fixtures and player-stat rows.
 
-Current first-pass boundary: the deployed sync pipeline ends with normalized data marked `normalised_data_ready`. The scoring, competition-total, standings, and valuation engines exist and are tested, while the browser demo contains calculated examples, but a production worker that consumes the imported fingerprint and persists all four downstream calculations still needs to be wired into `runSeasonSync`. Do not interpret an import-only “success” as proof that production standings were recalculated.
+Current first-pass boundary: the deployed sync pipeline ends with normalized data marked `normalised_data_ready`. The scoring, competition-total, standings, lineup-aggregation, and valuation engines exist and are tested, but a production worker that consumes the imported fingerprint and persists those downstream calculations still needs to be wired into `runSeasonSync`. Do not interpret an import-only “success” as proof that production standings, lineup scores, or player values were recalculated.
 
 ## Deploying functions
 
@@ -181,7 +181,7 @@ The [Supabase Cron quickstart](https://supabase.com/docs/guides/cron/quickstart)
 
 ## Manual sync
 
-In demo mode, the Administration “Sync now” flow is a visual simulation. A connected client should invoke `manual-sync` with the signed-in user's access token and a fresh UUID idempotency key:
+The account-first Administration **Sync now** flow invokes `manual-sync` with the signed-in user's access token and a fresh UUID idempotency key when the client has Supabase configuration and a selected league:
 
 ```bash
 curl --request POST \
@@ -192,9 +192,9 @@ curl --request POST \
   --data '{"leagueId":"LEAGUE_UUID","idempotencyKey":"OPERATION_UUID"}'
 ```
 
-Only an active league admin is accepted. The function finds that league's active season. A first accepted run returns HTTP 202; replaying the same idempotency key returns the existing report with HTTP 200.
+Only an active league admin is accepted. The function finds that league's active season. A first accepted run returns HTTP 202; replaying the same idempotency key returns the existing report with HTTP 200. If the UI does not have a configured/selected league, it displays a local preview instead and makes no provider request.
 
-The connected Administration screen still needs to replace its demo timer with this invocation and render `data_synchronisation_runs`, `api_request_logs`, warnings, and administrator notifications.
+The current Administration screen invokes the function but still needs live queries for `data_synchronisation_runs`, `api_request_logs`, warnings, and administrator notifications.
 
 ## Mapping and coverage rules
 
@@ -202,4 +202,4 @@ API-Football coverage differs by league, season, and endpoint. Save the `/league
 
 Normalized fields are nullable. The current mapper covers common participation, shooting, goal, passing, tackle, duel, dribble, foul, card, penalty, and goalkeeper fields. It preserves every input as JSON for audit. Metrics not present in a payload remain null; they are not reconstructed from ratings or unrelated fields.
 
-Add mapping changes with fixture samples and unit tests. Never log full authorization headers or use real provider payloads containing licensed imagery as public demo fixtures without confirming reuse rights.
+Add mapping changes with fixture samples and unit tests. Never log full authorization headers or use real provider payloads containing licensed imagery as public sample fixtures without confirming reuse rights.

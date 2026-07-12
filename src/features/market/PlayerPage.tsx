@@ -9,7 +9,7 @@ import {
   TrendingDown,
   TrendingUp
 } from 'lucide-react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { useDemo } from '../../app/demo-store';
 import { demoTeams } from '../../data/demo';
@@ -19,13 +19,15 @@ import { PositionPill, StatusBadge } from '../../components/ui';
 export default function PlayerPage() {
   const { playerId } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
+  const marketReturnState: unknown = location.state as unknown;
   const { state, currentClub, buyPlayer, releasePlayer } = useDemo();
   const player = state.players.find((item) => item.id === playerId);
   if (!player)
     return (
       <div className="page-wrap">
         <p>Player not found.</p>
-        <Link to="/app/market" className="button-secondary mt-4">
+        <Link to="/app/market" state={marketReturnState} className="button-secondary mt-4">
           Return to market
         </Link>
       </div>
@@ -35,46 +37,24 @@ export default function PlayerPage() {
   const owner = state.clubs.find((club) => club.id === player.ownershipClubId);
   const mine = owner?.id === currentClub.id;
   const valueChange = (player.valueMinor / player.previousValueMinor - 1) * 100;
+  const valueChangeMinor = player.valueMinor - player.previousValueMinor;
   const chartData = player.valueHistory.map((point) => ({
     ...point,
     value: point.valueMinor / 100_000_000
   }));
   const mostRecent = player.recentPoints.at(-1) ?? 0;
-  const breakdown = [
-    { label: '90 minutes', detail: 'Played full match', points: 2 },
-    {
-      label:
-        player.position === 'GK'
-          ? 'Four saves'
-          : player.position === 'DEF'
-            ? 'Three tackles'
-            : player.position === 'MID'
-              ? 'Three key passes'
-              : 'Goal',
-      detail: 'Provider statistic',
-      points: player.position === 'FWD' ? 5 : 1.5
-    },
-    {
-      label:
-        player.position === 'GK' || player.position === 'DEF'
-          ? 'Clean sheet'
-          : 'Two shots on target',
-      detail: 'Position-adjusted rule',
-      points: player.position === 'GK' ? 4 : player.position === 'DEF' ? 3.5 : 1
-    },
-    { label: 'Discipline', detail: 'No cards', points: 0 }
-  ];
 
   function action() {
     if (mine) releasePlayer(selectedPlayer.id);
     else if (!owner) buyPlayer(selectedPlayer.id);
-    navigate('/app/market');
+    navigate('/app/market', { state: marketReturnState });
   }
 
   return (
     <div className="page-wrap">
       <Link
         to="/app/market"
+        state={marketReturnState}
         className="mb-4 inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-muted hover:text-ivory"
       >
         <ArrowLeft size={17} /> Player market
@@ -195,49 +175,40 @@ export default function PlayerPage() {
               </ResponsiveContainer>
             </div>
             <div className="mt-4 grid gap-2 sm:grid-cols-2">
-              <p className="flex items-start gap-2 rounded-xl bg-emerald/[0.07] p-3 text-xs leading-5 text-[#a9cbb9]">
-                <TrendingUp size={15} className="mt-0.5 shrink-0 text-emerald" /> Recent form raised
-                target value by £0.40m.
+              <p
+                className={`flex items-start gap-2 rounded-xl p-3 text-xs leading-5 ${valueChangeMinor < 0 ? 'bg-danger/[0.07] text-[#efc5c5]' : 'bg-emerald/[0.07] text-[#a9cbb9]'}`}
+              >
+                {valueChangeMinor >= 0 ? (
+                  <TrendingUp size={15} className="mt-0.5 shrink-0 text-emerald" />
+                ) : (
+                  <TrendingDown size={15} className="mt-0.5 shrink-0 text-danger" />
+                )}
+                {valueChangeMinor === 0
+                  ? 'The current catalogue price is unchanged from its previous value.'
+                  : `The current catalogue price is ${formatMoney(Math.abs(valueChangeMinor))} ${valueChangeMinor > 0 ? 'higher' : 'lower'} than its previous value.`}
               </p>
               <p className="flex items-start gap-2 rounded-xl bg-white/[0.035] p-3 text-xs leading-5 text-muted">
-                <ShieldCheck size={15} className="mt-0.5 shrink-0 text-gold" /> Daily movement cap
-                kept the change within 5%.
+                <ShieldCheck size={15} className="mt-0.5 shrink-0 text-gold" /> A structured
+                valuation explanation is published only after source-backed scoring runs.
               </p>
             </div>
           </section>
 
           <section className="glass-card overflow-hidden">
             <div className="p-5">
-              <p className="eyebrow">Crown Premier Division · Round 8</p>
+              <p className="eyebrow">Source-backed scoring</p>
               <h2 className="mt-1 font-display text-2xl font-bold">Point explanation</h2>
               <p className="mt-1 text-xs text-muted">
-                Northbridge Athletic 2–1 Stonemere City · complete provider data
+                No completed fixture statistics have been imported for this player in this private
+                league yet.
               </p>
             </div>
-            <div className="divide-y divide-white/[0.07] border-t border-white/[0.07]">
-              {breakdown.map((item) => (
-                <div
-                  key={item.label}
-                  className="grid grid-cols-[minmax(0,1fr)_auto] gap-4 px-5 py-3"
-                >
-                  <div>
-                    <p className="text-sm font-semibold">{item.label}</p>
-                    <p className="mt-0.5 text-xs text-muted">{item.detail}</p>
-                  </div>
-                  <span
-                    className={`font-mono text-sm font-bold ${item.points > 0 ? 'text-emerald' : item.points < 0 ? 'text-danger' : 'text-muted'}`}
-                  >
-                    {item.points > 0 ? '+' : ''}
-                    {item.points.toFixed(2)}
-                  </span>
-                </div>
-              ))}
-            </div>
-            <div className="flex items-center justify-between border-t border-gold/20 bg-gold/[0.06] px-5 py-4">
-              <span className="font-display text-xl font-bold">Calculated total</span>
-              <span className="font-display text-3xl font-bold text-gold">
-                {formatPoints(breakdown.reduce((sum, item) => sum + item.points, 0))}
-              </span>
+            <div className="border-t border-white/[0.07] p-5">
+              <p className="flex items-start gap-2 text-sm leading-6 text-muted">
+                <CircleAlert className="mt-0.5 shrink-0 text-gold" size={17} /> Match-level
+                explanations appear only after a completed provider fixture has been normalised and
+                scored. No goals, passes, tackles, or totals are inferred here.
+              </p>
             </div>
           </section>
         </div>
@@ -253,7 +224,7 @@ export default function PlayerPage() {
                 ? 'This player is registered to your club. A release returns 90% of current book value.'
                 : owner
                   ? `Managed by ${owner.manager}. Make a transfer offer when the market permits.`
-                  : 'This player is unowned in Friday Night Football. Your balance and ownership will be checked in one secure transaction.'}
+                  : `This player is unowned in ${state.leagueName}'s local market view. Live ownership and balance are checked together by the server before a real signing can complete.`}
             </p>
             {mine || !owner ? (
               <button
@@ -277,26 +248,17 @@ export default function PlayerPage() {
             )}
             {!owner ? (
               <p className="mt-3 flex items-start gap-2 text-[0.65rem] leading-5 text-muted">
-                <LockKeyhole className="mt-0.5 shrink-0" size={13} /> Database uniqueness decides
-                simultaneous purchases. Exactly one can succeed.
+                <LockKeyhole className="mt-0.5 shrink-0" size={13} /> The production database
+                enforces unique ownership. This local preview is not an authoritative signing.
               </p>
             ) : null}
           </section>
           <section className="glass-card p-5">
             <p className="eyebrow">Points by competition</p>
-            <div className="mt-3 space-y-3">
-              {state.competitions.map((competition, index) => (
-                <div key={competition.id} className="flex items-center justify-between gap-3">
-                  <div className="min-w-0">
-                    <p className="truncate text-sm font-semibold">{competition.shortName}</p>
-                    <p className="text-[0.65rem] text-muted">{competition.currentRound}</p>
-                  </div>
-                  <span className="font-display text-2xl font-bold">
-                    {formatPoints(player.seasonPoints * (0.63 - index * 0.2))}
-                  </span>
-                </div>
-              ))}
-            </div>
+            <p className="mt-3 text-xs leading-5 text-muted">
+              Competition totals will appear when this league has imported and scored completed
+              fixtures. Totals are never estimated by splitting a player's season score.
+            </p>
           </section>
           <section className="rounded-2xl border border-gold/20 bg-gold/[0.06] p-4">
             <div className="flex items-center gap-2 text-gold">

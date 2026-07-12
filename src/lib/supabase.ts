@@ -14,6 +14,8 @@ export const supabase: SupabaseClient | null =
 
 export function requireSupabase(): SupabaseClient {
   if (!supabase)
-    throw new Error('Supabase is not configured. Use demo mode or add public settings.');
+    throw new Error(
+      'Supabase is not configured. Add the public account settings before continuing.'
+    );
   return supabase;
 }

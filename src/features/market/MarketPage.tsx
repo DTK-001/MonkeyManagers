@@ -10,7 +10,7 @@ import {
   UserRoundCheck,
   X
 } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useDemo } from '../../app/demo-store';
 import { demoTeams } from '../../data/demo';
 import { formatMoney, formatPoints } from '../../lib/format';
@@ -19,15 +19,80 @@ import { PageHeader, PositionPill, StatusBadge } from '../../components/ui';
 
 type OwnershipFilter = 'available' | 'mine' | 'all';
 type SortKey = 'value' | 'form' | 'points' | 'name';
+type PriceFilter = 'all' | 'under-5' | '5-to-10' | '10-to-15' | 'over-15';
+
+interface MarketFilters {
+  query: string;
+  position: Position | 'ALL';
+  ownership: OwnershipFilter;
+  sort: SortKey;
+  clubId: string;
+  competitionId: string;
+  priceFilter: PriceFilter;
+}
+
+function restoredFilters(state: unknown): MarketFilters {
+  const saved = (state as { marketFilters?: Partial<MarketFilters> } | null)?.marketFilters;
+  const positions = ['ALL', 'GK', 'DEF', 'MID', 'FWD'];
+  const ownerships = ['available', 'mine', 'all'];
+  const sorts = ['value', 'form', 'points', 'name'];
+  const prices = ['all', 'under-5', '5-to-10', '10-to-15', 'over-15'];
+  return {
+    query: typeof saved?.query === 'string' ? saved.query : '',
+    position: positions.includes(saved?.position ?? '')
+      ? (saved?.position as Position | 'ALL')
+      : 'ALL',
+    ownership: ownerships.includes(saved?.ownership ?? '')
+      ? (saved?.ownership as OwnershipFilter)
+      : 'available',
+    sort: sorts.includes(saved?.sort ?? '') ? (saved?.sort as SortKey) : 'form',
+    clubId: typeof saved?.clubId === 'string' ? saved.clubId : 'ALL',
+    competitionId: typeof saved?.competitionId === 'string' ? saved.competitionId : 'ALL',
+    priceFilter: prices.includes(saved?.priceFilter ?? '')
+      ? (saved?.priceFilter as PriceFilter)
+      : 'all'
+  };
+}
+
+function matchesPriceBand(valueMinor: number, band: PriceFilter): boolean {
+  const valueMillions = valueMinor / 100_000_000;
+  if (band === 'under-5') return valueMillions < 5;
+  if (band === '5-to-10') return valueMillions >= 5 && valueMillions < 10;
+  if (band === '10-to-15') return valueMillions >= 10 && valueMillions < 15;
+  if (band === 'over-15') return valueMillions >= 15;
+  return true;
+}
+
+function competitionLabel(competitionId: string): string {
+  return competitionId === 'premier' ? 'Premier League' : competitionId;
+}
 
 export default function MarketPage() {
   const { state, currentClub, buyPlayer, releasePlayer } = useDemo();
-  const [query, setQuery] = useState('');
-  const [position, setPosition] = useState<Position | 'ALL'>('ALL');
-  const [ownership, setOwnership] = useState<OwnershipFilter>('available');
-  const [sort, setSort] = useState<SortKey>('form');
+  const location = useLocation();
+  const [initialFilters] = useState(() => restoredFilters(location.state));
+  const [query, setQuery] = useState(initialFilters.query);
+  const [position, setPosition] = useState<Position | 'ALL'>(initialFilters.position);
+  const [ownership, setOwnership] = useState<OwnershipFilter>(initialFilters.ownership);
+  const [sort, setSort] = useState<SortKey>(initialFilters.sort);
+  const [clubId, setClubId] = useState(initialFilters.clubId);
+  const [competitionId, setCompetitionId] = useState(initialFilters.competitionId);
+  const [priceFilter, setPriceFilter] = useState<PriceFilter>(initialFilters.priceFilter);
   const [selected, setSelected] = useState<DemoPlayer | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const competitionOptions = useMemo(
+    () => Array.from(new Set(state.players.flatMap((player) => player.competitionIds))).sort(),
+    [state.players]
+  );
+  const marketFilters: MarketFilters = {
+    query,
+    position,
+    ownership,
+    sort,
+    clubId,
+    competitionId,
+    priceFilter
+  };
 
   const visiblePlayers = useMemo(() => {
     const normalisedQuery = query.trim().toLowerCase();
@@ -38,12 +103,23 @@ export default function MarketPage() {
           !normalisedQuery ||
           `${player.name} ${team?.name ?? ''}`.toLowerCase().includes(normalisedQuery);
         const matchesPosition = position === 'ALL' || player.position === position;
+        const matchesClub = clubId === 'ALL' || player.teamId === clubId;
+        const matchesCompetition =
+          competitionId === 'ALL' || player.competitionIds.includes(competitionId);
+        const matchesPrice = matchesPriceBand(player.valueMinor, priceFilter);
         const matchesOwnership =
           ownership === 'all' ||
           (ownership === 'available'
             ? !player.ownershipClubId
             : player.ownershipClubId === currentClub.id);
-        return matchesQuery && matchesPosition && matchesOwnership;
+        return (
+          matchesQuery &&
+          matchesPosition &&
+          matchesClub &&
+          matchesCompetition &&
+          matchesPrice &&
+          matchesOwnership
+        );
       })
       .sort((a, b) =>
         sort === 'value'
@@ -54,7 +130,17 @@ export default function MarketPage() {
               ? b.seasonPoints - a.seasonPoints
               : a.name.localeCompare(b.name)
       );
-  }, [state.players, query, position, ownership, sort, currentClub.id]);
+  }, [
+    state.players,
+    query,
+    position,
+    ownership,
+    sort,
+    clubId,
+    competitionId,
+    priceFilter,
+    currentClub.id
+  ]);
 
   function confirmAction() {
     if (!selected) return;
@@ -68,8 +154,8 @@ export default function MarketPage() {
       <PageHeader
         eyebrow="Transfer centre"
         title="Player market"
-        description="Every player has one owner inside this league. Availability is confirmed again when you sign."
-        action={<StatusBadge kind="success">Open</StatusBadge>}
+        description="Browse the real-player catalogue and plan your squad. This local market view will be replaced by the league's authoritative live market feed."
+        action={<StatusBadge kind="warning">Local preview</StatusBadge>}
       />
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
         <div className="subtle-card p-3">
@@ -148,6 +234,67 @@ export default function MarketPage() {
                 {option}
               </button>
             ))}
+            <label className="flex min-h-9 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 text-xs text-muted">
+              <span className="hidden sm:inline">Club</span>
+              <span className="sr-only">Real club</span>
+              <select
+                value={clubId}
+                onChange={(event) => setClubId(event.target.value)}
+                className="min-h-7 max-w-32 bg-transparent font-semibold text-ivory outline-none"
+              >
+                <option className="bg-ink" value="ALL">
+                  All clubs
+                </option>
+                {demoTeams.map((team) => (
+                  <option className="bg-ink" key={team.id} value={team.id}>
+                    {team.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="flex min-h-9 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 text-xs text-muted">
+              <span className="hidden sm:inline">Competition</span>
+              <span className="sr-only">Eligible competition</span>
+              <select
+                value={competitionId}
+                onChange={(event) => setCompetitionId(event.target.value)}
+                className="min-h-7 max-w-36 bg-transparent font-semibold text-ivory outline-none"
+              >
+                <option className="bg-ink" value="ALL">
+                  All competitions
+                </option>
+                {competitionOptions.map((competition) => (
+                  <option className="bg-ink" key={competition} value={competition}>
+                    {competitionLabel(competition)}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="flex min-h-9 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 text-xs text-muted">
+              <span className="hidden sm:inline">Price</span>
+              <span className="sr-only">Price range</span>
+              <select
+                value={priceFilter}
+                onChange={(event) => setPriceFilter(event.target.value as PriceFilter)}
+                className="min-h-7 max-w-28 bg-transparent font-semibold text-ivory outline-none"
+              >
+                <option className="bg-ink" value="all">
+                  Any price
+                </option>
+                <option className="bg-ink" value="under-5">
+                  Under £5m
+                </option>
+                <option className="bg-ink" value="5-to-10">
+                  £5m–£10m
+                </option>
+                <option className="bg-ink" value="10-to-15">
+                  £10m–£15m
+                </option>
+                <option className="bg-ink" value="over-15">
+                  £15m+
+                </option>
+              </select>
+            </label>
             <label className="ml-auto flex min-h-9 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 text-xs text-muted">
               <ArrowDownUp size={14} />
               <span className="sr-only sm:not-sr-only">Sort</span>
@@ -191,7 +338,11 @@ export default function MarketPage() {
                 key={player.id}
                 className="grid min-h-[5.5rem] grid-cols-[minmax(0,1fr)_auto] items-center gap-3 px-3 py-3 hover:bg-white/[0.02] md:grid-cols-[minmax(15rem,1fr)_9rem_7rem_7rem_8rem] md:px-4"
               >
-                <Link to={`/app/market/${player.id}`} className="flex min-w-0 items-center gap-3">
+                <Link
+                  to={`/app/market/${player.id}`}
+                  state={{ marketFilters }}
+                  className="flex min-w-0 items-center gap-3"
+                >
                   <span
                     className="relative grid h-11 w-11 shrink-0 place-items-center rounded-full border border-white/10 bg-white/[0.06] font-display text-lg font-bold"
                     style={{ boxShadow: `inset 0 -3px 0 ${team?.colour ?? '#c3a46d'}` }}
@@ -211,6 +362,15 @@ export default function MarketPage() {
                     </span>
                     <span className="mt-1 block truncate text-xs text-muted">
                       {team?.name} · {formatPoints(player.seasonPoints)} pts
+                    </span>
+                    <span className="mt-1 flex items-center gap-2 md:hidden">
+                      <span className="font-display text-lg font-bold text-ivory">
+                        {formatMoney(player.valueMinor)}
+                      </span>
+                      <span className={`text-[0.62rem] ${rising ? 'text-emerald' : 'text-danger'}`}>
+                        {rising ? '+' : ''}
+                        {((player.valueMinor / player.previousValueMinor - 1) * 100).toFixed(1)}%
+                      </span>
                     </span>
                   </span>
                 </Link>
@@ -251,6 +411,7 @@ export default function MarketPage() {
                   ) : (
                     <Link
                       to={`/app/market/${player.id}`}
+                      state={{ marketFilters }}
                       className="grid h-11 w-11 place-items-center rounded-xl text-muted hover:bg-white/[0.05]"
                     >
                       <ChevronRight size={19} />
@@ -334,8 +495,9 @@ export default function MarketPage() {
                   </div>
                 </div>
                 <p className="mt-3 flex items-start gap-2 text-xs leading-5 text-muted">
-                  <Check size={14} className="mt-0.5 shrink-0 text-emerald" /> Ownership and funds
-                  will be verified atomically before completion.
+                  <Check size={14} className="mt-0.5 shrink-0 text-emerald" /> This preview updates
+                  only this device. The live market uses an atomic server-side ownership and funds
+                  check before a signing can complete.
                 </p>
               </>
             )}

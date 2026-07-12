@@ -21,13 +21,15 @@ npx supabase link --project-ref YOUR_PROJECT_REF
 npx supabase db push
 ```
 
-Review the migration diff and back up real data before applying later schema changes to a populated project. Do not run the demo seed against production.
+Review the migration diff and back up real data before applying later schema changes to a populated project. Do not run the fictional development seed against production.
 
 ## Migration order
 
 1. `20260710190000_core_schema.sql` creates extensions, enums, tables, keys, unique constraints, and access-path indexes.
 2. `20260710190100_security_integrity.sql` adds Auth profile creation, immutable-history guards, cached-finance reconciliation, lineup locks, audit triggers, helper RPCs, RLS, policies, and grants.
 3. `20260710190200_atomic_market_operations.sql` adds transfer-scope guards and atomic purchase, release, and accepted-transfer RPCs with idempotency.
+4. `20260712100000_enable_real_competitions.sql` installs the canonical API-Football competition catalogue, enables it for real seasons, and guards competition allocation and domestic-league standings.
+5. `20260712103000_harden_real_competition_enabler.sql` removes browser-role access to the trigger-only SECURITY DEFINER competition enablers.
 
 New migrations must be additive and timestamped. Never edit a migration that has already been applied to a shared environment; add a new migration instead.
 
@@ -165,4 +167,4 @@ Reset it with:
 npm run db:reset
 ```
 
-`supabase/seed/reset_demo.sql` is a `psql` convenience entry point for the same canonical seed. The browser demo under `src/data` is separate from this database seed.
+`supabase/seed/reset_demo.sql` is a `psql` convenience entry point for the same canonical seed. The account-first browser client uses a clean local league view and a real Premier League catalogue; it is separate from this fictional database seed.

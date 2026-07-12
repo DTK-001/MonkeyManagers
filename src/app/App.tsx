@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from '../components/AppShell';
 import { LoadingScreen } from '../components/ui';
+import { RequireSession } from '../features/auth/RequireSession';
 
 const AuthPage = lazy(() => import('../features/auth/AuthPage'));
 const OnboardingPage = lazy(() => import('../features/onboarding/OnboardingPage'));
@@ -30,9 +31,23 @@ export function App() {
         <Routes>
           <Route path="/" element={<Navigate replace to="/auth/sign-in" />} />
           <Route path="/auth/:mode" element={<AuthPage />} />
-          <Route path="/onboarding" element={<OnboardingPage />} />
+          <Route
+            path="/onboarding"
+            element={
+              <RequireSession>
+                <OnboardingPage />
+              </RequireSession>
+            }
+          />
           <Route path="/offline" element={<OfflinePage />} />
-          <Route path="/app" element={<AppShell />}>
+          <Route
+            path="/app"
+            element={
+              <RequireSession>
+                <AppShell />
+              </RequireSession>
+            }
+          >
             <Route index element={<Navigate replace to="home" />} />
             <Route path="home" element={<HomePage />} />
             <Route path="squad" element={<SquadPage />} />

@@ -24,7 +24,7 @@ type DemoAction =
   | { type: 'SET_VICE_CAPTAIN'; playerId: string }
   | { type: 'SAVE_LINEUP' }
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
-  | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueName: string }
+  | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string }
   | { type: 'CLEAR_MESSAGE' };
 
 function activityId(): string {
@@ -201,7 +201,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
       return {
         ...state,
         demoActive: true,
-        selectedLeagueId: action.club.id,
+        selectedLeagueId: action.leagueId,
         leagueName: action.leagueName,
         currentClubId: action.club.id,
         clubs: [action.club],
@@ -225,17 +225,25 @@ function loadState(): DemoState {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (!stored) return createInitialDemoState();
-    const restored = JSON.parse(stored) as DemoState;
+    const initial = createInitialDemoState();
+    const restored = JSON.parse(stored) as Partial<DemoState>;
+    if (!Array.isArray(restored.clubs) || !Array.isArray(restored.players)) return initial;
+    const currentClub = restored.clubs.find((club) => club.id === restored.currentClubId);
     return {
+      ...initial,
       ...restored,
-      competitions: [],
-      fixtures: [],
-      activity: [],
-      players: restored.players.map((player) => ({ ...player, ownershipClubId: null })),
-      starters: [],
-      bench: [],
-      captainId: null,
-      viceCaptainId: null
+      clubs: restored.clubs,
+      players: restored.players,
+      competitions: Array.isArray(restored.competitions) ? restored.competitions : initial.competitions,
+      fixtures: Array.isArray(restored.fixtures) ? restored.fixtures : initial.fixtures,
+      starters: Array.isArray(restored.starters) ? restored.starters : initial.starters,
+      bench: Array.isArray(restored.bench) ? restored.bench : initial.bench,
+      activity: Array.isArray(restored.activity) ? restored.activity : initial.activity,
+      selectedLeagueId:
+        restored.selectedLeagueId && restored.selectedLeagueId !== currentClub?.id
+          ? restored.selectedLeagueId
+          : initial.selectedLeagueId,
+      message: null
     };
   } catch {
     return createInitialDemoState();
@@ -246,7 +254,7 @@ interface DemoContextValue {
   state: DemoState;
   currentClub: DemoClub;
   startSession: () => void;
-  hydrateClub: (club: DemoClub, leagueName: string) => void;
+  hydrateClub: (club: DemoClub, leagueId: string, leagueName: string) => void;
   resetDemo: () => void;
   buyPlayer: (playerId: string) => void;
   releasePlayer: (playerId: string) => void;
@@ -277,7 +285,8 @@ export function DemoProvider({ children }: PropsWithChildren) {
       state,
       currentClub,
       startSession,
-      hydrateClub: (club, leagueName) => dispatch({ type: 'HYDRATE_CLUB', club, leagueName }),
+      hydrateClub: (club, leagueId, leagueName) =>
+        dispatch({ type: 'HYDRATE_CLUB', club, leagueId, leagueName }),
       resetDemo,
       buyPlayer: (playerId) => dispatch({ type: 'BUY_PLAYER', playerId }),
       releasePlayer: (playerId) => dispatch({ type: 'RELEASE_PLAYER', playerId }),

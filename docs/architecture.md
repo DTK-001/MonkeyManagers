@@ -5,8 +5,8 @@ Monkey Managers is split into a static, installable client and a trusted Supabas
 ```mermaid
 flowchart LR
   subgraph Device["Manager's device"]
-    PWA["React PWA\nHashRouter + Query cache"]
-    DEMO["Browser-only demo store\nfictional seed data"]
+    PWA["React PWA\nHashRouter + session guard"]
+    LOCAL["Temporary local UI state\nPremier catalogue + clean league view"]
     SW["Workbox service worker\napplication-shell cache"]
   end
 
@@ -27,7 +27,7 @@ flowchart LR
   PROVIDER["API-Football v3\nserver-to-server only"]
 
   STATIC --> PWA
-  PWA <--> DEMO
+  PWA <--> LOCAL
   PWA <--> SW
   PWA --> AUTH
   PWA --> API
@@ -42,17 +42,19 @@ flowchart LR
   SECRETS --> NIGHTLY
 ```
 
-## Runtime modes
+## Account-first client and temporary local state
 
-### Demo mode
+### Account access
 
-Demo mode is the default no-account path. `src/data/demo.ts` supplies fictional managers, clubs, teams, players, competitions, fixtures, scores, values, and activity. `src/app/demo-store.tsx` keeps changes in local storage. It is intentionally labelled as demo data and makes no API-Football request.
+There is no anonymous browser-demo route. `RequireSession` protects onboarding and every `/app` route, so a manager must have a Supabase email/password session before creating, joining, or viewing a private league. If the public Supabase URL or anonymous key is missing, the client shows an account-configuration screen instead of presenting a fictional league.
 
-This mode is useful for design review, local smoke tests, GitHub Pages previews, and Playwright. It is not a security model and does not simulate concurrent database transactions.
+When `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` are present, the browser can create Supabase Auth sessions and onboarding writes league, invitation, and club records through authenticated Supabase operations. The anonymous key is a public project identifier, not an administrative credential; row-level security remains the real access boundary. All sensitive mutations belong in the database functions or Edge Functions described in [database.md](database.md).
 
-### Connected mode
+### Temporary local UI state
 
-When `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` are present, the browser can create Supabase Auth sessions. The anonymous key is a public project identifier, not an administrative credential; row-level security remains the real access boundary. All sensitive mutations should go through the database functions or Edge Functions described in [database.md](database.md).
+The primary screens are currently backed by `src/app/demo-store.tsx`, a temporary local UI-state provider retained while authoritative PostgREST/Realtime queries are connected. Its name is historical: it is not an anonymous fictional browser demo and it cannot establish ownership, balances, lineup locks, scores, or league membership.
+
+`src/data/demo.ts` now supplies a bundled real Premier League player and team catalogue with a clean local league view: one newly created club, no inherited managers, ownerships, fixtures, competition totals, or scores. Local market, lineup, activity, and profile interactions are presentation previews stored on the device. They never substitute for the database's atomic operations or its private-league record.
 
 The service-role key and API-Football key must exist only inside Supabase-managed server environments. Neither belongs in a `VITE_*` variable, GitHub Pages artifact, client log, or network request initiated by the browser.
 
@@ -60,12 +62,13 @@ The service-role key and API-Football key must exist only inside Supabase-manage
 
 The app uses feature-oriented modules:
 
-- `src/app`: composition, product constants, and the demo store.
+- `src/app`: composition, product constants, and the temporary local UI-state provider.
 - `src/components`: shared shell, badge, and accessible UI primitives.
 - `src/features`: route-level authentication, onboarding, home, squad, market, competition, league, club, admin, and system screens.
 - `src/domain`: provider-independent scoring, valuation, competition allocation, ranking, market, money, lineup, and synchronisation logic.
 - `src/lib`: Supabase client construction and formatting helpers.
-- `src/data`: fictional browser seed.
+- `src/data`: bundled Premier League catalogue and clean local UI baseline. The separate
+  fictional development database seed is under `supabase/seed.sql`.
 - `src/test`: unit tests for domain behaviour.
 
 `HashRouter` keeps all application routes after `#`, so GitHub Pages only needs to serve the deployed `index.html`. Vite's `base` option prefixes JavaScript, CSS, icons, the manifest, and service-worker resources with the repository path.
@@ -119,7 +122,7 @@ sequenceDiagram
 
 Fixtures retain the provider fixture ID as the external join point for lineups, events, and player statistics. Upserts and calculation fingerprints make a repeated run safe. The previous three days are rechecked so provider corrections replace prior normalized data rather than duplicating it.
 
-The first-pass Edge Function currently completes at normalized imported data. Pure scoring, competition, ranking, and valuation engines are implemented and tested, and their target tables exist, but the production worker that runs those engines after an import is still to be connected. Seeded demo data exercises the full downstream experience in the meantime.
+The first-pass Edge Function currently completes at normalized imported data. Pure scoring, competition, ranking, and valuation engines are implemented and tested, and their target tables exist, but the production post-import worker that persists points, lineup aggregation, totals, standings, and values is still to be connected. A successful import therefore is not evidence that connected league scores or prices were recalculated. The fictional local Supabase seed can exercise those target tables for development, but it is separate from the account-first browser view.
 
 ## Security model
 
@@ -132,10 +135,10 @@ The main trust assumptions are:
 5. Raw provider data is evidence, not automatically valid game data. Normalization must validate types and preserve missing values as null.
 6. Operation IDs and calculation fingerprints make retries observable and idempotent.
 
-The browser demo deliberately operates outside this trust model and is never mixed with production ledger or ownership data.
+Temporary local UI state deliberately operates outside this trust model. It is useful for the current interface while connected queries are being wired, but it is never mixed with authoritative ledger, ownership, lineup, or scoring data.
 
 ## Deployment topology
 
-GitHub Pages hosts only static frontend files. Supabase owns authentication callbacks, database access, functions, secrets, and scheduled execution. This separation means a Pages deployment cannot leak the provider key unless someone explicitly puts it into frontend source, a `VITE_*` environment variable, or a public workflow log.
+GitHub Pages hosts only static frontend files. Supabase owns authentication callbacks, database access, functions, secrets, and scheduled execution. A Pages deployment needs the public Supabase URL and anonymous key to unlock the account-first routes. This separation means it cannot leak the provider key unless someone explicitly puts that secret into frontend source, a `VITE_*` environment variable, or a public workflow log.
 
 The CI workflow tests a non-root base path. The Pages workflow derives `/REPOSITORY_NAME/` for project sites and `/` for `USERNAME.github.io` user sites. Deployment details and authentication redirect settings are in [deployment.md](deployment.md).
