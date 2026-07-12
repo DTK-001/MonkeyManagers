@@ -154,7 +154,7 @@ export default function MarketPage() {
       <PageHeader
         eyebrow="Transfer centre"
         title="Player market"
-        description="Browse the real-player catalogue and plan your squad. Season points are market stats only: a signing starts on zero and earns for your club only in future selected rounds."
+        description="Browse the real-player catalogue and plan your squad. Season points are market stats only: a signing starts on zero, earns in future selected rounds, and any points already earned stay with your club after a sale."
         action={<StatusBadge kind="warning">Local preview</StatusBadge>}
       />
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">

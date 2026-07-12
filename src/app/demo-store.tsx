@@ -108,7 +108,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         ...state,
         players: state.players.map((item) =>
           item.id === player.id
-            ? { ...item, ownershipClubId: null, ownedPoints: 0, ownershipStartedAt: null }
+            ? { ...item, ownershipClubId: null, ownershipStartedAt: null }
             : item
         ),
         clubs: state.clubs.map((item) =>
@@ -130,7 +130,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         ],
         message: {
           kind: 'success',
-          text: `${formatMoney(refund)} has been returned to your balance.`
+          text: `${formatMoney(refund)} has been returned to your balance. Points already earned for your club remain in your total.`
         }
       };
     }
