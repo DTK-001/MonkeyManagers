@@ -108,6 +108,7 @@ After linking the project and setting secrets:
 ```bash
 npx supabase functions deploy nightly-sync
 npx supabase functions deploy manual-sync
+npx supabase functions deploy profile-enrichment
 ```
 
 `supabase/config.toml` disables platform JWT verification for `nightly-sync` because a scheduler has no user session; the function instead compares `SYNC_CRON_SECRET` in constant time. `manual-sync` keeps JWT verification enabled and additionally verifies an active `admin` membership for the requested league.

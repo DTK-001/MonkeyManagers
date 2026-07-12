@@ -21,6 +21,7 @@ import {
 } from 'lucide-react';
 import { useDemo } from '../../app/demo-store';
 import { GAME_DEFAULTS } from '../../app/product';
+import { demoPlayers, demoTeams } from '../../data/demo';
 import { formatMoney } from '../../lib/format';
 import { supabase } from '../../lib/supabase';
 import { PageHeader, SectionTitle, StatusBadge } from '../../components/ui';
@@ -33,6 +34,8 @@ export default function AdminPage() {
   const [syncConfirm, setSyncConfirm] = useState(false);
   const [syncState, setSyncState] = useState<'idle' | 'running' | 'complete'>('idle');
   const [syncError, setSyncError] = useState<string | null>(null);
+  const [profileSyncState, setProfileSyncState] = useState<'idle' | 'running' | 'complete'>('idle');
+  const [profileSyncMessage, setProfileSyncMessage] = useState<string | null>(null);
   const canRunServerSync = Boolean(supabase && state.selectedLeagueId !== 'league-pending');
   const sections = [
     { id: 'overview', label: 'Settings', icon: Settings2 },
@@ -61,6 +64,45 @@ export default function AdminPage() {
     } catch (cause) {
       setSyncState('idle');
       setSyncError(cause instanceof Error ? cause.message : 'The synchronisation could not be started.');
+    }
+  }
+  async function refreshPlayerProfiles() {
+    setProfileSyncState('running');
+    setProfileSyncMessage(null);
+    try {
+      if (!supabase || !canRunServerSync) {
+        throw new Error('Connect Supabase to an active league before refreshing player profiles.');
+      }
+      const teamNames = new Map(demoTeams.map((team) => [team.id, team.name]));
+      const response = await supabase.functions.invoke<{
+        status: 'cached' | 'refreshed';
+        matched: number;
+        unmatched: number;
+        ambiguous: number;
+        providerRequests: number;
+      }>('profile-enrichment', {
+        body: {
+          leagueId: state.selectedLeagueId,
+          cataloguePlayers: demoPlayers.map((player) => ({
+            id: player.id,
+            name: player.name,
+            teamName: teamNames.get(player.teamId) ?? 'Unknown',
+            position: player.position
+          }))
+        }
+      });
+      if (response.error) throw response.error;
+      const result = response.data;
+      if (!result) throw new Error('The profile refresh did not return a result.');
+      setProfileSyncState('complete');
+      setProfileSyncMessage(
+        `${result.matched} matched, ${result.unmatched} unmatched and ${result.ambiguous} ambiguous. ${result.providerRequests} API requests used.`
+      );
+    } catch (cause) {
+      setProfileSyncState('idle');
+      setProfileSyncMessage(
+        cause instanceof Error ? cause.message : 'The player-profile refresh could not be started.'
+      );
     }
   }
   return (
@@ -97,6 +139,9 @@ export default function AdminPage() {
               error={syncError}
               canRunServerSync={canRunServerSync}
               onSync={() => setSyncConfirm(true)}
+              profileState={profileSyncState}
+              profileMessage={profileSyncMessage}
+              onProfileRefresh={() => void refreshPlayerProfiles()}
             />
           ) : null}
           {section === 'audit' ? <AuditPanel /> : null}
@@ -343,12 +388,18 @@ function SyncPanel({
   state,
   error,
   canRunServerSync,
-  onSync
+  onSync,
+  profileState,
+  profileMessage,
+  onProfileRefresh
 }: {
   state: 'idle' | 'running' | 'complete';
   error: string | null;
   canRunServerSync: boolean;
   onSync: () => void;
+  profileState: 'idle' | 'running' | 'complete';
+  profileMessage: string | null;
+  onProfileRefresh: () => void;
 }) {
   return (
     <div className="space-y-5">
@@ -392,6 +443,33 @@ function SyncPanel({
           {error}
         </p>
       ) : null}
+      <section className="glass-card p-4 sm:p-6">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+          <span className={`grid h-12 w-12 place-items-center rounded-2xl ${profileState === 'running' ? 'bg-gold/10 text-gold' : 'bg-white/[0.06] text-emerald'}`}>
+            {profileState === 'running' ? <RefreshCw className="animate-spin" /> : <Database />}
+          </span>
+          <div className="min-w-0 flex-1">
+            <p className="eyebrow">Player profiles</p>
+            <h2 className="mt-1 font-display text-2xl font-bold">Age & nationality cache</h2>
+            <p className="mt-1 text-xs leading-5 text-muted">
+              Downloads the Premier League player list once, matches it safely to this catalogue and caches birth dates and nationalities for 30 days. Browsing player pages uses no API requests.
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={onProfileRefresh}
+            disabled={!canRunServerSync || profileState === 'running'}
+            className="button-secondary"
+          >
+            <RefreshCw size={16} /> {profileState === 'running' ? 'Refreshing…' : 'Refresh profiles'}
+          </button>
+        </div>
+        {profileMessage ? (
+          <p className="mt-4 rounded-xl border border-white/10 bg-white/[0.03] p-3 text-xs leading-5 text-muted">
+            {profileMessage}
+          </p>
+        ) : null}
+      </section>
       <div className="grid gap-3 sm:grid-cols-3">
         <AdminStat
           icon={<Gauge />}

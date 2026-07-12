@@ -126,6 +126,7 @@ npx supabase link --project-ref YOUR_PROJECT_REF
 npx supabase db push
 npx supabase functions deploy nightly-sync
 npx supabase functions deploy manual-sync
+npx supabase functions deploy profile-enrichment
 ```
 
 Do not run the fictional local SQL seed against production. Use a separate development or staging project for seeded data.

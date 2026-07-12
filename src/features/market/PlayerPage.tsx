@@ -9,12 +9,19 @@ import {
   TrendingDown,
   TrendingUp
 } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { useDemo } from '../../app/demo-store';
 import { demoTeams } from '../../data/demo';
 import { formatMoney, formatPoints, positionLabel } from '../../lib/format';
+import { supabase } from '../../lib/supabase';
 import { PositionPill, StatusBadge } from '../../components/ui';
+
+interface CachedPlayerProfile {
+  birth_date: string | null;
+  nationality: string | null;
+}
 
 export default function PlayerPage() {
   const { playerId } = useParams();
@@ -23,6 +30,25 @@ export default function PlayerPage() {
   const marketReturnState: unknown = location.state as unknown;
   const { state, currentClub, buyPlayer, releasePlayer } = useDemo();
   const player = state.players.find((item) => item.id === playerId);
+  const [cachedProfile, setCachedProfile] = useState<CachedPlayerProfile | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    if (!supabase || !playerId) return;
+    setCachedProfile(null);
+    void supabase
+      .from('player_catalogue_profiles')
+      .select('birth_date,nationality')
+      .eq('catalogue_player_id', playerId)
+      .maybeSingle()
+      .then(({ data }) => {
+        if (!cancelled) setCachedProfile(data as CachedPlayerProfile | null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [playerId]);
+
   if (!player)
     return (
       <div className="page-wrap">
@@ -43,6 +69,9 @@ export default function PlayerPage() {
     value: point.valueMinor / 100_000_000
   }));
   const mostRecent = player.recentPoints.at(-1) ?? 0;
+  const age = cachedProfile?.birth_date ? ageOnDate(cachedProfile.birth_date) : null;
+  const nationality =
+    cachedProfile?.nationality ?? (player.nationality === 'Unknown' ? null : player.nationality);
 
   function action() {
     if (mine) releasePlayer(selectedPlayer.id);
@@ -88,8 +117,13 @@ export default function PlayerPage() {
                 )}
               </div>
               <h1 className="mt-2 font-display text-5xl font-bold sm:text-6xl">{player.name}</h1>
-              <p className="mt-2 text-sm text-muted">
+              <p className="mt-2 hidden text-sm text-muted">
                 {positionLabel[player.position]} · {team?.name} · {player.nationality}
+              </p>
+              <p className="mt-2 text-sm text-muted">
+                {positionLabel[player.position]} {'·'} {team?.name}
+                {nationality ? ` · ${nationality}` : ''}
+                {age !== null ? ` · ${age} years old` : ''}
               </p>
             </div>
             <div className="sm:text-right">
@@ -107,11 +141,12 @@ export default function PlayerPage() {
             </div>
           </div>
         </div>
-        <div className="grid border-t border-white/[0.07] bg-white/[0.02] sm:grid-cols-4">
+        <div className="grid border-t border-white/[0.07] bg-white/[0.02] sm:grid-cols-5">
           {[
             ['Season points', formatPoints(player.seasonPoints)],
             ['Recent form', formatPoints(player.form)],
             ['Last match', formatPoints(mostRecent)],
+            ['Age', age === null ? 'Not reported' : String(age)],
             [
               mine ? 'Your club points' : 'Owner',
               mine ? formatPoints(player.ownedPoints) : (owner?.name ?? 'Free agent')
@@ -407,4 +442,14 @@ function formatPlayingChance(chance: number | null): string {
 
 function formatNumber(value: number): string {
   return new Intl.NumberFormat('en-GB').format(value);
+}
+
+function ageOnDate(birthDate: string): number | null {
+  const date = new Date(`${birthDate}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) return null;
+  const today = new Date();
+  let age = today.getUTCFullYear() - date.getUTCFullYear();
+  const birthdayThisYear = new Date(Date.UTC(today.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  if (today < birthdayThisYear) age -= 1;
+  return age >= 0 && age < 100 ? age : null;
 }
