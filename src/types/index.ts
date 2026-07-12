@@ -21,6 +21,9 @@ export interface DemoPlayer {
   recentPoints: number[];
   form: number;
   ownershipClubId: string | null;
+  /** Points earned only after this player was signed and selected for this club. */
+  ownedPoints: number;
+  ownershipStartedAt: string | null;
   availability: Availability;
   provisional: boolean;
   valueHistory: Array<{ date: string; valueMinor: number }>;

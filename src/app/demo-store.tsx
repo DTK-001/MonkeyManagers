@@ -66,7 +66,14 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
       return {
         ...state,
         players: state.players.map((item) =>
-          item.id === player.id ? { ...item, ownershipClubId: club.id } : item
+          item.id === player.id
+            ? {
+                ...item,
+                ownershipClubId: club.id,
+                ownedPoints: 0,
+                ownershipStartedAt: new Date().toISOString()
+              }
+            : item
         ),
         clubs: state.clubs.map((item) =>
           item.id === club.id
@@ -86,7 +93,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         ],
         message: {
           kind: 'success',
-          text: `${player.name} is yours. ${formatMoney(club.budgetMinor - player.valueMinor)} remains.`
+          text: `${player.name} is yours. Earlier season points do not transfer; select them for a future round to start earning for your club.`
         }
       };
     }
@@ -100,7 +107,9 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
       return {
         ...state,
         players: state.players.map((item) =>
-          item.id === player.id ? { ...item, ownershipClubId: null } : item
+          item.id === player.id
+            ? { ...item, ownershipClubId: null, ownedPoints: 0, ownershipStartedAt: null }
+            : item
         ),
         clubs: state.clubs.map((item) =>
           item.id === club.id ? { ...item, budgetMinor: item.budgetMinor + refund } : item
@@ -207,7 +216,12 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         clubs: [action.club],
         competitions: [],
         fixtures: [],
-        players: state.players.map((player) => ({ ...player, ownershipClubId: null })),
+        players: state.players.map((player) => ({
+          ...player,
+          ownershipClubId: null,
+          ownedPoints: 0,
+          ownershipStartedAt: null
+        })),
         starters: [],
         bench: [],
         captainId: null,
@@ -233,7 +247,12 @@ function loadState(): DemoState {
       ...initial,
       ...restored,
       clubs: restored.clubs,
-      players: restored.players,
+      players: restored.players.map((player) => ({
+        ...player,
+        ownedPoints: typeof player.ownedPoints === 'number' ? player.ownedPoints : 0,
+        ownershipStartedAt:
+          typeof player.ownershipStartedAt === 'string' ? player.ownershipStartedAt : null
+      })),
       competitions: Array.isArray(restored.competitions) ? restored.competitions : initial.competitions,
       fixtures: Array.isArray(restored.fixtures) ? restored.fixtures : initial.fixtures,
       starters: Array.isArray(restored.starters) ? restored.starters : initial.starters,

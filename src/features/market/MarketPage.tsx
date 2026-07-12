@@ -154,7 +154,7 @@ export default function MarketPage() {
       <PageHeader
         eyebrow="Transfer centre"
         title="Player market"
-        description="Browse the real-player catalogue and plan your squad. This local market view will be replaced by the league's authoritative live market feed."
+        description="Browse the real-player catalogue and plan your squad. Season points are market stats only: a signing starts on zero and earns for your club only in future selected rounds."
         action={<StatusBadge kind="warning">Local preview</StatusBadge>}
       />
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -354,11 +354,14 @@ export default function MarketPage() {
                       .slice(0, 2)}
                   </span>
                   <span className="min-w-0">
-                    <span className="flex items-center gap-2">
+                    <span className="flex flex-wrap items-center gap-2">
                       <span className="truncate text-sm font-semibold text-ivory">
                         {player.name}
                       </span>
                       <PositionPill position={player.position} />
+                      <span className="rounded-md bg-white/[0.08] px-1.5 py-0.5 text-[0.68rem] font-bold text-ivory">
+                        {formatMoney(player.valueMinor)}
+                      </span>
                     </span>
                     <span className="mt-1 block truncate text-xs text-muted">
                       {team?.name} · {formatPoints(player.seasonPoints)} pts

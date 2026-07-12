@@ -109,10 +109,13 @@ export default function PlayerPage() {
         </div>
         <div className="grid border-t border-white/[0.07] bg-white/[0.02] sm:grid-cols-4">
           {[
-            ['Season score', formatPoints(player.seasonPoints)],
+            ['Season points', formatPoints(player.seasonPoints)],
             ['Recent form', formatPoints(player.form)],
             ['Last match', formatPoints(mostRecent)],
-            ['Owner', owner?.name ?? 'Free agent']
+            [
+              mine ? 'Your club points' : 'Owner',
+              mine ? formatPoints(player.ownedPoints) : (owner?.name ?? 'Free agent')
+            ]
           ].map(([label, value]) => (
             <div
               key={label}
@@ -221,10 +224,10 @@ export default function PlayerPage() {
             </h2>
             <p className="mt-2 text-sm leading-6 text-muted">
               {mine
-                ? 'This player is registered to your club. A release returns 90% of current book value.'
+                ? `This player is registered to your club. They start on ${formatPoints(player.ownedPoints)} points for your club; only future rounds where you select them can add to that total. A release returns 90% of current book value.`
                 : owner
                   ? `Managed by ${owner.manager}. Make a transfer offer when the market permits.`
-                  : `This player is unowned in ${state.leagueName}'s local market view. Live ownership and balance are checked together by the server before a real signing can complete.`}
+                  : `This player is unowned in ${state.leagueName}'s local market view. Their displayed season points are not included when you buy them: select them in a future round to earn points for your club. Live ownership and balance are checked together by the server before a real signing can complete.`}
             </p>
             {mine || !owner ? (
               <button
