@@ -127,11 +127,14 @@ function parseCataloguePlayers(value: unknown): CataloguePlayer[] {
 
 async function readFreshCache(db: ReturnType<typeof serviceClient>, players: CataloguePlayer[]) {
   const { data, error } = await db.from("player_catalogue_profiles")
-    .select("catalogue_player_id,match_status,source_updated_at")
+    .select("catalogue_player_id,match_status,source_updated_at,real_player_id,current_value_minor")
     .in("catalogue_player_id", players.map((player) => player.id));
   if (error || !data || data.length !== players.length) return null;
   const staleBefore = Date.now() - 30 * 24 * 60 * 60 * 1_000;
-  const fresh = data.every((row) => new Date(String(row.source_updated_at)).getTime() >= staleBefore);
+  const fresh = data.every((row) =>
+    new Date(String(row.source_updated_at)).getTime() >= staleBefore
+    && (row.match_status !== "matched" || (row.real_player_id && row.current_value_minor !== null))
+  );
   if (!fresh) return null;
   const matched = data.filter((row) => row.match_status === "matched").length;
   const ambiguous = data.filter((row) => row.match_status === "ambiguous").length;
