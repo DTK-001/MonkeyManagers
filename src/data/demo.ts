@@ -5,20 +5,11 @@ import type {
   DemoFixture,
   DemoPlayer,
   DemoState,
-  DemoTeam,
-  Position
+  DemoTeam
 } from '../types';
+import { realPremierPlayers, realPremierTeams } from './premier-2024';
 
-export const demoTeams: DemoTeam[] = [
-  { id: 'team-1', name: 'Northbridge Athletic', shortName: 'NBA', colour: '#835d3b' },
-  { id: 'team-2', name: 'Kingsport Rovers', shortName: 'KSR', colour: '#8d3343' },
-  { id: 'team-3', name: 'Albion Harbour', shortName: 'ALB', colour: '#416f8f' },
-  { id: 'team-4', name: 'Stonemere City', shortName: 'STC', colour: '#c3a46d' },
-  { id: 'team-5', name: 'Eastfield Wanderers', shortName: 'EFW', colour: '#39735a' },
-  { id: 'team-6', name: 'Calder Vale', shortName: 'CDV', colour: '#7a6397' },
-  { id: 'team-7', name: 'Redwick United', shortName: 'RWU', colour: '#a44242' },
-  { id: 'team-8', name: 'Westmere Borough', shortName: 'WMB', colour: '#dfd7bf' }
-];
+export const demoTeams: DemoTeam[] = realPremierTeams;
 
 export const demoCompetitions: DemoCompetition[] = [
   {
@@ -128,7 +119,7 @@ export const demoClubs: DemoClub[] = [
   }
 ];
 
-const firstNames = [
+/*const firstNames = [
   'Ari',
   'Bastien',
   'Callum',
@@ -193,7 +184,7 @@ function initialOwner(position: Position, positionIndex: number): string | null 
   return clubOrder[clubIndex] ?? null;
 }
 
-export const demoPlayers: DemoPlayer[] = positions.map((position, index) => {
+export const fictionalDemoPlayers: DemoPlayer[] = positions.map((position, index) => {
   const samePositionIndex = positions.slice(0, index).filter((item) => item === position).length;
   const baseMillions = 1.2 + ((index * 19) % 115) / 10;
   const valueMinor = Math.round(baseMillions * 100_000_000);
@@ -228,7 +219,9 @@ export const demoPlayers: DemoPlayer[] = positions.map((position, index) => {
       )
     }))
   };
-});
+});*/
+
+export const demoPlayers = realPremierPlayers as DemoPlayer[];
 
 export const demoFixtures: DemoFixture[] = [
   {

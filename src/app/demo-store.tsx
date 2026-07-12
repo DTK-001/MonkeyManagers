@@ -12,7 +12,7 @@ import { createInitialDemoState } from '../data/demo';
 import type { DemoClub, DemoState } from '../types';
 import { formatMoney } from '../lib/format';
 
-const STORAGE_KEY = 'monkey-managers-demo-v1';
+const STORAGE_KEY = 'monkey-managers-demo-v2-real-premier-league';
 
 type DemoAction =
   | { type: 'START_DEMO' }
