@@ -53,16 +53,14 @@ export default function SquadPage() {
       <PageHeader
         eyebrow="Team selection"
         title="Your squad"
-        description="Only starters score in this competition round. Tap any player for an accessible selection alternative."
-        action={<StatusBadge kind="warning">1d 16h to lock</StatusBadge>}
+        description="Choose your squad now. A competition round and deadline will appear once your league schedule is configured."
+        action={<StatusBadge kind="muted">No deadline set</StatusBadge>}
       />
       <div className="mb-4 flex flex-wrap items-center gap-2">
         <label className="relative">
           <span className="sr-only">Competition</span>
-          <select className="field min-w-56 appearance-none pr-10">
-            <option>Crown Premier Division</option>
-            <option>Heritage Challenge Cup</option>
-            <option>Continental Champions Series</option>
+          <select className="field min-w-56 appearance-none pr-10" disabled>
+            <option>No competition configured</option>
           </select>
           <ChevronDown
             className="pointer-events-none absolute right-3 top-3.5 text-muted"
@@ -71,8 +69,8 @@ export default function SquadPage() {
         </label>
         <label className="relative">
           <span className="sr-only">Round</span>
-          <select className="field appearance-none pr-10">
-            <option>Round 9</option>
+          <select className="field appearance-none pr-10" disabled>
+            <option>No round scheduled</option>
             <option>Round 8 · locked</option>
           </select>
           <ChevronDown

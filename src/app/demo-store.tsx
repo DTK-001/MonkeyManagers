@@ -205,6 +205,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         leagueName: action.leagueName,
         currentClubId: action.club.id,
         clubs: [action.club],
+        competitions: [],
+        fixtures: [],
         players: state.players.map((player) => ({ ...player, ownershipClubId: null })),
         starters: [],
         bench: [],
@@ -222,7 +224,19 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
 function loadState(): DemoState {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    return stored ? (JSON.parse(stored) as DemoState) : createInitialDemoState();
+    if (!stored) return createInitialDemoState();
+    const restored = JSON.parse(stored) as DemoState;
+    return {
+      ...restored,
+      competitions: [],
+      fixtures: [],
+      activity: [],
+      players: restored.players.map((player) => ({ ...player, ownershipClubId: null })),
+      starters: [],
+      bench: [],
+      captainId: null,
+      viceCaptainId: null
+    };
   } catch {
     return createInitialDemoState();
   }
