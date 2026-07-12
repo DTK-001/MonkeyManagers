@@ -3,7 +3,6 @@ import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from '../components/AppShell';
 import { LoadingScreen } from '../components/ui';
 
-const WelcomePage = lazy(() => import('../features/auth/WelcomePage'));
 const AuthPage = lazy(() => import('../features/auth/AuthPage'));
 const OnboardingPage = lazy(() => import('../features/onboarding/OnboardingPage'));
 const HomePage = lazy(() => import('../features/home/HomePage'));
@@ -29,7 +28,7 @@ export function App() {
       </a>
       <Suspense fallback={<LoadingScreen />}>
         <Routes>
-          <Route path="/" element={<WelcomePage />} />
+          <Route path="/" element={<Navigate replace to="/auth/sign-in" />} />
           <Route path="/auth/:mode" element={<AuthPage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
           <Route path="/offline" element={<OfflinePage />} />

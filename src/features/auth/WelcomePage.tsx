@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {
   ArrowRight,
   CheckCircle2,
@@ -11,11 +11,8 @@ import {
   Users
 } from 'lucide-react';
 import { PRODUCT } from '../../app/product';
-import { useDemo } from '../../app/demo-store';
 
 export default function WelcomePage() {
-  const navigate = useNavigate();
-  const { startDemo } = useDemo();
   const [offlineReady, setOfflineReady] = useState(false);
 
   useEffect(() => {
@@ -23,11 +20,6 @@ export default function WelcomePage() {
     window.addEventListener('app-offline-ready', ready);
     return () => window.removeEventListener('app-offline-ready', ready);
   }, []);
-
-  function enterDemo() {
-    startDemo();
-    navigate('/app/home');
-  }
 
   return (
     <main className="stadium-glow min-h-screen overflow-hidden px-[max(1rem,var(--safe-left))] pb-[calc(2rem+var(--safe-bottom))] pt-[calc(1rem+var(--safe-top))]">
@@ -62,21 +54,13 @@ export default function WelcomePage() {
             season of strategy, rivalries and transfer drama.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <button
-              onClick={enterDemo}
-              className="button-primary min-h-12 px-6"
-              type="button"
-              data-testid="enter-demo"
-            >
-              Enter demo league <ArrowRight size={18} />
-            </button>
-            <Link to="/auth/register" className="button-secondary min-h-12 px-6">
-              Create an account
+            <Link to="/auth/sign-in" className="button-primary min-h-12 px-6">
+              Sign in to start <ArrowRight size={18} />
             </Link>
           </div>
           <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-xs text-muted">
             <span className="flex items-center gap-1.5">
-              <CheckCircle2 size={14} className="text-emerald" /> No account needed for demo
+              <CheckCircle2 size={14} className="text-emerald" /> Account required
             </span>
             <span className="flex items-center gap-1.5">
               <LockKeyhole size={14} className="text-gold" /> Private by design
@@ -101,7 +85,7 @@ export default function WelcomePage() {
                 <p className="mt-1 font-display text-2xl font-bold">Matchday command</p>
               </div>
               <span className="rounded-full border border-emerald/20 bg-emerald/10 px-2.5 py-1 text-[0.65rem] font-bold text-[#84d2aa]">
-                DEMO
+                PRIVATE
               </span>
             </div>
             <div className="mt-4 grid grid-cols-3 gap-2.5">

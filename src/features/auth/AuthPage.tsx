@@ -5,7 +5,6 @@ import { z } from 'zod';
 import { ArrowLeft, CheckCircle2, LockKeyhole, Shield } from 'lucide-react';
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 import { PRODUCT } from '../../app/product';
-import { useDemo } from '../../app/demo-store';
 import { isSupabaseConfigured, supabase } from '../../lib/supabase';
 
 const formSchema = z.object({
@@ -18,7 +17,6 @@ type FormValues = z.infer<typeof formSchema>;
 export default function AuthPage() {
   const { mode = 'sign-in' } = useParams();
   const navigate = useNavigate();
-  const { startDemo } = useDemo();
   const [status, setStatus] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const isRegister = mode === 'register';
@@ -42,7 +40,7 @@ export default function AuthPage() {
       return;
     }
     if (!supabase) {
-      setStatus('Supabase is not configured yet. You can still enter the complete demo league.');
+      setStatus('Secure account access is not configured. Please try again shortly.');
       return;
     }
     setSubmitting(true);
@@ -67,18 +65,13 @@ export default function AuthPage() {
           password: values.password ?? ''
         });
         if (error) throw error;
-        navigate('/app/home');
+        navigate('/onboarding');
       }
     } catch (error) {
       setStatus(error instanceof Error ? error.message : 'Authentication could not be completed.');
     } finally {
       setSubmitting(false);
     }
-  }
-
-  function enterDemo() {
-    startDemo();
-    navigate('/app/home');
   }
 
   const title = isReset ? 'Reset access' : isRegister ? 'Create your account' : 'Welcome back';
@@ -111,12 +104,7 @@ export default function AuthPage() {
           <h1 className="mt-2 font-display text-4xl font-bold">{title}</h1>
           <p className="mt-2 text-sm text-muted">{subtitle}</p>
 
-          {!isSupabaseConfigured ? (
-            <div className="mt-5 rounded-xl border border-gold/20 bg-gold/[0.07] p-3 text-xs leading-5 text-[#decaa5]">
-              <strong>Demo-ready.</strong> Add the public Supabase URL and anonymous key later to
-              enable real accounts.
-            </div>
-          ) : null}
+          {!isSupabaseConfigured ? <div className="mt-5 rounded-xl border border-danger/20 bg-danger/[0.07] p-3 text-xs leading-5 text-[#f0c7c2]">Account access is temporarily unavailable.</div> : null}
 
           <form
             onSubmit={(event) => void handleSubmit(onSubmit)(event)}
@@ -186,15 +174,6 @@ export default function AuthPage() {
                     : 'Sign in'}
             </button>
           </form>
-
-          <div className="my-5 flex items-center gap-3 text-[0.65rem] uppercase tracking-widest text-muted/60">
-            <span className="h-px flex-1 bg-white/10" />
-            or
-            <span className="h-px flex-1 bg-white/10" />
-          </div>
-          <button type="button" onClick={enterDemo} className="button-secondary w-full">
-            Explore the demo league
-          </button>
 
           <div className="mt-5 text-center text-xs text-muted">
             {isReset ? (

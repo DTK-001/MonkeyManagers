@@ -52,7 +52,7 @@ export function AppShell() {
               {PRODUCT.name}
             </span>
             <span className="mt-1 block text-[0.6rem] font-bold uppercase tracking-[0.2em] text-gold">
-              Demo season
+              Private league
             </span>
           </span>
         </NavLink>
@@ -64,7 +64,7 @@ export function AppShell() {
         >
           <ClubBadge {...currentClub} className="h-11 w-11 shrink-0" />
           <span className="min-w-0 flex-1">
-            <span className="block truncate text-xs text-muted">Friday Night Football</span>
+            <span className="block truncate text-xs text-muted">{state.leagueName}</span>
             <span className="block truncate text-sm font-semibold text-ivory">
               {currentClub.name}
             </span>
@@ -121,19 +121,16 @@ export function AppShell() {
             <ClubBadge {...currentClub} className="h-10 w-10 shrink-0" />
             <div className="min-w-0">
               <p className="truncate text-[0.62rem] font-bold uppercase tracking-[0.16em] text-gold">
-                Demo league
+              Private league
               </p>
               <p className="truncate text-sm font-semibold text-ivory">{currentClub.name}</p>
             </div>
           </div>
           <div className="hidden lg:block">
-            <p className="text-xs text-muted">Friday Night Football</p>
+            <p className="text-xs text-muted">{state.leagueName}</p>
             <p className="text-sm font-semibold text-ivory">2026/27 season</p>
           </div>
           <div className="flex items-center gap-1.5">
-            <span className="mr-1 hidden rounded-full border border-gold/20 bg-gold/10 px-2.5 py-1 text-[0.62rem] font-bold uppercase tracking-wider text-gold sm:inline-flex">
-              Demo data
-            </span>
             <NavLink
               to="/app/admin"
               className="grid h-11 w-11 place-items-center rounded-xl text-muted hover:bg-white/[0.05] hover:text-ivory"

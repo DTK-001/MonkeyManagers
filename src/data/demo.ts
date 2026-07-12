@@ -317,6 +317,7 @@ const currentSquadIds = demoPlayers
 export const createInitialDemoState = (): DemoState => ({
   demoActive: false,
   selectedLeagueId: 'league-friday',
+  leagueName: 'Friday Night Football',
   currentClubId: 'club-ravens',
   clubs: demoClubs,
   players: demoPlayers,

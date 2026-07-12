@@ -36,6 +36,9 @@ export interface DemoClub {
   primary: string;
   secondary: string;
   accent: string;
+  badgeShape?: 'shield' | 'round' | 'pennant';
+  badgePattern?: 'sash' | 'stripes' | 'split';
+  badgeSymbol?: 'star' | 'ball' | 'crown';
   budgetMinor: number;
   totalPoints: number;
   latestRoundPoints: number;
@@ -80,6 +83,7 @@ export interface ActivityItem {
 export interface DemoState {
   demoActive: boolean;
   selectedLeagueId: string;
+  leagueName: string;
   currentClubId: string;
   clubs: DemoClub[];
   players: DemoPlayer[];

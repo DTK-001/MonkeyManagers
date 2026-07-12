@@ -12,10 +12,10 @@ import { createInitialDemoState } from '../data/demo';
 import type { DemoClub, DemoState } from '../types';
 import { formatMoney } from '../lib/format';
 
-const STORAGE_KEY = 'monkey-managers-demo-v2-real-premier-league';
+const STORAGE_KEY = 'monkey-managers-session-v1';
 
 type DemoAction =
-  | { type: 'START_DEMO' }
+  | { type: 'START_SESSION' }
   | { type: 'RESET_DEMO' }
   | { type: 'BUY_PLAYER'; playerId: string }
   | { type: 'RELEASE_PLAYER'; playerId: string }
@@ -24,6 +24,7 @@ type DemoAction =
   | { type: 'SET_VICE_CAPTAIN'; playerId: string }
   | { type: 'SAVE_LINEUP' }
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
+  | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueName: string }
   | { type: 'CLEAR_MESSAGE' };
 
 function activityId(): string {
@@ -32,11 +33,11 @@ function activityId(): string {
 
 function reducer(state: DemoState, action: DemoAction): DemoState {
   switch (action.type) {
-    case 'START_DEMO':
+    case 'START_SESSION':
       return {
         ...state,
         demoActive: true,
-        message: { kind: 'info', text: 'Demo league loaded. Every action stays on this device.' }
+        message: { kind: 'info', text: 'Your private league is ready.' }
       };
     case 'RESET_DEMO':
       return { ...createInitialDemoState(), demoActive: true };
@@ -196,6 +197,23 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         ),
         message: { kind: 'success', text: 'Club identity saved.' }
       };
+    case 'HYDRATE_CLUB':
+      return {
+        ...state,
+        demoActive: true,
+        selectedLeagueId: action.club.id,
+        leagueName: action.leagueName,
+        currentClubId: action.club.id,
+        clubs: [action.club],
+        players: state.players.map((player) => ({ ...player, ownershipClubId: null })),
+        starters: [],
+        bench: [],
+        captainId: null,
+        viceCaptainId: null,
+        activity: [],
+        lastUpdated: new Date().toISOString(),
+        message: { kind: 'success', text: 'Club created. Your full starting purse is available.' }
+      };
     case 'CLEAR_MESSAGE':
       return { ...state, message: null };
   }
@@ -213,7 +231,8 @@ function loadState(): DemoState {
 interface DemoContextValue {
   state: DemoState;
   currentClub: DemoClub;
-  startDemo: () => void;
+  startSession: () => void;
+  hydrateClub: (club: DemoClub, leagueName: string) => void;
   resetDemo: () => void;
   buyPlayer: (playerId: string) => void;
   releasePlayer: (playerId: string) => void;
@@ -234,7 +253,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
   const currentClub = state.clubs.find((club) => club.id === state.currentClubId) ?? state.clubs[0];
   if (!currentClub) throw new Error('Demo seed must contain a current club.');
 
-  const startDemo = useCallback(() => dispatch({ type: 'START_DEMO' }), []);
+  const startSession = useCallback(() => dispatch({ type: 'START_SESSION' }), []);
   const resetDemo = useCallback(() => dispatch({ type: 'RESET_DEMO' }), []);
   const saveLineup = useCallback(() => dispatch({ type: 'SAVE_LINEUP' }), []);
   const clearMessage = useCallback(() => dispatch({ type: 'CLEAR_MESSAGE' }), []);
@@ -243,7 +262,8 @@ export function DemoProvider({ children }: PropsWithChildren) {
     () => ({
       state,
       currentClub,
-      startDemo,
+      startSession,
+      hydrateClub: (club, leagueName) => dispatch({ type: 'HYDRATE_CLUB', club, leagueName }),
       resetDemo,
       buyPlayer: (playerId) => dispatch({ type: 'BUY_PLAYER', playerId }),
       releasePlayer: (playerId) => dispatch({ type: 'RELEASE_PLAYER', playerId }),
@@ -254,7 +274,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
       updateClub: (values) => dispatch({ type: 'UPDATE_CLUB', values }),
       clearMessage
     }),
-    [state, currentClub, startDemo, resetDemo, saveLineup, clearMessage]
+    [state, currentClub, startSession, resetDemo, saveLineup, clearMessage]
   );
 
   return <DemoContext.Provider value={value}>{children}</DemoContext.Provider>;
