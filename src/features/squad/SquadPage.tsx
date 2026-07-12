@@ -4,10 +4,10 @@ import {
   ChevronDown,
   CircleAlert,
   Crown,
-  GripVertical,
   LayoutGrid,
   List,
   LockKeyhole,
+  Plus,
   Save,
   Shield,
   Star
@@ -24,6 +24,7 @@ const formationOrder: Position[] = ['FWD', 'MID', 'DEF', 'GK'];
 export default function SquadPage() {
   const { state, currentClub, toggleStarter, setCaptain, setViceCaptain, saveLineup } = useDemo();
   const [view, setView] = useState<'pitch' | 'list'>('pitch');
+  const [addingPosition, setAddingPosition] = useState<Position | null>(null);
   const squad = state.players.filter((player) => player.ownershipClubId === currentClub.id);
   const starters = state.starters
     .map((id) => state.players.find((player) => player.id === id))
@@ -47,6 +48,9 @@ export default function SquadPage() {
     counts.MID <= 5 &&
     counts.FWD >= 1 &&
     counts.FWD <= 3;
+  const positionCandidates = addingPosition
+    ? bench.filter((player) => player.position === addingPosition)
+    : [];
 
   return (
     <div className="page-wrap">
@@ -128,11 +132,11 @@ export default function SquadPage() {
             </div>
           </div>
           {view === 'pitch' ? (
-            <div className="pitch-lines relative min-h-[40rem] p-4 sm:p-6">
+            <div className="pitch-lines relative flex min-h-[36rem] flex-col justify-around overflow-hidden px-3 py-5 sm:min-h-[40rem] sm:px-8 sm:py-7">
               {formationOrder.map((position) => (
                 <div
                   key={position}
-                  className="relative z-10 mb-5 flex min-h-28 items-center justify-center gap-2 sm:gap-4"
+                  className="relative z-10 flex min-h-[5.5rem] w-full flex-1 items-center justify-evenly gap-2 sm:min-h-[6.5rem] sm:gap-4"
                 >
                   {starters
                     .filter((player) => player.position === position)
@@ -145,14 +149,14 @@ export default function SquadPage() {
                         onToggle={() => toggleStarter(player.id)}
                       />
                     ))}
-                  {starters.filter((player) => player.position === position).length === 0 ? (
-                    <button
-                      type="button"
-                      className="grid h-16 w-16 place-items-center rounded-full border border-dashed border-white/30 text-xs text-muted"
-                    >
-                      Add {position}
-                    </button>
-                  ) : null}
+                  <button
+                    type="button"
+                    onClick={() => setAddingPosition(position)}
+                    className="grid h-16 w-16 shrink-0 place-items-center rounded-full border border-dashed border-gold/55 bg-ink/30 text-[0.63rem] font-bold text-gold transition hover:scale-105 hover:bg-gold/15 sm:h-[4.7rem] sm:w-[4.7rem]"
+                    aria-label={`Add a ${position} to the starting lineup`}
+                  >
+                    <Plus size={17} /> Add {position}
+                  </button>
                 </div>
               ))}
             </div>
@@ -172,6 +176,12 @@ export default function SquadPage() {
               ))}
             </div>
           )}
+          {addingPosition ? (
+            <div className="border-t border-white/[0.07] bg-ink/35 p-4">
+              <div className="flex items-center justify-between gap-3"><div><p className="eyebrow">Starting lineup</p><h2 className="mt-1 font-display text-xl font-bold">Add a {addingPosition}</h2></div><button type="button" onClick={() => setAddingPosition(null)} className="button-secondary min-h-9 px-3 text-xs">Cancel</button></div>
+              {positionCandidates.length ? <div className="mt-3 grid gap-2 sm:grid-cols-2">{positionCandidates.map((player) => <button key={player.id} type="button" onClick={() => { toggleStarter(player.id); setAddingPosition(null); }} className="subtle-card flex min-h-12 items-center justify-between gap-3 px-3 text-left transition hover:border-gold/45"><span className="min-w-0"><span className="block truncate text-sm font-semibold">{player.name}</span><span className="mt-1 block"><PositionPill position={player.position} /></span></span><span className="inline-flex shrink-0 items-center gap-1 text-xs font-bold text-gold"><Plus size={14} /> Add</span></button>)}</div> : <p className="mt-3 rounded-xl border border-white/10 p-3 text-xs leading-5 text-muted">You do not have an available {addingPosition} on the bench. Sign one from the player market first.</p>}
+            </div>
+          ) : null}
         </section>
 
         <aside className="space-y-5">
@@ -186,15 +196,10 @@ export default function SquadPage() {
             <div className="divide-y divide-white/[0.07]">
               {bench.slice(0, 7).map((player, index) => (
                 <div key={player.id} className="flex min-h-16 items-center gap-2.5 px-3 py-2">
-                  <GripVertical size={15} className="shrink-0 text-muted/50" />
                   <span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-white/[0.06] text-xs font-bold">
                     {index + 1}
                   </span>
-                  <button
-                    onClick={() => toggleStarter(player.id)}
-                    type="button"
-                    className="min-w-0 flex-1 text-left"
-                  >
+                  <div className="min-w-0 flex-1">
                     <span className="block truncate text-sm font-semibold">{player.name}</span>
                     <span className="mt-0.5 flex items-center gap-2">
                       <PositionPill position={player.position} />
@@ -202,7 +207,8 @@ export default function SquadPage() {
                         {formatMoney(player.valueMinor)}
                       </span>
                     </span>
-                  </button>
+                  </div>
+                  <button onClick={() => toggleStarter(player.id)} type="button" className="button-secondary min-h-10 px-3 text-xs"><Plus size={14} /> Add</button>
                 </div>
               ))}
               {bench.length === 0 ? (
@@ -271,7 +277,7 @@ export default function SquadPage() {
               className="button-primary mt-4 w-full"
               disabled={!formationValid}
             >
-              <Save size={16} /> Save Round 9 lineup
+              <Save size={16} /> Save lineup
             </button>
           </section>
           <p className="flex items-start gap-2 px-2 text-[0.65rem] leading-5 text-muted">
