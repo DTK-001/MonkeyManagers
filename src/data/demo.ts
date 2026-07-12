@@ -14,6 +14,7 @@ import { realPremierPlayers, realPremierTeams } from './premier-2024';
 export const demoTeams: DemoTeam[] = realPremierTeams;
 export const demoPlayers = realPremierPlayers.map((player) => ({
   ...player,
+  realPlayerId: null,
   ownershipClubId: null,
   ownedPoints: 0,
   ownershipStartedAt: null

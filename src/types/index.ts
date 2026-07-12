@@ -20,6 +20,8 @@ export interface DemoPlayer {
   seasonPoints: number;
   recentPoints: number[];
   form: number;
+  /** Server-side provider identity used by the durable market. */
+  realPlayerId: string | null;
   ownershipClubId: string | null;
   /** Points earned only after this player was signed and selected for this club. */
   ownedPoints: number;

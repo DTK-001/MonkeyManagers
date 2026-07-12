@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   ArrowDownUp,
   Check,
@@ -14,8 +14,10 @@ import { Link, useLocation } from 'react-router-dom';
 import { useDemo } from '../../app/demo-store';
 import { demoTeams } from '../../data/demo';
 import { formatMoney, formatPoints } from '../../lib/format';
+import { supabase } from '../../lib/supabase';
 import type { DemoPlayer, Position } from '../../types';
 import { PageHeader, PositionPill, StatusBadge } from '../../components/ui';
+import { loadServerMarket, runServerMarketOperation } from './server-market';
 
 type OwnershipFilter = 'available' | 'mine' | 'all';
 type SortKey = 'value' | 'form' | 'points' | 'name';
@@ -68,7 +70,7 @@ function competitionLabel(competitionId: string): string {
 }
 
 export default function MarketPage() {
-  const { state, currentClub, buyPlayer, releasePlayer } = useDemo();
+  const { state, currentClub, syncServerMarket, commitServerMarketOperation } = useDemo();
   const location = useLocation();
   const [initialFilters] = useState(() => restoredFilters(location.state));
   const [query, setQuery] = useState(initialFilters.query);
@@ -80,6 +82,9 @@ export default function MarketPage() {
   const [priceFilter, setPriceFilter] = useState<PriceFilter>(initialFilters.priceFilter);
   const [selected, setSelected] = useState<DemoPlayer | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [marketState, setMarketState] = useState<'loading' | 'ready' | 'unavailable'>('loading');
+  const [marketError, setMarketError] = useState<string | null>(null);
+  const [submittingOperation, setSubmittingOperation] = useState(false);
   const competitionOptions = useMemo(
     () => Array.from(new Set(state.players.flatMap((player) => player.competitionIds))).sort(),
     [state.players]
@@ -93,6 +98,30 @@ export default function MarketPage() {
     competitionId,
     priceFilter
   };
+
+  useEffect(() => {
+    let active = true;
+    if (!supabase || state.selectedLeagueId === 'league-pending') {
+      setMarketState('unavailable');
+      return;
+    }
+    setMarketState('loading');
+    setMarketError(null);
+    void loadServerMarket(state.selectedLeagueId, currentClub.id)
+      .then((market) => {
+        if (!active) return;
+        syncServerMarket(market.players, market.balanceMinor);
+        setMarketState('ready');
+      })
+      .catch((cause: unknown) => {
+        if (!active) return;
+        setMarketError(cause instanceof Error ? cause.message : 'The live market could not be loaded.');
+        setMarketState('unavailable');
+      });
+    return () => {
+      active = false;
+    };
+  }, [state.selectedLeagueId, currentClub.id, syncServerMarket]);
 
   const visiblePlayers = useMemo(() => {
     const normalisedQuery = query.trim().toLowerCase();
@@ -142,11 +171,27 @@ export default function MarketPage() {
     currentClub.id
   ]);
 
-  function confirmAction() {
+  async function confirmAction() {
     if (!selected) return;
-    if (selected.ownershipClubId === currentClub.id) releasePlayer(selected.id);
-    else buyPlayer(selected.id);
-    setSelected(null);
+    if (marketState !== 'ready') {
+      setMarketError('The live player catalogue is not ready yet. Refresh player profiles from Control room first.');
+      return;
+    }
+    setSubmittingOperation(true);
+    try {
+      const owned = selected.ownershipClubId !== currentClub.id;
+      const balanceMinor = await runServerMarketOperation(
+        owned ? 'purchase' : 'release',
+        currentClub.id,
+        selected.id
+      );
+      commitServerMarketOperation(selected.id, owned, balanceMinor);
+      setSelected(null);
+    } catch (cause) {
+      setMarketError(cause instanceof Error ? cause.message : 'The market operation could not be completed.');
+    } finally {
+      setSubmittingOperation(false);
+    }
   }
 
   return (
@@ -154,9 +199,10 @@ export default function MarketPage() {
       <PageHeader
         eyebrow="Transfer centre"
         title="Player market"
-        description="Browse the real-player catalogue and plan your squad. Season points are market stats only: a signing starts on zero, earns in future selected rounds, and any points already earned stay with your club after a sale."
-        action={<StatusBadge kind="warning">Local preview</StatusBadge>}
+        description="Browse the real-player catalogue and plan your squad. Signings, releases, balances and ownership are confirmed by the private-league server."
+        action={<StatusBadge kind={marketState === 'ready' ? 'success' : 'warning'}>{marketState === 'ready' ? 'Live market' : 'Preparing market'}</StatusBadge>}
       />
+      {marketError ? <p className="mb-4 rounded-xl border border-danger/30 bg-danger/[0.08] p-3 text-xs leading-5 text-[#ffc1c1]">{marketError}</p> : null}
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
         <div className="subtle-card p-3">
           <p className="text-[0.62rem] font-bold uppercase tracking-wider text-muted">Balance</p>
@@ -402,7 +448,7 @@ export default function MarketPage() {
                     <button
                       type="button"
                       onClick={() => setSelected(player)}
-                      disabled={!mine && player.valueMinor > currentClub.budgetMinor}
+                      disabled={!mine && (marketState !== 'ready' || player.valueMinor > currentClub.budgetMinor)}
                       className={
                         mine
                           ? 'button-danger min-h-10 px-3 text-xs'
@@ -498,9 +544,9 @@ export default function MarketPage() {
                   </div>
                 </div>
                 <p className="mt-3 flex items-start gap-2 text-xs leading-5 text-muted">
-                  <Check size={14} className="mt-0.5 shrink-0 text-emerald" /> This preview updates
-                  only this device. The live market uses an atomic server-side ownership and funds
-                  check before a signing can complete.
+                  <Check size={14} className="mt-0.5 shrink-0 text-emerald" /> The server locks
+                  ownership and funds together before a signing can complete, so this purchase is
+                  saved for every manager in the league.
                 </p>
               </>
             )}
@@ -510,12 +556,15 @@ export default function MarketPage() {
               </button>
               <button
                 type="button"
-                onClick={confirmAction}
+                onClick={() => void confirmAction()}
+                disabled={submittingOperation || marketState !== 'ready'}
                 className={
                   selected.ownershipClubId === currentClub.id ? 'button-danger' : 'button-primary'
                 }
               >
-                {selected.ownershipClubId === currentClub.id
+                {submittingOperation
+                  ? 'Saving…'
+                  : selected.ownershipClubId === currentClub.id
                   ? 'Release player'
                   : 'Confirm purchase'}
               </button>

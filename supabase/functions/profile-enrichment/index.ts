@@ -10,6 +10,8 @@ interface CataloguePlayer {
   name: string;
   teamName: string;
   position: Position;
+  valueMinor: number;
+  previousValueMinor: number;
 }
 
 interface ProviderPlayer {
@@ -74,11 +76,13 @@ Deno.serve(async (request) => {
       },
     });
     const providerPlayers = await loadPremierLeaguePlayers(provider, providerSeasonId);
-    const rows = cataloguePlayers.map((player) => profileRow(player, providerPlayers));
+    const realPlayerIds = await persistProviderPlayers(db, providerPlayers);
+    const rows = cataloguePlayers.map((player) => profileRow(player, providerPlayers, realPlayerIds));
     const { error: upsertError } = await db.from("player_catalogue_profiles").upsert(rows, {
       onConflict: "catalogue_player_id",
     });
     if (upsertError) throw new Error("Could not save cached player profiles.");
+    await persistSeasonValues(db, seasonId, rows);
 
     const matched = rows.filter((row) => row.match_status === "matched").length;
     const ambiguous = rows.filter((row) => row.match_status === "ambiguous").length;
@@ -109,11 +113,14 @@ function parseCataloguePlayers(value: unknown): CataloguePlayer[] {
     const name = asString(record?.name);
     const teamName = asString(record?.teamName);
     const position = asString(record?.position)?.toUpperCase();
-    if (!id || !name || !teamName || !position || !["GK", "DEF", "MID", "FWD"].includes(position) || ids.has(id)) {
-      throw new PublicError("INVALID_CATALOGUE", "Each catalogue player needs a unique id, name, club and position.", 400);
+    const valueMinor = typeof record?.valueMinor === "number" ? record.valueMinor : NaN;
+    const previousValueMinor = typeof record?.previousValueMinor === "number" ? record.previousValueMinor : NaN;
+    if (!id || !name || !teamName || !position || !["GK", "DEF", "MID", "FWD"].includes(position) || ids.has(id)
+      || !Number.isSafeInteger(valueMinor) || valueMinor < 0 || !Number.isSafeInteger(previousValueMinor) || previousValueMinor < 0) {
+      throw new PublicError("INVALID_CATALOGUE", "Each catalogue player needs a unique id, name, club, position and valid prices.", 400);
     }
     ids.add(id);
-    players.push({ id, name, teamName, position: position as Position });
+    players.push({ id, name, teamName, position: position as Position, valueMinor, previousValueMinor });
   }
   return players;
 }
@@ -188,7 +195,55 @@ function parseProviderPlayer(value: unknown): ProviderPlayer | null {
   };
 }
 
-function profileRow(player: CataloguePlayer, providerPlayers: ProviderPlayer[]) {
+async function persistProviderPlayers(db: ReturnType<typeof serviceClient>, providerPlayers: ProviderPlayer[]): Promise<Map<string, string>> {
+  const uniquePlayers = [...new Map(providerPlayers.map((player) => [player.id, player])).values()];
+  const { data, error } = await db.from("real_players").upsert(
+    uniquePlayers.map((player) => ({
+      provider: "api-football",
+      provider_external_id: player.id,
+      display_name: player.name,
+      birth_date: player.birthDate,
+      nationality: player.nationality,
+      position: player.position,
+      last_synced_at: new Date().toISOString(),
+    })),
+    { onConflict: "provider,provider_external_id" },
+  ).select("id,provider_external_id");
+  if (error || !data) throw new Error("Could not cache provider player profiles.");
+  return new Map(data.map((player) => [String(player.provider_external_id), String(player.id)]));
+}
+
+async function persistSeasonValues(
+  db: ReturnType<typeof serviceClient>,
+  seasonId: string,
+  rows: Array<{ real_player_id: string | null; current_value_minor: number; previous_value_minor: number }>,
+) {
+  const realPlayerIds = rows.flatMap((row) => row.real_player_id ? [row.real_player_id] : []);
+  if (!realPlayerIds.length) return;
+  const { data: existing, error: existingError } = await db.from("dynamic_player_values")
+    .select("real_player_id,initial_value_minor").eq("season_id", seasonId).in("real_player_id", realPlayerIds);
+  if (existingError) throw new Error("Could not load existing market values.");
+  const initialValues = new Map((existing ?? []).map((value) => [String(value.real_player_id), Number(value.initial_value_minor)]));
+  const now = new Date().toISOString();
+  const { error } = await db.from("dynamic_player_values").upsert(
+    rows.flatMap((row) => row.real_player_id ? [{
+      season_id: seasonId,
+      real_player_id: row.real_player_id,
+      current_value_minor: row.current_value_minor,
+      previous_value_minor: row.previous_value_minor,
+      initial_value_minor: initialValues.get(row.real_player_id) ?? row.current_value_minor,
+      target_value_minor: row.current_value_minor,
+      explanation: [{ source: "fpl_catalogue" }],
+      formula_version: "fpl-catalogue-v1",
+      valued_at: now,
+      updated_at: now,
+    }] : []),
+    { onConflict: "season_id,real_player_id" },
+  );
+  if (error) throw new Error("Could not save server market values.");
+}
+
+function profileRow(player: CataloguePlayer, providerPlayers: ProviderPlayer[], realPlayerIds: Map<string, string>) {
   const exact = providerPlayers.filter((candidate) =>
     normalise(candidate.name) === normalise(player.name)
     && canonicalClub(candidate.teamName) === canonicalClub(player.teamName)
@@ -198,6 +253,7 @@ function profileRow(player: CataloguePlayer, providerPlayers: ProviderPlayer[]) 
   return {
     catalogue_player_id: player.id,
     api_football_player_id: candidate?.id ?? null,
+    real_player_id: candidate ? realPlayerIds.get(candidate.id) ?? null : null,
     display_name: player.name,
     team_name: player.teamName,
     position: player.position,
@@ -205,6 +261,8 @@ function profileRow(player: CataloguePlayer, providerPlayers: ProviderPlayer[]) 
     nationality: candidate?.nationality ?? null,
     match_status: candidate ? "matched" : exact.length > 1 ? "ambiguous" : "unmatched",
     match_confidence: candidate ? 100 : 0,
+    current_value_minor: player.valueMinor,
+    previous_value_minor: player.previousValueMinor,
     source_updated_at: new Date().toISOString(),
   };
 }

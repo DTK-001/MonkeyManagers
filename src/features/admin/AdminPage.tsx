@@ -87,7 +87,9 @@ export default function AdminPage() {
             id: player.id,
             name: player.name,
             teamName: teamNames.get(player.teamId) ?? 'Unknown',
-            position: player.position
+            position: player.position,
+            valueMinor: player.valueMinor,
+            previousValueMinor: player.previousValueMinor
           }))
         }
       });

@@ -25,7 +25,17 @@ type DemoAction =
   | { type: 'SAVE_LINEUP' }
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
   | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string; resumed: boolean }
+  | { type: 'SYNC_SERVER_MARKET'; players: ServerMarketPlayer[]; balanceMinor: number }
+  | { type: 'COMMIT_SERVER_MARKET_OPERATION'; playerId: string; owned: boolean; balanceMinor: number }
   | { type: 'CLEAR_MESSAGE' };
+
+type ServerMarketPlayer = {
+  cataloguePlayerId: string;
+  realPlayerId: string;
+  ownerClubId: string | null;
+  valueMinor: number;
+  previousValueMinor: number;
+};
 
 function activityId(): string {
   return `activity-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
@@ -235,6 +245,48 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
             : 'Club created. Your full starting purse is available.'
         }
       };
+    case 'SYNC_SERVER_MARKET': {
+      const serverPlayers = new Map(action.players.map((player) => [player.cataloguePlayerId, player]));
+      return {
+        ...state,
+        players: state.players.map((player) => {
+          const serverPlayer = serverPlayers.get(player.id);
+          return serverPlayer
+            ? {
+                ...player,
+                realPlayerId: serverPlayer.realPlayerId,
+                ownershipClubId: serverPlayer.ownerClubId,
+                valueMinor: serverPlayer.valueMinor,
+                previousValueMinor: serverPlayer.previousValueMinor
+              }
+            : player;
+        }),
+        clubs: state.clubs.map((club) =>
+          club.id === state.currentClubId ? { ...club, budgetMinor: action.balanceMinor } : club
+        )
+      };
+    }
+    case 'COMMIT_SERVER_MARKET_OPERATION':
+      return {
+        ...state,
+        players: state.players.map((player) =>
+          player.id === action.playerId
+            ? {
+                ...player,
+                ownershipClubId: action.owned ? state.currentClubId : null,
+                ownershipStartedAt: action.owned ? new Date().toISOString() : null,
+                ownedPoints: action.owned ? 0 : player.ownedPoints
+              }
+            : player
+        ),
+        clubs: state.clubs.map((club) =>
+          club.id === state.currentClubId ? { ...club, budgetMinor: action.balanceMinor } : club
+        ),
+        starters: action.owned ? state.starters : state.starters.filter((id) => id !== action.playerId),
+        bench: action.owned ? state.bench : state.bench.filter((id) => id !== action.playerId),
+        captainId: action.owned || state.captainId !== action.playerId ? state.captainId : null,
+        viceCaptainId: action.owned || state.viceCaptainId !== action.playerId ? state.viceCaptainId : null
+      };
     case 'CLEAR_MESSAGE':
       return { ...state, message: null };
   }
@@ -256,6 +308,7 @@ function loadState(): DemoState {
         const storedPlayer = player as Partial<DemoPlayer>;
         return {
           ...player,
+          realPlayerId: typeof storedPlayer.realPlayerId === 'string' ? storedPlayer.realPlayerId : null,
           ownedPoints:
             typeof storedPlayer.ownedPoints === 'number' ? storedPlayer.ownedPoints : 0,
           ownershipStartedAt:
@@ -330,6 +383,8 @@ interface DemoContextValue {
   saveLineup: () => void;
   updateClub: (values: Partial<DemoClub>) => void;
   clearMessage: () => void;
+  syncServerMarket: (players: ServerMarketPlayer[], balanceMinor: number) => void;
+  commitServerMarketOperation: (playerId: string, owned: boolean, balanceMinor: number) => void;
 }
 
 const DemoContext = createContext<DemoContextValue | null>(null);
@@ -350,6 +405,16 @@ export function DemoProvider({ children }: PropsWithChildren) {
       dispatch({ type: 'HYDRATE_CLUB', club, leagueId, leagueName, resumed }),
     []
   );
+  const syncServerMarket = useCallback(
+    (players: ServerMarketPlayer[], balanceMinor: number) =>
+      dispatch({ type: 'SYNC_SERVER_MARKET', players, balanceMinor }),
+    []
+  );
+  const commitServerMarketOperation = useCallback(
+    (playerId: string, owned: boolean, balanceMinor: number) =>
+      dispatch({ type: 'COMMIT_SERVER_MARKET_OPERATION', playerId, owned, balanceMinor }),
+    []
+  );
 
   const value = useMemo<DemoContextValue>(
     () => ({
@@ -365,9 +430,11 @@ export function DemoProvider({ children }: PropsWithChildren) {
       setViceCaptain: (playerId) => dispatch({ type: 'SET_VICE_CAPTAIN', playerId }),
       saveLineup,
       updateClub: (values) => dispatch({ type: 'UPDATE_CLUB', values }),
-      clearMessage
+      clearMessage,
+      syncServerMarket,
+      commitServerMarketOperation
     }),
-    [state, currentClub, startSession, resetDemo, saveLineup, clearMessage, hydrateClub]
+    [state, currentClub, startSession, resetDemo, saveLineup, clearMessage, hydrateClub, syncServerMarket, commitServerMarketOperation]
   );
 
   return <DemoContext.Provider value={value}>{children}</DemoContext.Provider>;

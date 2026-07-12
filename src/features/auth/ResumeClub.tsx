@@ -2,13 +2,14 @@ import { useEffect, useRef, useState, type PropsWithChildren } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDemo } from '../../app/demo-store';
 import { requireSupabase } from '../../lib/supabase';
+import { loadServerMarket } from '../market/server-market';
 import { loadSavedClub, rememberLastLeague } from './saved-club';
 
 type ResumeState = 'loading' | 'ready' | 'error';
 
 export function ResumeClub({ children }: PropsWithChildren) {
   const navigate = useNavigate();
-  const { state, hydrateClub } = useDemo();
+  const { state, hydrateClub, syncServerMarket } = useDemo();
   const [resumeState, setResumeState] = useState<ResumeState>('loading');
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const preferredLeagueId = useRef(state.selectedLeagueId);
@@ -26,6 +27,12 @@ export function ResumeClub({ children }: PropsWithChildren) {
           return;
         }
         hydrateClub(saved.club, saved.leagueId, saved.leagueName, true);
+        try {
+          const market = await loadServerMarket(saved.leagueId, saved.club.id);
+          syncServerMarket(market.players, market.balanceMinor);
+        } catch {
+          // The league can still open before its catalogue has been enriched for the first time.
+        }
         rememberLastLeague(data.user.id, saved.leagueId);
         setResumeState('ready');
       } catch (cause) {
@@ -38,7 +45,7 @@ export function ResumeClub({ children }: PropsWithChildren) {
     return () => {
       active = false;
     };
-  }, [hydrateClub, navigate]);
+  }, [hydrateClub, navigate, syncServerMarket]);
 
   if (resumeState === 'loading') {
     return (

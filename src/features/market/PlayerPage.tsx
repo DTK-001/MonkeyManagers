@@ -17,6 +17,7 @@ import { demoTeams } from '../../data/demo';
 import { formatMoney, formatPoints, positionLabel } from '../../lib/format';
 import { supabase } from '../../lib/supabase';
 import { PositionPill, StatusBadge } from '../../components/ui';
+import { runServerMarketOperation } from './server-market';
 
 interface CachedPlayerProfile {
   birth_date: string | null;
@@ -28,9 +29,11 @@ export default function PlayerPage() {
   const navigate = useNavigate();
   const location = useLocation();
   const marketReturnState: unknown = location.state as unknown;
-  const { state, currentClub, buyPlayer, releasePlayer } = useDemo();
+  const { state, currentClub, commitServerMarketOperation } = useDemo();
   const player = state.players.find((item) => item.id === playerId);
   const [cachedProfile, setCachedProfile] = useState<CachedPlayerProfile | null>(null);
+  const [marketError, setMarketError] = useState<string | null>(null);
+  const [savingMarketOperation, setSavingMarketOperation] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -73,10 +76,24 @@ export default function PlayerPage() {
   const nationality =
     cachedProfile?.nationality ?? (player.nationality === 'Unknown' ? null : player.nationality);
 
-  function action() {
-    if (mine) releasePlayer(selectedPlayer.id);
-    else if (!owner) buyPlayer(selectedPlayer.id);
-    navigate('/app/market', { state: marketReturnState });
+  async function action() {
+    if (!supabase || owner && !mine) return;
+    setMarketError(null);
+    setSavingMarketOperation(true);
+    try {
+      const owned = !mine;
+      const balanceMinor = await runServerMarketOperation(
+        owned ? 'purchase' : 'release',
+        currentClub.id,
+        selectedPlayer.id
+      );
+      commitServerMarketOperation(selectedPlayer.id, owned, balanceMinor);
+      navigate('/app/market', { state: marketReturnState });
+    } catch (cause) {
+      setMarketError(cause instanceof Error ? cause.message : 'The market operation could not be completed.');
+    } finally {
+      setSavingMarketOperation(false);
+    }
   }
 
   return (
@@ -317,12 +334,14 @@ export default function PlayerPage() {
             </p>
             {mine || !owner ? (
               <button
-                onClick={action}
-                disabled={!mine && player.valueMinor > currentClub.budgetMinor}
+                onClick={() => void action()}
+                disabled={savingMarketOperation || (!mine && player.valueMinor > currentClub.budgetMinor)}
                 type="button"
                 className={`${mine ? 'button-danger' : 'button-primary'} mt-5 w-full`}
               >
-                {mine ? (
+                {savingMarketOperation ? (
+                  'Saving…'
+                ) : mine ? (
                   'Release player'
                 ) : (
                   <>
@@ -335,6 +354,7 @@ export default function PlayerPage() {
                 Make transfer offer <ChevronRight size={17} />
               </button>
             )}
+            {marketError ? <p className="mt-3 text-xs leading-5 text-danger">{marketError}</p> : null}
             {!owner ? (
               <p className="mt-3 flex items-start gap-2 text-[0.65rem] leading-5 text-muted">
                 <LockKeyhole className="mt-0.5 shrink-0" size={13} /> The production database
