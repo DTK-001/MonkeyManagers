@@ -19,8 +19,8 @@ type ClubDraft = Omit<DemoClub, 'id' | 'budgetMinor' | 'totalPoints' | 'latestRo
 };
 
 const initialClub: ClubDraft = {
-  name: 'Your Club',
-  abbreviation: 'YFC',
+  name: '',
+  abbreviation: '',
   manager: 'Manager',
   stadium: 'Home Ground',
   motto: '',
@@ -46,6 +46,19 @@ function createSlug(name: string): string {
     .replace(/^-+|-+$/g, '')
     .slice(0, 48);
   return `${base || 'league'}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+function errorMessage(cause: unknown, fallback: string): string {
+  if (cause instanceof Error) return cause.message;
+  if (
+    typeof cause === 'object' &&
+    cause !== null &&
+    'message' in cause &&
+    typeof cause.message === 'string'
+  ) {
+    return cause.message;
+  }
+  return fallback;
 }
 
 export default function OnboardingPage() {
@@ -124,7 +137,7 @@ export default function OnboardingPage() {
       if (displayName) setClub((draft) => ({ ...draft, manager: displayName }));
       setStep(1);
     } catch (cause) {
-      setError(cause instanceof Error ? cause.message : 'The league could not be set up.');
+      setError(errorMessage(cause, 'The league could not be set up.'));
     } finally {
       setSubmitting(false);
     }
@@ -183,7 +196,7 @@ export default function OnboardingPage() {
       );
       navigate('/app/market');
     } catch (cause) {
-      setError(cause instanceof Error ? cause.message : 'Your club could not be created.');
+      setError(errorMessage(cause, 'Your club could not be created.'));
     } finally {
       setSubmitting(false);
     }
@@ -211,7 +224,7 @@ export default function OnboardingPage() {
             </div>
             {leagueMode === 'create' ? <><label className="mt-5 block"><span className="mb-1.5 block text-xs font-semibold">League name</span><input value={leagueName} onChange={(event) => setLeagueName(event.target.value)} className="field" maxLength={80} /></label><label className="mt-4 block"><span className="mb-1.5 block text-xs font-semibold">Starting purse for every manager</span><div className="relative max-w-xs"><span className="pointer-events-none absolute left-3 top-3 text-sm text-muted">£</span><input value={startingBudget} onChange={(event) => setStartingBudget(event.target.value.replace(/[^0-9.]/g, ''))} className="field pl-7 pr-12" inputMode="decimal" /><span className="pointer-events-none absolute right-3 top-3 text-sm text-muted">million</span></div><span className="mt-2 block text-xs text-muted">Everyone begins with exactly this amount. It is locked once the league is created.</span></label></> : <label className="mt-5 block"><span className="mb-1.5 block text-xs font-semibold">Invite code</span><div className="relative"><input value={inviteCode} onChange={(event) => setInviteCode(event.target.value.toUpperCase())} className="field pr-12" maxLength={12} /><Copy className="pointer-events-none absolute right-3 top-3.5 text-muted" size={16} /></div></label>}
           </div> : null}
-          {step === 1 ? <div className="grid md:grid-cols-[1fr_18rem]"><div className="p-5 sm:p-8"><p className="eyebrow">Step two</p><h1 className="mt-2 font-display text-4xl font-bold">Name your club</h1><div className="mt-6 grid gap-4 sm:grid-cols-[1fr_8rem]"><label><span className="mb-1.5 block text-xs font-semibold">Club name</span><input className="field" value={club.name} onChange={(event) => setClub({ ...club, name: event.target.value })} /></label><label><span className="mb-1.5 block text-xs font-semibold">Abbreviation</span><input className="field uppercase" maxLength={3} value={club.abbreviation} onChange={(event) => setClub({ ...club, abbreviation: event.target.value.toUpperCase().replace(/[^A-Z]/g, '') })} /></label></div><label className="mt-4 block"><span className="mb-1.5 block text-xs font-semibold">Stadium name</span><input className="field" value={club.stadium} onChange={(event) => setClub({ ...club, stadium: event.target.value })} /></label><label className="mt-4 block"><span className="mb-1.5 block text-xs font-semibold">Club motto <span className="font-normal text-muted">(optional)</span></span><input className="field" value={club.motto} onChange={(event) => setClub({ ...club, motto: event.target.value })} /></label></div><Preview club={club} /></div> : null}
+          {step === 1 ? <div className="grid md:grid-cols-[1fr_18rem]"><div className="p-5 sm:p-8"><p className="eyebrow">Step two</p><h1 className="mt-2 font-display text-4xl font-bold">Name your club</h1><div className="mt-6 grid gap-4 sm:grid-cols-[1fr_8rem]"><label><span className="mb-1.5 block text-xs font-semibold">Club name</span><input className="field" placeholder="Northside FC" value={club.name} onChange={(event) => setClub({ ...club, name: event.target.value })} /></label><label><span className="mb-1.5 block text-xs font-semibold">Abbreviation</span><input className="field uppercase" placeholder="NSF" maxLength={3} value={club.abbreviation} onChange={(event) => setClub({ ...club, abbreviation: event.target.value.toUpperCase().replace(/[^A-Z]/g, '') })} /></label></div><label className="mt-4 block"><span className="mb-1.5 block text-xs font-semibold">Stadium name</span><input className="field" value={club.stadium} onChange={(event) => setClub({ ...club, stadium: event.target.value })} /></label><label className="mt-4 block"><span className="mb-1.5 block text-xs font-semibold">Club motto <span className="font-normal text-muted">(optional)</span></span><input className="field" value={club.motto} onChange={(event) => setClub({ ...club, motto: event.target.value })} /></label></div><Preview club={club} /></div> : null}
           {step === 2 ? <div className="grid md:grid-cols-[1fr_18rem]"><div className="p-5 sm:p-8"><p className="eyebrow">Step three</p><h1 className="mt-2 font-display text-4xl font-bold">Make it yours</h1><p className="mt-2 text-sm text-muted">Choose colours and an original badge design for your club.</p><div className="mt-6 grid gap-4 sm:grid-cols-3">{([['primary', 'Primary'], ['secondary', 'Secondary'], ['accent', 'Accent']] as const).map(([key, label]) => <label key={key} className="subtle-card flex items-center gap-3 p-3"><input type="color" className="h-11 w-11 cursor-pointer rounded-lg border-0 bg-transparent" value={club[key]} onChange={(event) => setClub({ ...club, [key]: event.target.value })} /><span className="text-xs font-semibold">{label}<span className="mt-1 block font-mono text-[0.62rem] uppercase text-muted">{club[key]}</span></span></label>)}</div><div className="mt-5 grid gap-3 sm:grid-cols-3">{([['badgeShape', 'Shape', ['shield', 'round', 'pennant']], ['badgePattern', 'Pattern', ['sash', 'stripes', 'split']], ['badgeSymbol', 'Mark', ['star', 'ball', 'crown']]] as const).map(([key, label, options]) => <label key={key}><span className="mb-1.5 block text-xs font-semibold">{label}</span><select className="field" value={club[key]} onChange={(event) => setClub({ ...club, [key]: event.target.value as ClubDraft[typeof key] })}>{options.map((option) => <option key={option} value={option}>{option.charAt(0).toUpperCase() + option.slice(1)}</option>)}</select></label>)}</div></div><Preview club={club} /></div> : null}
           {step === 3 ? <div className="p-5 sm:p-8"><div className="flex flex-col items-center text-center"><ClubBadge {...club} className="h-32 w-32" /><p className="eyebrow mt-5">Ready for the market</p><h1 className="mt-2 font-display text-5xl font-bold">{club.name}</h1><p className="mt-2 text-sm text-muted">{club.manager} · {club.stadium}</p>{club.motto ? <p className="mt-4 font-display text-xl italic text-gold">“{club.motto}”</p> : null}</div><div className="mx-auto mt-8 grid max-w-xl gap-3 sm:grid-cols-3">{[['League', resolvedLeague?.name ?? ''], ['Budget', resolvedLeague ? `£${(resolvedLeague.budgetMinor / 100_000_000).toFixed(1)}m` : ''], ['Market', 'Open']].map(([label, value]) => <div key={label} className="subtle-card p-3 text-center"><p className="text-[0.62rem] font-bold uppercase tracking-wider text-muted">{label}</p><p className="mt-1 text-sm font-semibold">{value}</p></div>)}</div>{resolvedLeague?.inviteCode ? <div className="mx-auto mt-5 max-w-xl rounded-xl border border-gold/20 bg-gold/[0.07] p-3 text-center"><p className="text-xs text-muted">Share this invitation code with your friends</p><p className="mt-1 font-mono text-lg font-bold tracking-widest text-gold">{resolvedLeague.inviteCode}</p></div> : null}<label className="mx-auto mt-6 flex max-w-xl items-start gap-3 rounded-xl border border-white/10 p-3 text-left text-xs leading-5 text-muted"><span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded border border-emerald bg-emerald text-white"><Check size={14} /></span>I understand that real players can have only one owner inside this private league, and lineups lock at the published deadline.</label></div> : null}
           {error ? <p className="mx-4 mb-4 rounded-xl border border-danger/30 bg-danger/[0.08] p-3 text-xs leading-5 text-[#ffc1c1]" role="alert">{error}</p> : null}
