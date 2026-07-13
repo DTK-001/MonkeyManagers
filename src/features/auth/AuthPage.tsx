@@ -35,6 +35,12 @@ type FormValues = {
 type RecoveryState = 'checking' | 'ready' | 'expired' | 'unavailable';
 type RedirectState = { from?: { pathname?: string; search?: string; hash?: string } };
 
+function authRedirectUrl(route: string): string {
+  const url = new URL(window.location.pathname, window.location.origin);
+  url.hash = route;
+  return url.toString();
+}
+
 function requestedDestination(state: unknown): string {
   const from = (state as RedirectState | null)?.from;
   if (!from?.pathname) return '/app/home';
@@ -101,7 +107,7 @@ export default function AuthPage() {
     try {
       if (isReset) {
         const { error } = await supabase.auth.resetPasswordForEmail(values.email ?? '', {
-          redirectTo: `${window.location.origin}${window.location.pathname}#/auth/update-password`
+          redirectTo: authRedirectUrl('/auth/update-password')
         });
         if (error) throw error;
         setStatus('Check your inbox for a secure reset link.');
@@ -117,7 +123,10 @@ export default function AuthPage() {
         const { data, error } = await supabase.auth.signUp({
           email: values.email ?? '',
           password: values.password ?? '',
-          options: { data: { display_name: values.displayName } }
+          options: {
+            emailRedirectTo: authRedirectUrl('/auth/sign-in'),
+            data: { display_name: values.displayName }
+          }
         });
         if (error) throw error;
         if (!data.session) {
