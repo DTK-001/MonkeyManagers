@@ -140,7 +140,7 @@ Redirect URL: http://127.0.0.1:5173/**
 Redirect URL: https://USERNAME.github.io/REPOSITORY_NAME/**
 ```
 
-Add custom or preview domains explicitly. The password-reset link returns through `#/auth/update-password`, which works with the static `HashRouter` deployment.
+Add custom or preview domains explicitly. Account-confirmation links return through `#/auth/sign-in`, and password-reset links return through `#/auth/update-password`; both work with the static `HashRouter` deployment.
 
 ## API-Football setup
 
