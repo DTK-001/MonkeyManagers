@@ -27,9 +27,14 @@ export function ResumeClub({ children }: PropsWithChildren) {
           return;
         }
         hydrateClub(saved.club, saved.leagueId, saved.leagueName, true);
-        const market = await loadServerMarket(saved.leagueId, saved.club.id);
-        if (!active) return;
-        syncServerMarket(market.players, market.balanceMinor);
+        try {
+          const market = await loadServerMarket(saved.leagueId, saved.club.id);
+          if (!active) return;
+          syncServerMarket(market.players, market.balanceMinor);
+        } catch {
+          // A market outage must not prevent a manager from returning to their saved club.
+          // MarketPage retries the load and surfaces the specific error alongside the controls.
+        }
         rememberLastLeague(data.user.id, saved.leagueId);
         setResumeState('ready');
       } catch (cause) {
