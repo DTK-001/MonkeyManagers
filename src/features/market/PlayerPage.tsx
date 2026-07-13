@@ -9,7 +9,7 @@ import {
   TrendingDown,
   TrendingUp
 } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { useDemo } from '../../app/demo-store';
@@ -19,11 +19,6 @@ import { supabase } from '../../lib/supabase';
 import { PositionPill, StatusBadge } from '../../components/ui';
 import { runServerMarketOperation } from './server-market';
 
-interface CachedPlayerProfile {
-  birth_date: string | null;
-  nationality: string | null;
-}
-
 export default function PlayerPage() {
   const { playerId } = useParams();
   const navigate = useNavigate();
@@ -31,26 +26,8 @@ export default function PlayerPage() {
   const marketReturnState: unknown = location.state as unknown;
   const { state, currentClub, commitServerMarketOperation } = useDemo();
   const player = state.players.find((item) => item.id === playerId);
-  const [cachedProfile, setCachedProfile] = useState<CachedPlayerProfile | null>(null);
   const [marketError, setMarketError] = useState<string | null>(null);
   const [savingMarketOperation, setSavingMarketOperation] = useState(false);
-
-  useEffect(() => {
-    let cancelled = false;
-    if (!supabase || !playerId) return;
-    setCachedProfile(null);
-    void supabase
-      .from('player_catalogue_profiles')
-      .select('birth_date,nationality')
-      .eq('catalogue_player_id', playerId)
-      .maybeSingle()
-      .then(({ data }) => {
-        if (!cancelled) setCachedProfile(data as CachedPlayerProfile | null);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [playerId]);
 
   if (!player)
     return (
@@ -72,9 +49,8 @@ export default function PlayerPage() {
     value: point.valueMinor / 100_000_000
   }));
   const mostRecent = player.recentPoints.at(-1) ?? 0;
-  const age = cachedProfile?.birth_date ? ageOnDate(cachedProfile.birth_date) : null;
-  const nationality =
-    cachedProfile?.nationality ?? (player.nationality === 'Unknown' ? null : player.nationality);
+  const age = player.birthDate ? ageOnDate(player.birthDate) : null;
+  const nationality = player.nationality === 'Unknown' ? null : player.nationality;
 
   async function action() {
     if (!supabase || owner && !mine) return;
@@ -82,11 +58,7 @@ export default function PlayerPage() {
     setSavingMarketOperation(true);
     try {
       const owned = !mine;
-      const balanceMinor = await runServerMarketOperation(
-        owned ? 'purchase' : 'release',
-        currentClub.id,
-        selectedPlayer.id
-      );
+      const balanceMinor = await runServerMarketOperation(owned ? 'purchase' : 'release', currentClub.id, selectedPlayer.id);
       commitServerMarketOperation(selectedPlayer.id, owned, balanceMinor);
       navigate('/app/market', { state: marketReturnState });
     } catch (cause) {

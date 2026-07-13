@@ -128,6 +128,7 @@ export const realPremierPlayers = [
     "name": "Aarón Anselmino",
     "position": "DEF",
     "teamId": "fpl-team-7",
+    "birthDate": "2005-04-29",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -222,7 +223,8 @@ export const realPremierPlayers = [
     "name": "Aaron Hickey",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2002-06-10",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -316,7 +318,8 @@ export const realPremierPlayers = [
     "name": "Aaron Ramsdale",
     "position": "GK",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1998-05-14",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -410,6 +413,7 @@ export const realPremierPlayers = [
     "name": "Aaron Ramsey",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2003-01-21",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -504,7 +508,8 @@ export const realPremierPlayers = [
     "name": "Aaron Wan-Bissaka",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-26",
+    "nationality": "DR Congo",
     "competitionIds": [
       "premier"
     ],
@@ -598,6 +603,7 @@ export const realPremierPlayers = [
     "name": "Abdallah Sima",
     "position": "MID",
     "teamId": "fpl-team-6",
+    "birthDate": "2001-06-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -692,6 +698,7 @@ export const realPremierPlayers = [
     "name": "Abdoullah Ba",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2003-07-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -786,7 +793,8 @@ export const realPremierPlayers = [
     "name": "Abdukodir Khusanov",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2004-02-29",
+    "nationality": "Uzbekistan",
     "competitionIds": [
       "premier"
     ],
@@ -880,7 +888,8 @@ export const realPremierPlayers = [
     "name": "Adam Armstrong",
     "position": "FWD",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1997-02-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -974,6 +983,7 @@ export const realPremierPlayers = [
     "name": "Adam Aznou",
     "position": "DEF",
     "teamId": "fpl-team-9",
+    "birthDate": "2006-06-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -1068,7 +1078,8 @@ export const realPremierPlayers = [
     "name": "Adam Smith",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1991-04-29",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -1162,6 +1173,7 @@ export const realPremierPlayers = [
     "name": "Adam Webster",
     "position": "DEF",
     "teamId": "fpl-team-6",
+    "birthDate": "1995-01-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -1256,7 +1268,8 @@ export const realPremierPlayers = [
     "name": "Adam Wharton",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2004-02-06",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -1350,7 +1363,8 @@ export const realPremierPlayers = [
     "name": "Adama Traoré Diarra",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1996-01-25",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -1444,6 +1458,7 @@ export const realPremierPlayers = [
     "name": "Adrian Mazilu",
     "position": "MID",
     "teamId": "fpl-team-6",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -1538,7 +1553,8 @@ export const realPremierPlayers = [
     "name": "Adrien Truffert",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2001-11-20",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -1632,6 +1648,7 @@ export const realPremierPlayers = [
     "name": "Ahmed Abdullahi",
     "position": "FWD",
     "teamId": "fpl-team-17",
+    "birthDate": "2004-06-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -1726,6 +1743,7 @@ export const realPremierPlayers = [
     "name": "Airidas Golambeckis",
     "position": "DEF",
     "teamId": "fpl-team-19",
+    "birthDate": "2007-11-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -1820,6 +1838,7 @@ export const realPremierPlayers = [
     "name": "Aji Alese",
     "position": "DEF",
     "teamId": "fpl-team-17",
+    "birthDate": "2001-01-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -1914,6 +1933,7 @@ export const realPremierPlayers = [
     "name": "Alan Browne",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "1995-04-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -2008,6 +2028,7 @@ export const realPremierPlayers = [
     "name": "Albert Sambi Lokonga",
     "position": "MID",
     "teamId": "fpl-team-1",
+    "birthDate": "1999-10-22",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -2102,7 +2123,8 @@ export const realPremierPlayers = [
     "name": "Alejandro Garnacho Ferreyra",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2004-07-01",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -2196,6 +2218,7 @@ export const realPremierPlayers = [
     "name": "Alex Cairns",
     "position": "GK",
     "teamId": "fpl-team-11",
+    "birthDate": "1993-01-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -2290,7 +2313,8 @@ export const realPremierPlayers = [
     "name": "Alex Iwobi",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1996-05-03",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -2384,7 +2408,8 @@ export const realPremierPlayers = [
     "name": "Álex Jiménez Sánchez",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2005-05-08",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -2478,6 +2503,7 @@ export const realPremierPlayers = [
     "name": "Álex Moreno Lopera",
     "position": "DEF",
     "teamId": "fpl-team-2",
+    "birthDate": "1993-06-08",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -2572,7 +2598,8 @@ export const realPremierPlayers = [
     "name": "Alex Murphy",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2004-06-25",
+    "nationality": "Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -2666,6 +2693,7 @@ export const realPremierPlayers = [
     "name": "Alex Paulsen",
     "position": "GK",
     "teamId": "fpl-team-4",
+    "birthDate": "2002-07-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -2760,7 +2788,8 @@ export const realPremierPlayers = [
     "name": "Alex Scott",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2003-08-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -2854,7 +2883,8 @@ export const realPremierPlayers = [
     "name": "Alex Tóth",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2005-10-23",
+    "nationality": "Hungary",
     "competitionIds": [
       "premier"
     ],
@@ -2948,7 +2978,8 @@ export const realPremierPlayers = [
     "name": "Alexander Isak",
     "position": "FWD",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1999-09-21",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -3042,7 +3073,8 @@ export const realPremierPlayers = [
     "name": "Alexis Mac Allister",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1998-12-24",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -3136,6 +3168,7 @@ export const realPremierPlayers = [
     "name": "Alfie Brooks",
     "position": "GK",
     "teamId": "fpl-team-20",
+    "birthDate": "2003-10-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -3230,6 +3263,7 @@ export const realPremierPlayers = [
     "name": "Alfie Cresswell",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2007-07-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -3324,6 +3358,7 @@ export const realPremierPlayers = [
     "name": "Alfie McNally",
     "position": "GK",
     "teamId": "fpl-team-10",
+    "birthDate": "2004-12-22",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -3418,6 +3453,7 @@ export const realPremierPlayers = [
     "name": "Alfie Pond",
     "position": "DEF",
     "teamId": "fpl-team-20",
+    "birthDate": "2004-03-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -3512,7 +3548,8 @@ export const realPremierPlayers = [
     "name": "Alisson Becker",
     "position": "GK",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1992-10-02",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -3606,7 +3643,8 @@ export const realPremierPlayers = [
     "name": "Alphonse Areola",
     "position": "GK",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1993-02-27",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -3700,7 +3738,8 @@ export const realPremierPlayers = [
     "name": "Altay Bayındır",
     "position": "GK",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1998-04-14",
+    "nationality": "Turkiye",
     "competitionIds": [
       "premier"
     ],
@@ -3794,7 +3833,8 @@ export const realPremierPlayers = [
     "name": "Alysson Edward Franco da Rocha dos Santos",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2006-05-05",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -3888,7 +3928,8 @@ export const realPremierPlayers = [
     "name": "Amad Diallo",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2002-07-11",
+    "nationality": "Cote D’Ivoire",
     "competitionIds": [
       "premier"
     ],
@@ -3982,7 +4023,8 @@ export const realPremierPlayers = [
     "name": "Amadou Onana",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2001-08-16",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -4076,6 +4118,7 @@ export const realPremierPlayers = [
     "name": "Amara Nallo",
     "position": "DEF",
     "teamId": "fpl-team-12",
+    "birthDate": "2006-11-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -4170,7 +4213,8 @@ export const realPremierPlayers = [
     "name": "Amine Adli",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2000-05-10",
+    "nationality": "Morocco",
     "competitionIds": [
       "premier"
     ],
@@ -4264,6 +4308,7 @@ export const realPremierPlayers = [
     "name": "Andre Harriman-Annous",
     "position": "MID",
     "teamId": "fpl-team-1",
+    "birthDate": "2007-12-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -4358,6 +4403,7 @@ export const realPremierPlayers = [
     "name": "André Onana",
     "position": "GK",
     "teamId": "fpl-team-14",
+    "birthDate": "1996-04-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -4452,7 +4498,8 @@ export const realPremierPlayers = [
     "name": "André Trindade da Costa Neto",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2001-07-16",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -4546,6 +4593,7 @@ export const realPremierPlayers = [
     "name": "Andreas Hoelgebaum Pereira",
     "position": "MID",
     "teamId": "fpl-team-10",
+    "birthDate": "1996-01-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -4640,7 +4688,8 @@ export const realPremierPlayers = [
     "name": "Andrés García",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2003-02-07",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -4734,6 +4783,7 @@ export const realPremierPlayers = [
     "name": "Andrew Moran",
     "position": "MID",
     "teamId": "fpl-team-6",
+    "birthDate": "2003-10-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -4828,7 +4878,8 @@ export const realPremierPlayers = [
     "name": "Andrew Robertson",
     "position": "DEF",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1994-03-11",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -4922,7 +4973,8 @@ export const realPremierPlayers = [
     "name": "Andrey Nascimento dos Santos",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2004-05-03",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -5016,7 +5068,8 @@ export const realPremierPlayers = [
     "name": "Andy Irving",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2000-05-13",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -5110,7 +5163,8 @@ export const realPremierPlayers = [
     "name": "Angel Gomes",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2000-08-31",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -5204,7 +5258,8 @@ export const realPremierPlayers = [
     "name": "Angus Gunn",
     "position": "GK",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1996-01-22",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -5298,7 +5353,8 @@ export const realPremierPlayers = [
     "name": "Anthony Elanga",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2002-04-27",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -5392,7 +5448,8 @@ export const realPremierPlayers = [
     "name": "Anthony Gordon",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2001-02-24",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -5486,6 +5543,7 @@ export const realPremierPlayers = [
     "name": "Anthony Patterson",
     "position": "GK",
     "teamId": "fpl-team-17",
+    "birthDate": "2000-05-10",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -5580,7 +5638,8 @@ export const realPremierPlayers = [
     "name": "Antoine Semenyo",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2000-01-07",
+    "nationality": "Ghana",
     "competitionIds": [
       "premier"
     ],
@@ -5674,7 +5733,8 @@ export const realPremierPlayers = [
     "name": "Anton Stach",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1998-11-15",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -5768,7 +5828,8 @@ export const realPremierPlayers = [
     "name": "Antonee Robinson",
     "position": "DEF",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1997-08-08",
+    "nationality": "United States",
     "competitionIds": [
       "premier"
     ],
@@ -5862,7 +5923,8 @@ export const realPremierPlayers = [
     "name": "Antoni Milambo",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2005-04-03",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -5956,7 +6018,8 @@ export const realPremierPlayers = [
     "name": "Antonín Kinský",
     "position": "GK",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2003-03-13",
+    "nationality": "Czech Republic",
     "competitionIds": [
       "premier"
     ],
@@ -6050,6 +6113,7 @@ export const realPremierPlayers = [
     "name": "Antoñito Cordero Campillo",
     "position": "MID",
     "teamId": "fpl-team-15",
+    "birthDate": "2006-11-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -6144,6 +6208,7 @@ export const realPremierPlayers = [
     "name": "Antony dos Santos",
     "position": "MID",
     "teamId": "fpl-team-14",
+    "birthDate": "2000-02-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -6238,7 +6303,8 @@ export const realPremierPlayers = [
     "name": "Archie Gray",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2006-03-12",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -6332,6 +6398,7 @@ export const realPremierPlayers = [
     "name": "Archie Whitehall",
     "position": "MID",
     "teamId": "fpl-team-16",
+    "birthDate": "2006-05-21",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -6426,7 +6493,8 @@ export const realPremierPlayers = [
     "name": "Armando Broja",
     "position": "FWD",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2001-09-10",
+    "nationality": "Albania",
     "competitionIds": [
       "premier"
     ],
@@ -6520,6 +6588,7 @@ export const realPremierPlayers = [
     "name": "Ármin Pécsi",
     "position": "GK",
     "teamId": "fpl-team-12",
+    "birthDate": "2005-02-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -6614,7 +6683,8 @@ export const realPremierPlayers = [
     "name": "Arnaud Kalimuendo",
     "position": "FWD",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2002-01-20",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -6708,7 +6778,8 @@ export const realPremierPlayers = [
     "name": "Arthur Masuaku",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1993-11-07",
+    "nationality": "DR Congo",
     "competitionIds": [
       "premier"
     ],
@@ -6802,6 +6873,7 @@ export const realPremierPlayers = [
     "name": "Asher Agbinone",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2005-09-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -6896,7 +6968,8 @@ export const realPremierPlayers = [
     "name": "Ashley Barnes",
     "position": "FWD",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1989-10-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -6990,6 +7063,7 @@ export const realPremierPlayers = [
     "name": "Ashley Phillips",
     "position": "DEF",
     "teamId": "fpl-team-18",
+    "birthDate": "2005-06-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -7084,7 +7158,8 @@ export const realPremierPlayers = [
     "name": "Axel Disasi",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1998-03-11",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -7178,7 +7253,8 @@ export const realPremierPlayers = [
     "name": "Axel Tuanzebe",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-14",
+    "nationality": "DR Congo",
     "competitionIds": [
       "premier"
     ],
@@ -7272,7 +7348,8 @@ export const realPremierPlayers = [
     "name": "Ayden Heaven",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2006-09-22",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -7366,7 +7443,8 @@ export const realPremierPlayers = [
     "name": "Bafodé Diakité",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2001-01-06",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -7460,7 +7538,8 @@ export const realPremierPlayers = [
     "name": "Bart Verbruggen",
     "position": "GK",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2002-08-18",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -7554,7 +7633,8 @@ export const realPremierPlayers = [
     "name": "Bashir Humphreys",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2003-03-15",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -7648,6 +7728,7 @@ export const realPremierPlayers = [
     "name": "Bastien Meupiyou Menadjou",
     "position": "DEF",
     "teamId": "fpl-team-20",
+    "birthDate": "2006-03-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -7742,6 +7823,7 @@ export const realPremierPlayers = [
     "name": "Ben Broggio",
     "position": "MID",
     "teamId": "fpl-team-2",
+    "birthDate": "2007-01-29",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -7836,6 +7918,7 @@ export const realPremierPlayers = [
     "name": "Ben Casey",
     "position": "FWD",
     "teamId": "fpl-team-8",
+    "birthDate": "2008-02-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -7930,7 +8013,8 @@ export const realPremierPlayers = [
     "name": "Ben Davies",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1993-04-24",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -8024,7 +8108,8 @@ export const realPremierPlayers = [
     "name": "Ben Gannon-Doak",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2005-11-11",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -8118,7 +8203,8 @@ export const realPremierPlayers = [
     "name": "Ben Winterburn",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2004-09-04",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -8212,7 +8298,8 @@ export const realPremierPlayers = [
     "name": "Bendito Mantato",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2008-01-25",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -8306,6 +8393,7 @@ export const realPremierPlayers = [
     "name": "Benjamin Arthur",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": "2005-10-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -8400,6 +8488,7 @@ export const realPremierPlayers = [
     "name": "Benjamin Fredrick",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -8494,6 +8583,7 @@ export const realPremierPlayers = [
     "name": "Benjamin Lecomte",
     "position": "GK",
     "teamId": "fpl-team-10",
+    "birthDate": "1991-04-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -8588,7 +8678,8 @@ export const realPremierPlayers = [
     "name": "Benjamin Sesko",
     "position": "FWD",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2003-05-31",
+    "nationality": "Slovenia",
     "competitionIds": [
       "premier"
     ],
@@ -8682,7 +8773,8 @@ export const realPremierPlayers = [
     "name": "Benjamin White",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1997-10-08",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -8776,7 +8868,8 @@ export const realPremierPlayers = [
     "name": "Benoît Badiashile Mukinayi",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2001-03-26",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -8870,7 +8963,8 @@ export const realPremierPlayers = [
     "name": "Bernardo Mota Veiga de Carvalho e Silva",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1994-08-10",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -8964,7 +9058,8 @@ export const realPremierPlayers = [
     "name": "Bernd Leno",
     "position": "GK",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1992-03-04",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -9058,7 +9153,8 @@ export const realPremierPlayers = [
     "name": "Bertrand Traoré",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1995-09-06",
+    "nationality": "Burkina Faso",
     "competitionIds": [
       "premier"
     ],
@@ -9152,6 +9248,7 @@ export const realPremierPlayers = [
     "name": "Blondy Nna Noukeu",
     "position": "GK",
     "teamId": "fpl-team-17",
+    "birthDate": "2001-05-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -9246,7 +9343,8 @@ export const realPremierPlayers = [
     "name": "Borna Sosa",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1998-01-21",
+    "nationality": "Croatia",
     "competitionIds": [
       "premier"
     ],
@@ -9340,7 +9438,8 @@ export const realPremierPlayers = [
     "name": "Boubacar Kamara",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1999-11-23",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -9434,6 +9533,7 @@ export const realPremierPlayers = [
     "name": "Boubacar Traoré",
     "position": "MID",
     "teamId": "fpl-team-20",
+    "birthDate": "2001-08-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -9528,7 +9628,8 @@ export const realPremierPlayers = [
     "name": "Bradley Burrowes",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2008-03-04",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -9622,6 +9723,7 @@ export const realPremierPlayers = [
     "name": "Braiden Graham",
     "position": "FWD",
     "teamId": "fpl-team-9",
+    "birthDate": "2007-11-07",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -9716,7 +9818,8 @@ export const realPremierPlayers = [
     "name": "Brajan Gruda",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2004-05-31",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -9810,6 +9913,7 @@ export const realPremierPlayers = [
     "name": "Brandon Austin",
     "position": "GK",
     "teamId": "fpl-team-18",
+    "birthDate": "1999-01-08",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -9904,6 +10008,7 @@ export const realPremierPlayers = [
     "name": "Brayden Clarke",
     "position": "DEF",
     "teamId": "fpl-team-1",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -9998,7 +10103,8 @@ export const realPremierPlayers = [
     "name": "Brenden Aaronson",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "2000-10-22",
+    "nationality": "United States",
     "competitionIds": [
       "premier"
     ],
@@ -10092,7 +10198,8 @@ export const realPremierPlayers = [
     "name": "Brennan Johnson",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2001-05-23",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -10186,7 +10293,8 @@ export const realPremierPlayers = [
     "name": "Brian Brobbey",
     "position": "FWD",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2002-02-01",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -10280,7 +10388,8 @@ export const realPremierPlayers = [
     "name": "Bruno Borges Fernandes",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1994-09-08",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -10374,7 +10483,8 @@ export const realPremierPlayers = [
     "name": "Bruno Guimarães Rodriguez Moura",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-16",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -10468,6 +10578,7 @@ export const realPremierPlayers = [
     "name": "Bryan Gil Salvatierra",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "2001-02-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -10562,7 +10673,8 @@ export const realPremierPlayers = [
     "name": "Bryan Mbeumo",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-07",
+    "nationality": "Cameroon",
     "competitionIds": [
       "premier"
     ],
@@ -10656,7 +10768,8 @@ export const realPremierPlayers = [
     "name": "Bukayo Saka",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2001-09-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -10750,6 +10863,7 @@ export const realPremierPlayers = [
     "name": "Caleb Kporha",
     "position": "DEF",
     "teamId": "fpl-team-8",
+    "birthDate": "2006-07-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -10844,6 +10958,7 @@ export const realPremierPlayers = [
     "name": "Callan McKenna",
     "position": "GK",
     "teamId": "fpl-team-4",
+    "birthDate": "2006-12-22",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -10938,6 +11053,7 @@ export const realPremierPlayers = [
     "name": "Callum Bates",
     "position": "MID",
     "teamId": "fpl-team-9",
+    "birthDate": "2005-09-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -11032,7 +11148,8 @@ export const realPremierPlayers = [
     "name": "Callum Hudson-Odoi",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2000-11-07",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -11126,7 +11243,8 @@ export const realPremierPlayers = [
     "name": "Callum Marshall",
     "position": "FWD",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2004-11-28",
+    "nationality": "Northern Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -11220,7 +11338,8 @@ export const realPremierPlayers = [
     "name": "Callum Olusesi",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2007-03-11",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -11314,7 +11433,8 @@ export const realPremierPlayers = [
     "name": "Callum Wilson",
     "position": "FWD",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1992-02-27",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -11408,7 +11528,8 @@ export const realPremierPlayers = [
     "name": "Calvin Bassey",
     "position": "DEF",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1999-12-31",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -11502,6 +11623,7 @@ export const realPremierPlayers = [
     "name": "Calvin Ramsay",
     "position": "DEF",
     "teamId": "fpl-team-12",
+    "birthDate": "2003-07-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -11596,7 +11718,8 @@ export const realPremierPlayers = [
     "name": "Caoimhín Kelleher",
     "position": "GK",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1998-11-23",
+    "nationality": "Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -11690,6 +11813,7 @@ export const realPremierPlayers = [
     "name": "Carl Rushworth",
     "position": "GK",
     "teamId": "fpl-team-6",
+    "birthDate": "2001-07-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -11784,7 +11908,8 @@ export const realPremierPlayers = [
     "name": "Carlos Alcaraz Durán",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2002-11-30",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -11878,7 +12003,8 @@ export const realPremierPlayers = [
     "name": "Carlos Baleba",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2004-01-03",
+    "nationality": "Cameroon",
     "competitionIds": [
       "premier"
     ],
@@ -11972,7 +12098,8 @@ export const realPremierPlayers = [
     "name": "Carlos Henrique Casimiro",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1992-02-23",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -12066,6 +12193,7 @@ export const realPremierPlayers = [
     "name": "Carlos Miguel dos Santos Pereira",
     "position": "GK",
     "teamId": "fpl-team-16",
+    "birthDate": "1998-10-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -12160,7 +12288,8 @@ export const realPremierPlayers = [
     "name": "Chadi Riad Dnanou",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2003-06-17",
+    "nationality": "Morocco",
     "competitionIds": [
       "premier"
     ],
@@ -12254,7 +12383,8 @@ export const realPremierPlayers = [
     "name": "Charalampos Kostoulas",
     "position": "FWD",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2007-05-30",
+    "nationality": "Greece",
     "competitionIds": [
       "premier"
     ],
@@ -12348,6 +12478,7 @@ export const realPremierPlayers = [
     "name": "Charlie Crew",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2006-06-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -12442,6 +12573,7 @@ export const realPremierPlayers = [
     "name": "Charlie Gray",
     "position": "MID",
     "teamId": "fpl-team-13",
+    "birthDate": "2006-02-22",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -12536,6 +12668,7 @@ export const realPremierPlayers = [
     "name": "Charlie Stevens",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "2007-05-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -12630,6 +12763,7 @@ export const realPremierPlayers = [
     "name": "Charlie Tasker",
     "position": "DEF",
     "teamId": "fpl-team-6",
+    "birthDate": "2006-02-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -12724,6 +12858,7 @@ export const realPremierPlayers = [
     "name": "Cheick Doucouré",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2000-01-08",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -12818,7 +12953,8 @@ export const realPremierPlayers = [
     "name": "Chemsdine Talbi",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2005-05-09",
+    "nationality": "Morocco",
     "competitionIds": [
       "premier"
     ],
@@ -12912,6 +13048,7 @@ export const realPremierPlayers = [
     "name": "Chido Obi",
     "position": "FWD",
     "teamId": "fpl-team-14",
+    "birthDate": "2007-11-29",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -13006,6 +13143,7 @@ export const realPremierPlayers = [
     "name": "Chris Mepham",
     "position": "DEF",
     "teamId": "fpl-team-4",
+    "birthDate": "1997-11-05",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -13100,7 +13238,8 @@ export const realPremierPlayers = [
     "name": "Chris Richards",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2000-03-28",
+    "nationality": "United States",
     "competitionIds": [
       "premier"
     ],
@@ -13194,7 +13333,8 @@ export const realPremierPlayers = [
     "name": "Chris Rigg",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2007-06-18",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -13288,7 +13428,8 @@ export const realPremierPlayers = [
     "name": "Chris Wood",
     "position": "FWD",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1991-12-07",
+    "nationality": "New Zealand",
     "competitionIds": [
       "premier"
     ],
@@ -13382,7 +13523,8 @@ export const realPremierPlayers = [
     "name": "Christantus Uche",
     "position": "FWD",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2003-05-19",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -13476,7 +13618,8 @@ export const realPremierPlayers = [
     "name": "Christian Nørgaard",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1994-03-10",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -13570,6 +13713,7 @@ export const realPremierPlayers = [
     "name": "Christopher Nkunku",
     "position": "MID",
     "teamId": "fpl-team-7",
+    "birthDate": "1997-11-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -13664,6 +13808,7 @@ export const realPremierPlayers = [
     "name": "Christos Mandas",
     "position": "GK",
     "teamId": "fpl-team-4",
+    "birthDate": "2001-09-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -13758,6 +13903,7 @@ export const realPremierPlayers = [
     "name": "Claudio Echeverri",
     "position": "MID",
     "teamId": "fpl-team-13",
+    "birthDate": "2006-01-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -13852,6 +13998,7 @@ export const realPremierPlayers = [
     "name": "Coby Ebere",
     "position": "MID",
     "teamId": "fpl-team-9",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -13946,7 +14093,8 @@ export const realPremierPlayers = [
     "name": "Cody Gakpo",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-07",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -14040,7 +14188,8 @@ export const realPremierPlayers = [
     "name": "Cole Palmer",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2002-05-06",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -14134,6 +14283,7 @@ export const realPremierPlayers = [
     "name": "Connor Roberts",
     "position": "DEF",
     "teamId": "fpl-team-3",
+    "birthDate": "1995-09-23",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -14228,7 +14378,8 @@ export const realPremierPlayers = [
     "name": "Conor Bradley",
     "position": "DEF",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2003-07-09",
+    "nationality": "Northern Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -14322,7 +14473,8 @@ export const realPremierPlayers = [
     "name": "Conor Gallagher",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2000-02-06",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -14416,6 +14568,7 @@ export const realPremierPlayers = [
     "name": "Conor McManus",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": "2004-06-16",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -14510,7 +14663,8 @@ export const realPremierPlayers = [
     "name": "Cristhian Mosquera",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2004-06-27",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -14604,7 +14758,8 @@ export const realPremierPlayers = [
     "name": "Cristian Romero",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1998-04-27",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -14698,7 +14853,8 @@ export const realPremierPlayers = [
     "name": "Crysencio Summerville",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2001-10-30",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -14792,7 +14948,8 @@ export const realPremierPlayers = [
     "name": "Curtis Jones",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2001-01-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -14886,7 +15043,8 @@ export const realPremierPlayers = [
     "name": "Daichi Kamada",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1996-08-05",
+    "nationality": "Japan",
     "competitionIds": [
       "premier"
     ],
@@ -14980,7 +15138,8 @@ export const realPremierPlayers = [
     "name": "Dan Burn",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1992-05-09",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -15074,7 +15233,8 @@ export const realPremierPlayers = [
     "name": "Dan Ndoye",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2000-10-25",
+    "nationality": "Switzerland",
     "competitionIds": [
       "premier"
     ],
@@ -15168,7 +15328,8 @@ export const realPremierPlayers = [
     "name": "Dan Neil",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2001-12-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -15262,7 +15423,8 @@ export const realPremierPlayers = [
     "name": "Dane Scarlett",
     "position": "FWD",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2004-03-24",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -15356,7 +15518,8 @@ export const realPremierPlayers = [
     "name": "Dango Ouattara",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2002-02-11",
+    "nationality": "Burkina Faso",
     "competitionIds": [
       "premier"
     ],
@@ -15450,6 +15613,7 @@ export const realPremierPlayers = [
     "name": "Daniel Adu-Adjei",
     "position": "FWD",
     "teamId": "fpl-team-4",
+    "birthDate": "2005-06-21",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -15544,7 +15708,8 @@ export const realPremierPlayers = [
     "name": "Daniel Ballard",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1999-09-22",
+    "nationality": "Northern Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -15638,7 +15803,8 @@ export const realPremierPlayers = [
     "name": "Daniel Bentley",
     "position": "GK",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1993-07-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -15732,7 +15898,8 @@ export const realPremierPlayers = [
     "name": "Daniel James",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-10",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -15826,7 +15993,8 @@ export const realPremierPlayers = [
     "name": "Daniel Muñoz Mejía",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1996-05-26",
+    "nationality": "Colombia",
     "competitionIds": [
       "premier"
     ],
@@ -15920,6 +16088,7 @@ export const realPremierPlayers = [
     "name": "Danny Imray",
     "position": "DEF",
     "teamId": "fpl-team-8",
+    "birthDate": "2003-07-27",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -16014,7 +16183,8 @@ export const realPremierPlayers = [
     "name": "Danny Welbeck",
     "position": "FWD",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1990-11-26",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -16108,7 +16278,8 @@ export const realPremierPlayers = [
     "name": "Dário Luís Essugo",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2005-03-14",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -16202,6 +16373,7 @@ export const realPremierPlayers = [
     "name": "Darko Churlinov",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2000-07-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -16296,6 +16468,7 @@ export const realPremierPlayers = [
     "name": "Darko Gyabi",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2004-02-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -16390,6 +16563,7 @@ export const realPremierPlayers = [
     "name": "Darwin Núñez Ribeiro",
     "position": "FWD",
     "teamId": "fpl-team-12",
+    "birthDate": "1999-06-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -16484,7 +16658,8 @@ export const realPremierPlayers = [
     "name": "David Brooks",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1997-07-08",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -16578,7 +16753,8 @@ export const realPremierPlayers = [
     "name": "David Møller Wolfe",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2002-04-23",
+    "nationality": "Norway",
     "competitionIds": [
       "premier"
     ],
@@ -16672,6 +16848,7 @@ export const realPremierPlayers = [
     "name": "David Mota Veiga Teixeira do Carmo",
     "position": "DEF",
     "teamId": "fpl-team-16",
+    "birthDate": "1999-07-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -16766,6 +16943,7 @@ export const realPremierPlayers = [
     "name": "David Ozoh",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2005-05-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -16860,7 +17038,8 @@ export const realPremierPlayers = [
     "name": "David Raya Martín",
     "position": "GK",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1995-09-15",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -16954,6 +17133,7 @@ export const realPremierPlayers = [
     "name": "Dean Benamar",
     "position": "DEF",
     "teamId": "fpl-team-8",
+    "birthDate": "2008-05-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -17048,7 +17228,8 @@ export const realPremierPlayers = [
     "name": "Dean Henderson",
     "position": "GK",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1997-03-12",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -17142,7 +17323,8 @@ export const realPremierPlayers = [
     "name": "Declan Rice",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1999-01-14",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -17236,6 +17418,7 @@ export const realPremierPlayers = [
     "name": "Dejan Kulusevski",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "2000-04-25",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -17330,7 +17513,8 @@ export const realPremierPlayers = [
     "name": "Dennis Cirkin",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2002-04-06",
+    "nationality": "Latvia",
     "competitionIds": [
       "premier"
     ],
@@ -17424,6 +17608,7 @@ export const realPremierPlayers = [
     "name": "Dermot Mee",
     "position": "GK",
     "teamId": "fpl-team-14",
+    "birthDate": "2002-11-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -17518,7 +17703,8 @@ export const realPremierPlayers = [
     "name": "Destiny Udogie",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2002-11-28",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -17612,7 +17798,8 @@ export const realPremierPlayers = [
     "name": "Diego Coppola",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2003-12-28",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -17706,7 +17893,8 @@ export const realPremierPlayers = [
     "name": "Diego Gómez Amarilla",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2003-03-27",
+    "nationality": "Paraguay",
     "competitionIds": [
       "premier"
     ],
@@ -17800,6 +17988,7 @@ export const realPremierPlayers = [
     "name": "Diego León Blanco",
     "position": "DEF",
     "teamId": "fpl-team-14",
+    "birthDate": "2007-04-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -17894,7 +18083,8 @@ export const realPremierPlayers = [
     "name": "Dilane Bakwa",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2002-08-26",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -17988,7 +18178,8 @@ export const realPremierPlayers = [
     "name": "Diogo Dalot Teixeira",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1999-03-18",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -18082,7 +18273,8 @@ export const realPremierPlayers = [
     "name": "Divine Mukasa",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2007-08-22",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -18176,7 +18368,8 @@ export const realPremierPlayers = [
     "name": "Djed Spence",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2000-08-09",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -18270,7 +18463,8 @@ export const realPremierPlayers = [
     "name": "Djiamgone Jocelin Ta Bi",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2005-02-09",
+    "nationality": "Cote D’Ivoire",
     "competitionIds": [
       "premier"
     ],
@@ -18364,7 +18558,8 @@ export const realPremierPlayers = [
     "name": "Dominic Calvert-Lewin",
     "position": "FWD",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1997-03-16",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -18458,6 +18653,7 @@ export const realPremierPlayers = [
     "name": "Dominic Sadi",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "2003-09-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -18552,7 +18748,8 @@ export const realPremierPlayers = [
     "name": "Dominic Solanke-Mitchell",
     "position": "FWD",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1997-09-14",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -18646,7 +18843,8 @@ export const realPremierPlayers = [
     "name": "Dominik Szoboszlai",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2000-10-25",
+    "nationality": "Hungary",
     "competitionIds": [
       "premier"
     ],
@@ -18740,7 +18938,8 @@ export const realPremierPlayers = [
     "name": "Donyell Malen",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1999-01-19",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -18834,7 +19033,8 @@ export const realPremierPlayers = [
     "name": "Đorđe Petrović",
     "position": "GK",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1999-10-08",
+    "nationality": "Serbia",
     "competitionIds": [
       "premier"
     ],
@@ -18928,7 +19128,8 @@ export const realPremierPlayers = [
     "name": "Douglas Luiz Soares de Paulo",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1998-05-09",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -19022,7 +19223,8 @@ export const realPremierPlayers = [
     "name": "Dwight McNeil",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1999-11-22",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -19116,7 +19318,8 @@ export const realPremierPlayers = [
     "name": "Eberechi Eze",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1998-06-29",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -19210,7 +19413,8 @@ export const realPremierPlayers = [
     "name": "Eddie Nketiah",
     "position": "FWD",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -19304,6 +19508,7 @@ export const realPremierPlayers = [
     "name": "Ederson Santana de Moraes",
     "position": "GK",
     "teamId": "fpl-team-13",
+    "birthDate": "1993-08-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -19398,6 +19603,7 @@ export const realPremierPlayers = [
     "name": "Edson Álvarez Velázquez",
     "position": "MID",
     "teamId": "fpl-team-19",
+    "birthDate": "1997-10-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -19492,6 +19698,7 @@ export const realPremierPlayers = [
     "name": "Eiran Cashin",
     "position": "DEF",
     "teamId": "fpl-team-6",
+    "birthDate": "2001-11-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -19586,7 +19793,8 @@ export const realPremierPlayers = [
     "name": "El Hadji Malick Diouf",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2004-12-29",
+    "nationality": "Senegal",
     "competitionIds": [
       "premier"
     ],
@@ -19680,7 +19888,8 @@ export const realPremierPlayers = [
     "name": "Eliezer Mayenda Dossou",
     "position": "FWD",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2005-05-08",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -19774,6 +19983,7 @@ export const realPremierPlayers = [
     "name": "Elijah Campbell",
     "position": "DEF",
     "teamId": "fpl-team-9",
+    "birthDate": "2004-08-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -19868,6 +20078,7 @@ export const realPremierPlayers = [
     "name": "Ellery Balcombe",
     "position": "GK",
     "teamId": "fpl-team-5",
+    "birthDate": "1999-10-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -19962,7 +20173,8 @@ export const realPremierPlayers = [
     "name": "Elliot Anderson",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2002-11-06",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -20056,6 +20268,7 @@ export const realPremierPlayers = [
     "name": "Elyh Harrison",
     "position": "GK",
     "teamId": "fpl-team-14",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -20150,6 +20363,7 @@ export const realPremierPlayers = [
     "name": "Emerson Palmieri dos Santos",
     "position": "DEF",
     "teamId": "fpl-team-19",
+    "birthDate": "1994-08-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -20244,7 +20458,8 @@ export const realPremierPlayers = [
     "name": "Emil Krafth",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1994-08-02",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -20338,7 +20553,8 @@ export const realPremierPlayers = [
     "name": "Emile Smith Rowe",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "2000-07-28",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -20432,7 +20648,8 @@ export const realPremierPlayers = [
     "name": "Emiliano Buendía Stati",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1996-12-25",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -20526,7 +20743,8 @@ export const realPremierPlayers = [
     "name": "Emiliano Martínez Romero",
     "position": "GK",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1992-09-02",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -20620,7 +20838,8 @@ export const realPremierPlayers = [
     "name": "Emmanuel Agbadou",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1997-06-17",
+    "nationality": "Cote D’Ivoire",
     "competitionIds": [
       "premier"
     ],
@@ -20714,7 +20933,8 @@ export const realPremierPlayers = [
     "name": "Endo Wataru",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1993-02-09",
+    "nationality": "Japan",
     "competitionIds": [
       "premier"
     ],
@@ -20808,7 +21028,8 @@ export const realPremierPlayers = [
     "name": "Enes Ünal",
     "position": "FWD",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-10",
+    "nationality": "Turkiye",
     "competitionIds": [
       "premier"
     ],
@@ -20902,6 +21123,7 @@ export const realPremierPlayers = [
     "name": "Enock Agyei",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2005-01-13",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -20996,6 +21218,7 @@ export const realPremierPlayers = [
     "name": "Enso González Medina",
     "position": "MID",
     "teamId": "fpl-team-20",
+    "birthDate": "2005-01-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -21090,6 +21313,7 @@ export const realPremierPlayers = [
     "name": "Enzo Barrenechea",
     "position": "MID",
     "teamId": "fpl-team-2",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -21184,7 +21408,8 @@ export const realPremierPlayers = [
     "name": "Enzo Fernández",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2001-01-17",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -21278,7 +21503,8 @@ export const realPremierPlayers = [
     "name": "Enzo Le Fée",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2000-02-03",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -21372,6 +21598,7 @@ export const realPremierPlayers = [
     "name": "Eric da Silva Moreira",
     "position": "MID",
     "teamId": "fpl-team-16",
+    "birthDate": "2006-05-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -21466,7 +21693,8 @@ export const realPremierPlayers = [
     "name": "Erling Haaland",
     "position": "FWD",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2000-07-21",
+    "nationality": "Norway",
     "competitionIds": [
       "premier"
     ],
@@ -21560,7 +21788,8 @@ export const realPremierPlayers = [
     "name": "Estêvão Almeida de Oliveira Gonçalves",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2007-04-24",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -21654,7 +21883,8 @@ export const realPremierPlayers = [
     "name": "Ethan Ampadu",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "2000-09-14",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -21748,7 +21978,8 @@ export const realPremierPlayers = [
     "name": "Ethan Nwaneri",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2007-03-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -21842,7 +22073,8 @@ export const realPremierPlayers = [
     "name": "Ethan Pinnock",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1993-05-29",
+    "nationality": "Jamaica",
     "competitionIds": [
       "premier"
     ],
@@ -21936,6 +22168,7 @@ export const realPremierPlayers = [
     "name": "Ethan Sutherland",
     "position": "MID",
     "teamId": "fpl-team-20",
+    "birthDate": "2006-04-25",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -22030,6 +22263,7 @@ export const realPremierPlayers = [
     "name": "Ethan Wheatley",
     "position": "FWD",
     "teamId": "fpl-team-14",
+    "birthDate": "2006-01-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -22124,6 +22358,7 @@ export const realPremierPlayers = [
     "name": "Etienne Green",
     "position": "GK",
     "teamId": "fpl-team-3",
+    "birthDate": "2000-07-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -22218,6 +22453,7 @@ export const realPremierPlayers = [
     "name": "Evan Ferguson",
     "position": "FWD",
     "teamId": "fpl-team-6",
+    "birthDate": "2004-10-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -22312,7 +22548,8 @@ export const realPremierPlayers = [
     "name": "Evann Guessand",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2001-07-01",
+    "nationality": "Cote D’Ivoire",
     "competitionIds": [
       "premier"
     ],
@@ -22406,7 +22643,8 @@ export const realPremierPlayers = [
     "name": "Ezra Mayers",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2007-01-16",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -22500,7 +22738,8 @@ export const realPremierPlayers = [
     "name": "Ezri Konsa Ngoyo",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1997-10-23",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -22594,7 +22833,8 @@ export const realPremierPlayers = [
     "name": "Fabian Schär",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1991-12-20",
+    "nationality": "Switzerland",
     "competitionIds": [
       "premier"
     ],
@@ -22688,6 +22928,7 @@ export const realPremierPlayers = [
     "name": "Fábio Ferreira Vieira",
     "position": "MID",
     "teamId": "fpl-team-1",
+    "birthDate": "2000-05-30",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -22782,7 +23023,8 @@ export const realPremierPlayers = [
     "name": "Fábio Freitas Gouveia Carvalho",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2002-08-30",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -22876,6 +23118,7 @@ export const realPremierPlayers = [
     "name": "Fábio Soares Silva",
     "position": "FWD",
     "teamId": "fpl-team-20",
+    "birthDate": "2002-07-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -22970,7 +23213,8 @@ export const realPremierPlayers = [
     "name": "Facundo Buonanotte",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "2004-12-23",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -23064,7 +23308,8 @@ export const realPremierPlayers = [
     "name": "Federico Chiesa",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1997-10-25",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -23158,7 +23403,8 @@ export const realPremierPlayers = [
     "name": "Felipe Rodrigues da Silva",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2001-06-30",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -23252,7 +23498,8 @@ export const realPremierPlayers = [
     "name": "Fer López González",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2004-05-24",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -23346,7 +23593,8 @@ export const realPremierPlayers = [
     "name": "Ferdi Kadıoğlu",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1999-10-07",
+    "nationality": "Turkiye",
     "competitionIds": [
       "premier"
     ],
@@ -23440,7 +23688,8 @@ export const realPremierPlayers = [
     "name": "Filip Jörgensen",
     "position": "GK",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2002-04-16",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -23534,6 +23783,7 @@ export const realPremierPlayers = [
     "name": "Filip Marschall",
     "position": "GK",
     "teamId": "fpl-team-2",
+    "birthDate": "2003-04-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -23628,6 +23878,7 @@ export const realPremierPlayers = [
     "name": "Finlay Herrick",
     "position": "GK",
     "teamId": "fpl-team-19",
+    "birthDate": "2006-01-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -23722,7 +23973,8 @@ export const realPremierPlayers = [
     "name": "Florentino Ibrain Morris Luís",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-19",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -23816,7 +24068,8 @@ export const realPremierPlayers = [
     "name": "Florian Wirtz",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2003-05-03",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -23910,7 +24163,8 @@ export const realPremierPlayers = [
     "name": "Francisco Evanilson de Lima Barbosa",
     "position": "FWD",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1999-10-06",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -24004,6 +24258,7 @@ export const realPremierPlayers = [
     "name": "Franco Umeh-Chibueze",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2005-01-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -24098,7 +24353,8 @@ export const realPremierPlayers = [
     "name": "Frank Onyeka",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1998-01-01",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -24192,6 +24448,7 @@ export const realPremierPlayers = [
     "name": "Fraser Forster",
     "position": "GK",
     "teamId": "fpl-team-4",
+    "birthDate": "1988-03-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -24286,7 +24543,8 @@ export const realPremierPlayers = [
     "name": "Freddie Potts",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2003-09-12",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -24380,6 +24638,7 @@ export const realPremierPlayers = [
     "name": "Freddie Simmonds",
     "position": "DEF",
     "teamId": "fpl-team-6",
+    "birthDate": "2008-03-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -24474,7 +24733,8 @@ export const realPremierPlayers = [
     "name": "Freddie Woodman",
     "position": "GK",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1997-03-04",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -24568,7 +24828,8 @@ export const realPremierPlayers = [
     "name": "Gabriel dos Santos Magalhães",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1997-12-19",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -24662,7 +24923,8 @@ export const realPremierPlayers = [
     "name": "Gabriel Fernando de Jesus",
     "position": "FWD",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1997-04-03",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -24756,7 +25018,8 @@ export const realPremierPlayers = [
     "name": "Gabriel Gudmundsson",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1999-04-29",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -24850,7 +25113,8 @@ export const realPremierPlayers = [
     "name": "Gabriel Martinelli Silva",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2001-06-18",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -24944,6 +25208,7 @@ export const realPremierPlayers = [
     "name": "Gabriel Słonina",
     "position": "GK",
     "teamId": "fpl-team-7",
+    "birthDate": "2004-05-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -25038,6 +25303,7 @@ export const realPremierPlayers = [
     "name": "Garang Kuol",
     "position": "MID",
     "teamId": "fpl-team-15",
+    "birthDate": "2004-09-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -25132,6 +25398,7 @@ export const realPremierPlayers = [
     "name": "George Brierley",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2007-11-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -25226,7 +25493,8 @@ export const realPremierPlayers = [
     "name": "George Earthy",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2004-09-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -25320,7 +25588,8 @@ export const realPremierPlayers = [
     "name": "George Hemmings",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2007-03-04",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -25414,6 +25683,7 @@ export const realPremierPlayers = [
     "name": "George King",
     "position": "DEF",
     "teamId": "fpl-team-8",
+    "birthDate": "2007-03-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -25508,7 +25778,8 @@ export const realPremierPlayers = [
     "name": "Georginio Rutter",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2002-04-20",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -25602,7 +25873,8 @@ export const realPremierPlayers = [
     "name": "Gianluigi Donnarumma",
     "position": "GK",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1999-02-25",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -25696,7 +25968,8 @@ export const realPremierPlayers = [
     "name": "Giorgi Mamardashvili",
     "position": "GK",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2000-09-29",
+    "nationality": "Georgia",
     "competitionIds": [
       "premier"
     ],
@@ -25790,6 +26063,7 @@ export const realPremierPlayers = [
     "name": "Giovanni Leoni",
     "position": "DEF",
     "teamId": "fpl-team-12",
+    "birthDate": "2006-12-21",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -25884,6 +26158,7 @@ export const realPremierPlayers = [
     "name": "Godwill Kukonki",
     "position": "DEF",
     "teamId": "fpl-team-14",
+    "birthDate": "2008-02-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -25978,6 +26253,7 @@ export const realPremierPlayers = [
     "name": "Gonçalo Manuel Ganchinho Guedes",
     "position": "MID",
     "teamId": "fpl-team-20",
+    "birthDate": "1996-11-29",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -26072,7 +26348,8 @@ export const realPremierPlayers = [
     "name": "Granit Xhaka",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1992-09-27",
+    "nationality": "Switzerland",
     "competitionIds": [
       "premier"
     ],
@@ -26166,7 +26443,8 @@ export const realPremierPlayers = [
     "name": "Guglielmo Vicario",
     "position": "GK",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1996-10-07",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -26260,7 +26538,8 @@ export const realPremierPlayers = [
     "name": "Guido Rodríguez",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1994-04-12",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -26354,6 +26633,7 @@ export const realPremierPlayers = [
     "name": "Gustavo Nunes Fernandes Gomes",
     "position": "MID",
     "teamId": "fpl-team-5",
+    "birthDate": "2005-11-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -26448,7 +26728,8 @@ export const realPremierPlayers = [
     "name": "Habib Diarra",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2004-01-03",
+    "nationality": "Senegal",
     "competitionIds": [
       "premier"
     ],
@@ -26542,7 +26823,8 @@ export const realPremierPlayers = [
     "name": "Hákon Rafn Valdimarsson",
     "position": "GK",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2001-10-13",
+    "nationality": "Iceland",
     "competitionIds": [
       "premier"
     ],
@@ -26636,7 +26918,8 @@ export const realPremierPlayers = [
     "name": "Hamed Traorè",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2000-02-16",
+    "nationality": "Cote D’Ivoire",
     "competitionIds": [
       "premier"
     ],
@@ -26730,6 +27013,7 @@ export const realPremierPlayers = [
     "name": "Hannes Delcroix",
     "position": "DEF",
     "teamId": "fpl-team-3",
+    "birthDate": "1999-02-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -26824,7 +27108,8 @@ export const realPremierPlayers = [
     "name": "Hannibal Mejbri",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2003-01-21",
+    "nationality": "Tunisia",
     "competitionIds": [
       "premier"
     ],
@@ -26918,7 +27203,8 @@ export const realPremierPlayers = [
     "name": "Harrison Armstrong",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2007-01-19",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -27012,6 +27298,7 @@ export const realPremierPlayers = [
     "name": "Harrison Ashby",
     "position": "DEF",
     "teamId": "fpl-team-15",
+    "birthDate": "2001-11-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -27106,6 +27393,7 @@ export const realPremierPlayers = [
     "name": "Harrison Jones",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2004-12-25",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -27200,7 +27488,8 @@ export const realPremierPlayers = [
     "name": "Harrison Reed",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1995-01-27",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -27294,6 +27583,7 @@ export const realPremierPlayers = [
     "name": "Harry Amass",
     "position": "DEF",
     "teamId": "fpl-team-14",
+    "birthDate": "2007-03-16",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -27388,6 +27678,7 @@ export const realPremierPlayers = [
     "name": "Harry Gray",
     "position": "FWD",
     "teamId": "fpl-team-11",
+    "birthDate": "2008-10-08",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -27482,7 +27773,8 @@ export const realPremierPlayers = [
     "name": "Harry Howell",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2008-04-20",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -27576,7 +27868,8 @@ export const realPremierPlayers = [
     "name": "Harry Maguire",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1993-03-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -27670,6 +27963,7 @@ export const realPremierPlayers = [
     "name": "Harry Tyrer",
     "position": "GK",
     "teamId": "fpl-team-9",
+    "birthDate": "2001-12-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -27764,7 +28058,8 @@ export const realPremierPlayers = [
     "name": "Harry Wilson",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1997-03-22",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -27858,7 +28153,8 @@ export const realPremierPlayers = [
     "name": "Harvey Barnes",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1997-12-09",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -27952,7 +28248,8 @@ export const realPremierPlayers = [
     "name": "Harvey Elliott",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2003-04-04",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -28046,7 +28343,8 @@ export const realPremierPlayers = [
     "name": "Hjalmar Ekdal",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1998-10-21",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -28140,7 +28438,8 @@ export const realPremierPlayers = [
     "name": "Hugo Bueno López",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2002-09-18",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -28234,7 +28533,8 @@ export const realPremierPlayers = [
     "name": "Hugo Ekitiké",
     "position": "FWD",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2002-06-20",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -28328,7 +28628,8 @@ export const realPremierPlayers = [
     "name": "Hwang Hee-chan",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1996-01-26",
+    "nationality": "South Korea",
     "competitionIds": [
       "premier"
     ],
@@ -28422,7 +28723,8 @@ export const realPremierPlayers = [
     "name": "Ian Maatsen",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2002-03-10",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -28516,6 +28818,7 @@ export const realPremierPlayers = [
     "name": "Ian Poveda-Ocampo",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2000-02-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -28610,7 +28913,8 @@ export const realPremierPlayers = [
     "name": "Ibrahim Sangaré",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1997-12-02",
+    "nationality": "Cote D’Ivoire",
     "competitionIds": [
       "premier"
     ],
@@ -28704,7 +29008,8 @@ export const realPremierPlayers = [
     "name": "Ibrahima Konaté",
     "position": "DEF",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-25",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -28798,7 +29103,8 @@ export const realPremierPlayers = [
     "name": "Idrissa Gana Gueye",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1989-09-26",
+    "nationality": "Senegal",
     "competitionIds": [
       "premier"
     ],
@@ -28892,7 +29198,8 @@ export const realPremierPlayers = [
     "name": "Igor Jesus Maciel da Cruz",
     "position": "FWD",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2001-02-25",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -28986,7 +29293,8 @@ export const realPremierPlayers = [
     "name": "Igor Julio dos Santos de Paulo",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1998-02-07",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -29080,7 +29388,8 @@ export const realPremierPlayers = [
     "name": "Igor Thiago Nascimento Rodrigues",
     "position": "FWD",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2001-06-26",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -29174,7 +29483,8 @@ export const realPremierPlayers = [
     "name": "Ilia Gruev",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "2000-05-06",
+    "nationality": "Bulgaria",
     "competitionIds": [
       "premier"
     ],
@@ -29268,7 +29578,8 @@ export const realPremierPlayers = [
     "name": "Iliman Ndiaye",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2000-03-06",
+    "nationality": "Senegal",
     "competitionIds": [
       "premier"
     ],
@@ -29362,6 +29673,7 @@ export const realPremierPlayers = [
     "name": "İlkay Gündoğan",
     "position": "MID",
     "teamId": "fpl-team-13",
+    "birthDate": "1990-10-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -29456,6 +29768,7 @@ export const realPremierPlayers = [
     "name": "Illan Meslier",
     "position": "GK",
     "teamId": "fpl-team-11",
+    "birthDate": "2000-03-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -29550,6 +29863,7 @@ export const realPremierPlayers = [
     "name": "Illia Zabarnyi",
     "position": "DEF",
     "teamId": "fpl-team-4",
+    "birthDate": "2002-09-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -29644,6 +29958,7 @@ export const realPremierPlayers = [
     "name": "Isaac Hayden",
     "position": "MID",
     "teamId": "fpl-team-15",
+    "birthDate": "1995-03-22",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -29738,6 +30053,7 @@ export const realPremierPlayers = [
     "name": "Isaac Heath",
     "position": "MID",
     "teamId": "fpl-team-9",
+    "birthDate": "2004-10-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -29832,6 +30148,7 @@ export const realPremierPlayers = [
     "name": "Isaac Schmidt",
     "position": "DEF",
     "teamId": "fpl-team-11",
+    "birthDate": "1999-12-07",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -29926,7 +30243,8 @@ export const realPremierPlayers = [
     "name": "Ismaïla Sarr",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1998-02-25",
+    "nationality": "Senegal",
     "competitionIds": [
       "premier"
     ],
@@ -30020,6 +30338,7 @@ export const realPremierPlayers = [
     "name": "Ismeal Kabia",
     "position": "MID",
     "teamId": "fpl-team-1",
+    "birthDate": "2005-12-10",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -30114,7 +30433,8 @@ export const realPremierPlayers = [
     "name": "Issa Diop",
     "position": "DEF",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1997-01-09",
+    "nationality": "Morocco",
     "competitionIds": [
       "premier"
     ],
@@ -30208,6 +30528,7 @@ export const realPremierPlayers = [
     "name": "Iwan Morgan",
     "position": "FWD",
     "teamId": "fpl-team-5",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -30302,7 +30623,8 @@ export const realPremierPlayers = [
     "name": "Jack Fletcher",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2007-03-19",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -30396,7 +30718,8 @@ export const realPremierPlayers = [
     "name": "Jack Grealish",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1995-09-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -30490,7 +30813,8 @@ export const realPremierPlayers = [
     "name": "Jack Harrison",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1996-11-20",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -30584,7 +30908,8 @@ export const realPremierPlayers = [
     "name": "Jack Hinshelwood",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2005-04-11",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -30678,6 +31003,7 @@ export const realPremierPlayers = [
     "name": "Jack Moorhouse",
     "position": "MID",
     "teamId": "fpl-team-14",
+    "birthDate": "2005-11-29",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -30772,6 +31098,7 @@ export const realPremierPlayers = [
     "name": "Jack Whittaker",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2006-10-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -30866,7 +31193,8 @@ export const realPremierPlayers = [
     "name": "Jackson Tchatchoua",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2001-09-14",
+    "nationality": "Cameroon",
     "competitionIds": [
       "premier"
     ],
@@ -30960,7 +31288,8 @@ export const realPremierPlayers = [
     "name": "Jacob Bruun Larsen",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1998-09-19",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -31054,7 +31383,8 @@ export const realPremierPlayers = [
     "name": "Jacob Murphy",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1995-02-24",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -31148,7 +31478,8 @@ export const realPremierPlayers = [
     "name": "Jacob Ramsey",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2001-05-28",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -31242,6 +31573,7 @@ export const realPremierPlayers = [
     "name": "Jacob Slater",
     "position": "DEF",
     "teamId": "fpl-team-6",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -31336,7 +31668,8 @@ export const realPremierPlayers = [
     "name": "Jadon Sancho",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2000-03-25",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -31430,7 +31763,8 @@ export const realPremierPlayers = [
     "name": "Jaidon Anthony",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1999-12-01",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -31524,7 +31858,8 @@ export const realPremierPlayers = [
     "name": "Jair Paula da Cunha Filho",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2005-03-07",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -31618,7 +31953,8 @@ export const realPremierPlayers = [
     "name": "Jaka Bijol",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1999-02-05",
+    "nationality": "Slovenia",
     "competitionIds": [
       "premier"
     ],
@@ -31712,7 +32048,8 @@ export const realPremierPlayers = [
     "name": "Jake O'Brien",
     "position": "DEF",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2001-05-15",
+    "nationality": "Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -31806,6 +32143,7 @@ export const realPremierPlayers = [
     "name": "Jakub Kiwior",
     "position": "DEF",
     "teamId": "fpl-team-1",
+    "birthDate": "2000-02-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -31900,7 +32238,8 @@ export const realPremierPlayers = [
     "name": "Jamaal Lascelles",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1993-11-11",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -31994,7 +32333,8 @@ export const realPremierPlayers = [
     "name": "Jamaldeen Jimoh-Aloba",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2006-10-02",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32088,7 +32428,8 @@ export const realPremierPlayers = [
     "name": "James Garner",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2001-03-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32182,7 +32523,8 @@ export const realPremierPlayers = [
     "name": "James Hill",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2002-01-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32276,7 +32618,8 @@ export const realPremierPlayers = [
     "name": "James Justin",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1998-02-23",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32370,7 +32713,8 @@ export const realPremierPlayers = [
     "name": "James Maddison",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1996-11-23",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32464,7 +32808,8 @@ export const realPremierPlayers = [
     "name": "James McAtee",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2002-10-18",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32558,6 +32903,7 @@ export const realPremierPlayers = [
     "name": "James McConnell",
     "position": "MID",
     "teamId": "fpl-team-12",
+    "birthDate": "2004-09-13",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -32652,7 +32998,8 @@ export const realPremierPlayers = [
     "name": "James Milner",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1986-01-04",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32746,7 +33093,8 @@ export const realPremierPlayers = [
     "name": "James Rowswell",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2006-07-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32840,7 +33188,8 @@ export const realPremierPlayers = [
     "name": "James Tarkowski",
     "position": "DEF",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1992-11-19",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -32934,7 +33283,8 @@ export const realPremierPlayers = [
     "name": "James Trafford",
     "position": "GK",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2002-10-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -33028,7 +33378,8 @@ export const realPremierPlayers = [
     "name": "James Ward-Prowse",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1994-11-01",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -33122,6 +33473,7 @@ export const realPremierPlayers = [
     "name": "James Wilson",
     "position": "FWD",
     "teamId": "fpl-team-18",
+    "birthDate": "2007-03-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -33216,6 +33568,7 @@ export const realPremierPlayers = [
     "name": "James Wright",
     "position": "GK",
     "teamId": "fpl-team-2",
+    "birthDate": "2004-12-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -33310,7 +33663,8 @@ export const realPremierPlayers = [
     "name": "Jamie Bynoe-Gittens",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2004-08-08",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -33404,7 +33758,8 @@ export const realPremierPlayers = [
     "name": "Jan Paul van Hecke",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2000-06-08",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -33498,7 +33853,8 @@ export const realPremierPlayers = [
     "name": "Jarrad Branthwaite",
     "position": "DEF",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2002-06-27",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -33592,7 +33948,8 @@ export const realPremierPlayers = [
     "name": "Jarrod Bowen",
     "position": "FWD",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1996-12-20",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -33686,6 +34043,7 @@ export const realPremierPlayers = [
     "name": "Jason Steele",
     "position": "GK",
     "teamId": "fpl-team-6",
+    "birthDate": "1990-08-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -33780,6 +34138,7 @@ export const realPremierPlayers = [
     "name": "Jay Matete",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2001-02-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -33874,6 +34233,7 @@ export const realPremierPlayers = [
     "name": "Jayce Fitzgerald",
     "position": "MID",
     "teamId": "fpl-team-14",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -33968,7 +34328,8 @@ export const realPremierPlayers = [
     "name": "Jaydee Canvot",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2006-07-29",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -34062,7 +34423,8 @@ export const realPremierPlayers = [
     "name": "Jayden Bogle",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "2000-07-27",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -34156,6 +34518,7 @@ export const realPremierPlayers = [
     "name": "Jayden Danns",
     "position": "FWD",
     "teamId": "fpl-team-12",
+    "birthDate": "2006-01-16",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -34250,6 +34613,7 @@ export const realPremierPlayers = [
     "name": "Jayden Lienou",
     "position": "DEF",
     "teamId": "fpl-team-11",
+    "birthDate": "2008-04-08",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -34344,6 +34708,7 @@ export const realPremierPlayers = [
     "name": "Jayden Meghoma",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": "2006-06-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -34438,7 +34803,8 @@ export const realPremierPlayers = [
     "name": "Jaydon Banel",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2004-10-19",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -34532,6 +34898,7 @@ export const realPremierPlayers = [
     "name": "Jaydon Jones",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2006-11-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -34626,7 +34993,8 @@ export const realPremierPlayers = [
     "name": "Jean-Clair Todibo",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1999-12-30",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -34720,7 +35088,8 @@ export const realPremierPlayers = [
     "name": "Jean-Philippe Mateta",
     "position": "FWD",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1997-06-28",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -34814,7 +35183,8 @@ export const realPremierPlayers = [
     "name": "Jean-Ricner Bellegarde",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1998-06-27",
+    "nationality": "Haiti",
     "competitionIds": [
       "premier"
     ],
@@ -34908,7 +35278,8 @@ export const realPremierPlayers = [
     "name": "Jefferson Lerma Solís",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1994-10-25",
+    "nationality": "Colombia",
     "competitionIds": [
       "premier"
     ],
@@ -35002,6 +35373,7 @@ export const realPremierPlayers = [
     "name": "Jenson Jones",
     "position": "DEF",
     "teamId": "fpl-team-17",
+    "birthDate": "2006-06-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -35096,6 +35468,7 @@ export const realPremierPlayers = [
     "name": "Jenson Metcalfe",
     "position": "MID",
     "teamId": "fpl-team-9",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -35190,7 +35563,8 @@ export const realPremierPlayers = [
     "name": "Jenson Seelt",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2003-05-23",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -35284,7 +35658,8 @@ export const realPremierPlayers = [
     "name": "Jeremie Frimpong",
     "position": "DEF",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2000-12-10",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -35378,7 +35753,8 @@ export const realPremierPlayers = [
     "name": "Jérémy Doku",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2002-05-27",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -35472,6 +35848,7 @@ export const realPremierPlayers = [
     "name": "Jeremy Sarmiento Morante",
     "position": "MID",
     "teamId": "fpl-team-6",
+    "birthDate": "2002-06-16",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -35566,7 +35943,8 @@ export const realPremierPlayers = [
     "name": "Jerome Abbey",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2009-09-16",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -35660,7 +36038,8 @@ export const realPremierPlayers = [
     "name": "Jesse Derry",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2007-06-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -35754,6 +36133,7 @@ export const realPremierPlayers = [
     "name": "Jesurun Rak-Sakyi",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2002-10-05",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -35848,7 +36228,8 @@ export const realPremierPlayers = [
     "name": "Jhon Arias",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1997-09-21",
+    "nationality": "Colombia",
     "competitionIds": [
       "premier"
     ],
@@ -35942,6 +36323,7 @@ export const realPremierPlayers = [
     "name": "Jim Thwaites",
     "position": "MID",
     "teamId": "fpl-team-14",
+    "birthDate": "2007-12-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -36036,6 +36418,7 @@ export const realPremierPlayers = [
     "name": "Jimmy Sinclair",
     "position": "MID",
     "teamId": "fpl-team-16",
+    "birthDate": "2006-08-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -36130,7 +36513,8 @@ export const realPremierPlayers = [
     "name": "Joachim Andersen",
     "position": "DEF",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1996-05-31",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -36224,7 +36608,8 @@ export const realPremierPlayers = [
     "name": "João Maria Lobo Alves Palhares Costa Palhinha Gonçalves",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1995-07-09",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -36318,7 +36703,8 @@ export const realPremierPlayers = [
     "name": "João Pedro Ferreira da Silva",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-01",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -36412,7 +36798,8 @@ export const realPremierPlayers = [
     "name": "João Pedro Junqueira de Jesus",
     "position": "FWD",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2001-09-26",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -36506,7 +36893,8 @@ export const realPremierPlayers = [
     "name": "João Victor de Souza Menezes",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2006-06-16",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -36600,7 +36988,8 @@ export const realPremierPlayers = [
     "name": "João Victor Gomes da Silva",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2001-02-12",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -36694,6 +37083,7 @@ export const realPremierPlayers = [
     "name": "Joe Anderson",
     "position": "DEF",
     "teamId": "fpl-team-17",
+    "birthDate": "2001-02-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -36788,6 +37178,7 @@ export const realPremierPlayers = [
     "name": "Joe Gauci",
     "position": "GK",
     "teamId": "fpl-team-2",
+    "birthDate": "2000-07-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -36882,6 +37273,7 @@ export const realPremierPlayers = [
     "name": "Joe Gelhardt",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2002-05-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -36976,7 +37368,8 @@ export const realPremierPlayers = [
     "name": "Joe Gomez",
     "position": "DEF",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-23",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -37070,6 +37463,7 @@ export const realPremierPlayers = [
     "name": "Joe Hodge",
     "position": "MID",
     "teamId": "fpl-team-20",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -37164,7 +37558,8 @@ export const realPremierPlayers = [
     "name": "Joe Knight",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2005-09-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -37258,7 +37653,8 @@ export const realPremierPlayers = [
     "name": "Joe Rodon",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1997-10-22",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -37352,6 +37748,7 @@ export const realPremierPlayers = [
     "name": "Joe White",
     "position": "MID",
     "teamId": "fpl-team-15",
+    "birthDate": "2002-10-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -37446,7 +37843,8 @@ export const realPremierPlayers = [
     "name": "Joe Willock",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-20",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -37540,7 +37938,8 @@ export const realPremierPlayers = [
     "name": "Joe Worrall",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1997-01-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -37634,7 +38033,8 @@ export const realPremierPlayers = [
     "name": "Joél Drakes-Thomas",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2009-06-09",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -37728,7 +38128,8 @@ export const realPremierPlayers = [
     "name": "Joël Piroe",
     "position": "FWD",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-02",
+    "nationality": "Suriname",
     "competitionIds": [
       "premier"
     ],
@@ -37822,7 +38223,8 @@ export const realPremierPlayers = [
     "name": "Joël Veltman",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1992-01-15",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -37916,7 +38318,8 @@ export const realPremierPlayers = [
     "name": "Joelinton Cássio Apolinário de Lira",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1996-08-14",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -38010,7 +38413,8 @@ export const realPremierPlayers = [
     "name": "John McGinn",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1994-10-18",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -38104,6 +38508,7 @@ export const realPremierPlayers = [
     "name": "John Ruddy",
     "position": "GK",
     "teamId": "fpl-team-15",
+    "birthDate": "1986-10-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -38198,7 +38603,8 @@ export const realPremierPlayers = [
     "name": "John Stones",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1994-05-28",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -38292,7 +38698,8 @@ export const realPremierPlayers = [
     "name": "John Victor Maciel Furtado",
     "position": "GK",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1996-02-13",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -38386,7 +38793,8 @@ export const realPremierPlayers = [
     "name": "Jonah Kusi-Asare",
     "position": "FWD",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "2007-07-04",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -38480,6 +38888,7 @@ export const realPremierPlayers = [
     "name": "Jordan Beyer",
     "position": "DEF",
     "teamId": "fpl-team-3",
+    "birthDate": "2000-05-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -38574,7 +38983,8 @@ export const realPremierPlayers = [
     "name": "Jordan Henderson",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1990-06-17",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -38668,7 +39078,8 @@ export const realPremierPlayers = [
     "name": "Jordan Pickford",
     "position": "GK",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1994-03-07",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -38762,7 +39173,8 @@ export const realPremierPlayers = [
     "name": "Jorge Cuenca Barreno",
     "position": "DEF",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1999-11-17",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -38856,7 +39268,8 @@ export const realPremierPlayers = [
     "name": "Jørgen Strand Larsen",
     "position": "FWD",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2000-02-06",
+    "nationality": "Norway",
     "competitionIds": [
       "premier"
     ],
@@ -38950,7 +39363,8 @@ export const realPremierPlayers = [
     "name": "Jorrel Hato",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2006-03-07",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -39044,7 +39458,8 @@ export const realPremierPlayers = [
     "name": "José Malheiro de Sá",
     "position": "GK",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1993-01-17",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -39138,7 +39553,8 @@ export const realPremierPlayers = [
     "name": "Josh Acheampong",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2006-05-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -39232,7 +39648,8 @@ export const realPremierPlayers = [
     "name": "Josh Cullen",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1996-04-07",
+    "nationality": "Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -39326,7 +39743,8 @@ export const realPremierPlayers = [
     "name": "Josh Dasilva",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1998-10-23",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -39420,6 +39838,7 @@ export const realPremierPlayers = [
     "name": "Josh Gracey",
     "position": "GK",
     "teamId": "fpl-team-20",
+    "birthDate": "2007-12-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -39514,7 +39933,8 @@ export const realPremierPlayers = [
     "name": "Josh King",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "2007-01-03",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -39608,7 +40028,8 @@ export const realPremierPlayers = [
     "name": "Josh Laurent",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1995-05-06",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -39702,6 +40123,7 @@ export const realPremierPlayers = [
     "name": "Josh Nichols",
     "position": "DEF",
     "teamId": "fpl-team-1",
+    "birthDate": "2006-07-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -39796,6 +40218,7 @@ export const realPremierPlayers = [
     "name": "Joshua Stephenson",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": "2007-09-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -39890,7 +40313,8 @@ export const realPremierPlayers = [
     "name": "Joshua Zirkzee",
     "position": "FWD",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2001-05-22",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -39984,7 +40408,8 @@ export const realPremierPlayers = [
     "name": "Joško Gvardiol",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2002-01-23",
+    "nationality": "Croatia",
     "competitionIds": [
       "premier"
     ],
@@ -40078,6 +40503,7 @@ export const realPremierPlayers = [
     "name": "Julián Araujo Zúñiga",
     "position": "DEF",
     "teamId": "fpl-team-4",
+    "birthDate": "2001-08-13",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -40172,6 +40598,7 @@ export const realPremierPlayers = [
     "name": "Julian Eyestone",
     "position": "GK",
     "teamId": "fpl-team-5",
+    "birthDate": "2006-04-21",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -40266,6 +40693,7 @@ export const realPremierPlayers = [
     "name": "Julio Enciso Espínola",
     "position": "MID",
     "teamId": "fpl-team-6",
+    "birthDate": "2004-01-23",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -40360,7 +40788,8 @@ export const realPremierPlayers = [
     "name": "Julio Soler Barreto",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2005-02-16",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -40454,7 +40883,8 @@ export const realPremierPlayers = [
     "name": "Jun'ai Byfield",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2008-12-06",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -40548,7 +40978,8 @@ export const realPremierPlayers = [
     "name": "Junior Kroupi",
     "position": "FWD",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2006-06-23",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -40642,7 +41073,8 @@ export const realPremierPlayers = [
     "name": "Jurriën Timber",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2001-06-17",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -40736,7 +41168,8 @@ export const realPremierPlayers = [
     "name": "Justin Devenny",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2003-10-11",
+    "nationality": "Northern Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -40830,7 +41263,8 @@ export const realPremierPlayers = [
     "name": "Justin Kluivert",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-05",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -40924,6 +41358,7 @@ export const realPremierPlayers = [
     "name": "Kadan Young",
     "position": "MID",
     "teamId": "fpl-team-2",
+    "birthDate": "2006-01-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -41018,7 +41453,8 @@ export const realPremierPlayers = [
     "name": "Kaden Rodney",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2004-10-07",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -41112,6 +41548,7 @@ export const realPremierPlayers = [
     "name": "Kaelan Casey",
     "position": "DEF",
     "teamId": "fpl-team-19",
+    "birthDate": "2004-10-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -41206,7 +41643,8 @@ export const realPremierPlayers = [
     "name": "Kai Havertz",
     "position": "FWD",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1999-06-11",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -41300,6 +41738,7 @@ export const realPremierPlayers = [
     "name": "Kalvin Phillips",
     "position": "MID",
     "teamId": "fpl-team-13",
+    "birthDate": "1995-12-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -41394,7 +41833,8 @@ export const realPremierPlayers = [
     "name": "Karl Darlow",
     "position": "GK",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1990-10-08",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -41488,6 +41928,7 @@ export const realPremierPlayers = [
     "name": "Karl Hein",
     "position": "GK",
     "teamId": "fpl-team-1",
+    "birthDate": "2002-04-13",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -41582,7 +42023,8 @@ export const realPremierPlayers = [
     "name": "Kaye Furo",
     "position": "FWD",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2007-02-06",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -41676,7 +42118,8 @@ export const realPremierPlayers = [
     "name": "Keane Lewis-Potter",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2001-02-22",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -41770,6 +42213,7 @@ export const realPremierPlayers = [
     "name": "Keiber Lamadrid",
     "position": "MID",
     "teamId": "fpl-team-19",
+    "birthDate": "2003-11-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -41864,6 +42308,7 @@ export const realPremierPlayers = [
     "name": "Kendry Páez Andrade",
     "position": "MID",
     "teamId": "fpl-team-7",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -41958,7 +42403,8 @@ export const realPremierPlayers = [
     "name": "Kenny Tete",
     "position": "DEF",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1995-10-09",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -42052,7 +42498,8 @@ export const realPremierPlayers = [
     "name": "Kepa Arrizabalaga Revuelta",
     "position": "GK",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1994-10-03",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -42146,7 +42593,8 @@ export const realPremierPlayers = [
     "name": "Kevin Danso",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1998-09-19",
+    "nationality": "Austria",
     "competitionIds": [
       "premier"
     ],
@@ -42240,7 +42688,8 @@ export const realPremierPlayers = [
     "name": "Kevin Santos Lopes de Macedo",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "2003-01-04",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -42334,7 +42783,8 @@ export const realPremierPlayers = [
     "name": "Kevin Schade",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2001-11-27",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -42428,7 +42878,8 @@ export const realPremierPlayers = [
     "name": "Ki-Jana Hoever",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2002-01-18",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -42522,6 +42973,7 @@ export const realPremierPlayers = [
     "name": "Kian McMahon-Brown",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2008-08-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -42616,6 +43068,7 @@ export const realPremierPlayers = [
     "name": "Kieran Morrison",
     "position": "MID",
     "teamId": "fpl-team-12",
+    "birthDate": "2006-11-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -42710,7 +43163,8 @@ export const realPremierPlayers = [
     "name": "Kieran Trippier",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1990-09-19",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -42804,7 +43258,8 @@ export const realPremierPlayers = [
     "name": "Kiernan Dewsbury-Hall",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1998-09-06",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -42898,6 +43353,7 @@ export const realPremierPlayers = [
     "name": "Kim Ji-soo",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": "2004-12-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -42992,6 +43448,7 @@ export const realPremierPlayers = [
     "name": "Kjell Scherpen",
     "position": "GK",
     "teamId": "fpl-team-6",
+    "birthDate": "2000-01-23",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -43086,7 +43543,8 @@ export const realPremierPlayers = [
     "name": "Kobbie Mainoo",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2005-04-19",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -43180,7 +43638,8 @@ export const realPremierPlayers = [
     "name": "Konstantinos Mavropanos",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1997-12-11",
+    "nationality": "Greece",
     "competitionIds": [
       "premier"
     ],
@@ -43274,6 +43733,7 @@ export const realPremierPlayers = [
     "name": "Konstantinos Tsimikas",
     "position": "DEF",
     "teamId": "fpl-team-12",
+    "birthDate": "1996-05-12",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -43368,7 +43828,8 @@ export const realPremierPlayers = [
     "name": "Kristoffer Ajer",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1998-04-17",
+    "nationality": "Norway",
     "competitionIds": [
       "premier"
     ],
@@ -43462,6 +43923,7 @@ export const realPremierPlayers = [
     "name": "Krisztián Hegyi",
     "position": "GK",
     "teamId": "fpl-team-19",
+    "birthDate": "2002-09-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -43556,7 +44018,8 @@ export const realPremierPlayers = [
     "name": "Kyle Walker",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1990-05-28",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -43650,7 +44113,8 @@ export const realPremierPlayers = [
     "name": "Kyle Walker-Peters",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1997-04-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -43744,7 +44208,8 @@ export const realPremierPlayers = [
     "name": "Ladislav Krejcí",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1999-04-20",
+    "nationality": "Czech Republic",
     "competitionIds": [
       "premier"
     ],
@@ -43838,7 +44303,8 @@ export const realPremierPlayers = [
     "name": "Lamare Bogarde",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2004-01-05",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -43932,6 +44398,7 @@ export const realPremierPlayers = [
     "name": "Lamin Sillah",
     "position": "FWD",
     "teamId": "fpl-team-16",
+    "birthDate": "2006-06-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44026,6 +44493,7 @@ export const realPremierPlayers = [
     "name": "Landon Emenalo",
     "position": "MID",
     "teamId": "fpl-team-7",
+    "birthDate": "2008-01-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44120,6 +44588,7 @@ export const realPremierPlayers = [
     "name": "Largie Ramazani",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2001-02-27",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44214,6 +44683,7 @@ export const realPremierPlayers = [
     "name": "Leander Dendoncker",
     "position": "MID",
     "teamId": "fpl-team-2",
+    "birthDate": "1995-04-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44308,7 +44778,8 @@ export const realPremierPlayers = [
     "name": "Leandro Trossard",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1994-12-04",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -44402,7 +44873,8 @@ export const realPremierPlayers = [
     "name": "Leny Yoro",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2005-11-13",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -44496,6 +44968,7 @@ export const realPremierPlayers = [
     "name": "Leo Fuhr Hjelde",
     "position": "DEF",
     "teamId": "fpl-team-17",
+    "birthDate": "2003-08-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44590,6 +45063,7 @@ export const realPremierPlayers = [
     "name": "Leo Shahar",
     "position": "DEF",
     "teamId": "fpl-team-15",
+    "birthDate": "2007-03-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44684,7 +45158,8 @@ export const realPremierPlayers = [
     "name": "Leon Bailey",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1997-08-09",
+    "nationality": "Jamaica",
     "competitionIds": [
       "premier"
     ],
@@ -44778,6 +45253,7 @@ export const realPremierPlayers = [
     "name": "Leon Chiwome",
     "position": "FWD",
     "teamId": "fpl-team-20",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44872,6 +45348,7 @@ export const realPremierPlayers = [
     "name": "Leon Routh",
     "position": "DEF",
     "teamId": "fpl-team-2",
+    "birthDate": "2007-11-30",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -44966,7 +45443,8 @@ export const realPremierPlayers = [
     "name": "Lesley Ugochukwu",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2004-03-26",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -45060,7 +45538,8 @@ export const realPremierPlayers = [
     "name": "Levi Samuels Colwill",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2003-02-26",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -45154,7 +45633,8 @@ export const realPremierPlayers = [
     "name": "Lewis Cook",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1997-02-03",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -45248,6 +45728,7 @@ export const realPremierPlayers = [
     "name": "Lewis Dobbin",
     "position": "MID",
     "teamId": "fpl-team-2",
+    "birthDate": "2003-01-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -45342,7 +45823,8 @@ export const realPremierPlayers = [
     "name": "Lewis Dunk",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1991-11-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -45436,7 +45918,8 @@ export const realPremierPlayers = [
     "name": "Lewis Hall",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2004-09-08",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -45530,7 +46013,8 @@ export const realPremierPlayers = [
     "name": "Lewis Miley",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2006-05-01",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -45624,6 +46108,7 @@ export const realPremierPlayers = [
     "name": "Lewis O'Brien",
     "position": "MID",
     "teamId": "fpl-team-16",
+    "birthDate": "1998-10-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -45718,6 +46203,7 @@ export const realPremierPlayers = [
     "name": "Lewis Orford",
     "position": "MID",
     "teamId": "fpl-team-19",
+    "birthDate": "2006-02-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -45812,7 +46298,8 @@ export const realPremierPlayers = [
     "name": "Liam Delap",
     "position": "FWD",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2003-02-08",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -45906,6 +46393,7 @@ export const realPremierPlayers = [
     "name": "Lino da Cruz Sousa",
     "position": "DEF",
     "teamId": "fpl-team-2",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -46000,7 +46488,8 @@ export const realPremierPlayers = [
     "name": "Lisandro Martínez",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1998-01-18",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -46094,7 +46583,8 @@ export const realPremierPlayers = [
     "name": "Lorenzo Lucca",
     "position": "FWD",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2000-09-10",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -46188,7 +46678,8 @@ export const realPremierPlayers = [
     "name": "Loum Tchaouna",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2003-09-08",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -46282,6 +46773,7 @@ export const realPremierPlayers = [
     "name": "Luca Koleosho",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2004-09-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -46376,7 +46868,8 @@ export const realPremierPlayers = [
     "name": "Luca Netz",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2003-05-15",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -46470,6 +46963,7 @@ export const realPremierPlayers = [
     "name": "Lucá Williams-Barnett",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "2008-10-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -46564,7 +47058,8 @@ export const realPremierPlayers = [
     "name": "Lucas Bergvall",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2006-02-02",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -46658,7 +47153,8 @@ export const realPremierPlayers = [
     "name": "Lucas Digne",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1993-07-20",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -46752,7 +47248,8 @@ export const realPremierPlayers = [
     "name": "Lucas Estella Perri",
     "position": "GK",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1997-12-10",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -46846,7 +47343,8 @@ export const realPremierPlayers = [
     "name": "Lucas Pires Silva",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2001-03-24",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -46940,7 +47438,8 @@ export const realPremierPlayers = [
     "name": "Lucas Tolentino Coelho de Lima",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1997-08-27",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -47034,6 +47533,7 @@ export const realPremierPlayers = [
     "name": "Luis Díaz Marulanda",
     "position": "MID",
     "teamId": "fpl-team-12",
+    "birthDate": "1997-01-13",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47128,6 +47628,7 @@ export const realPremierPlayers = [
     "name": "Luis Eduardo Soares da Silva",
     "position": "DEF",
     "teamId": "fpl-team-16",
+    "birthDate": "2003-02-16",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47222,7 +47723,8 @@ export const realPremierPlayers = [
     "name": "Luis Guilherme Lira dos Santos",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2006-02-09",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -47316,6 +47818,7 @@ export const realPremierPlayers = [
     "name": "Luís Hemir Silva Semedo",
     "position": "FWD",
     "teamId": "fpl-team-17",
+    "birthDate": "2003-08-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47410,6 +47913,7 @@ export const realPremierPlayers = [
     "name": "Luis Sinisterra Lucumí",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "1999-06-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47504,6 +48008,7 @@ export const realPremierPlayers = [
     "name": "Luka Bentt",
     "position": "MID",
     "teamId": "fpl-team-5",
+    "birthDate": "2007-10-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47598,6 +48103,7 @@ export const realPremierPlayers = [
     "name": "Luka Vušković",
     "position": "DEF",
     "teamId": "fpl-team-18",
+    "birthDate": "2007-02-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47692,7 +48198,8 @@ export const realPremierPlayers = [
     "name": "Lukas Nmecha",
     "position": "FWD",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1998-12-14",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -47786,6 +48293,7 @@ export const realPremierPlayers = [
     "name": "Lukasz Fabianski",
     "position": "GK",
     "teamId": "fpl-team-19",
+    "birthDate": "1985-04-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47880,6 +48388,7 @@ export const realPremierPlayers = [
     "name": "Luke Harris",
     "position": "MID",
     "teamId": "fpl-team-10",
+    "birthDate": "2005-03-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -47974,7 +48483,8 @@ export const realPremierPlayers = [
     "name": "Luke O'Nien",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1994-11-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -48068,6 +48578,7 @@ export const realPremierPlayers = [
     "name": "Luke Rawlings",
     "position": "MID",
     "teamId": "fpl-team-20",
+    "birthDate": "2008-04-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -48162,7 +48673,8 @@ export const realPremierPlayers = [
     "name": "Luke Shaw",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1995-07-12",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -48256,7 +48768,8 @@ export const realPremierPlayers = [
     "name": "Lutsharel Geertruida",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2000-07-18",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -48350,7 +48863,8 @@ export const realPremierPlayers = [
     "name": "Lyle Foster",
     "position": "FWD",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2000-09-03",
+    "nationality": "South Africa",
     "competitionIds": [
       "premier"
     ],
@@ -48444,7 +48958,8 @@ export const realPremierPlayers = [
     "name": "Mads Hermansen",
     "position": "GK",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2000-07-11",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -48538,6 +49053,7 @@ export const realPremierPlayers = [
     "name": "Mads Roerslev Rasmussen",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": "1999-06-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -48632,6 +49148,7 @@ export const realPremierPlayers = [
     "name": "Malcolm Ebiowei",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2003-09-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -48726,6 +49243,7 @@ export const realPremierPlayers = [
     "name": "Malcom DaCosta",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "2008-04-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -48820,6 +49338,7 @@ export const realPremierPlayers = [
     "name": "Maldini Kacurri",
     "position": "DEF",
     "teamId": "fpl-team-1",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -48914,7 +49433,8 @@ export const realPremierPlayers = [
     "name": "Malick Thiaw",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2001-08-08",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -49008,6 +49528,7 @@ export const realPremierPlayers = [
     "name": "Malick Yalcouyé",
     "position": "MID",
     "teamId": "fpl-team-6",
+    "birthDate": "2005-11-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -49102,7 +49623,8 @@ export const realPremierPlayers = [
     "name": "Malo Gusto",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2003-05-19",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -49196,7 +49718,8 @@ export const realPremierPlayers = [
     "name": "Mamadou Sarr",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2005-08-29",
+    "nationality": "Senegal",
     "competitionIds": [
       "premier"
     ],
@@ -49290,6 +49813,7 @@ export const realPremierPlayers = [
     "name": "Manor Solomon",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "1999-07-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -49384,6 +49908,7 @@ export const realPremierPlayers = [
     "name": "Manuel Akanji",
     "position": "DEF",
     "teamId": "fpl-team-13",
+    "birthDate": "1995-07-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -49478,6 +50003,7 @@ export const realPremierPlayers = [
     "name": "Manuel Benson Hedilazio",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "1997-03-28",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -49572,7 +50098,8 @@ export const realPremierPlayers = [
     "name": "Manuel Ugarte Ribeiro",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2001-04-11",
+    "nationality": "Uruguay",
     "competitionIds": [
       "premier"
     ],
@@ -49666,7 +50193,8 @@ export const realPremierPlayers = [
     "name": "Marc Cucurella Saseta",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "1998-07-22",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -49760,7 +50288,8 @@ export const realPremierPlayers = [
     "name": "Marc Guéhi",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2000-07-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -49854,7 +50383,8 @@ export const realPremierPlayers = [
     "name": "Marc Guiu Paz",
     "position": "FWD",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2006-01-04",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -49948,7 +50478,8 @@ export const realPremierPlayers = [
     "name": "Marco Bizot",
     "position": "GK",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1991-03-10",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -50042,7 +50573,8 @@ export const realPremierPlayers = [
     "name": "Marcos Senesi Barón",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-10",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -50136,6 +50668,7 @@ export const realPremierPlayers = [
     "name": "Marcus Bettinelli",
     "position": "GK",
     "teamId": "fpl-team-13",
+    "birthDate": "1992-05-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -50230,7 +50763,8 @@ export const realPremierPlayers = [
     "name": "Marcus Edwards",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1998-12-03",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -50324,6 +50858,7 @@ export const realPremierPlayers = [
     "name": "Marcus Rashford",
     "position": "MID",
     "teamId": "fpl-team-14",
+    "birthDate": "1997-10-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -50418,7 +50953,8 @@ export const realPremierPlayers = [
     "name": "Marcus Tavernier",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1999-03-22",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -50512,6 +51048,7 @@ export const realPremierPlayers = [
     "name": "Mark Gillespie",
     "position": "GK",
     "teamId": "fpl-team-15",
+    "birthDate": "1992-03-27",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -50606,6 +51143,7 @@ export const realPremierPlayers = [
     "name": "Mark Travers",
     "position": "GK",
     "teamId": "fpl-team-9",
+    "birthDate": "1999-05-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -50700,6 +51238,7 @@ export const realPremierPlayers = [
     "name": "Marko Stamenić",
     "position": "MID",
     "teamId": "fpl-team-16",
+    "birthDate": "2002-02-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -50794,6 +51333,7 @@ export const realPremierPlayers = [
     "name": "Marli Salmon",
     "position": "DEF",
     "teamId": "fpl-team-1",
+    "birthDate": "2009-08-29",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -50888,7 +51428,8 @@ export const realPremierPlayers = [
     "name": "Marshall Munetsi",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1996-06-22",
+    "nationality": "Zimbabwe",
     "competitionIds": [
       "premier"
     ],
@@ -50982,6 +51523,7 @@ export const realPremierPlayers = [
     "name": "Martial Godo",
     "position": "MID",
     "teamId": "fpl-team-10",
+    "birthDate": "2003-03-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -51076,7 +51618,8 @@ export const realPremierPlayers = [
     "name": "Martin Dúbravka",
     "position": "GK",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1989-01-15",
+    "nationality": "Slovakia",
     "competitionIds": [
       "premier"
     ],
@@ -51170,7 +51713,8 @@ export const realPremierPlayers = [
     "name": "Martin Ødegaard",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1998-12-17",
+    "nationality": "Norway",
     "competitionIds": [
       "premier"
     ],
@@ -51264,6 +51808,7 @@ export const realPremierPlayers = [
     "name": "Martin Sherif",
     "position": "FWD",
     "teamId": "fpl-team-9",
+    "birthDate": "2006-06-10",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -51358,7 +51903,8 @@ export const realPremierPlayers = [
     "name": "Martín Zubimendi Ibáñez",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1999-02-02",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -51452,7 +51998,8 @@ export const realPremierPlayers = [
     "name": "Mason Mount",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1999-01-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -51546,6 +52093,7 @@ export const realPremierPlayers = [
     "name": "Matai Akinmboni",
     "position": "DEF",
     "teamId": "fpl-team-4",
+    "birthDate": "2006-10-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -51640,6 +52188,7 @@ export const realPremierPlayers = [
     "name": "Mateo Joseph Fernández-Regatillo",
     "position": "FWD",
     "teamId": "fpl-team-11",
+    "birthDate": "2003-10-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -51734,7 +52283,8 @@ export const realPremierPlayers = [
     "name": "Mateo Kovačić",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1994-05-06",
+    "nationality": "Croatia",
     "competitionIds": [
       "premier"
     ],
@@ -51828,7 +52378,8 @@ export const realPremierPlayers = [
     "name": "Mateus Gonçalo Espanha Fernandes",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2004-07-10",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -51922,7 +52473,8 @@ export const realPremierPlayers = [
     "name": "Mateus Mané",
     "position": "FWD",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2007-09-16",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -52016,6 +52568,7 @@ export const realPremierPlayers = [
     "name": "Matheus França de Oliveira",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2004-04-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -52110,7 +52663,8 @@ export const realPremierPlayers = [
     "name": "Matheus Nunes",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1998-08-27",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -52204,7 +52758,8 @@ export const realPremierPlayers = [
     "name": "Matheus Santos Carneiro da Cunha",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-27",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -52298,7 +52853,8 @@ export const realPremierPlayers = [
     "name": "Mathias Jensen",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1996-01-01",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -52392,6 +52948,7 @@ export const realPremierPlayers = [
     "name": "Mathis Eboué",
     "position": "MID",
     "teamId": "fpl-team-7",
+    "birthDate": "2009-02-27",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -52486,7 +53043,8 @@ export const realPremierPlayers = [
     "name": "Mathys Tel",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2005-04-27",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -52580,7 +53138,8 @@ export const realPremierPlayers = [
     "name": "Mats Wieffer",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1999-11-16",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -52674,7 +53233,8 @@ export const realPremierPlayers = [
     "name": "Matt Doherty",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1992-01-16",
+    "nationality": "Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -52768,7 +53328,8 @@ export const realPremierPlayers = [
     "name": "Matt O'Riley",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2000-11-21",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -52862,6 +53423,7 @@ export const realPremierPlayers = [
     "name": "Matt Targett",
     "position": "DEF",
     "teamId": "fpl-team-15",
+    "birthDate": "1995-09-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -52956,6 +53518,7 @@ export const realPremierPlayers = [
     "name": "Matt Turner",
     "position": "GK",
     "teamId": "fpl-team-16",
+    "birthDate": "1994-06-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -53050,6 +53613,7 @@ export const realPremierPlayers = [
     "name": "Matthew Cox",
     "position": "GK",
     "teamId": "fpl-team-5",
+    "birthDate": "2003-05-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -53144,7 +53708,8 @@ export const realPremierPlayers = [
     "name": "Matthijs de Ligt",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-12",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -53238,7 +53803,8 @@ export const realPremierPlayers = [
     "name": "Matty Cash",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1997-08-07",
+    "nationality": "Poland",
     "competitionIds": [
       "premier"
     ],
@@ -53332,7 +53898,8 @@ export const realPremierPlayers = [
     "name": "Matz Sels",
     "position": "GK",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1992-02-26",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -53426,7 +53993,8 @@ export const realPremierPlayers = [
     "name": "Max Alleyne",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2005-07-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -53520,7 +54088,8 @@ export const realPremierPlayers = [
     "name": "Max Dowman",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2009-12-31",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -53614,6 +54183,7 @@ export const realPremierPlayers = [
     "name": "Max Merrick",
     "position": "GK",
     "teamId": "fpl-team-7",
+    "birthDate": "2005-11-10",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -53708,7 +54278,8 @@ export const realPremierPlayers = [
     "name": "Max Weiß",
     "position": "GK",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2004-06-15",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -53802,7 +54373,8 @@ export const realPremierPlayers = [
     "name": "Maxence Lacroix",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2000-04-06",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -53896,7 +54468,8 @@ export const realPremierPlayers = [
     "name": "Maxim De Cuyper",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2000-12-22",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -53990,7 +54563,8 @@ export const realPremierPlayers = [
     "name": "Maxime Estève",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2002-05-26",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -54084,7 +54658,8 @@ export const realPremierPlayers = [
     "name": "Maximilian Kilman",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-23",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -54178,6 +54753,7 @@ export const realPremierPlayers = [
     "name": "Maxwel Cornet",
     "position": "MID",
     "teamId": "fpl-team-19",
+    "birthDate": "1996-09-27",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -54272,7 +54848,8 @@ export const realPremierPlayers = [
     "name": "Melker Ellborg",
     "position": "GK",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2003-05-22",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -54366,7 +54943,8 @@ export const realPremierPlayers = [
     "name": "Merlin Röhl",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2002-07-05",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -54460,7 +55038,8 @@ export const realPremierPlayers = [
     "name": "Michael Kayode",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2004-07-10",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -54554,7 +55133,8 @@ export const realPremierPlayers = [
     "name": "Michael Keane",
     "position": "DEF",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1993-01-11",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -54648,6 +55228,7 @@ export const realPremierPlayers = [
     "name": "Michael Obafemi",
     "position": "FWD",
     "teamId": "fpl-team-3",
+    "birthDate": "2000-07-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -54742,7 +55323,8 @@ export const realPremierPlayers = [
     "name": "Micky van de Ven",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2001-04-19",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -54836,6 +55418,7 @@ export const realPremierPlayers = [
     "name": "Mike Penders",
     "position": "GK",
     "teamId": "fpl-team-7",
+    "birthDate": "2005-07-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -54930,7 +55513,8 @@ export const realPremierPlayers = [
     "name": "Mike Trésor Ndayishimiye",
     "position": "MID",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-28",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -55024,7 +55608,8 @@ export const realPremierPlayers = [
     "name": "Mikel Merino Zazón",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1996-06-22",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -55118,6 +55703,7 @@ export const realPremierPlayers = [
     "name": "Mikey Moore",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "2007-08-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -55212,7 +55798,8 @@ export const realPremierPlayers = [
     "name": "Mikkel Damsgaard",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2000-07-03",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -55306,6 +55893,7 @@ export const realPremierPlayers = [
     "name": "Milan Aleksić",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2005-08-30",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -55400,7 +55988,8 @@ export const realPremierPlayers = [
     "name": "Milos Kerkez",
     "position": "DEF",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2003-11-07",
+    "nationality": "Hungary",
     "competitionIds": [
       "premier"
     ],
@@ -55494,6 +56083,7 @@ export const realPremierPlayers = [
     "name": "Miodrag Pivaš",
     "position": "DEF",
     "teamId": "fpl-team-15",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -55588,7 +56178,8 @@ export const realPremierPlayers = [
     "name": "Mitoma Kaoru",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-20",
+    "nationality": "Japan",
     "competitionIds": [
       "premier"
     ],
@@ -55682,7 +56273,8 @@ export const realPremierPlayers = [
     "name": "Mohamadou Kanté",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2005-09-20",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -55776,7 +56368,8 @@ export const realPremierPlayers = [
     "name": "Mohamed Salah",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1992-06-15",
+    "nationality": "Egypt",
     "competitionIds": [
       "premier"
     ],
@@ -55870,7 +56463,8 @@ export const realPremierPlayers = [
     "name": "Mohammed Kudus",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2000-08-02",
+    "nationality": "Ghana",
     "competitionIds": [
       "premier"
     ],
@@ -55964,7 +56558,8 @@ export const realPremierPlayers = [
     "name": "Moisés Caicedo Corozo",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2001-11-02",
+    "nationality": "Ecuador",
     "competitionIds": [
       "premier"
     ],
@@ -56058,7 +56653,8 @@ export const realPremierPlayers = [
     "name": "Morgan Gibbs-White",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2000-01-27",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -56152,7 +56748,8 @@ export const realPremierPlayers = [
     "name": "Morgan Rogers",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "2002-07-26",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -56246,7 +56843,8 @@ export const realPremierPlayers = [
     "name": "Murillo Costa dos Santos",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2002-07-04",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -56340,6 +56938,7 @@ export const realPremierPlayers = [
     "name": "Mykhailo Mudryk",
     "position": "MID",
     "teamId": "fpl-team-7",
+    "birthDate": "2001-01-05",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -56434,7 +57033,8 @@ export const realPremierPlayers = [
     "name": "Myles Lewis-Skelly",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2006-09-26",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -56528,7 +57128,8 @@ export const realPremierPlayers = [
     "name": "Myles Peart-Harris",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2002-09-18",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -56622,6 +57223,7 @@ export const realPremierPlayers = [
     "name": "Naouirou Ahamada",
     "position": "MID",
     "teamId": "fpl-team-8",
+    "birthDate": "2002-03-29",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -56716,7 +57318,8 @@ export const realPremierPlayers = [
     "name": "Nathan Aké",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1995-02-18",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -56810,7 +57413,8 @@ export const realPremierPlayers = [
     "name": "Nathan Collins",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2001-04-30",
+    "nationality": "Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -56904,6 +57508,7 @@ export const realPremierPlayers = [
     "name": "Nathan Fraser",
     "position": "FWD",
     "teamId": "fpl-team-20",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -56998,7 +57603,8 @@ export const realPremierPlayers = [
     "name": "Nathan Patterson",
     "position": "DEF",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2001-10-16",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -57092,7 +57698,8 @@ export const realPremierPlayers = [
     "name": "Nathaniel Clyne",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1991-04-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -57186,7 +57793,8 @@ export const realPremierPlayers = [
     "name": "Nayef Aguerd",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1996-03-30",
+    "nationality": "Morocco",
     "competitionIds": [
       "premier"
     ],
@@ -57280,6 +57888,7 @@ export const realPremierPlayers = [
     "name": "Nazarii Rusyn",
     "position": "FWD",
     "teamId": "fpl-team-17",
+    "birthDate": "1998-10-25",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -57374,7 +57983,8 @@ export const realPremierPlayers = [
     "name": "Neco Williams",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2001-04-13",
+    "nationality": "Wales",
     "competitionIds": [
       "premier"
     ],
@@ -57468,6 +58078,7 @@ export const realPremierPlayers = [
     "name": "Nectarios Triantis",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2003-05-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -57562,7 +58173,8 @@ export const realPremierPlayers = [
     "name": "Nehemiah Oriola",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2007-06-11",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -57656,6 +58268,7 @@ export const realPremierPlayers = [
     "name": "Niall Huggins",
     "position": "DEF",
     "teamId": "fpl-team-17",
+    "birthDate": "2000-12-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -57750,7 +58363,8 @@ export const realPremierPlayers = [
     "name": "Nick Pope",
     "position": "GK",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1992-04-19",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -57844,7 +58458,8 @@ export const realPremierPlayers = [
     "name": "Nick Woltemade",
     "position": "FWD",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2002-02-14",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -57938,7 +58553,8 @@ export const realPremierPlayers = [
     "name": "Niclas Füllkrug",
     "position": "FWD",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1993-02-09",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -58032,7 +58648,8 @@ export const realPremierPlayers = [
     "name": "Nico González Iglesias",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2002-01-03",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -58126,7 +58743,8 @@ export const realPremierPlayers = [
     "name": "Nico O'Reilly",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2005-03-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -58220,7 +58838,8 @@ export const realPremierPlayers = [
     "name": "Nicolás Domínguez",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1998-06-28",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -58314,6 +58933,7 @@ export const realPremierPlayers = [
     "name": "Nicolas Jackson",
     "position": "FWD",
     "teamId": "fpl-team-7",
+    "birthDate": "2001-06-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -58408,7 +59028,8 @@ export const realPremierPlayers = [
     "name": "Nicolò Savona",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2003-03-19",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -58502,7 +59123,8 @@ export const realPremierPlayers = [
     "name": "Nikola Milenković",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1997-10-12",
+    "nationality": "Serbia",
     "competitionIds": [
       "premier"
     ],
@@ -58596,7 +59218,8 @@ export const realPremierPlayers = [
     "name": "Nilson Angulo",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2003-06-19",
+    "nationality": "Ecuador",
     "competitionIds": [
       "premier"
     ],
@@ -58690,7 +59313,8 @@ export const realPremierPlayers = [
     "name": "Noah Okafor",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "2000-05-24",
+    "nationality": "Switzerland",
     "competitionIds": [
       "premier"
     ],
@@ -58784,7 +59408,8 @@ export const realPremierPlayers = [
     "name": "Noah Sadiki",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2004-12-17",
+    "nationality": "DR Congo",
     "competitionIds": [
       "premier"
     ],
@@ -58878,7 +59503,8 @@ export const realPremierPlayers = [
     "name": "Noni Madueke",
     "position": "MID",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2002-03-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -58972,7 +59598,8 @@ export const realPremierPlayers = [
     "name": "Norberto Bercique Gomes Betuncal",
     "position": "FWD",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1998-01-31",
+    "nationality": "Guinea-Bissau",
     "competitionIds": [
       "premier"
     ],
@@ -59066,6 +59693,7 @@ export const realPremierPlayers = [
     "name": "Norberto Murara Neto",
     "position": "GK",
     "teamId": "fpl-team-4",
+    "birthDate": "1989-07-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -59160,7 +59788,8 @@ export const realPremierPlayers = [
     "name": "Nordi Mukiele",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-01",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -59254,7 +59883,8 @@ export const realPremierPlayers = [
     "name": "Noussair Mazraoui",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-14",
+    "nationality": "Morocco",
     "competitionIds": [
       "premier"
     ],
@@ -59348,7 +59978,8 @@ export const realPremierPlayers = [
     "name": "Odsonne Édouard",
     "position": "FWD",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1998-01-16",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -59442,6 +60073,7 @@ export const realPremierPlayers = [
     "name": "Odysseas Vlachodimos",
     "position": "GK",
     "teamId": "fpl-team-15",
+    "birthDate": "1994-04-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -59536,7 +60168,8 @@ export const realPremierPlayers = [
     "name": "Ola Aina",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1996-10-08",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -59630,7 +60263,8 @@ export const realPremierPlayers = [
     "name": "Oleksandr Zinchenko",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1996-12-15",
+    "nationality": "Ukraine",
     "competitionIds": [
       "premier"
     ],
@@ -59724,6 +60358,7 @@ export const realPremierPlayers = [
     "name": "Oliver Pimlott",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2007-04-07",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -59818,7 +60453,8 @@ export const realPremierPlayers = [
     "name": "Oliver Sonne",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2000-11-10",
+    "nationality": "Peru",
     "competitionIds": [
       "premier"
     ],
@@ -59912,7 +60548,8 @@ export const realPremierPlayers = [
     "name": "Olivier Boscagli",
     "position": "DEF",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-18",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -60006,7 +60643,8 @@ export const realPremierPlayers = [
     "name": "Ollie Scarles",
     "position": "DEF",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2005-12-12",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -60100,6 +60738,7 @@ export const realPremierPlayers = [
     "name": "Ollie Shield",
     "position": "DEF",
     "teamId": "fpl-team-5",
+    "birthDate": "2006-09-25",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -60194,7 +60833,8 @@ export const realPremierPlayers = [
     "name": "Ollie Watkins",
     "position": "FWD",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1995-12-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -60288,6 +60928,7 @@ export const realPremierPlayers = [
     "name": "Oluwaseun Adewumi",
     "position": "MID",
     "teamId": "fpl-team-3",
+    "birthDate": "2005-02-23",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -60382,7 +61023,8 @@ export const realPremierPlayers = [
     "name": "Omar Alderete",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1996-12-26",
+    "nationality": "Paraguay",
     "competitionIds": [
       "premier"
     ],
@@ -60476,7 +61118,8 @@ export const realPremierPlayers = [
     "name": "Omar Marmoush",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1999-02-07",
+    "nationality": "Egypt",
     "competitionIds": [
       "premier"
     ],
@@ -60570,6 +61213,7 @@ export const realPremierPlayers = [
     "name": "Omar Richards",
     "position": "DEF",
     "teamId": "fpl-team-16",
+    "birthDate": "1998-02-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -60664,7 +61308,8 @@ export const realPremierPlayers = [
     "name": "Omari Hutchinson",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2003-10-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -60758,7 +61403,8 @@ export const realPremierPlayers = [
     "name": "Oscar Bobb",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "2003-07-12",
+    "nationality": "Norway",
     "competitionIds": [
       "premier"
     ],
@@ -60852,6 +61498,7 @@ export const realPremierPlayers = [
     "name": "Owen Bevan",
     "position": "DEF",
     "teamId": "fpl-team-4",
+    "birthDate": "2003-10-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -60946,6 +61593,7 @@ export const realPremierPlayers = [
     "name": "Owen Dodgson",
     "position": "DEF",
     "teamId": "fpl-team-3",
+    "birthDate": "2003-03-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -61040,7 +61688,8 @@ export const realPremierPlayers = [
     "name": "Pablo Felipe Pereira de Jesus",
     "position": "FWD",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2004-01-02",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -61134,7 +61783,8 @@ export const realPremierPlayers = [
     "name": "Pape Matar Sarr",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2002-09-14",
+    "nationality": "Senegal",
     "competitionIds": [
       "premier"
     ],
@@ -61228,6 +61878,7 @@ export const realPremierPlayers = [
     "name": "Paris Maghoma",
     "position": "MID",
     "teamId": "fpl-team-5",
+    "birthDate": "2001-05-08",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -61322,7 +61973,8 @@ export const realPremierPlayers = [
     "name": "Pascal Groß",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1991-06-15",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -61416,7 +62068,8 @@ export const realPremierPlayers = [
     "name": "Pascal Struijk",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-11",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -61510,6 +62163,7 @@ export const realPremierPlayers = [
     "name": "Patrick Bamford",
     "position": "FWD",
     "teamId": "fpl-team-11",
+    "birthDate": "1993-09-05",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -61604,7 +62258,8 @@ export const realPremierPlayers = [
     "name": "Patrick Dorgu",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2004-10-26",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -61698,7 +62353,8 @@ export const realPremierPlayers = [
     "name": "Patrick Roberts",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1997-02-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -61792,7 +62448,8 @@ export const realPremierPlayers = [
     "name": "Pau Torres",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1997-01-16",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -61886,7 +62543,8 @@ export const realPremierPlayers = [
     "name": "Pedro Cardoso de Lima",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2006-07-01",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -61980,7 +62638,8 @@ export const realPremierPlayers = [
     "name": "Pedro Lomba Neto",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2000-03-09",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -62074,7 +62733,8 @@ export const realPremierPlayers = [
     "name": "Pedro Porro Sauceda",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1999-09-13",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -62168,6 +62828,7 @@ export const realPremierPlayers = [
     "name": "Pervis Estupiñán Tenorio",
     "position": "DEF",
     "teamId": "fpl-team-6",
+    "birthDate": "1998-01-21",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -62262,7 +62923,8 @@ export const realPremierPlayers = [
     "name": "Phil Foden",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2000-05-28",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -62356,6 +63018,7 @@ export const realPremierPlayers = [
     "name": "Philip Billing",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "1996-06-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -62450,7 +63113,8 @@ export const realPremierPlayers = [
     "name": "Piero Hincapié",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2002-01-09",
+    "nationality": "Ecuador",
     "competitionIds": [
       "premier"
     ],
@@ -62544,6 +63208,7 @@ export const realPremierPlayers = [
     "name": "Pierre Ekwah Elimby",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2002-01-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -62638,7 +63303,8 @@ export const realPremierPlayers = [
     "name": "Quilindschy Hartman",
     "position": "DEF",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2001-11-14",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -62732,7 +63398,8 @@ export const realPremierPlayers = [
     "name": "Radu Drăgușin",
     "position": "DEF",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2002-02-03",
+    "nationality": "Romania",
     "competitionIds": [
       "premier"
     ],
@@ -62826,7 +63493,8 @@ export const realPremierPlayers = [
     "name": "Randal Kolo Muani",
     "position": "FWD",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1998-12-05",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -62920,6 +63588,7 @@ export const realPremierPlayers = [
     "name": "Rasmus Højlund",
     "position": "FWD",
     "teamId": "fpl-team-14",
+    "birthDate": "2003-02-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -63014,7 +63683,8 @@ export const realPremierPlayers = [
     "name": "Raúl Jiménez Rodríguez",
     "position": "FWD",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1991-05-05",
+    "nationality": "Mexico",
     "competitionIds": [
       "premier"
     ],
@@ -63108,7 +63778,8 @@ export const realPremierPlayers = [
     "name": "Rayan Aït-Nouri",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2001-06-06",
+    "nationality": "Algeria",
     "competitionIds": [
       "premier"
     ],
@@ -63202,7 +63873,8 @@ export const realPremierPlayers = [
     "name": "Rayan Cherki",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2003-08-17",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -63296,7 +63968,8 @@ export const realPremierPlayers = [
     "name": "Rayan Vitor Simplício Rocha",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2006-08-03",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -63390,7 +64063,8 @@ export const realPremierPlayers = [
     "name": "Reece James",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "1999-12-08",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -63484,6 +64158,7 @@ export const realPremierPlayers = [
     "name": "Reece Welch",
     "position": "DEF",
     "teamId": "fpl-team-9",
+    "birthDate": "2003-09-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -63578,6 +64253,7 @@ export const realPremierPlayers = [
     "name": "Reigan Heskey",
     "position": "MID",
     "teamId": "fpl-team-13",
+    "birthDate": "2008-01-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -63672,7 +64348,8 @@ export const realPremierPlayers = [
     "name": "Reinildo Mandava",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "1994-01-21",
+    "nationality": "Mozambique",
     "competitionIds": [
       "premier"
     ],
@@ -63766,7 +64443,8 @@ export const realPremierPlayers = [
     "name": "Reiss Nelson",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1999-12-10",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -63860,6 +64538,7 @@ export const realPremierPlayers = [
     "name": "Remi Matthews",
     "position": "GK",
     "teamId": "fpl-team-8",
+    "birthDate": "1994-02-10",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -63954,6 +64633,7 @@ export const realPremierPlayers = [
     "name": "Remy Rees-Dottin",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "2006-03-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -64048,6 +64728,7 @@ export const realPremierPlayers = [
     "name": "Rhys Chadwick",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2007-02-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -64142,6 +64823,7 @@ export const realPremierPlayers = [
     "name": "Rhys Williams",
     "position": "DEF",
     "teamId": "fpl-team-12",
+    "birthDate": "2001-02-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -64236,7 +64918,8 @@ export const realPremierPlayers = [
     "name": "Riccardo Calafiori",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2002-05-19",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -64330,7 +65013,8 @@ export const realPremierPlayers = [
     "name": "Richarlison de Andrade",
     "position": "FWD",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-10",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -64424,7 +65108,8 @@ export const realPremierPlayers = [
     "name": "Rico Henry",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1997-07-08",
+    "nationality": "Jamaica",
     "competitionIds": [
       "premier"
     ],
@@ -64518,7 +65203,8 @@ export const realPremierPlayers = [
     "name": "Rico Lewis",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2004-11-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -64612,6 +65298,7 @@ export const realPremierPlayers = [
     "name": "Riley Owen",
     "position": "MID",
     "teamId": "fpl-team-5",
+    "birthDate": "2005-08-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -64706,7 +65393,8 @@ export const realPremierPlayers = [
     "name": "Rio Cardines",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2006-07-01",
+    "nationality": "Trinidad & Tobago",
     "competitionIds": [
       "premier"
     ],
@@ -64800,6 +65488,7 @@ export const realPremierPlayers = [
     "name": "Rio Kyerematen",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "2005-06-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -64894,7 +65583,8 @@ export const realPremierPlayers = [
     "name": "Rio Ngumoha",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2008-08-29",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -64988,6 +65678,7 @@ export const realPremierPlayers = [
     "name": "Rob Holding",
     "position": "DEF",
     "teamId": "fpl-team-8",
+    "birthDate": "1995-09-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -65082,7 +65773,8 @@ export const realPremierPlayers = [
     "name": "Robert Lynch Sánchez",
     "position": "GK",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-18",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -65176,7 +65868,8 @@ export const realPremierPlayers = [
     "name": "Robin Roefs",
     "position": "GK",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2003-01-17",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -65270,7 +65963,8 @@ export const realPremierPlayers = [
     "name": "Rodrigo 'Rodri' Hernandez Cascante",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1996-06-22",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -65364,7 +66058,8 @@ export const realPremierPlayers = [
     "name": "Rodrigo Bentancur",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1997-06-25",
+    "nationality": "Uruguay",
     "competitionIds": [
       "premier"
     ],
@@ -65458,7 +66153,8 @@ export const realPremierPlayers = [
     "name": "Rodrigo Martins Gomes",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2003-07-07",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -65552,7 +66248,8 @@ export const realPremierPlayers = [
     "name": "Rodrigo Muniz Carvalho",
     "position": "FWD",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "2001-05-04",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -65646,7 +66343,8 @@ export const realPremierPlayers = [
     "name": "Romain Esse",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2005-05-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -65740,6 +66438,7 @@ export const realPremierPlayers = [
     "name": "Romain Faivre",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "1998-07-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -65834,7 +66533,8 @@ export const realPremierPlayers = [
     "name": "Romaine Mundle",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2003-04-24",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -65928,6 +66628,7 @@ export const realPremierPlayers = [
     "name": "Roman Dixon",
     "position": "DEF",
     "teamId": "fpl-team-9",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -66022,7 +66723,8 @@ export const realPremierPlayers = [
     "name": "Romelle Donovan",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2006-11-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -66116,7 +66818,8 @@ export const realPremierPlayers = [
     "name": "Roméo Lavia",
     "position": "MID",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2004-01-06",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -66210,6 +66913,7 @@ export const realPremierPlayers = [
     "name": "Ronnie Hollingshead",
     "position": "GK",
     "teamId": "fpl-team-2",
+    "birthDate": "2004-09-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -66304,7 +67008,8 @@ export const realPremierPlayers = [
     "name": "Ross Barkley",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1993-12-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -66398,7 +67103,8 @@ export const realPremierPlayers = [
     "name": "Rúben dos Santos Gato Alves Dias",
     "position": "DEF",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-14",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -66492,7 +67198,8 @@ export const realPremierPlayers = [
     "name": "Ryan Christie",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1995-02-22",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -66586,7 +67293,8 @@ export const realPremierPlayers = [
     "name": "Ryan Gravenberch",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2002-05-16",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -66680,6 +67388,7 @@ export const realPremierPlayers = [
     "name": "Ryan Kavuma-McQueen",
     "position": "MID",
     "teamId": "fpl-team-7",
+    "birthDate": "2009-01-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -66774,6 +67483,7 @@ export const realPremierPlayers = [
     "name": "Ryan McAidoo",
     "position": "MID",
     "teamId": "fpl-team-13",
+    "birthDate": "2008-06-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -66868,7 +67578,8 @@ export const realPremierPlayers = [
     "name": "Ryan Sessegnon",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "2000-05-18",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -66962,6 +67673,7 @@ export const realPremierPlayers = [
     "name": "Ryan Trevitt",
     "position": "MID",
     "teamId": "fpl-team-5",
+    "birthDate": "2003-03-12",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -67056,7 +67768,8 @@ export const realPremierPlayers = [
     "name": "Ryan Yates",
     "position": "MID",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1997-11-21",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -67150,6 +67863,7 @@ export const realPremierPlayers = [
     "name": "Saheed Olagunju",
     "position": "DEF",
     "teamId": "fpl-team-20",
+    "birthDate": "2007-01-07",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -67244,6 +67958,7 @@ export const realPremierPlayers = [
     "name": "Sam Alabi",
     "position": "MID",
     "teamId": "fpl-team-15",
+    "birthDate": "2009-07-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -67338,7 +68053,8 @@ export const realPremierPlayers = [
     "name": "Sam Byram",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1993-09-16",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -67432,6 +68148,7 @@ export const realPremierPlayers = [
     "name": "Sam Chambers",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2007-08-18",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -67526,6 +68243,7 @@ export const realPremierPlayers = [
     "name": "Sam Greenwood",
     "position": "MID",
     "teamId": "fpl-team-11",
+    "birthDate": "2002-01-26",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -67620,7 +68338,8 @@ export const realPremierPlayers = [
     "name": "Sam Johnstone",
     "position": "GK",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1993-03-25",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -67714,6 +68433,7 @@ export const realPremierPlayers = [
     "name": "Sam Proctor",
     "position": "GK",
     "teamId": "fpl-team-2",
+    "birthDate": "2006-12-21",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -67808,6 +68528,7 @@ export const realPremierPlayers = [
     "name": "Samuel Amissah",
     "position": "DEF",
     "teamId": "fpl-team-10",
+    "birthDate": "2007-03-07",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -67902,7 +68623,8 @@ export const realPremierPlayers = [
     "name": "Samuel Chukwueze",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-22",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -67996,6 +68718,7 @@ export const realPremierPlayers = [
     "name": "Samuel Iling-Junior",
     "position": "MID",
     "teamId": "fpl-team-2",
+    "birthDate": "2003-10-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -68090,7 +68813,8 @@ export const realPremierPlayers = [
     "name": "Sander Berge",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1998-02-14",
+    "nationality": "Norway",
     "competitionIds": [
       "premier"
     ],
@@ -68184,7 +68908,8 @@ export const realPremierPlayers = [
     "name": "Sandro Tonali",
     "position": "MID",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2000-05-08",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -68278,7 +69003,8 @@ export const realPremierPlayers = [
     "name": "Santiago Ignacio Bueno",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1998-11-09",
+    "nationality": "Uruguay",
     "competitionIds": [
       "premier"
     ],
@@ -68372,7 +69098,8 @@ export const realPremierPlayers = [
     "name": "Saša Kalajdžić",
     "position": "FWD",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1997-07-07",
+    "nationality": "Austria",
     "competitionIds": [
       "premier"
     ],
@@ -68466,7 +69193,8 @@ export const realPremierPlayers = [
     "name": "Saša Lukić",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1996-08-13",
+    "nationality": "Serbia",
     "competitionIds": [
       "premier"
     ],
@@ -68560,7 +69288,8 @@ export const realPremierPlayers = [
     "name": "Sávio Moreira de Oliveira",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "2004-04-10",
+    "nationality": "Brazil",
     "competitionIds": [
       "premier"
     ],
@@ -68654,7 +69383,8 @@ export const realPremierPlayers = [
     "name": "Séamus Coleman",
     "position": "DEF",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1988-10-11",
+    "nationality": "Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -68748,7 +69478,8 @@ export const realPremierPlayers = [
     "name": "Sean Longstaff",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1997-10-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -68842,7 +69573,8 @@ export const realPremierPlayers = [
     "name": "Sean Neave",
     "position": "FWD",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2007-05-27",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -68936,7 +69668,8 @@ export const realPremierPlayers = [
     "name": "Sebastiaan Bornauw",
     "position": "DEF",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1999-03-22",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -69030,6 +69763,7 @@ export const realPremierPlayers = [
     "name": "Sékou Koné",
     "position": "MID",
     "teamId": "fpl-team-14",
+    "birthDate": "2006-02-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -69124,7 +69858,8 @@ export const realPremierPlayers = [
     "name": "Senne Lammens",
     "position": "GK",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2002-07-07",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -69218,7 +69953,8 @@ export const realPremierPlayers = [
     "name": "Sepp van den Berg",
     "position": "DEF",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2001-12-20",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -69312,6 +70048,7 @@ export const realPremierPlayers = [
     "name": "Seth Ridgeon",
     "position": "MID",
     "teamId": "fpl-team-10",
+    "birthDate": "2008-09-12",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -69406,6 +70143,7 @@ export const realPremierPlayers = [
     "name": "Seung-Soo Park",
     "position": "MID",
     "teamId": "fpl-team-15",
+    "birthDate": "2007-03-17",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -69500,7 +70238,8 @@ export const realPremierPlayers = [
     "name": "Shea Lacey",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2007-04-14",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -69594,7 +70333,8 @@ export const realPremierPlayers = [
     "name": "Shumaira Mheuka",
     "position": "FWD",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2007-10-20",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -69688,6 +70428,7 @@ export const realPremierPlayers = [
     "name": "Shurandy Sambo",
     "position": "DEF",
     "teamId": "fpl-team-3",
+    "birthDate": "2001-08-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -69782,7 +70523,8 @@ export const realPremierPlayers = [
     "name": "Simon Adingra",
     "position": "MID",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2002-01-01",
+    "nationality": "Cote D’Ivoire",
     "competitionIds": [
       "premier"
     ],
@@ -69876,6 +70618,7 @@ export const realPremierPlayers = [
     "name": "Simon Moore",
     "position": "GK",
     "teamId": "fpl-team-17",
+    "birthDate": "1990-05-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -69970,7 +70713,8 @@ export const realPremierPlayers = [
     "name": "Solly March",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "1994-07-20",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -70064,6 +70808,7 @@ export const realPremierPlayers = [
     "name": "Son Heung-min",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "1992-07-08",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -70158,7 +70903,8 @@ export const realPremierPlayers = [
     "name": "Soungoutou Magassa",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "2003-10-08",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -70252,6 +70998,7 @@ export const realPremierPlayers = [
     "name": "Stefan Bajčetić Maquieira",
     "position": "MID",
     "teamId": "fpl-team-12",
+    "birthDate": "2004-10-22",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -70346,7 +71093,8 @@ export const realPremierPlayers = [
     "name": "Stefan Ortega Moreno",
     "position": "GK",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1992-11-06",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -70440,7 +71188,8 @@ export const realPremierPlayers = [
     "name": "Stefanos Tzimas",
     "position": "FWD",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2006-01-06",
+    "nationality": "Greece",
     "competitionIds": [
       "premier"
     ],
@@ -70534,6 +71283,7 @@ export const realPremierPlayers = [
     "name": "Stephen Mfuni",
     "position": "DEF",
     "teamId": "fpl-team-13",
+    "birthDate": "2008-02-12",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -70628,6 +71378,7 @@ export const realPremierPlayers = [
     "name": "Steven Benda",
     "position": "GK",
     "teamId": "fpl-team-10",
+    "birthDate": "1998-10-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -70722,7 +71473,8 @@ export const realPremierPlayers = [
     "name": "Sven Botman",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2000-01-12",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -70816,6 +71568,7 @@ export const realPremierPlayers = [
     "name": "Sverre Nypan",
     "position": "MID",
     "teamId": "fpl-team-13",
+    "birthDate": "2006-12-19",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -70910,7 +71663,8 @@ export const realPremierPlayers = [
     "name": "Taiwo Awoniyi",
     "position": "FWD",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "1997-08-12",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -71004,6 +71758,7 @@ export const realPremierPlayers = [
     "name": "Takai Kōta",
     "position": "DEF",
     "teamId": "fpl-team-18",
+    "birthDate": "2004-09-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -71098,6 +71853,7 @@ export const realPremierPlayers = [
     "name": "Talla Ndiaye",
     "position": "DEF",
     "teamId": "fpl-team-12",
+    "birthDate": "2008-01-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -71192,7 +71948,8 @@ export const realPremierPlayers = [
     "name": "Tammy Abraham",
     "position": "FWD",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1997-10-02",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -71286,7 +72043,8 @@ export const realPremierPlayers = [
     "name": "Tanaka Ao",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "1998-09-10",
+    "nationality": "Japan",
     "competitionIds": [
       "premier"
     ],
@@ -71380,6 +72138,7 @@ export const realPremierPlayers = [
     "name": "Tariq Lamptey",
     "position": "DEF",
     "teamId": "fpl-team-6",
+    "birthDate": "2000-09-30",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -71474,7 +72233,8 @@ export const realPremierPlayers = [
     "name": "Tawanda Chirewa",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2003-10-12",
+    "nationality": "Zimbabwe",
     "competitionIds": [
       "premier"
     ],
@@ -71568,6 +72328,7 @@ export const realPremierPlayers = [
     "name": "Teddy Sharman-Lowe",
     "position": "GK",
     "teamId": "fpl-team-7",
+    "birthDate": "2003-03-30",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -71662,6 +72423,7 @@ export const realPremierPlayers = [
     "name": "Temple Ojinnaka",
     "position": "MID",
     "teamId": "fpl-team-20",
+    "birthDate": "2005-03-30",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -71756,7 +72518,8 @@ export const realPremierPlayers = [
     "name": "Thierno Barry",
     "position": "FWD",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2002-10-21",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -71850,7 +72613,8 @@ export const realPremierPlayers = [
     "name": "Tijjani Reijnders",
     "position": "MID",
     "teamId": "fpl-team-13",
-    "nationality": "Unknown",
+    "birthDate": "1998-07-29",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -71944,7 +72708,8 @@ export const realPremierPlayers = [
     "name": "Tim Iroegbunam",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2003-06-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -72038,6 +72803,7 @@ export const realPremierPlayers = [
     "name": "Timothée Pembélé",
     "position": "DEF",
     "teamId": "fpl-team-17",
+    "birthDate": "2002-09-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -72132,7 +72898,8 @@ export const realPremierPlayers = [
     "name": "Timothy Castagne",
     "position": "DEF",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1995-12-05",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -72226,7 +72993,8 @@ export const realPremierPlayers = [
     "name": "Tino Livramento",
     "position": "DEF",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2002-11-12",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -72320,6 +73088,7 @@ export const realPremierPlayers = [
     "name": "TJ Carroll",
     "position": "DEF",
     "teamId": "fpl-team-2",
+    "birthDate": "2007-03-22",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -72414,6 +73183,7 @@ export const realPremierPlayers = [
     "name": "Toby Collyer",
     "position": "MID",
     "teamId": "fpl-team-14",
+    "birthDate": "2004-01-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -72508,7 +73278,8 @@ export const realPremierPlayers = [
     "name": "Tolu Arokodare",
     "position": "FWD",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2000-11-23",
+    "nationality": "Nigeria",
     "competitionIds": [
       "premier"
     ],
@@ -72602,7 +73373,8 @@ export const realPremierPlayers = [
     "name": "Tom Cairney",
     "position": "MID",
     "teamId": "fpl-team-10",
-    "nationality": "Unknown",
+    "birthDate": "1991-01-20",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -72696,7 +73468,8 @@ export const realPremierPlayers = [
     "name": "Tom Edozie",
     "position": "MID",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2006-05-18",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -72790,6 +73563,7 @@ export const realPremierPlayers = [
     "name": "Tom Heaton",
     "position": "GK",
     "teamId": "fpl-team-14",
+    "birthDate": "1986-04-15",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -72884,6 +73658,7 @@ export const realPremierPlayers = [
     "name": "Tom King",
     "position": "GK",
     "teamId": "fpl-team-9",
+    "birthDate": "1995-03-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -72978,6 +73753,7 @@ export const realPremierPlayers = [
     "name": "Tom McGill",
     "position": "GK",
     "teamId": "fpl-team-6",
+    "birthDate": "2000-03-25",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -73072,7 +73848,8 @@ export const realPremierPlayers = [
     "name": "Tom Watson",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2006-04-08",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -73166,7 +73943,8 @@ export const realPremierPlayers = [
     "name": "Tomáš Souček",
     "position": "MID",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1995-02-27",
+    "nationality": "Czech Republic",
     "competitionIds": [
       "premier"
     ],
@@ -73260,6 +74038,7 @@ export const realPremierPlayers = [
     "name": "Tommy Setford",
     "position": "GK",
     "teamId": "fpl-team-1",
+    "birthDate": "2006-03-13",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -73354,7 +74133,8 @@ export const realPremierPlayers = [
     "name": "Tosin Adarabioyo",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "1997-09-24",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -73448,7 +74228,8 @@ export const realPremierPlayers = [
     "name": "Toti Gomes",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "1999-01-16",
+    "nationality": "Portugal",
     "competitionIds": [
       "premier"
     ],
@@ -73542,7 +74323,8 @@ export const realPremierPlayers = [
     "name": "Trai Hume",
     "position": "DEF",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2002-03-18",
+    "nationality": "Northern Ireland",
     "competitionIds": [
       "premier"
     ],
@@ -73636,6 +74418,7 @@ export const realPremierPlayers = [
     "name": "Travis Patterson",
     "position": "DEF",
     "teamId": "fpl-team-2",
+    "birthDate": "2005-10-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -73730,7 +74513,8 @@ export const realPremierPlayers = [
     "name": "Trevoh Chalobah",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "1999-07-05",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -73824,7 +74608,8 @@ export const realPremierPlayers = [
     "name": "Trey Nyoni",
     "position": "MID",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "2007-06-30",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -73918,6 +74703,7 @@ export const realPremierPlayers = [
     "name": "Triston Rowe",
     "position": "DEF",
     "teamId": "fpl-team-2",
+    "birthDate": "2006-10-02",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -74012,7 +74798,8 @@ export const realPremierPlayers = [
     "name": "Tyler Adams",
     "position": "MID",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "1999-02-14",
+    "nationality": "United States",
     "competitionIds": [
       "premier"
     ],
@@ -74106,7 +74893,8 @@ export const realPremierPlayers = [
     "name": "Tyler Dibling",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2006-02-17",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -74200,7 +74988,8 @@ export const realPremierPlayers = [
     "name": "Tyler Fletcher",
     "position": "MID",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2007-03-19",
+    "nationality": "Scotland",
     "competitionIds": [
       "premier"
     ],
@@ -74294,7 +75083,8 @@ export const realPremierPlayers = [
     "name": "Tyler Fredricson",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "2005-02-23",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -74388,6 +75178,7 @@ export const realPremierPlayers = [
     "name": "Tyler Morton",
     "position": "MID",
     "teamId": "fpl-team-12",
+    "birthDate": "2002-10-31",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -74482,6 +75273,7 @@ export const realPremierPlayers = [
     "name": "Tyler Onyango",
     "position": "MID",
     "teamId": "fpl-team-9",
+    "birthDate": "2003-03-04",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -74576,6 +75368,7 @@ export const realPremierPlayers = [
     "name": "Tymur Tutierov",
     "position": "MID",
     "teamId": "fpl-team-17",
+    "birthDate": "2005-06-11",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -74670,7 +75463,8 @@ export const realPremierPlayers = [
     "name": "Tyrell Malacia",
     "position": "DEF",
     "teamId": "fpl-team-14",
-    "nationality": "Unknown",
+    "birthDate": "1999-08-17",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -74764,7 +75558,8 @@ export const realPremierPlayers = [
     "name": "Tyrick Mitchell",
     "position": "DEF",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1999-09-01",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -74858,7 +75653,8 @@ export const realPremierPlayers = [
     "name": "Tyrique George",
     "position": "MID",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "2006-02-04",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -74952,7 +75748,8 @@ export const realPremierPlayers = [
     "name": "Tyrone Mings",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1993-03-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -75046,6 +75843,7 @@ export const realPremierPlayers = [
     "name": "Václav Hladký",
     "position": "GK",
     "teamId": "fpl-team-3",
+    "birthDate": "1990-11-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -75140,7 +75938,8 @@ export const realPremierPlayers = [
     "name": "Valentín Castellanos",
     "position": "FWD",
     "teamId": "fpl-team-19",
-    "nationality": "Unknown",
+    "birthDate": "1998-10-03",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -75234,7 +76033,8 @@ export const realPremierPlayers = [
     "name": "Veljko Milosavljevic",
     "position": "DEF",
     "teamId": "fpl-team-4",
-    "nationality": "Unknown",
+    "birthDate": "2007-06-28",
+    "nationality": "Serbia",
     "competitionIds": [
       "premier"
     ],
@@ -75328,7 +76128,8 @@ export const realPremierPlayers = [
     "name": "Victor Lindelöf",
     "position": "DEF",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1994-07-17",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -75422,7 +76223,8 @@ export const realPremierPlayers = [
     "name": "Viktor Gyökeres",
     "position": "FWD",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "1998-06-04",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -75516,7 +76318,8 @@ export const realPremierPlayers = [
     "name": "Virgil van Dijk",
     "position": "DEF",
     "teamId": "fpl-team-12",
-    "nationality": "Unknown",
+    "birthDate": "1991-07-08",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -75610,7 +76413,8 @@ export const realPremierPlayers = [
     "name": "Vitalii Mykolenko",
     "position": "DEF",
     "teamId": "fpl-team-9",
-    "nationality": "Unknown",
+    "birthDate": "1999-05-29",
+    "nationality": "Ukraine",
     "competitionIds": [
       "premier"
     ],
@@ -75704,7 +76508,8 @@ export const realPremierPlayers = [
     "name": "Vitaly Janelt",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "1998-05-10",
+    "nationality": "Germany",
     "competitionIds": [
       "premier"
     ],
@@ -75798,6 +76603,7 @@ export const realPremierPlayers = [
     "name": "Vitor de Oliveira Nunes dos Reis",
     "position": "DEF",
     "teamId": "fpl-team-13",
+    "birthDate": "2006-01-12",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -75892,7 +76698,8 @@ export const realPremierPlayers = [
     "name": "Walter Benítez",
     "position": "GK",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1993-01-19",
+    "nationality": "Argentina",
     "competitionIds": [
       "premier"
     ],
@@ -75986,6 +76793,7 @@ export const realPremierPlayers = [
     "name": "Wellity Lucky",
     "position": "DEF",
     "teamId": "fpl-team-12",
+    "birthDate": "2006-01-12",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -76080,6 +76888,7 @@ export const realPremierPlayers = [
     "name": "Wes Foderingham",
     "position": "GK",
     "teamId": "fpl-team-19",
+    "birthDate": "1991-01-14",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -76174,7 +76983,8 @@ export const realPremierPlayers = [
     "name": "Wesley Fofana",
     "position": "DEF",
     "teamId": "fpl-team-7",
-    "nationality": "Unknown",
+    "birthDate": "2000-12-17",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -76268,7 +77078,8 @@ export const realPremierPlayers = [
     "name": "Wilfried Gnonto",
     "position": "MID",
     "teamId": "fpl-team-11",
-    "nationality": "Unknown",
+    "birthDate": "2003-11-05",
+    "nationality": "Italy",
     "competitionIds": [
       "premier"
     ],
@@ -76362,6 +77173,7 @@ export const realPremierPlayers = [
     "name": "Will Dennis",
     "position": "GK",
     "teamId": "fpl-team-4",
+    "birthDate": "2000-07-10",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -76456,7 +77268,8 @@ export const realPremierPlayers = [
     "name": "Will Hughes",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "1995-04-17",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -76550,6 +77363,7 @@ export const realPremierPlayers = [
     "name": "Will Lankshear",
     "position": "FWD",
     "teamId": "fpl-team-18",
+    "birthDate": "2005-04-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -76644,6 +77458,7 @@ export const realPremierPlayers = [
     "name": "Will Wright",
     "position": "FWD",
     "teamId": "fpl-team-12",
+    "birthDate": "2008-01-01",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -76738,7 +77553,8 @@ export const realPremierPlayers = [
     "name": "William Osula",
     "position": "FWD",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "2003-08-04",
+    "nationality": "Denmark",
     "competitionIds": [
       "premier"
     ],
@@ -76832,7 +77648,8 @@ export const realPremierPlayers = [
     "name": "William Saliba",
     "position": "DEF",
     "teamId": "fpl-team-1",
-    "nationality": "Unknown",
+    "birthDate": "2001-03-24",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -76926,6 +77743,7 @@ export const realPremierPlayers = [
     "name": "Willy Boly",
     "position": "DEF",
     "teamId": "fpl-team-16",
+    "birthDate": "1991-02-03",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -77020,7 +77838,8 @@ export const realPremierPlayers = [
     "name": "Wilson Isidor",
     "position": "FWD",
     "teamId": "fpl-team-17",
-    "nationality": "Unknown",
+    "birthDate": "2000-08-27",
+    "nationality": "Haiti",
     "competitionIds": [
       "premier"
     ],
@@ -77114,7 +77933,8 @@ export const realPremierPlayers = [
     "name": "Wilson Odobert",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2004-11-28",
+    "nationality": "France",
     "competitionIds": [
       "premier"
     ],
@@ -77208,7 +78028,8 @@ export const realPremierPlayers = [
     "name": "Xavi Simons",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "2003-04-21",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],
@@ -77302,6 +78123,7 @@ export const realPremierPlayers = [
     "name": "Yang Min-hyeok",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "2006-04-16",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -77396,7 +78218,8 @@ export const realPremierPlayers = [
     "name": "Yankuba Minteh",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2004-07-22",
+    "nationality": "Gambia",
     "competitionIds": [
       "premier"
     ],
@@ -77490,7 +78313,8 @@ export const realPremierPlayers = [
     "name": "Yasin Ayari",
     "position": "MID",
     "teamId": "fpl-team-6",
-    "nationality": "Unknown",
+    "birthDate": "2003-10-06",
+    "nationality": "Sweden",
     "competitionIds": [
       "premier"
     ],
@@ -77584,6 +78408,7 @@ export const realPremierPlayers = [
     "name": "Yasin Özcan",
     "position": "DEF",
     "teamId": "fpl-team-2",
+    "birthDate": "2006-04-20",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -77678,7 +78503,8 @@ export const realPremierPlayers = [
     "name": "Yehor Yarmoliuk",
     "position": "MID",
     "teamId": "fpl-team-5",
-    "nationality": "Unknown",
+    "birthDate": "2004-03-01",
+    "nationality": "Ukraine",
     "competitionIds": [
       "premier"
     ],
@@ -77772,7 +78598,8 @@ export const realPremierPlayers = [
     "name": "Yéremy Pino Santos",
     "position": "MID",
     "teamId": "fpl-team-8",
-    "nationality": "Unknown",
+    "birthDate": "2002-10-20",
+    "nationality": "Spain",
     "competitionIds": [
       "premier"
     ],
@@ -77866,7 +78693,8 @@ export const realPremierPlayers = [
     "name": "Yerson Mosquera Valdelamar",
     "position": "DEF",
     "teamId": "fpl-team-20",
-    "nationality": "Unknown",
+    "birthDate": "2001-05-02",
+    "nationality": "Colombia",
     "competitionIds": [
       "premier"
     ],
@@ -77960,7 +78788,8 @@ export const realPremierPlayers = [
     "name": "Yoane Wissa",
     "position": "FWD",
     "teamId": "fpl-team-15",
-    "nationality": "Unknown",
+    "birthDate": "1996-09-03",
+    "nationality": "DR Congo",
     "competitionIds": [
       "premier"
     ],
@@ -78054,7 +78883,8 @@ export const realPremierPlayers = [
     "name": "Youri Tielemans",
     "position": "MID",
     "teamId": "fpl-team-2",
-    "nationality": "Unknown",
+    "birthDate": "1997-05-07",
+    "nationality": "Belgium",
     "competitionIds": [
       "premier"
     ],
@@ -78148,6 +78978,7 @@ export const realPremierPlayers = [
     "name": "Youssef Ramalho Chermiti",
     "position": "FWD",
     "teamId": "fpl-team-9",
+    "birthDate": "2004-05-24",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -78242,6 +79073,7 @@ export const realPremierPlayers = [
     "name": "Yunus Emre Konak",
     "position": "MID",
     "teamId": "fpl-team-5",
+    "birthDate": "2006-01-10",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -78336,6 +79168,7 @@ export const realPremierPlayers = [
     "name": "Yusuf Akhamrich",
     "position": "MID",
     "teamId": "fpl-team-18",
+    "birthDate": "2005-09-05",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -78430,7 +79263,8 @@ export const realPremierPlayers = [
     "name": "Yves Bissouma",
     "position": "MID",
     "teamId": "fpl-team-18",
-    "nationality": "Unknown",
+    "birthDate": "1996-08-30",
+    "nationality": "Mali",
     "competitionIds": [
       "premier"
     ],
@@ -78524,7 +79358,8 @@ export const realPremierPlayers = [
     "name": "Zach Abbott",
     "position": "DEF",
     "teamId": "fpl-team-16",
-    "nationality": "Unknown",
+    "birthDate": "2006-05-13",
+    "nationality": "England",
     "competitionIds": [
       "premier"
     ],
@@ -78618,6 +79453,7 @@ export const realPremierPlayers = [
     "name": "Zach Marsh",
     "position": "FWD",
     "teamId": "fpl-team-8",
+    "birthDate": "2005-10-06",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -78712,6 +79548,7 @@ export const realPremierPlayers = [
     "name": "Zain Silcott-Duberry",
     "position": "MID",
     "teamId": "fpl-team-4",
+    "birthDate": "2005-07-09",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -78806,6 +79643,7 @@ export const realPremierPlayers = [
     "name": "Zak Johnson",
     "position": "DEF",
     "teamId": "fpl-team-17",
+    "birthDate": "2004-07-30",
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -78900,7 +79738,8 @@ export const realPremierPlayers = [
     "name": "Zeki Amdouni",
     "position": "FWD",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "2000-12-04",
+    "nationality": "Switzerland",
     "competitionIds": [
       "premier"
     ],
@@ -78994,6 +79833,7 @@ export const realPremierPlayers = [
     "name": "Zépiqueno Redmond",
     "position": "FWD",
     "teamId": "fpl-team-2",
+    "birthDate": null,
     "nationality": "Unknown",
     "competitionIds": [
       "premier"
@@ -79088,7 +79928,8 @@ export const realPremierPlayers = [
     "name": "Zian Flemming",
     "position": "FWD",
     "teamId": "fpl-team-3",
-    "nationality": "Unknown",
+    "birthDate": "1998-08-01",
+    "nationality": "Netherlands",
     "competitionIds": [
       "premier"
     ],

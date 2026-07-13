@@ -118,9 +118,7 @@ export default function MarketPage() {
         setMarketError(cause instanceof Error ? cause.message : 'The live market could not be loaded.');
         setMarketState('unavailable');
       });
-    return () => {
-      active = false;
-    };
+    return () => { active = false; };
   }, [state.selectedLeagueId, currentClub.id, syncServerMarket]);
 
   const visiblePlayers = useMemo(() => {
@@ -173,18 +171,11 @@ export default function MarketPage() {
 
   async function confirmAction() {
     if (!selected) return;
-    if (marketState !== 'ready') {
-      setMarketError('The live player catalogue is not ready yet. Refresh player profiles from Control room first.');
-      return;
-    }
+    if (marketState !== 'ready') return;
     setSubmittingOperation(true);
     try {
       const owned = selected.ownershipClubId !== currentClub.id;
-      const balanceMinor = await runServerMarketOperation(
-        owned ? 'purchase' : 'release',
-        currentClub.id,
-        selected.id
-      );
+      const balanceMinor = await runServerMarketOperation(owned ? 'purchase' : 'release', currentClub.id, selected.id);
       commitServerMarketOperation(selected.id, owned, balanceMinor);
       setSelected(null);
     } catch (cause) {
@@ -199,8 +190,8 @@ export default function MarketPage() {
       <PageHeader
         eyebrow="Transfer centre"
         title="Player market"
-        description="Browse the real-player catalogue and plan your squad. Signings, releases, balances and ownership are confirmed by the private-league server."
-        action={<StatusBadge kind={marketState === 'ready' ? 'success' : 'warning'}>{marketState === 'ready' ? 'Live market' : 'Preparing market'}</StatusBadge>}
+        description="Browse the permanent real-player catalogue and build your squad. Every signing is checked and saved by your private league server."
+        action={<StatusBadge kind={marketState === 'ready' ? 'success' : 'warning'}>{marketState === 'ready' ? 'Market open' : 'Loading market'}</StatusBadge>}
       />
       {marketError ? <p className="mb-4 rounded-xl border border-danger/30 bg-danger/[0.08] p-3 text-xs leading-5 text-[#ffc1c1]">{marketError}</p> : null}
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">

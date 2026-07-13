@@ -27,12 +27,9 @@ export function ResumeClub({ children }: PropsWithChildren) {
           return;
         }
         hydrateClub(saved.club, saved.leagueId, saved.leagueName, true);
-        try {
-          const market = await loadServerMarket(saved.leagueId, saved.club.id);
-          syncServerMarket(market.players, market.balanceMinor);
-        } catch {
-          // The league can still open before its catalogue has been enriched for the first time.
-        }
+        const market = await loadServerMarket(saved.leagueId, saved.club.id);
+        if (!active) return;
+        syncServerMarket(market.players, market.balanceMinor);
         rememberLastLeague(data.user.id, saved.leagueId);
         setResumeState('ready');
       } catch (cause) {

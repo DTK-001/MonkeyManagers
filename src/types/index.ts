@@ -11,9 +11,10 @@ export interface DemoTeam {
 export interface DemoPlayer {
   id: string;
   name: string;
-  position: Position;
-  teamId: string;
-  nationality: string;
+    position: Position;
+    teamId: string;
+    birthDate: string | null;
+    nationality: string;
   competitionIds: string[];
   valueMinor: number;
   previousValueMinor: number;
