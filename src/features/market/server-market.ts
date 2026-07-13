@@ -23,18 +23,15 @@ export async function loadServerMarket(
     throw new Error('The live player catalogue is not ready. Refresh player profiles from Control room first.');
   }
 
-  const realPlayerIds = profiles.flatMap((profile) =>
-    profile.real_player_id ? [String(profile.real_player_id)] : []
-  );
-  const { data: ownerships, error: ownershipError } = realPlayerIds.length
-    ? await supabase
-        .from('player_ownerships')
-        .select('real_player_id,fantasy_club_id')
-        .eq('league_id', leagueId)
-        .eq('status', 'active')
-        .is('ended_at', null)
-        .in('real_player_id', realPlayerIds)
-    : { data: [], error: null };
+  // Query the league's active ownerships rather than encoding every catalogue UUID into
+  // an `in` filter. The permanent catalogue contains hundreds of players and that URL
+  // can exceed the REST gateway's request limit.
+  const { data: ownerships, error: ownershipError } = await supabase
+    .from('player_ownerships')
+    .select('real_player_id,fantasy_club_id')
+    .eq('league_id', leagueId)
+    .eq('status', 'active')
+    .is('ended_at', null);
   if (ownershipError) throw ownershipError;
 
   const { data: club, error: clubError } = await supabase
