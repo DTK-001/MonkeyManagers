@@ -1,24 +1,83 @@
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Copy, Plus, ShieldCheck, Trophy, UserPlus, UsersRound } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useDemo } from '../../app/demo-store';
 import { ClubBadge } from '../../components/ClubBadge';
 import { formatMoney, formatPoints } from '../../lib/format';
 import { supabase } from '../../lib/supabase';
+import type { DemoClub } from '../../types';
 import { PageHeader, StatusBadge } from '../../components/ui';
 
 type InviteResponse = { code: string };
+type LeagueClub = DemoClub & { squadValueMinor: number };
+
+function badgeFromConfig(value: unknown): Pick<DemoClub, 'badgeShape' | 'badgePattern' | 'badgeSymbol'> {
+  const config = value && typeof value === 'object' && !Array.isArray(value)
+    ? value as Record<string, unknown>
+    : {};
+  return {
+    badgeShape: config.shape === 'round' || config.shape === 'pennant' ? config.shape : 'shield',
+    badgePattern: config.pattern === 'stripes' || config.pattern === 'split' ? config.pattern : 'sash',
+    badgeSymbol: config.symbol === 'ball' || config.symbol === 'crown' ? config.symbol : 'star'
+  };
+}
 
 export default function LeaguePage() {
   const { state, currentClub } = useDemo();
   const [inviteCode, setInviteCode] = useState<string | null>(null);
   const [inviteStatus, setInviteStatus] = useState<string | null>(null);
   const [creatingInvite, setCreatingInvite] = useState(false);
-  const sorted = [...state.clubs].sort(
+  const [leagueClubs, setLeagueClubs] = useState<LeagueClub[] | null>(null);
+  const fallbackClubs = useMemo<LeagueClub[]>(
+    () => state.clubs.map((club) => ({
+      ...club,
+      squadValueMinor: state.players
+        .filter((player) => player.ownershipClubId === club.id)
+        .reduce((sum, player) => sum + player.valueMinor, 0)
+    })),
+    [state.clubs, state.players]
+  );
+  const sorted = [...(leagueClubs ?? fallbackClubs)].sort(
     (a, b) => b.totalPoints - a.totalPoints || a.name.localeCompare(b.name)
   );
   const scoringStarted = sorted.some((club) => club.totalPoints > 0);
   const canCreateInvite = Boolean(supabase && state.selectedLeagueId !== 'league-pending');
+
+  useEffect(() => {
+    let active = true;
+    if (!supabase || state.selectedLeagueId === 'league-pending') {
+      setLeagueClubs(null);
+      return;
+    }
+    void supabase
+      .from('fantasy_clubs')
+      .select('id,name,abbreviation,manager_display_name,stadium_name,motto,primary_colour,secondary_colour,accent_colour,badge_config,available_balance_minor,squad_book_value_minor')
+      .eq('league_id', state.selectedLeagueId)
+      .then(({ data, error }) => {
+        if (!active || error || !data) return;
+        setLeagueClubs(data.map((club) => ({
+          id: String(club.id),
+          name: String(club.name),
+          abbreviation: String(club.abbreviation),
+          manager: String(club.manager_display_name),
+          stadium: String(club.stadium_name),
+          motto: club.motto ?? '',
+          primary: String(club.primary_colour),
+          secondary: String(club.secondary_colour),
+          accent: String(club.accent_colour),
+          ...badgeFromConfig(club.badge_config),
+          budgetMinor: Number(club.available_balance_minor),
+          squadValueMinor: Number(club.squad_book_value_minor),
+          totalPoints: 0,
+          latestRoundPoints: 0,
+          competitionWins: 0,
+          highestRoundScore: 0,
+          rank: 0,
+          form: []
+        })));
+      });
+    return () => { active = false; };
+  }, [state.selectedLeagueId]);
 
   async function createInvite() {
     if (!supabase || !canCreateInvite) {
@@ -95,9 +154,6 @@ export default function LeaguePage() {
           <span className="text-right">Points</span>
         </div>
         {sorted.map((club, index) => {
-          const squadValue = state.players
-            .filter((player) => player.ownershipClubId === club.id)
-            .reduce((sum, player) => sum + player.valueMinor, 0);
           return (
             <article
               key={club.id}
@@ -117,7 +173,7 @@ export default function LeaguePage() {
                 </div>
               </div>
               <span className="hidden text-xs md:block">{formatMoney(club.budgetMinor)}</span>
-              <span className="hidden text-xs md:block">{formatMoney(squadValue)}</span>
+              <span className="hidden text-xs md:block">{formatMoney(club.squadValueMinor)}</span>
               <span className="text-right font-display text-xl font-bold">
                 {formatPoints(club.totalPoints)}
               </span>
