@@ -69,6 +69,19 @@ function competitionLabel(competitionId: string): string {
   return competitionId === 'premier' ? 'Premier League' : competitionId;
 }
 
+function errorMessage(cause: unknown, fallback: string): string {
+  if (cause instanceof Error) return cause.message;
+  if (
+    typeof cause === 'object' &&
+    cause !== null &&
+    'message' in cause &&
+    typeof cause.message === 'string'
+  ) {
+    return cause.message;
+  }
+  return fallback;
+}
+
 export default function MarketPage() {
   const { state, currentClub, syncServerMarket, commitServerMarketOperation } = useDemo();
   const location = useLocation();
@@ -115,7 +128,7 @@ export default function MarketPage() {
       })
       .catch((cause: unknown) => {
         if (!active) return;
-        setMarketError(cause instanceof Error ? cause.message : 'The live market could not be loaded.');
+        setMarketError(errorMessage(cause, 'The live market could not be loaded.'));
         setMarketState('unavailable');
       });
     return () => {
@@ -188,7 +201,7 @@ export default function MarketPage() {
       commitServerMarketOperation(selected.id, owned, balanceMinor);
       setSelected(null);
     } catch (cause) {
-      setMarketError(cause instanceof Error ? cause.message : 'The market operation could not be completed.');
+      setMarketError(errorMessage(cause, 'The market operation could not be completed.'));
     } finally {
       setSubmittingOperation(false);
     }
