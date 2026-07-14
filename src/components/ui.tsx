@@ -15,15 +15,15 @@ export function PageHeader({
   action?: ReactNode;
 }) {
   return (
-    <header className="mb-6 flex items-end justify-between gap-4 sm:mb-8">
-      <div>
+    <header className="mb-6 flex flex-col items-stretch gap-4 sm:mb-8 sm:flex-row sm:items-end sm:justify-between">
+      <div className="min-w-0">
         <p className="eyebrow mb-2">{eyebrow}</p>
         <h1 className="display-title">{title}</h1>
         {description ? (
           <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">{description}</p>
         ) : null}
       </div>
-      {action ? <div className="shrink-0">{action}</div> : null}
+      {action ? <div className="w-full shrink-0 sm:w-auto">{action}</div> : null}
     </header>
   );
 }

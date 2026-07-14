@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
   BarChart3,
@@ -27,7 +27,7 @@ const primaryNav = [
 ];
 
 export function AppShell() {
-  const { state, currentClub, clearMessage } = useDemo();
+  const { state, currentClub, clearMessage, restoreSavedLineup } = useDemo();
   const location = useLocation();
   const [activityOpen, setActivityOpen] = useState(false);
   const recentActivity = useMemo(
@@ -42,6 +42,10 @@ export function AppShell() {
     window.scrollTo({ top: 0, behavior: 'instant' });
     setActivityOpen(false);
   }, [location.pathname]);
+
+  useLayoutEffect(() => {
+    if (location.pathname === '/app/squad') restoreSavedLineup();
+  }, [location.pathname, restoreSavedLineup]);
 
   useEffect(() => {
     if (!state.message) return undefined;

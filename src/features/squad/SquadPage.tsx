@@ -118,7 +118,7 @@ export default function SquadPage() {
         title="Your squad"
         description="Choose your squad now. A competition round and deadline will appear once your league schedule is configured."
         action={
-          <div className="flex flex-col items-end gap-2 sm:flex-row sm:items-center">
+          <div className="flex w-full flex-col items-stretch gap-2 sm:w-auto sm:flex-row sm:items-center">
             <StatusBadge kind={state.lastLineupSavedAt ? 'success' : 'muted'}>
               {state.lastLineupSavedAt ? 'Team saved' : 'No deadline set'}
             </StatusBadge>
