@@ -58,6 +58,7 @@ export const createInitialDemoState = (): DemoState => ({
   captainId: null,
   viceCaptainId: null,
   lastLineupSavedAt: null,
+  savedLineup: null,
   activity: demoActivity,
   lastUpdated: new Date().toISOString(),
   marketOpen: true,

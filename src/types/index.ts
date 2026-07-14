@@ -122,6 +122,14 @@ export interface ActivityItem {
   private?: boolean;
 }
 
+export interface SavedLineup {
+  starters: string[];
+  bench: string[];
+  captainId: string;
+  viceCaptainId: string;
+  savedAt: string;
+}
+
 export interface DemoState {
   demoActive: boolean;
   selectedLeagueId: string;
@@ -136,6 +144,7 @@ export interface DemoState {
   captainId: string | null;
   viceCaptainId: string | null;
   lastLineupSavedAt: string | null;
+  savedLineup: SavedLineup | null;
   activity: ActivityItem[];
   lastUpdated: string;
   marketOpen: boolean;

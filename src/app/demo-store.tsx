@@ -25,6 +25,7 @@ type DemoAction =
   | { type: 'SET_CAPTAIN'; playerId: string }
   | { type: 'SET_VICE_CAPTAIN'; playerId: string }
   | { type: 'SAVE_LINEUP' }
+  | { type: 'RESTORE_SAVED_LINEUP' }
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
   | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string; resumed: boolean }
   | { type: 'SYNC_SERVER_MARKET'; players: ServerMarketPlayer[]; balanceMinor: number }
@@ -137,6 +138,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         captainId: state.captainId === player.id ? null : state.captainId,
         viceCaptainId: state.viceCaptainId === player.id ? null : state.viceCaptainId,
         lastLineupSavedAt: null,
+        savedLineup: null,
         activity: [
           {
             id: activityId(),
@@ -255,10 +257,45 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
           message: { kind: 'error', text: 'Choose both a captain and vice-captain.' }
         };
       }
+      const savedAt = new Date().toISOString();
       return {
         ...state,
-        lastLineupSavedAt: new Date().toISOString(),
+        lastLineupSavedAt: savedAt,
+        savedLineup: {
+          starters: [...state.starters],
+          bench: [...state.bench],
+          captainId: state.captainId,
+          viceCaptainId: state.viceCaptainId,
+          savedAt
+        },
         message: { kind: 'success', text: 'Lineup saved for Crown Premier Division · Round 9.' }
+      };
+    }
+    case 'RESTORE_SAVED_LINEUP': {
+      const savedLineup = state.savedLineup;
+      if (!savedLineup) return state;
+      const savedPlayerIds = [
+        ...savedLineup.starters,
+        ...savedLineup.bench,
+        savedLineup.captainId,
+        savedLineup.viceCaptainId
+      ];
+      const hasUnavailablePlayer = savedPlayerIds.some(
+        (playerId) =>
+          !state.players.some(
+            (player) => player.id === playerId && player.ownershipClubId === state.currentClubId
+          )
+      );
+      if (hasUnavailablePlayer) {
+        return { ...state, savedLineup: null, lastLineupSavedAt: null };
+      }
+      return {
+        ...state,
+        starters: [...savedLineup.starters],
+        bench: [...savedLineup.bench],
+        captainId: savedLineup.captainId,
+        viceCaptainId: savedLineup.viceCaptainId,
+        lastLineupSavedAt: savedLineup.savedAt
       };
     }
     case 'UPDATE_CLUB':
@@ -290,6 +327,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         captainId: null,
         viceCaptainId: null,
         lastLineupSavedAt: null,
+        savedLineup: null,
         activity: [],
         lastUpdated: new Date().toISOString(),
         message: {
@@ -345,7 +383,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         captainId: action.owned || state.captainId !== action.playerId ? state.captainId : null,
         viceCaptainId:
           action.owned || state.viceCaptainId !== action.playerId ? state.viceCaptainId : null,
-        lastLineupSavedAt: null
+        lastLineupSavedAt: null,
+        savedLineup: action.owned ? state.savedLineup : null
       };
     case 'CLEAR_MESSAGE':
       return { ...state, message: null };
@@ -421,6 +460,15 @@ function loadState(): DemoState {
       bench: Array.isArray(restored.bench) ? restored.bench : initial.bench,
       lastLineupSavedAt:
         typeof restored.lastLineupSavedAt === 'string' ? restored.lastLineupSavedAt : null,
+      savedLineup:
+        restored.savedLineup &&
+        Array.isArray(restored.savedLineup.starters) &&
+        Array.isArray(restored.savedLineup.bench) &&
+        typeof restored.savedLineup.captainId === 'string' &&
+        typeof restored.savedLineup.viceCaptainId === 'string' &&
+        typeof restored.savedLineup.savedAt === 'string'
+          ? restored.savedLineup
+          : null,
       activity: Array.isArray(restored.activity) ? restored.activity : initial.activity,
       selectedLeagueId:
         restored.selectedLeagueId && restored.selectedLeagueId !== currentClub?.id
@@ -445,6 +493,7 @@ interface DemoContextValue {
   setCaptain: (playerId: string) => void;
   setViceCaptain: (playerId: string) => void;
   saveLineup: () => void;
+  restoreSavedLineup: () => void;
   updateClub: (values: Partial<DemoClub>) => void;
   clearMessage: () => void;
   syncServerMarket: (players: ServerMarketPlayer[], balanceMinor: number) => void;
@@ -463,6 +512,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
   const startSession = useCallback(() => dispatch({ type: 'START_SESSION' }), []);
   const resetDemo = useCallback(() => dispatch({ type: 'RESET_DEMO' }), []);
   const saveLineup = useCallback(() => dispatch({ type: 'SAVE_LINEUP' }), []);
+  const restoreSavedLineup = useCallback(() => dispatch({ type: 'RESTORE_SAVED_LINEUP' }), []);
   const clearMessage = useCallback(() => dispatch({ type: 'CLEAR_MESSAGE' }), []);
   const hydrateClub = useCallback(
     (club: DemoClub, leagueId: string, leagueName: string, resumed = false) =>
@@ -493,6 +543,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
       setCaptain: (playerId) => dispatch({ type: 'SET_CAPTAIN', playerId }),
       setViceCaptain: (playerId) => dispatch({ type: 'SET_VICE_CAPTAIN', playerId }),
       saveLineup,
+      restoreSavedLineup,
       updateClub: (values) => dispatch({ type: 'UPDATE_CLUB', values }),
       clearMessage,
       syncServerMarket,
@@ -504,6 +555,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
       startSession,
       resetDemo,
       saveLineup,
+      restoreSavedLineup,
       clearMessage,
       hydrateClub,
       syncServerMarket,

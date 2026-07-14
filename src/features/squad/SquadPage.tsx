@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   Check,
   ChevronDown,
@@ -44,9 +44,22 @@ const compactLineGaps: Record<number, string> = {
 };
 
 export default function SquadPage() {
-  const { state, currentClub, toggleStarter, setCaptain, setViceCaptain, saveLineup } = useDemo();
+  const {
+    state,
+    currentClub,
+    toggleStarter,
+    setCaptain,
+    setViceCaptain,
+    saveLineup,
+    restoreSavedLineup
+  } = useDemo();
   const [view, setView] = useState<'pitch' | 'list'>('pitch');
   const [addingPosition, setAddingPosition] = useState<Position | null>(null);
+
+  useEffect(() => {
+    restoreSavedLineup();
+  }, [restoreSavedLineup]);
+
   const squad = state.players.filter((player) => player.ownershipClubId === currentClub.id);
   const starters = state.starters
     .map((id) => state.players.find((player) => player.id === id))
