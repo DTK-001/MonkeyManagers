@@ -305,10 +305,10 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
       if (hasUnavailablePlayer) {
         return {
           ...state,
-          savedLineups: state.savedLineups.filter((lineup) => lineup.id !== savedLineup.id),
-          activeSavedLineupId:
-            state.activeSavedLineupId === savedLineup.id ? null : state.activeSavedLineupId,
-          lastLineupSavedAt: null
+          message: {
+            kind: 'error',
+            text: 'This saved formation cannot be loaded until your squad has finished syncing.'
+          }
         };
       }
       return {
@@ -350,8 +350,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         captainId: null,
         viceCaptainId: null,
         lastLineupSavedAt: null,
-        savedLineups: [],
-        activeSavedLineupId: null,
+        savedLineups: action.resumed ? state.savedLineups : [],
+        activeSavedLineupId: action.resumed ? state.activeSavedLineupId : null,
         activity: [],
         lastUpdated: new Date().toISOString(),
         message: {
