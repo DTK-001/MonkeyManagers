@@ -43,6 +43,8 @@ type ServerMarketPlayer = {
   ownerClubId: string | null;
   valueMinor: number;
   previousValueMinor: number;
+  birthDate: string | null;
+  nationality: string | null;
 };
 
 function activityId(): string {
@@ -375,7 +377,9 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
                 realPlayerId: serverPlayer.realPlayerId,
                 ownershipClubId: serverPlayer.ownerClubId,
                 valueMinor: serverPlayer.valueMinor,
-                previousValueMinor: serverPlayer.previousValueMinor
+                previousValueMinor: serverPlayer.previousValueMinor,
+                birthDate: serverPlayer.birthDate ?? player.birthDate,
+                nationality: serverPlayer.nationality ?? player.nationality
               }
             : player;
         }),

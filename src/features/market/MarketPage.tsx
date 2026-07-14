@@ -82,6 +82,22 @@ function errorMessage(cause: unknown, fallback: string): string {
   return fallback;
 }
 
+function playerProfileSummary(player: DemoPlayer): string | null {
+  const details: string[] = [];
+  if (player.nationality && player.nationality !== 'Unknown') details.push(player.nationality);
+  if (player.birthDate) {
+    const birthDate = new Date(`${player.birthDate}T00:00:00Z`);
+    const today = new Date();
+    let age = today.getUTCFullYear() - birthDate.getUTCFullYear();
+    const birthdayThisYear = new Date(
+      Date.UTC(today.getUTCFullYear(), birthDate.getUTCMonth(), birthDate.getUTCDate())
+    );
+    if (today < birthdayThisYear) age -= 1;
+    if (age >= 0 && age < 100) details.push(`${age} years old`);
+  }
+  return details.length ? details.join(' · ') : null;
+}
+
 export default function MarketPage() {
   const { state, currentClub, syncServerMarket, commitServerMarketOperation } = useDemo();
   const location = useLocation();
@@ -383,6 +399,7 @@ export default function MarketPage() {
             const mine = player.ownershipClubId === currentClub.id;
             const owned = Boolean(player.ownershipClubId);
             const rising = player.valueMinor >= player.previousValueMinor;
+            const profileSummary = playerProfileSummary(player);
             return (
               <article
                 key={player.id}
@@ -414,7 +431,13 @@ export default function MarketPage() {
                       </span>
                     </span>
                     <span className="mt-1 block truncate text-xs text-muted">
+                      <span className="hidden">
                       {team?.name} · {formatPoints(player.seasonPoints)} pts
+                    </span>
+                    </span>
+                    <span className="mt-1 block truncate text-xs text-muted">
+                      {team?.name} · {profileSummary ? `${profileSummary} · ` : ''}
+                      {formatPoints(player.seasonPoints)} pts
                     </span>
                     <span className="mt-1 flex items-center gap-2 md:hidden">
                       <span className="font-display text-lg font-bold text-ivory">

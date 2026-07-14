@@ -6,6 +6,8 @@ export type ServerMarketPlayer = {
   ownerClubId: string | null;
   valueMinor: number;
   previousValueMinor: number;
+  birthDate: string | null;
+  nationality: string | null;
 };
 
 export async function loadServerMarket(
@@ -15,7 +17,7 @@ export async function loadServerMarket(
   const supabase = requireSupabase();
   const { data: profiles, error: profileError } = await supabase
     .from('player_catalogue_profiles')
-    .select('catalogue_player_id,real_player_id,current_value_minor,previous_value_minor')
+    .select('catalogue_player_id,real_player_id,current_value_minor,previous_value_minor,birth_date,nationality')
     .not('real_player_id', 'is', null)
     .not('current_value_minor', 'is', null);
   if (profileError) throw profileError;
@@ -58,7 +60,9 @@ export async function loadServerMarket(
           realPlayerId,
           ownerClubId: owners.get(realPlayerId) ?? null,
           valueMinor: Number(profile.current_value_minor),
-          previousValueMinor: Number(profile.previous_value_minor ?? profile.current_value_minor)
+          previousValueMinor: Number(profile.previous_value_minor ?? profile.current_value_minor),
+          birthDate: profile.birth_date ? String(profile.birth_date) : null,
+          nationality: profile.nationality ? String(profile.nationality) : null
         }
       ];
     }),
