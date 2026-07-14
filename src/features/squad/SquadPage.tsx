@@ -59,7 +59,8 @@ export default function SquadPage() {
     setCaptain,
     setViceCaptain,
     saveLineup,
-    restoreSavedLineup
+    restoreSavedLineup,
+    setActiveSavedLineup
   } = useDemo();
   const [view, setView] = useState<'pitch' | 'list'>('pitch');
   const [addingPosition, setAddingPosition] = useState<Position | null>(null);
@@ -240,7 +241,7 @@ export default function SquadPage() {
             </div>
           </div>
           {view === 'pitch' ? (
-            <div className="pitch-lines relative grid min-h-[36rem] grid-rows-[auto_repeat(4,minmax(5.5rem,1fr))] overflow-hidden px-3 py-4 sm:min-h-[40rem] sm:grid-rows-[auto_repeat(4,minmax(6.5rem,1fr))] sm:px-8 sm:py-6">
+            <div className="pitch-lines relative grid min-h-[29rem] grid-rows-[auto_repeat(4,minmax(4.6rem,1fr))] overflow-hidden px-3 py-3 sm:min-h-[33rem] sm:grid-rows-[auto_repeat(4,minmax(5.5rem,1fr))] sm:px-8 sm:py-4">
               <p className="pitch-note relative z-10 mx-auto self-center rounded-full bg-ink/80 px-3 py-1 text-[0.62rem] font-medium text-muted shadow-sm">
                 Tap a player to move them to the bench
               </p>
@@ -449,14 +450,23 @@ export default function SquadPage() {
                           {formationLabel(lineup, state.players)} formation · {lineup.starters.length} starters
                         </p>
                       </div>
-                      <button
-                        type="button"
-                        onClick={() => restoreSavedLineup(lineup.id)}
-                        className="button-secondary min-h-10 shrink-0 px-3 text-xs"
-                        disabled={active && Boolean(state.lastLineupSavedAt)}
-                      >
-                        {active ? 'Loaded' : 'Load'}
-                      </button>
+                      <div className="flex shrink-0 items-center gap-1.5">
+                        <button
+                          type="button"
+                          onClick={() => setActiveSavedLineup(lineup.id)}
+                          className="button-secondary min-h-10 px-2.5 text-xs disabled:cursor-default disabled:opacity-45"
+                          disabled={active}
+                        >
+                          {active ? 'Active' : 'Set active'}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => restoreSavedLineup(lineup.id)}
+                          className="button-primary min-h-10 px-2.5 text-xs"
+                        >
+                          Load now
+                        </button>
+                      </div>
                     </div>
                   );
                 })}

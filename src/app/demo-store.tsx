@@ -26,6 +26,7 @@ type DemoAction =
   | { type: 'SET_VICE_CAPTAIN'; playerId: string }
   | { type: 'SAVE_LINEUP'; name: string }
   | { type: 'RESTORE_SAVED_LINEUP'; lineupId?: string }
+  | { type: 'SET_ACTIVE_SAVED_LINEUP'; lineupId: string }
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
   | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string; resumed: boolean }
   | { type: 'SYNC_SERVER_MARKET'; players: ServerMarketPlayer[]; balanceMinor: number }
@@ -323,6 +324,13 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         activeSavedLineupId: savedLineup.id
       };
     }
+    case 'SET_ACTIVE_SAVED_LINEUP':
+      if (!state.savedLineups.some((lineup) => lineup.id === action.lineupId)) return state;
+      return {
+        ...state,
+        activeSavedLineupId: action.lineupId,
+        message: { kind: 'success', text: 'Active formation updated. It will load when you open Squad.' }
+      };
     case 'UPDATE_CLUB':
       return {
         ...state,
@@ -544,6 +552,7 @@ interface DemoContextValue {
   setViceCaptain: (playerId: string) => void;
   saveLineup: (name: string) => void;
   restoreSavedLineup: (lineupId?: string) => void;
+  setActiveSavedLineup: (lineupId: string) => void;
   updateClub: (values: Partial<DemoClub>) => void;
   clearMessage: () => void;
   syncServerMarket: (players: ServerMarketPlayer[], balanceMinor: number) => void;
@@ -564,6 +573,10 @@ export function DemoProvider({ children }: PropsWithChildren) {
   const saveLineup = useCallback((name: string) => dispatch({ type: 'SAVE_LINEUP', name }), []);
   const restoreSavedLineup = useCallback(
     (lineupId?: string) => dispatch({ type: 'RESTORE_SAVED_LINEUP', lineupId }),
+    []
+  );
+  const setActiveSavedLineup = useCallback(
+    (lineupId: string) => dispatch({ type: 'SET_ACTIVE_SAVED_LINEUP', lineupId }),
     []
   );
   const clearMessage = useCallback(() => dispatch({ type: 'CLEAR_MESSAGE' }), []);
@@ -597,6 +610,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
       setViceCaptain: (playerId) => dispatch({ type: 'SET_VICE_CAPTAIN', playerId }),
       saveLineup,
       restoreSavedLineup,
+      setActiveSavedLineup,
       updateClub: (values) => dispatch({ type: 'UPDATE_CLUB', values }),
       clearMessage,
       syncServerMarket,
@@ -609,6 +623,7 @@ export function DemoProvider({ children }: PropsWithChildren) {
       resetDemo,
       saveLineup,
       restoreSavedLineup,
+      setActiveSavedLineup,
       clearMessage,
       hydrateClub,
       syncServerMarket,
