@@ -35,12 +35,12 @@ const maximumByPosition: Record<Position, number> = {
   FWD: 3
 };
 
-const symmetricSlotClasses: Record<number, string[]> = {
-  1: ['col-start-3'],
-  2: ['col-start-2', 'col-start-4'],
-  3: ['col-start-1', 'col-start-3', 'col-start-5'],
-  4: ['col-start-1', 'col-start-2', 'col-start-4', 'col-start-5'],
-  5: ['col-start-1', 'col-start-2', 'col-start-3', 'col-start-4', 'col-start-5']
+const compactLineGaps: Record<number, string> = {
+  1: 'gap-0',
+  2: 'gap-8 sm:gap-16',
+  3: 'gap-5 sm:gap-12',
+  4: 'gap-3 sm:gap-8',
+  5: 'gap-1 sm:gap-5'
 };
 
 export default function SquadPage() {
@@ -178,44 +178,37 @@ export default function SquadPage() {
               </p>
               {formationOrder.map((position) => {
                 const positionStarters = starters.filter((player) => player.position === position);
-                const slotClasses = symmetricSlotClasses[positionStarters.length];
 
                 return (
                   <div
                     key={position}
-                    className="relative z-10 grid grid-cols-5 items-center gap-x-1 sm:gap-x-3"
+                    className={clsx(
+                      'relative z-10 flex items-center justify-center',
+                      compactLineGaps[positionStarters.length] ?? 'gap-1'
+                    )}
                   >
                     <span className="absolute left-0 top-1/2 -translate-y-1/2 rounded-full border border-white/10 bg-ink/50 px-1.5 py-0.5 text-[0.55rem] font-bold tracking-[0.14em] text-muted sm:left-1 sm:px-2">
                       {position}
                     </span>
                     {positionStarters.length ? (
-                      positionStarters.map((player, index) => (
-                        <div
+                      positionStarters.map((player) => (
+                        <PlayerToken
                           key={player.id}
-                          className={clsx(
-                            'flex justify-center',
-                            slotClasses?.[index] ?? 'col-span-1'
-                          )}
-                        >
-                          <PlayerToken
-                            player={player}
-                            captain={state.captainId === player.id}
-                            vice={state.viceCaptainId === player.id}
-                            onToggle={() => toggleStarter(player.id)}
-                          />
-                        </div>
+                          player={player}
+                          captain={state.captainId === player.id}
+                          vice={state.viceCaptainId === player.id}
+                          onToggle={() => toggleStarter(player.id)}
+                        />
                       ))
                     ) : (
-                      <div className="col-start-3 flex justify-center">
-                        <button
-                          type="button"
-                          onClick={() => setAddingPosition(position)}
-                          className="grid h-16 w-16 place-items-center rounded-full border border-dashed border-gold/55 bg-ink/30 text-[0.63rem] font-bold text-gold transition hover:scale-105 hover:bg-gold/15 sm:h-[4.7rem] sm:w-[4.7rem]"
-                          aria-label={`Add a ${positionLabels[position]} to the starting lineup`}
-                        >
-                          <Plus size={17} /> Add {position}
-                        </button>
-                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setAddingPosition(position)}
+                        className="grid h-16 w-16 place-items-center rounded-full border border-dashed border-gold/55 bg-ink/30 text-[0.63rem] font-bold text-gold transition hover:scale-105 hover:bg-gold/15 sm:h-[4.7rem] sm:w-[4.7rem]"
+                        aria-label={`Add a ${positionLabels[position]} to the starting lineup`}
+                      >
+                        <Plus size={17} /> Add {position}
+                      </button>
                     )}
                   </div>
                 );
@@ -420,7 +413,7 @@ function PlayerToken({
     <button
       onClick={onToggle}
       type="button"
-      className="group flex w-[4.7rem] min-w-0 flex-col items-center sm:w-24"
+      className="group flex w-12 min-w-0 flex-col items-center sm:w-20 lg:w-24"
       aria-label={`Remove ${player.name} from starting lineup`}
     >
       <span
