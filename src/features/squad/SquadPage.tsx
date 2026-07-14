@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useLayoutEffect, useMemo, useState } from 'react';
 import {
   Check,
   ChevronDown,
@@ -37,10 +37,10 @@ const maximumByPosition: Record<Position, number> = {
 
 const compactLineGaps: Record<number, string> = {
   1: 'gap-0',
-  2: 'gap-8 sm:gap-16',
-  3: 'gap-5 sm:gap-12',
-  4: 'gap-3 sm:gap-8',
-  5: 'gap-1 sm:gap-5'
+  2: 'gap-6 sm:gap-14',
+  3: 'gap-4 sm:gap-10',
+  4: 'gap-2 sm:gap-7',
+  5: 'gap-0.5 sm:gap-4'
 };
 
 function formationLabel(lineup: SavedLineup, players: DemoPlayer[]): string {
@@ -67,7 +67,7 @@ export default function SquadPage() {
   const [saveDialogOpen, setSaveDialogOpen] = useState(false);
   const [formationName, setFormationName] = useState('');
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     restoreSavedLineup();
   }, [restoreSavedLineup]);
 
@@ -533,11 +533,11 @@ function PlayerToken({
     <button
       onClick={onToggle}
       type="button"
-      className="group flex w-12 min-w-0 flex-col items-center sm:w-20 lg:w-24"
+      className="group flex w-11 min-w-0 flex-col items-center sm:w-20 lg:w-24"
       aria-label={`Remove ${player.name} from starting lineup`}
     >
       <span
-        className="relative grid h-12 w-12 place-items-center rounded-full border-2 bg-ink text-sm font-bold shadow-lg transition group-hover:-translate-y-1 sm:h-14 sm:w-14"
+        className="relative grid h-10 w-10 place-items-center rounded-full border-2 bg-ink text-xs font-bold shadow-lg transition group-hover:-translate-y-1 sm:h-14 sm:w-14 sm:text-sm"
         style={{ borderColor: team?.colour }}
       >
         {player.name
@@ -551,7 +551,7 @@ function PlayerToken({
           </span>
         ) : null}
       </span>
-      <span className="mt-1.5 max-w-full truncate rounded-md bg-ink/90 px-1.5 py-1 text-[0.57rem] font-semibold shadow">
+      <span className="mt-1 max-w-full truncate rounded-md bg-ink/90 px-1 py-0.5 text-[0.53rem] font-semibold shadow sm:mt-1.5 sm:px-1.5 sm:py-1 sm:text-[0.57rem]">
         {player.name}
       </span>
     </button>
