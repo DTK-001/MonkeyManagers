@@ -29,7 +29,6 @@ export function ResumeClub({ children }: PropsWithChildren) {
         hydrateClub(saved.club, saved.leagueId, saved.leagueName, true);
         try {
           const market = await loadServerMarket(saved.leagueId, saved.club.id);
-          if (!active) return;
           syncServerMarket(market.players, market.balanceMinor);
         } catch {
           // A market outage must not prevent a manager from returning to their saved club.

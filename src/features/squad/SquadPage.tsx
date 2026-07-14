@@ -21,6 +21,28 @@ import { PageHeader, PositionPill, StatusBadge } from '../../components/ui';
 
 const formationOrder: Position[] = ['FWD', 'MID', 'DEF', 'GK'];
 
+const positionLabels: Record<Position, string> = {
+  GK: 'goalkeeper',
+  DEF: 'defender',
+  MID: 'midfielder',
+  FWD: 'forward'
+};
+
+const maximumByPosition: Record<Position, number> = {
+  GK: 1,
+  DEF: 5,
+  MID: 5,
+  FWD: 3
+};
+
+const symmetricSlotClasses: Record<number, string[]> = {
+  1: ['col-start-3'],
+  2: ['col-start-2', 'col-start-4'],
+  3: ['col-start-1', 'col-start-3', 'col-start-5'],
+  4: ['col-start-1', 'col-start-2', 'col-start-4', 'col-start-5'],
+  5: ['col-start-1', 'col-start-2', 'col-start-3', 'col-start-4', 'col-start-5']
+};
+
 export default function SquadPage() {
   const { state, currentClub, toggleStarter, setCaptain, setViceCaptain, saveLineup } = useDemo();
   const [view, setView] = useState<'pitch' | 'list'>('pitch');
@@ -51,6 +73,10 @@ export default function SquadPage() {
   const positionCandidates = addingPosition
     ? bench.filter((player) => player.position === addingPosition)
     : [];
+  const canSave = formationValid && Boolean(state.captainId && state.viceCaptainId);
+
+  const canAddPlayer = (position: Position) =>
+    starters.length < 11 && counts[position] < maximumByPosition[position];
 
   return (
     <div className="page-wrap">
@@ -58,7 +84,21 @@ export default function SquadPage() {
         eyebrow="Team selection"
         title="Your squad"
         description="Choose your squad now. A competition round and deadline will appear once your league schedule is configured."
-        action={<StatusBadge kind="muted">No deadline set</StatusBadge>}
+        action={
+          <div className="flex flex-col items-end gap-2 sm:flex-row sm:items-center">
+            <StatusBadge kind={state.lastLineupSavedAt ? 'success' : 'muted'}>
+              {state.lastLineupSavedAt ? 'Team saved' : 'No deadline set'}
+            </StatusBadge>
+            <button
+              type="button"
+              onClick={saveLineup}
+              className="button-primary min-h-10 px-3"
+              disabled={!canSave}
+            >
+              <Save size={16} /> Save team
+            </button>
+          </div>
+        }
       />
       <div className="mb-4 flex flex-wrap items-center gap-2">
         <label className="relative">
@@ -132,33 +172,54 @@ export default function SquadPage() {
             </div>
           </div>
           {view === 'pitch' ? (
-            <div className="pitch-lines relative flex min-h-[36rem] flex-col justify-around overflow-hidden px-3 py-5 sm:min-h-[40rem] sm:px-8 sm:py-7">
-              {formationOrder.map((position) => (
-                <div
-                  key={position}
-                  className="relative z-10 flex min-h-[5.5rem] w-full flex-1 items-center justify-evenly gap-2 sm:min-h-[6.5rem] sm:gap-4"
-                >
-                  {starters
-                    .filter((player) => player.position === position)
-                    .map((player) => (
-                      <PlayerToken
-                        key={player.id}
-                        player={player}
-                        captain={state.captainId === player.id}
-                        vice={state.viceCaptainId === player.id}
-                        onToggle={() => toggleStarter(player.id)}
-                      />
-                    ))}
-                  <button
-                    type="button"
-                    onClick={() => setAddingPosition(position)}
-                    className="grid h-16 w-16 shrink-0 place-items-center rounded-full border border-dashed border-gold/55 bg-ink/30 text-[0.63rem] font-bold text-gold transition hover:scale-105 hover:bg-gold/15 sm:h-[4.7rem] sm:w-[4.7rem]"
-                    aria-label={`Add a ${position} to the starting lineup`}
+            <div className="pitch-lines relative grid min-h-[36rem] grid-rows-[auto_repeat(4,minmax(5.5rem,1fr))] overflow-hidden px-3 py-4 sm:min-h-[40rem] sm:grid-rows-[auto_repeat(4,minmax(6.5rem,1fr))] sm:px-8 sm:py-6">
+              <p className="pitch-note relative z-10 mx-auto self-center rounded-full bg-ink/80 px-3 py-1 text-[0.62rem] font-medium text-muted shadow-sm">
+                Tap a player to move them to the bench
+              </p>
+              {formationOrder.map((position) => {
+                const positionStarters = starters.filter((player) => player.position === position);
+                const slotClasses = symmetricSlotClasses[positionStarters.length];
+
+                return (
+                  <div
+                    key={position}
+                    className="relative z-10 grid grid-cols-5 items-center gap-x-1 sm:gap-x-3"
                   >
-                    <Plus size={17} /> Add {position}
-                  </button>
-                </div>
-              ))}
+                    <span className="absolute left-0 top-1/2 -translate-y-1/2 rounded-full border border-white/10 bg-ink/50 px-1.5 py-0.5 text-[0.55rem] font-bold tracking-[0.14em] text-muted sm:left-1 sm:px-2">
+                      {position}
+                    </span>
+                    {positionStarters.length ? (
+                      positionStarters.map((player, index) => (
+                        <div
+                          key={player.id}
+                          className={clsx(
+                            'flex justify-center',
+                            slotClasses?.[index] ?? 'col-span-1'
+                          )}
+                        >
+                          <PlayerToken
+                            player={player}
+                            captain={state.captainId === player.id}
+                            vice={state.viceCaptainId === player.id}
+                            onToggle={() => toggleStarter(player.id)}
+                          />
+                        </div>
+                      ))
+                    ) : (
+                      <div className="col-start-3 flex justify-center">
+                        <button
+                          type="button"
+                          onClick={() => setAddingPosition(position)}
+                          className="grid h-16 w-16 place-items-center rounded-full border border-dashed border-gold/55 bg-ink/30 text-[0.63rem] font-bold text-gold transition hover:scale-105 hover:bg-gold/15 sm:h-[4.7rem] sm:w-[4.7rem]"
+                          aria-label={`Add a ${positionLabels[position]} to the starting lineup`}
+                        >
+                          <Plus size={17} /> Add {position}
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           ) : (
             <div className="divide-y divide-white/[0.07]">
@@ -172,14 +233,56 @@ export default function SquadPage() {
                   onToggle={() => toggleStarter(player.id)}
                   onCaptain={() => setCaptain(player.id)}
                   onVice={() => setViceCaptain(player.id)}
+                  canAdd={canAddPlayer(player.position)}
                 />
               ))}
             </div>
           )}
           {addingPosition ? (
             <div className="border-t border-white/[0.07] bg-ink/35 p-4">
-              <div className="flex items-center justify-between gap-3"><div><p className="eyebrow">Starting lineup</p><h2 className="mt-1 font-display text-xl font-bold">Add a {addingPosition}</h2></div><button type="button" onClick={() => setAddingPosition(null)} className="button-secondary min-h-9 px-3 text-xs">Cancel</button></div>
-              {positionCandidates.length ? <div className="mt-3 grid gap-2 sm:grid-cols-2">{positionCandidates.map((player) => <button key={player.id} type="button" onClick={() => { toggleStarter(player.id); setAddingPosition(null); }} className="subtle-card flex min-h-12 items-center justify-between gap-3 px-3 text-left transition hover:border-gold/45"><span className="min-w-0"><span className="block truncate text-sm font-semibold">{player.name}</span><span className="mt-1 block"><PositionPill position={player.position} /></span></span><span className="inline-flex shrink-0 items-center gap-1 text-xs font-bold text-gold"><Plus size={14} /> Add</span></button>)}</div> : <p className="mt-3 rounded-xl border border-white/10 p-3 text-xs leading-5 text-muted">You do not have an available {addingPosition} on the bench. Sign one from the player market first.</p>}
+              <div className="flex items-center justify-between gap-3">
+                <div>
+                  <p className="eyebrow">Starting lineup</p>
+                  <h2 className="mt-1 font-display text-xl font-bold">Add a {addingPosition}</h2>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setAddingPosition(null)}
+                  className="button-secondary min-h-9 px-3 text-xs"
+                >
+                  Cancel
+                </button>
+              </div>
+              {positionCandidates.length ? (
+                <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                  {positionCandidates.map((player) => (
+                    <button
+                      key={player.id}
+                      type="button"
+                      onClick={() => {
+                        toggleStarter(player.id);
+                        setAddingPosition(null);
+                      }}
+                      className="subtle-card flex min-h-12 items-center justify-between gap-3 px-3 text-left transition hover:border-gold/45"
+                    >
+                      <span className="min-w-0">
+                        <span className="block truncate text-sm font-semibold">{player.name}</span>
+                        <span className="mt-1 block">
+                          <PositionPill position={player.position} />
+                        </span>
+                      </span>
+                      <span className="inline-flex shrink-0 items-center gap-1 text-xs font-bold text-gold">
+                        <Plus size={14} /> Add
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-3 rounded-xl border border-white/10 p-3 text-xs leading-5 text-muted">
+                  You do not have an available {addingPosition} on the bench. Sign one from the
+                  player market first.
+                </p>
+              )}
             </div>
           ) : null}
         </section>
@@ -208,7 +311,15 @@ export default function SquadPage() {
                       </span>
                     </span>
                   </div>
-                  <button onClick={() => toggleStarter(player.id)} type="button" className="button-secondary min-h-10 px-3 text-xs"><Plus size={14} /> Add</button>
+                  <button
+                    onClick={() => toggleStarter(player.id)}
+                    type="button"
+                    disabled={!canAddPlayer(player.position)}
+                    className="button-secondary min-h-10 px-3 text-xs disabled:cursor-not-allowed disabled:opacity-40"
+                    title={!canAddPlayer(player.position) ? 'This position is full' : undefined}
+                  >
+                    <Plus size={14} /> Add
+                  </button>
                 </div>
               ))}
               {bench.length === 0 ? (
@@ -264,21 +375,24 @@ export default function SquadPage() {
                 <CircleAlert size={17} className="text-gold" />
               )}
               <h2 className="text-sm font-bold">
-                {formationValid ? 'Formation is valid' : `${starters.length}/11 starters selected`}
+                {state.lastLineupSavedAt
+                  ? 'Your team is saved'
+                  : formationValid
+                    ? 'Formation is valid'
+                    : `${starters.length}/11 starters selected`}
               </h2>
             </div>
             <p className="mt-2 text-xs leading-5 text-muted">
               1 goalkeeper · 3–5 defenders · 2–5 midfielders · 1–3 forwards. Players lock when their
               fixture starts.
             </p>
-            <button
-              type="button"
-              onClick={saveLineup}
-              className="button-primary mt-4 w-full"
-              disabled={!formationValid}
-            >
-              <Save size={16} /> Save lineup
-            </button>
+            <p className="mt-3 text-xs font-semibold text-ivory">
+              {state.lastLineupSavedAt
+                ? 'Saved team is ready for the next round.'
+                : canSave
+                  ? 'Choose Save team when you are happy with the lineup.'
+                  : 'Choose a captain and vice-captain to enable saving.'}
+            </p>
           </section>
           <p className="flex items-start gap-2 px-2 text-[0.65rem] leading-5 text-muted">
             <LockKeyhole size={13} className="mt-0.5 shrink-0" /> Auto-substitutions run
@@ -338,7 +452,8 @@ function PlayerListRow({
   vice,
   onToggle,
   onCaptain,
-  onVice
+  onVice,
+  canAdd
 }: {
   player: DemoPlayer;
   starter: boolean;
@@ -347,6 +462,7 @@ function PlayerListRow({
   onToggle: () => void;
   onCaptain: () => void;
   onVice: () => void;
+  canAdd: boolean;
 }) {
   const team = demoTeams.find((item) => item.id === player.teamId);
   return (
@@ -397,7 +513,9 @@ function PlayerListRow({
         <button
           type="button"
           onClick={onToggle}
-          className={`button-secondary min-h-10 px-3 text-xs ${starter ? '!border-emerald/30 !text-emerald' : ''}`}
+          disabled={!starter && !canAdd}
+          title={!starter && !canAdd ? 'This position is full' : undefined}
+          className={`button-secondary min-h-10 px-3 text-xs disabled:cursor-not-allowed disabled:opacity-40 ${starter ? '!border-emerald/30 !text-emerald' : ''}`}
         >
           {starter ? 'Starter' : 'Add'}
         </button>

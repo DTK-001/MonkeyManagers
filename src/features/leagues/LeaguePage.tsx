@@ -10,6 +10,20 @@ import { PageHeader, StatusBadge } from '../../components/ui';
 
 type InviteResponse = { code: string };
 type LeagueClub = DemoClub & { squadValueMinor: number };
+type ServerClub = {
+  id: string;
+  name: string;
+  abbreviation: string;
+  manager_display_name: string;
+  stadium_name: string;
+  motto: string | null;
+  primary_colour: string;
+  secondary_colour: string;
+  accent_colour: string;
+  badge_config: unknown;
+  available_balance_minor: number;
+  squad_book_value_minor: number;
+};
 
 function badgeFromConfig(value: unknown): Pick<DemoClub, 'badgeShape' | 'badgePattern' | 'badgeSymbol'> {
   const config = value && typeof value === 'object' && !Array.isArray(value)
@@ -44,7 +58,6 @@ export default function LeaguePage() {
   const canCreateInvite = Boolean(supabase && state.selectedLeagueId !== 'league-pending');
 
   useEffect(() => {
-    let active = true;
     if (!supabase || state.selectedLeagueId === 'league-pending') {
       setLeagueClubs(null);
       return;
@@ -54,8 +67,9 @@ export default function LeaguePage() {
       .select('id,name,abbreviation,manager_display_name,stadium_name,motto,primary_colour,secondary_colour,accent_colour,badge_config,available_balance_minor,squad_book_value_minor')
       .eq('league_id', state.selectedLeagueId)
       .then(({ data, error }) => {
-        if (!active || error || !data) return;
-        setLeagueClubs(data.map((club) => ({
+        const clubs = data as unknown as ServerClub[] | null;
+        if (error || !clubs) return;
+        setLeagueClubs(clubs.map((club) => ({
           id: String(club.id),
           name: String(club.name),
           abbreviation: String(club.abbreviation),
@@ -76,7 +90,6 @@ export default function LeaguePage() {
           form: []
         })));
       });
-    return () => { active = false; };
   }, [state.selectedLeagueId]);
 
   async function createInvite() {

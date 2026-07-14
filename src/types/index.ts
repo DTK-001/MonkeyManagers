@@ -135,6 +135,7 @@ export interface DemoState {
   bench: string[];
   captainId: string | null;
   viceCaptainId: string | null;
+  lastLineupSavedAt: string | null;
   activity: ActivityItem[];
   lastUpdated: string;
   marketOpen: boolean;

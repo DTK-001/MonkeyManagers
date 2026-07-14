@@ -14,6 +14,8 @@ import { formatMoney } from '../lib/format';
 
 const STORAGE_KEY = 'monkey-managers-session-v1';
 
+const MAX_STARTERS_BY_POSITION = { GK: 1, DEF: 5, MID: 5, FWD: 3 } as const;
+
 type DemoAction =
   | { type: 'START_SESSION' }
   | { type: 'RESET_DEMO' }
@@ -26,7 +28,12 @@ type DemoAction =
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
   | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string; resumed: boolean }
   | { type: 'SYNC_SERVER_MARKET'; players: ServerMarketPlayer[]; balanceMinor: number }
-  | { type: 'COMMIT_SERVER_MARKET_OPERATION'; playerId: string; owned: boolean; balanceMinor: number }
+  | {
+      type: 'COMMIT_SERVER_MARKET_OPERATION';
+      playerId: string;
+      owned: boolean;
+      balanceMinor: number;
+    }
   | { type: 'CLEAR_MESSAGE' };
 
 type ServerMarketPlayer = {
@@ -91,6 +98,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
             : item
         ),
         bench: state.bench.length < 7 ? [...state.bench, player.id] : state.bench,
+        lastLineupSavedAt: null,
         activity: [
           {
             id: activityId(),
@@ -128,6 +136,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         bench: state.bench.filter((id) => id !== player.id),
         captainId: state.captainId === player.id ? null : state.captainId,
         viceCaptainId: state.viceCaptainId === player.id ? null : state.viceCaptainId,
+        lastLineupSavedAt: null,
         activity: [
           {
             id: activityId(),
@@ -157,7 +166,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
             ? state.bench
             : [...state.bench, player.id].slice(0, 7),
           captainId: state.captainId === player.id ? null : state.captainId,
-          viceCaptainId: state.viceCaptainId === player.id ? null : state.viceCaptainId
+          viceCaptainId: state.viceCaptainId === player.id ? null : state.viceCaptainId,
+          lastLineupSavedAt: null
         };
       }
       if (state.starters.length >= 11) {
@@ -166,10 +176,24 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
           message: { kind: 'error', text: 'Remove a starter before adding another player.' }
         };
       }
+      const positionCount = state.starters.reduce((count, starterId) => {
+        const starter = state.players.find((item) => item.id === starterId);
+        return count + Number(starter?.position === player.position);
+      }, 0);
+      if (positionCount >= MAX_STARTERS_BY_POSITION[player.position]) {
+        return {
+          ...state,
+          message: {
+            kind: 'error',
+            text: `You can select up to ${MAX_STARTERS_BY_POSITION[player.position]} ${player.position} players.`
+          }
+        };
+      }
       return {
         ...state,
         starters: [...state.starters, player.id],
-        bench: state.bench.filter((id) => id !== player.id)
+        bench: state.bench.filter((id) => id !== player.id),
+        lastLineupSavedAt: null
       };
     }
     case 'SET_CAPTAIN':
@@ -178,6 +202,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         ...state,
         captainId: action.playerId,
         viceCaptainId: state.viceCaptainId === action.playerId ? null : state.viceCaptainId,
+        lastLineupSavedAt: null,
         message: { kind: 'success', text: 'Captain updated.' }
       };
     case 'SET_VICE_CAPTAIN':
@@ -186,15 +211,41 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         ...state,
         viceCaptainId: action.playerId,
         captainId: state.captainId === action.playerId ? null : state.captainId,
+        lastLineupSavedAt: null,
         message: { kind: 'success', text: 'Vice-captain updated.' }
       };
-    case 'SAVE_LINEUP':
+    case 'SAVE_LINEUP': {
       if (state.starters.length !== 11) {
         return {
           ...state,
           message: {
             kind: 'error',
             text: `Select 11 starters. You currently have ${state.starters.length}.`
+          }
+        };
+      }
+      const positionCounts = state.starters.reduce(
+        (counts, starterId) => {
+          const player = state.players.find((item) => item.id === starterId);
+          if (player) counts[player.position] += 1;
+          return counts;
+        },
+        { GK: 0, DEF: 0, MID: 0, FWD: 0 }
+      );
+      if (
+        positionCounts.GK !== 1 ||
+        positionCounts.DEF < 3 ||
+        positionCounts.DEF > 5 ||
+        positionCounts.MID < 2 ||
+        positionCounts.MID > 5 ||
+        positionCounts.FWD < 1 ||
+        positionCounts.FWD > 3
+      ) {
+        return {
+          ...state,
+          message: {
+            kind: 'error',
+            text: 'Use a valid formation before saving your team.'
           }
         };
       }
@@ -206,8 +257,10 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
       }
       return {
         ...state,
+        lastLineupSavedAt: new Date().toISOString(),
         message: { kind: 'success', text: 'Lineup saved for Crown Premier Division · Round 9.' }
       };
+    }
     case 'UPDATE_CLUB':
       return {
         ...state,
@@ -236,6 +289,7 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         bench: [],
         captainId: null,
         viceCaptainId: null,
+        lastLineupSavedAt: null,
         activity: [],
         lastUpdated: new Date().toISOString(),
         message: {
@@ -246,7 +300,9 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         }
       };
     case 'SYNC_SERVER_MARKET': {
-      const serverPlayers = new Map(action.players.map((player) => [player.cataloguePlayerId, player]));
+      const serverPlayers = new Map(
+        action.players.map((player) => [player.cataloguePlayerId, player])
+      );
       return {
         ...state,
         players: state.players.map((player) => {
@@ -282,10 +338,14 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         clubs: state.clubs.map((club) =>
           club.id === state.currentClubId ? { ...club, budgetMinor: action.balanceMinor } : club
         ),
-        starters: action.owned ? state.starters : state.starters.filter((id) => id !== action.playerId),
+        starters: action.owned
+          ? state.starters
+          : state.starters.filter((id) => id !== action.playerId),
         bench: action.owned ? state.bench : state.bench.filter((id) => id !== action.playerId),
         captainId: action.owned || state.captainId !== action.playerId ? state.captainId : null,
-        viceCaptainId: action.owned || state.viceCaptainId !== action.playerId ? state.viceCaptainId : null
+        viceCaptainId:
+          action.owned || state.viceCaptainId !== action.playerId ? state.viceCaptainId : null,
+        lastLineupSavedAt: null
       };
     case 'CLEAR_MESSAGE':
       return { ...state, message: null };
@@ -308,9 +368,9 @@ function loadState(): DemoState {
         const storedPlayer = player as Partial<DemoPlayer>;
         return {
           ...player,
-          realPlayerId: typeof storedPlayer.realPlayerId === 'string' ? storedPlayer.realPlayerId : null,
-          ownedPoints:
-            typeof storedPlayer.ownedPoints === 'number' ? storedPlayer.ownedPoints : 0,
+          realPlayerId:
+            typeof storedPlayer.realPlayerId === 'string' ? storedPlayer.realPlayerId : null,
+          ownedPoints: typeof storedPlayer.ownedPoints === 'number' ? storedPlayer.ownedPoints : 0,
           ownershipStartedAt:
             typeof storedPlayer.ownershipStartedAt === 'string'
               ? storedPlayer.ownershipStartedAt
@@ -353,10 +413,14 @@ function loadState(): DemoState {
           }
         };
       }),
-      competitions: Array.isArray(restored.competitions) ? restored.competitions : initial.competitions,
+      competitions: Array.isArray(restored.competitions)
+        ? restored.competitions
+        : initial.competitions,
       fixtures: Array.isArray(restored.fixtures) ? restored.fixtures : initial.fixtures,
       starters: Array.isArray(restored.starters) ? restored.starters : initial.starters,
       bench: Array.isArray(restored.bench) ? restored.bench : initial.bench,
+      lastLineupSavedAt:
+        typeof restored.lastLineupSavedAt === 'string' ? restored.lastLineupSavedAt : null,
       activity: Array.isArray(restored.activity) ? restored.activity : initial.activity,
       selectedLeagueId:
         restored.selectedLeagueId && restored.selectedLeagueId !== currentClub?.id
@@ -434,7 +498,17 @@ export function DemoProvider({ children }: PropsWithChildren) {
       syncServerMarket,
       commitServerMarketOperation
     }),
-    [state, currentClub, startSession, resetDemo, saveLineup, clearMessage, hydrateClub, syncServerMarket, commitServerMarketOperation]
+    [
+      state,
+      currentClub,
+      startSession,
+      resetDemo,
+      saveLineup,
+      clearMessage,
+      hydrateClub,
+      syncServerMarket,
+      commitServerMarketOperation
+    ]
   );
 
   return <DemoContext.Provider value={value}>{children}</DemoContext.Provider>;

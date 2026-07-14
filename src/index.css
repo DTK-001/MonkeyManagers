@@ -142,13 +142,16 @@ a {
 }
 
 .pitch-lines {
+  isolation: isolate;
   background-color: #252348;
   background-image:
-    linear-gradient(transparent 49.7%, rgba(16, 229, 235, 0.4) 50%, transparent 50.3%),
-    linear-gradient(rgba(255, 255, 255, 0.03) 50%, transparent 50%);
+    linear-gradient(transparent 49.7%, rgba(16, 229, 235, 0.44) 50%, transparent 50.3%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.035) 0 10%, transparent 10% 20%),
+    radial-gradient(ellipse at 50% 50%, rgba(16, 229, 235, 0.08), transparent 58%);
   background-size:
     100% 100%,
-    100% 20%;
+    100% 100%,
+    100% 100%;
 }
 
 .pitch-lines::before {
@@ -161,6 +164,18 @@ a {
   transform: translate(-50%, -50%);
   border: 1px solid rgba(16, 229, 235, 0.4);
   border-radius: 9999px;
+}
+
+.pitch-lines::after {
+  position: absolute;
+  inset: 0.8rem;
+  content: '';
+  pointer-events: none;
+  border: 1px solid rgba(16, 229, 235, 0.22);
+}
+
+.pitch-note {
+  backdrop-filter: blur(10px);
 }
 
 @keyframes toast-in {
