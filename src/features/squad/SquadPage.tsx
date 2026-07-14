@@ -16,7 +16,7 @@ import clsx from 'clsx';
 import { useDemo } from '../../app/demo-store';
 import { demoTeams } from '../../data/demo';
 import { formatMoney } from '../../lib/format';
-import type { DemoPlayer, Position } from '../../types';
+import type { DemoPlayer, Position, SavedLineup } from '../../types';
 import { PageHeader, PositionPill, StatusBadge } from '../../components/ui';
 
 const formationOrder: Position[] = ['FWD', 'MID', 'DEF', 'GK'];
@@ -43,6 +43,14 @@ const compactLineGaps: Record<number, string> = {
   5: 'gap-1 sm:gap-5'
 };
 
+function formationLabel(lineup: SavedLineup, players: DemoPlayer[]): string {
+  const starters = lineup.starters
+    .map((id) => players.find((player) => player.id === id))
+    .filter((player): player is DemoPlayer => Boolean(player));
+  const count = (position: Position) => starters.filter((player) => player.position === position).length;
+  return `${count('DEF')}-${count('MID')}-${count('FWD')}`;
+}
+
 export default function SquadPage() {
   const {
     state,
@@ -55,6 +63,8 @@ export default function SquadPage() {
   } = useDemo();
   const [view, setView] = useState<'pitch' | 'list'>('pitch');
   const [addingPosition, setAddingPosition] = useState<Position | null>(null);
+  const [saveDialogOpen, setSaveDialogOpen] = useState(false);
+  const [formationName, setFormationName] = useState('');
 
   useEffect(() => {
     restoreSavedLineup();
@@ -87,6 +97,15 @@ export default function SquadPage() {
     ? bench.filter((player) => player.position === addingPosition)
     : [];
   const canSave = formationValid && Boolean(state.captainId && state.viceCaptainId);
+  const suggestedFormationName = `Formation ${counts.DEF}-${counts.MID}-${counts.FWD}`;
+
+  const openSaveDialog = () => {
+    const activeFormation = state.savedLineups.find(
+      (lineup) => lineup.id === state.activeSavedLineupId
+    );
+    setFormationName(activeFormation?.name ?? suggestedFormationName);
+    setSaveDialogOpen(true);
+  };
 
   const canAddPlayer = (position: Position) =>
     starters.length < 11 && counts[position] < maximumByPosition[position];
@@ -104,7 +123,7 @@ export default function SquadPage() {
             </StatusBadge>
             <button
               type="button"
-              onClick={saveLineup}
+              onClick={openSaveDialog}
               className="button-primary min-h-10 px-3"
               disabled={!canSave}
             >
@@ -113,6 +132,42 @@ export default function SquadPage() {
           </div>
         }
       />
+      {saveDialogOpen ? (
+        <div className="fixed inset-0 z-50 grid place-items-center bg-ink/75 p-4 backdrop-blur-sm">
+          <form
+            className="glass-card w-full max-w-md p-5"
+            onSubmit={(event) => {
+              event.preventDefault();
+              saveLineup(formationName);
+              setSaveDialogOpen(false);
+            }}
+          >
+            <p className="eyebrow">Save formation</p>
+            <h2 className="mt-1 font-display text-2xl font-bold">Name this setup</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              Save separate teams for league matches, cup ties, or any other competition.
+            </p>
+            <label className="mt-4 block">
+              <span className="mb-1 block text-xs text-muted">Formation name</span>
+              <input
+                className="field"
+                value={formationName}
+                onChange={(event) => setFormationName(event.target.value)}
+                placeholder="e.g. FA Cup XI"
+                autoFocus
+              />
+            </label>
+            <div className="mt-5 flex justify-end gap-2">
+              <button type="button" onClick={() => setSaveDialogOpen(false)} className="button-secondary">
+                Cancel
+              </button>
+              <button type="submit" className="button-primary" disabled={!formationName.trim()}>
+                <Save size={16} /> Save formation
+              </button>
+            </div>
+          </form>
+        </div>
+      ) : null}
       <div className="mb-4 flex flex-wrap items-center gap-2">
         <label className="relative">
           <span className="sr-only">Competition</span>
@@ -369,6 +424,48 @@ export default function SquadPage() {
                 </select>
               </label>
             </div>
+          </section>
+
+          <section className="glass-card overflow-hidden">
+            <div className="flex items-center justify-between border-b border-white/[0.07] p-4">
+              <div>
+                <p className="eyebrow">Quick load</p>
+                <h2 className="mt-1 font-display text-2xl font-bold">Saved formations</h2>
+              </div>
+              <span className="text-xs text-muted">{state.savedLineups.length} saved</span>
+            </div>
+            {state.savedLineups.length ? (
+              <div className="divide-y divide-white/[0.07]">
+                {state.savedLineups.map((lineup) => {
+                  const active = lineup.id === state.activeSavedLineupId;
+                  return (
+                    <div key={lineup.id} className="flex items-center gap-3 px-4 py-3">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2">
+                          <p className="truncate text-sm font-bold">{lineup.name}</p>
+                          {active ? <StatusBadge kind="success">Active</StatusBadge> : null}
+                        </div>
+                        <p className="mt-1 text-xs text-muted">
+                          {formationLabel(lineup, state.players)} formation · {lineup.starters.length} starters
+                        </p>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => restoreSavedLineup(lineup.id)}
+                        className="button-secondary min-h-10 shrink-0 px-3 text-xs"
+                        disabled={active && Boolean(state.lastLineupSavedAt)}
+                      >
+                        {active ? 'Loaded' : 'Load'}
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p className="p-4 text-xs leading-5 text-muted">
+                Save a named formation to load it quickly for a different competition.
+              </p>
+            )}
           </section>
 
           <section

@@ -24,8 +24,8 @@ type DemoAction =
   | { type: 'TOGGLE_STARTER'; playerId: string }
   | { type: 'SET_CAPTAIN'; playerId: string }
   | { type: 'SET_VICE_CAPTAIN'; playerId: string }
-  | { type: 'SAVE_LINEUP' }
-  | { type: 'RESTORE_SAVED_LINEUP' }
+  | { type: 'SAVE_LINEUP'; name: string }
+  | { type: 'RESTORE_SAVED_LINEUP'; lineupId?: string }
   | { type: 'UPDATE_CLUB'; values: Partial<DemoClub> }
   | { type: 'HYDRATE_CLUB'; club: DemoClub; leagueId: string; leagueName: string; resumed: boolean }
   | { type: 'SYNC_SERVER_MARKET'; players: ServerMarketPlayer[]; balanceMinor: number }
@@ -138,7 +138,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         captainId: state.captainId === player.id ? null : state.captainId,
         viceCaptainId: state.viceCaptainId === player.id ? null : state.viceCaptainId,
         lastLineupSavedAt: null,
-        savedLineup: null,
+        savedLineups: [],
+        activeSavedLineupId: null,
         activity: [
           {
             id: activityId(),
@@ -257,22 +258,37 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
           message: { kind: 'error', text: 'Choose both a captain and vice-captain.' }
         };
       }
+      const name = action.name.trim();
+      if (!name) {
+        return { ...state, message: { kind: 'error', text: 'Give this formation a name before saving.' } };
+      }
       const savedAt = new Date().toISOString();
+      const existingLineup = state.savedLineups.find(
+        (lineup) => lineup.name.toLocaleLowerCase() === name.toLocaleLowerCase()
+      );
+      const savedLineup = {
+        id: existingLineup?.id ?? `lineup-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+        name,
+        starters: [...state.starters],
+        bench: [...state.bench],
+        captainId: state.captainId,
+        viceCaptainId: state.viceCaptainId,
+        savedAt
+      };
       return {
         ...state,
         lastLineupSavedAt: savedAt,
-        savedLineup: {
-          starters: [...state.starters],
-          bench: [...state.bench],
-          captainId: state.captainId,
-          viceCaptainId: state.viceCaptainId,
-          savedAt
-        },
+        savedLineups: existingLineup
+          ? state.savedLineups.map((lineup) => (lineup.id === existingLineup.id ? savedLineup : lineup))
+          : [...state.savedLineups, savedLineup],
+        activeSavedLineupId: savedLineup.id,
         message: { kind: 'success', text: 'Lineup saved for Crown Premier Division · Round 9.' }
       };
     }
     case 'RESTORE_SAVED_LINEUP': {
-      const savedLineup = state.savedLineup;
+      const savedLineup = state.savedLineups.find(
+        (lineup) => lineup.id === (action.lineupId ?? state.activeSavedLineupId)
+      );
       if (!savedLineup) return state;
       const savedPlayerIds = [
         ...savedLineup.starters,
@@ -287,7 +303,13 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
           )
       );
       if (hasUnavailablePlayer) {
-        return { ...state, savedLineup: null, lastLineupSavedAt: null };
+        return {
+          ...state,
+          savedLineups: state.savedLineups.filter((lineup) => lineup.id !== savedLineup.id),
+          activeSavedLineupId:
+            state.activeSavedLineupId === savedLineup.id ? null : state.activeSavedLineupId,
+          lastLineupSavedAt: null
+        };
       }
       return {
         ...state,
@@ -295,7 +317,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         bench: [...savedLineup.bench],
         captainId: savedLineup.captainId,
         viceCaptainId: savedLineup.viceCaptainId,
-        lastLineupSavedAt: savedLineup.savedAt
+        lastLineupSavedAt: savedLineup.savedAt,
+        activeSavedLineupId: savedLineup.id
       };
     }
     case 'UPDATE_CLUB':
@@ -327,7 +350,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         captainId: null,
         viceCaptainId: null,
         lastLineupSavedAt: null,
-        savedLineup: null,
+        savedLineups: [],
+        activeSavedLineupId: null,
         activity: [],
         lastUpdated: new Date().toISOString(),
         message: {
@@ -384,7 +408,8 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         viceCaptainId:
           action.owned || state.viceCaptainId !== action.playerId ? state.viceCaptainId : null,
         lastLineupSavedAt: null,
-        savedLineup: action.owned ? state.savedLineup : null
+        savedLineups: action.owned ? state.savedLineups : [],
+        activeSavedLineupId: action.owned ? state.activeSavedLineupId : null
       };
     case 'CLEAR_MESSAGE':
       return { ...state, message: null };
@@ -399,6 +424,30 @@ function loadState(): DemoState {
     const restored = JSON.parse(stored) as Partial<DemoState>;
     if (!Array.isArray(restored.clubs) || !Array.isArray(restored.players)) return initial;
     const currentClub = restored.clubs.find((club) => club.id === restored.currentClubId);
+    const legacySavedLineup = (restored as Partial<DemoState> & { savedLineup?: Record<string, unknown> })
+      .savedLineup;
+    const legacyLineup =
+      legacySavedLineup &&
+      Array.isArray(legacySavedLineup.starters) &&
+      Array.isArray(legacySavedLineup.bench) &&
+      typeof legacySavedLineup.captainId === 'string' &&
+      typeof legacySavedLineup.viceCaptainId === 'string' &&
+      typeof legacySavedLineup.savedAt === 'string'
+        ? {
+            id: `lineup-${legacySavedLineup.savedAt}`,
+            name: 'Saved team',
+            starters: legacySavedLineup.starters as string[],
+            bench: legacySavedLineup.bench as string[],
+            captainId: legacySavedLineup.captainId,
+            viceCaptainId: legacySavedLineup.viceCaptainId,
+            savedAt: legacySavedLineup.savedAt
+          }
+        : null;
+    const savedLineups = Array.isArray(restored.savedLineups)
+      ? restored.savedLineups
+      : legacyLineup
+        ? [legacyLineup]
+        : [];
     return {
       ...initial,
       ...restored,
@@ -460,15 +509,12 @@ function loadState(): DemoState {
       bench: Array.isArray(restored.bench) ? restored.bench : initial.bench,
       lastLineupSavedAt:
         typeof restored.lastLineupSavedAt === 'string' ? restored.lastLineupSavedAt : null,
-      savedLineup:
-        restored.savedLineup &&
-        Array.isArray(restored.savedLineup.starters) &&
-        Array.isArray(restored.savedLineup.bench) &&
-        typeof restored.savedLineup.captainId === 'string' &&
-        typeof restored.savedLineup.viceCaptainId === 'string' &&
-        typeof restored.savedLineup.savedAt === 'string'
-          ? restored.savedLineup
-          : null,
+      savedLineups,
+      activeSavedLineupId:
+        typeof restored.activeSavedLineupId === 'string' &&
+        savedLineups.some((lineup) => lineup.id === restored.activeSavedLineupId)
+          ? restored.activeSavedLineupId
+          : savedLineups[0]?.id ?? null,
       activity: Array.isArray(restored.activity) ? restored.activity : initial.activity,
       selectedLeagueId:
         restored.selectedLeagueId && restored.selectedLeagueId !== currentClub?.id
@@ -492,8 +538,8 @@ interface DemoContextValue {
   toggleStarter: (playerId: string) => void;
   setCaptain: (playerId: string) => void;
   setViceCaptain: (playerId: string) => void;
-  saveLineup: () => void;
-  restoreSavedLineup: () => void;
+  saveLineup: (name: string) => void;
+  restoreSavedLineup: (lineupId?: string) => void;
   updateClub: (values: Partial<DemoClub>) => void;
   clearMessage: () => void;
   syncServerMarket: (players: ServerMarketPlayer[], balanceMinor: number) => void;
@@ -511,8 +557,11 @@ export function DemoProvider({ children }: PropsWithChildren) {
 
   const startSession = useCallback(() => dispatch({ type: 'START_SESSION' }), []);
   const resetDemo = useCallback(() => dispatch({ type: 'RESET_DEMO' }), []);
-  const saveLineup = useCallback(() => dispatch({ type: 'SAVE_LINEUP' }), []);
-  const restoreSavedLineup = useCallback(() => dispatch({ type: 'RESTORE_SAVED_LINEUP' }), []);
+  const saveLineup = useCallback((name: string) => dispatch({ type: 'SAVE_LINEUP', name }), []);
+  const restoreSavedLineup = useCallback(
+    (lineupId?: string) => dispatch({ type: 'RESTORE_SAVED_LINEUP', lineupId }),
+    []
+  );
   const clearMessage = useCallback(() => dispatch({ type: 'CLEAR_MESSAGE' }), []);
   const hydrateClub = useCallback(
     (club: DemoClub, leagueId: string, leagueName: string, resumed = false) =>
