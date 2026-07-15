@@ -20,14 +20,12 @@
 }
 
 html {
-  min-width: 320px;
   min-height: 100%;
   background: #1f1d36;
 }
 
 body {
   margin: 0;
-  min-width: 320px;
   min-height: 100vh;
   min-height: 100dvh;
   background:
