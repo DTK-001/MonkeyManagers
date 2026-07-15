@@ -1,5 +1,5 @@
-import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
-import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
+import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import {
   BarChart3,
   Bell,
@@ -29,7 +29,9 @@ const primaryNav = [
 export function AppShell() {
   const { state, currentClub, clearMessage, restoreSavedLineup } = useDemo();
   const location = useLocation();
+  const navigate = useNavigate();
   const [activityOpen, setActivityOpen] = useState(false);
+  const swipeStart = useRef<{ x: number; y: number } | null>(null);
   const recentActivity = useMemo(
     () =>
       [...state.activity]
@@ -61,6 +63,31 @@ export function AppShell() {
     document.addEventListener('keydown', closeOnEscape);
     return () => document.removeEventListener('keydown', closeOnEscape);
   }, [activityOpen]);
+
+  function handleSwipeStart(event: ReactPointerEvent<HTMLElement>) {
+    if (event.pointerType !== 'touch') return;
+    const target = event.target as HTMLElement;
+    if (target.closest('a, button, input, select, textarea, [role="button"], [data-no-tab-swipe]')) {
+      swipeStart.current = null;
+      return;
+    }
+    swipeStart.current = { x: event.clientX, y: event.clientY };
+  }
+
+  function handleSwipeEnd(event: ReactPointerEvent<HTMLElement>) {
+    const start = swipeStart.current;
+    swipeStart.current = null;
+    if (!start || event.pointerType !== 'touch') return;
+    const horizontalDistance = event.clientX - start.x;
+    const verticalDistance = event.clientY - start.y;
+    if (Math.abs(horizontalDistance) < 72 || Math.abs(horizontalDistance) <= Math.abs(verticalDistance) * 1.35) return;
+    const currentTab = primaryNav.findIndex((item) => item.to === location.pathname);
+    if (currentTab === -1) return;
+    const nextTab = currentTab + (horizontalDistance < 0 ? 1 : -1);
+    const destination = primaryNav[nextTab];
+    if (!destination) return;
+    navigate(destination.to);
+  }
 
   return (
     <div className="min-h-screen lg:grid lg:grid-cols-[17rem_minmax(0,1fr)]">
@@ -173,7 +200,13 @@ export function AppShell() {
           </div>
         </header>
 
-        <main id="main-content">
+        <main
+          id="main-content"
+          className="touch-pan-y"
+          onPointerDown={handleSwipeStart}
+          onPointerUp={handleSwipeEnd}
+          onPointerCancel={() => { swipeStart.current = null; }}
+        >
           <Outlet />
         </main>
       </div>
