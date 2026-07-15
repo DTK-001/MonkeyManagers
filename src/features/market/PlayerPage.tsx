@@ -23,10 +23,11 @@ export default function PlayerPage() {
   const { playerId } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const returnState = location.state as { returnTo?: string; returnLabel?: string } | null;
+  const locationState: unknown = location.state;
+  const returnState = locationState as { returnTo?: string; returnLabel?: string } | null;
   const returnTo = returnState?.returnTo === '/app/squad' ? returnState.returnTo : '/app/market';
   const returnLabel = returnState?.returnLabel === 'Your squad' ? returnState.returnLabel : 'Player market';
-  const playerReturnState = returnTo === '/app/market' ? location.state : undefined;
+  const playerReturnState: unknown = returnTo === '/app/market' ? locationState : undefined;
   const { state, currentClub, commitServerMarketOperation } = useDemo();
   const player = state.players.find((item) => item.id === playerId);
   const [marketError, setMarketError] = useState<string | null>(null);
