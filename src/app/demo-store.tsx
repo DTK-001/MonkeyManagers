@@ -375,25 +375,47 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
       const serverPlayers = new Map(
         action.players.map((player) => [player.cataloguePlayerId, player])
       );
+      const players = state.players.map((player) => {
+        const serverPlayer = serverPlayers.get(player.id);
+        return serverPlayer
+          ? {
+              ...player,
+              realPlayerId: serverPlayer.realPlayerId,
+              ownershipClubId: serverPlayer.ownerClubId,
+              valueMinor: serverPlayer.valueMinor,
+              previousValueMinor: serverPlayer.previousValueMinor,
+              birthDate: serverPlayer.birthDate ?? player.birthDate,
+              nationality: serverPlayer.nationality ?? player.nationality
+            }
+          : player;
+      });
+      const savedLineup = state.savedLineups.find(
+        (lineup) => lineup.id === state.activeSavedLineupId
+      );
+      const savedPlayerIds = savedLineup
+        ? [...savedLineup.starters, ...savedLineup.bench, savedLineup.captainId, savedLineup.viceCaptainId]
+        : [];
+      const restoredLineup =
+        state.starters.length === 0 &&
+        savedLineup &&
+        savedPlayerIds.every((playerId) =>
+          players.some(
+            (player) => player.id === playerId && player.ownershipClubId === state.currentClubId
+          )
+        )
+          ? savedLineup
+          : null;
       return {
         ...state,
-        players: state.players.map((player) => {
-          const serverPlayer = serverPlayers.get(player.id);
-          return serverPlayer
-            ? {
-                ...player,
-                realPlayerId: serverPlayer.realPlayerId,
-                ownershipClubId: serverPlayer.ownerClubId,
-                valueMinor: serverPlayer.valueMinor,
-                previousValueMinor: serverPlayer.previousValueMinor,
-                birthDate: serverPlayer.birthDate ?? player.birthDate,
-                nationality: serverPlayer.nationality ?? player.nationality
-              }
-            : player;
-        }),
+        players,
         clubs: state.clubs.map((club) =>
           club.id === state.currentClubId ? { ...club, budgetMinor: action.balanceMinor } : club
-        )
+        ),
+        starters: restoredLineup ? [...restoredLineup.starters] : state.starters,
+        bench: restoredLineup ? [...restoredLineup.bench] : state.bench,
+        captainId: restoredLineup ? restoredLineup.captainId : state.captainId,
+        viceCaptainId: restoredLineup ? restoredLineup.viceCaptainId : state.viceCaptainId,
+        lastLineupSavedAt: restoredLineup ? restoredLineup.savedAt : state.lastLineupSavedAt
       };
     }
     case 'COMMIT_SERVER_MARKET_OPERATION':
