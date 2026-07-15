@@ -364,12 +364,9 @@ function reducer(state: DemoState, action: DemoAction): DemoState {
         activeSavedLineupId: action.resumed ? state.activeSavedLineupId : null,
         activity: [],
         lastUpdated: new Date().toISOString(),
-        message: {
-          kind: 'success',
-          text: action.resumed
-            ? `Welcome back to ${action.club.name}.`
-            : 'Club created. Your full starting purse is available.'
-        }
+        message: action.resumed
+          ? null
+          : { kind: 'success', text: 'Club created. Your full starting purse is available.' }
       };
     case 'SYNC_SERVER_MARKET': {
       const serverPlayers = new Map(
