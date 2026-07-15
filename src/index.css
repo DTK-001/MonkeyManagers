@@ -195,34 +195,96 @@ a {
   animation: toast-in 180ms ease-out both;
 }
 
-@keyframes tab-swipe-next {
+.tab-swipe-surface {
+  --tab-swipe-offset: 0px;
+  overflow-x: clip;
+  will-change: transform, opacity;
+}
+
+.tab-swipe-dragging {
+  transform: translate3d(var(--tab-swipe-offset), 0, 0);
+}
+
+@keyframes tab-swipe-snap-back {
   from {
-    opacity: 0.55;
-    transform: translateX(1.15rem);
+    opacity: 0.94;
+    transform: translate3d(var(--tab-swipe-offset), 0, 0);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.tab-swipe-snap-back {
+  animation: tab-swipe-snap-back 180ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes tab-swipe-commit-next {
+  from {
+    opacity: 0.94;
+    transform: translate3d(var(--tab-swipe-offset), 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-3.5rem, 0, 0);
+  }
+}
+
+@keyframes tab-swipe-commit-previous {
+  from {
+    opacity: 0.94;
+    transform: translate3d(var(--tab-swipe-offset), 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(3.5rem, 0, 0);
+  }
+}
+
+.tab-swipe-commit-next,
+.tab-swipe-commit-previous {
+  animation-duration: 110ms;
+  animation-timing-function: cubic-bezier(0.45, 0, 1, 1);
+  animation-fill-mode: both;
+}
+
+.tab-swipe-commit-next {
+  animation-name: tab-swipe-commit-next;
+}
+
+.tab-swipe-commit-previous {
+  animation-name: tab-swipe-commit-previous;
+}
+
+@keyframes tab-swipe-next {
+  from {
+    opacity: 0.7;
+    transform: translate3d(1.5rem, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes tab-swipe-previous {
   from {
-    opacity: 0.55;
-    transform: translateX(-1.15rem);
+    opacity: 0.7;
+    transform: translate3d(-1.5rem, 0, 0);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
 .tab-swipe-next {
-  animation: tab-swipe-next 240ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: tab-swipe-next 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .tab-swipe-previous {
-  animation: tab-swipe-previous 240ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: tab-swipe-previous 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,4 +1,12 @@
-import { useEffect, useLayoutEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
+import {
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+  type PointerEvent as ReactPointerEvent
+} from 'react';
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import {
   BarChart3,
@@ -26,13 +34,36 @@ const primaryNav = [
   { to: '/app/league', label: 'League', icon: UsersRound }
 ];
 
+type TabSwipeMotion = 'dragging' | 'snap-back' | 'commit-next' | 'commit-previous' | null;
+
+type TabSwipeStart = {
+  pointerId: number;
+  x: number;
+  y: number;
+  isHorizontal: boolean;
+};
+
+const tabSwipeThreshold = 72;
+const maxTabDragOffset = 28;
+
+function getTabDragOffset(horizontalDistance: number, hasDestination: boolean) {
+  const resistance = hasDestination ? 0.18 : 0.06;
+  const maxOffset = hasDestination ? maxTabDragOffset : 8;
+  return (
+    Math.sign(horizontalDistance) * Math.min(Math.abs(horizontalDistance) * resistance, maxOffset)
+  );
+}
+
 export function AppShell() {
   const { state, currentClub, clearMessage, restoreSavedLineup } = useDemo();
   const location = useLocation();
   const navigate = useNavigate();
   const [activityOpen, setActivityOpen] = useState(false);
   const [tabTransition, setTabTransition] = useState<'next' | 'previous' | null>(null);
-  const swipeStart = useRef<{ x: number; y: number } | null>(null);
+  const [tabSwipeMotion, setTabSwipeMotion] = useState<TabSwipeMotion>(null);
+  const [tabDragOffset, setTabDragOffset] = useState(0);
+  const swipeStart = useRef<TabSwipeStart | null>(null);
+  const tabDragOffsetRef = useRef(0);
   const swipeAnimationTimeout = useRef<number | null>(null);
   const recentActivity = useMemo(
     () =>
@@ -75,34 +106,113 @@ export function AppShell() {
     []
   );
 
+  function clearSwipeAnimationTimeout() {
+    if (swipeAnimationTimeout.current !== null) {
+      window.clearTimeout(swipeAnimationTimeout.current);
+      swipeAnimationTimeout.current = null;
+    }
+  }
+
+  function finishSwipeMotion() {
+    setTabSwipeMotion(null);
+    tabDragOffsetRef.current = 0;
+    setTabDragOffset(0);
+    swipeAnimationTimeout.current = null;
+  }
+
+  function releasePointer(event: ReactPointerEvent<HTMLElement>) {
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
+  }
+
   function handleSwipeStart(event: ReactPointerEvent<HTMLElement>) {
-    if (event.pointerType !== 'touch') return;
+    if (event.pointerType !== 'touch' || swipeAnimationTimeout.current !== null) return;
     const target = event.target as HTMLElement;
-    if (target.closest('a, button, [role="button"], [data-no-tab-swipe]')) {
+    if (
+      target.closest(
+        'a, button, input, select, textarea, [contenteditable="true"], [role="button"], [data-no-tab-swipe]'
+      ) ||
+      !primaryNav.some((item) => item.to === location.pathname)
+    ) {
       swipeStart.current = null;
       return;
     }
-    swipeStart.current = { x: event.clientX, y: event.clientY };
+    swipeStart.current = {
+      pointerId: event.pointerId,
+      x: event.clientX,
+      y: event.clientY,
+      isHorizontal: false
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
+  }
+
+  function handleSwipeMove(event: ReactPointerEvent<HTMLElement>) {
+    const start = swipeStart.current;
+    if (!start || start.pointerId !== event.pointerId || event.pointerType !== 'touch') return;
+
+    const horizontalDistance = event.clientX - start.x;
+    const verticalDistance = event.clientY - start.y;
+
+    if (!start.isHorizontal) {
+      if (Math.max(Math.abs(horizontalDistance), Math.abs(verticalDistance)) < 8) return;
+      if (Math.abs(horizontalDistance) <= Math.abs(verticalDistance) * 1.2) {
+        swipeStart.current = null;
+        releasePointer(event);
+        return;
+      }
+      start.isHorizontal = true;
+      setTabSwipeMotion('dragging');
+    }
+
+    const currentTab = primaryNav.findIndex((item) => item.to === location.pathname);
+    const destination = primaryNav[currentTab + (horizontalDistance < 0 ? 1 : -1)];
+    const dragOffset = getTabDragOffset(horizontalDistance, Boolean(destination));
+    tabDragOffsetRef.current = dragOffset;
+    setTabDragOffset(dragOffset);
   }
 
   function handleSwipeEnd(event: ReactPointerEvent<HTMLElement>) {
     const start = swipeStart.current;
     swipeStart.current = null;
-    if (!start || event.pointerType !== 'touch') return;
+    releasePointer(event);
+    if (!start || start.pointerId !== event.pointerId || event.pointerType !== 'touch') return;
     const horizontalDistance = event.clientX - start.x;
     const verticalDistance = event.clientY - start.y;
-    if (Math.abs(horizontalDistance) < 72 || Math.abs(horizontalDistance) <= Math.abs(verticalDistance) * 1.35) return;
+    const isValidSwipe =
+      start.isHorizontal &&
+      Math.abs(horizontalDistance) >= tabSwipeThreshold &&
+      Math.abs(horizontalDistance) > Math.abs(verticalDistance) * 1.35;
     const currentTab = primaryNav.findIndex((item) => item.to === location.pathname);
-    if (currentTab === -1) return;
     const nextTab = currentTab + (horizontalDistance < 0 ? 1 : -1);
     const destination = primaryNav[nextTab];
-    if (!destination) return;
-    setTabTransition(horizontalDistance < 0 ? 'next' : 'previous');
-    if (swipeAnimationTimeout.current !== null) {
-      window.clearTimeout(swipeAnimationTimeout.current);
+    const dragOffset = getTabDragOffset(horizontalDistance, Boolean(destination));
+
+    if (!isValidSwipe || !destination) {
+      if (start.isHorizontal && tabDragOffsetRef.current !== 0) {
+        setTabSwipeMotion('snap-back');
+        clearSwipeAnimationTimeout();
+        swipeAnimationTimeout.current = window.setTimeout(finishSwipeMotion, 180);
+      } else {
+        finishSwipeMotion();
+      }
+      return;
     }
-    swipeAnimationTimeout.current = window.setTimeout(() => setTabTransition(null), 260);
-    navigate(destination.to);
+
+    const direction = horizontalDistance < 0 ? 'next' : 'previous';
+    setTabSwipeMotion(direction === 'next' ? 'commit-next' : 'commit-previous');
+    tabDragOffsetRef.current = dragOffset;
+    setTabDragOffset(dragOffset);
+    clearSwipeAnimationTimeout();
+    swipeAnimationTimeout.current = window.setTimeout(() => {
+      finishSwipeMotion();
+      setTabTransition(direction);
+      swipeAnimationTimeout.current = window.setTimeout(() => {
+        setTabTransition(null);
+        swipeAnimationTimeout.current = null;
+      }, 280);
+      navigate(destination.to);
+    }, 110);
   }
 
   return (
@@ -219,13 +329,29 @@ export function AppShell() {
         <main
           id="main-content"
           className={clsx(
-            'touch-pan-y',
+            'touch-pan-y tab-swipe-surface',
+            tabSwipeMotion === 'dragging' && 'tab-swipe-dragging',
+            tabSwipeMotion === 'snap-back' && 'tab-swipe-snap-back',
+            tabSwipeMotion === 'commit-next' && 'tab-swipe-commit-next',
+            tabSwipeMotion === 'commit-previous' && 'tab-swipe-commit-previous',
             tabTransition === 'next' && 'tab-swipe-next',
             tabTransition === 'previous' && 'tab-swipe-previous'
           )}
+          style={{ '--tab-swipe-offset': `${tabDragOffset}px` } as CSSProperties}
           onPointerDown={handleSwipeStart}
+          onPointerMove={handleSwipeMove}
           onPointerUp={handleSwipeEnd}
-          onPointerCancel={() => { swipeStart.current = null; }}
+          onPointerCancel={(event) => {
+            swipeStart.current = null;
+            releasePointer(event);
+            if (tabDragOffsetRef.current !== 0) {
+              setTabSwipeMotion('snap-back');
+              clearSwipeAnimationTimeout();
+              swipeAnimationTimeout.current = window.setTimeout(finishSwipeMotion, 180);
+            } else {
+              finishSwipeMotion();
+            }
+          }}
         >
           <Outlet />
         </main>
