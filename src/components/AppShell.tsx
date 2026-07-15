@@ -31,7 +31,9 @@ export function AppShell() {
   const location = useLocation();
   const navigate = useNavigate();
   const [activityOpen, setActivityOpen] = useState(false);
+  const [tabTransition, setTabTransition] = useState<'next' | 'previous' | null>(null);
   const swipeStart = useRef<{ x: number; y: number } | null>(null);
+  const swipeAnimationTimeout = useRef<number | null>(null);
   const recentActivity = useMemo(
     () =>
       [...state.activity]
@@ -64,10 +66,19 @@ export function AppShell() {
     return () => document.removeEventListener('keydown', closeOnEscape);
   }, [activityOpen]);
 
+  useEffect(
+    () => () => {
+      if (swipeAnimationTimeout.current !== null) {
+        window.clearTimeout(swipeAnimationTimeout.current);
+      }
+    },
+    []
+  );
+
   function handleSwipeStart(event: ReactPointerEvent<HTMLElement>) {
     if (event.pointerType !== 'touch') return;
     const target = event.target as HTMLElement;
-    if (target.closest('a, button, input, select, textarea, [role="button"], [data-no-tab-swipe]')) {
+    if (target.closest('a, button, [role="button"], [data-no-tab-swipe]')) {
       swipeStart.current = null;
       return;
     }
@@ -86,6 +97,11 @@ export function AppShell() {
     const nextTab = currentTab + (horizontalDistance < 0 ? 1 : -1);
     const destination = primaryNav[nextTab];
     if (!destination) return;
+    setTabTransition(horizontalDistance < 0 ? 'next' : 'previous');
+    if (swipeAnimationTimeout.current !== null) {
+      window.clearTimeout(swipeAnimationTimeout.current);
+    }
+    swipeAnimationTimeout.current = window.setTimeout(() => setTabTransition(null), 260);
     navigate(destination.to);
   }
 
@@ -202,7 +218,11 @@ export function AppShell() {
 
         <main
           id="main-content"
-          className="touch-pan-y"
+          className={clsx(
+            'touch-pan-y',
+            tabTransition === 'next' && 'tab-swipe-next',
+            tabTransition === 'previous' && 'tab-swipe-previous'
+          )}
           onPointerDown={handleSwipeStart}
           onPointerUp={handleSwipeEnd}
           onPointerCancel={() => { swipeStart.current = null; }}
