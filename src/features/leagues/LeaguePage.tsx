@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Copy, Plus, ShieldCheck, Trophy, UserPlus, UsersRound } from 'lucide-react';
+import { ChevronRight, Copy, Plus, ShieldCheck, Trophy, UserPlus, UsersRound } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useDemo } from '../../app/demo-store';
 import { ClubBadge } from '../../components/ClubBadge';
@@ -170,7 +170,7 @@ export default function LeaguePage() {
           return (
             <article
               key={club.id}
-              className={`grid min-h-20 grid-cols-[2.5rem_minmax(0,1fr)_5rem] items-center gap-2 border-b border-white/[0.07] px-3 py-3 last:border-0 md:grid-cols-[3rem_minmax(13rem,1fr)_7rem_7rem_7rem] md:px-4 ${club.id === currentClub.id ? 'bg-gold/[0.06]' : ''}`}
+              className={`relative grid min-h-20 grid-cols-[2.5rem_minmax(0,1fr)_5rem] items-center gap-2 border-b border-white/[0.07] px-3 py-3 last:border-0 md:grid-cols-[3rem_minmax(13rem,1fr)_7rem_7rem_7rem] md:px-4 ${club.id === currentClub.id ? 'bg-gold/[0.06]' : 'transition hover:bg-white/[0.035]'}`}
             >
               <span className="font-display text-2xl font-bold text-gold">
                 {scoringStarted ? index + 1 : '—'}
@@ -187,9 +187,17 @@ export default function LeaguePage() {
               </div>
               <span className="hidden text-xs md:block">{formatMoney(club.budgetMinor)}</span>
               <span className="hidden text-xs md:block">{formatMoney(club.squadValueMinor)}</span>
-              <span className="text-right font-display text-xl font-bold">
+              <span className="flex items-center justify-end gap-1 font-display text-xl font-bold">
                 {formatPoints(club.totalPoints)}
+                {club.id !== currentClub.id ? <ChevronRight className="text-muted md:hidden" size={17} /> : null}
               </span>
+              {club.id !== currentClub.id ? (
+                <Link
+                  to={`/app/league/club/${club.id}`}
+                  className="absolute inset-0 z-10"
+                  aria-label={`View ${club.name}'s squad`}
+                />
+              ) : null}
             </article>
           );
         })}

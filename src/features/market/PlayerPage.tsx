@@ -25,8 +25,19 @@ export default function PlayerPage() {
   const location = useLocation();
   const locationState: unknown = location.state;
   const returnState = locationState as { returnTo?: string; returnLabel?: string } | null;
-  const returnTo = returnState?.returnTo === '/app/squad' ? returnState.returnTo : '/app/market';
-  const returnLabel = returnState?.returnLabel === 'Your squad' ? returnState.returnLabel : 'Player market';
+  const requestedReturnTo = returnState?.returnTo;
+  const returnTo =
+    requestedReturnTo === '/app/squad' || requestedReturnTo === '/app/league' || requestedReturnTo?.startsWith('/app/league/club/')
+      ? requestedReturnTo
+      : '/app/market';
+  const returnLabel =
+    returnTo === '/app/squad'
+      ? 'Your squad'
+      : returnTo.startsWith('/app/league/club/') && typeof returnState?.returnLabel === 'string'
+        ? returnState.returnLabel
+        : returnTo === '/app/league'
+          ? 'League table'
+          : 'Player market';
   const playerReturnState: unknown = returnTo === '/app/market' ? locationState : undefined;
   const { state, currentClub, commitServerMarketOperation } = useDemo();
   const player = state.players.find((item) => item.id === playerId);
@@ -45,7 +56,8 @@ export default function PlayerPage() {
   const selectedPlayer = player;
   const team = demoTeams.find((item) => item.id === player.teamId);
   const owner = state.clubs.find((club) => club.id === player.ownershipClubId);
-  const mine = owner?.id === currentClub.id;
+  const mine = player.ownershipClubId === currentClub.id;
+  const ownedElsewhere = Boolean(player.ownershipClubId) && !mine;
   const valueChange = (player.valueMinor / player.previousValueMinor - 1) * 100;
   const valueChangeMinor = player.valueMinor - player.previousValueMinor;
   const chartData = player.valueHistory.map((point) => ({
@@ -57,7 +69,7 @@ export default function PlayerPage() {
   const nationality = player.nationality === 'Unknown' ? null : player.nationality;
 
   async function action() {
-    if (!supabase || owner && !mine) return;
+    if (!supabase || ownedElsewhere) return;
     setMarketError(null);
     setSavingMarketOperation(true);
     try {
@@ -299,16 +311,16 @@ export default function PlayerPage() {
           <section className="glass-card p-5">
             <p className="eyebrow">Ownership</p>
             <h2 className="mt-2 font-display text-3xl font-bold">
-              {owner ? owner.name : 'Ready to sign'}
+              {mine ? currentClub.name : owner?.name ?? (ownedElsewhere ? 'Owned in your league' : 'Ready to sign')}
             </h2>
             <p className="mt-2 text-sm leading-6 text-muted">
               {mine
                 ? `This player is registered to your club. They start on ${formatPoints(player.ownedPoints)} points for your club; only future rounds where you select them can add to that total. A release returns 90% of current book value.`
-                : owner
-                  ? `Managed by ${owner.manager}. Make a transfer offer when the market permits.`
+                : ownedElsewhere
+                  ? `Managed by ${owner?.manager ?? 'another manager'} in your private league.`
                   : `This player is unowned in ${state.leagueName}'s local market view. Their displayed season points are not included when you buy them: select them in a future round to earn points for your club. Live ownership and balance are checked together by the server before a real signing can complete.`}
             </p>
-            {mine || !owner ? (
+            {mine || !ownedElsewhere ? (
               <button
                 onClick={() => void action()}
                 disabled={savingMarketOperation || (!mine && player.valueMinor > currentClub.budgetMinor)}
@@ -325,13 +337,9 @@ export default function PlayerPage() {
                   </>
                 )}
               </button>
-            ) : (
-              <button type="button" className="button-secondary mt-5 w-full">
-                Make transfer offer <ChevronRight size={17} />
-              </button>
-            )}
+            ) : <p className="mt-5 rounded-xl border border-white/10 bg-white/[0.035] p-3 text-xs leading-5 text-muted">This player belongs to another manager in your league.</p>}
             {marketError ? <p className="mt-3 text-xs leading-5 text-danger">{marketError}</p> : null}
-            {!owner ? (
+            {!player.ownershipClubId ? (
               <p className="mt-3 flex items-start gap-2 text-[0.65rem] leading-5 text-muted">
                 <LockKeyhole className="mt-0.5 shrink-0" size={13} /> The production database
                 enforces unique ownership. This local preview is not an authoritative signing.

@@ -14,6 +14,7 @@ const PlayerPage = lazy(() => import('../features/market/PlayerPage'));
 const CompetitionsPage = lazy(() => import('../features/competitions/CompetitionsPage'));
 const CompetitionPage = lazy(() => import('../features/competitions/CompetitionPage'));
 const LeaguePage = lazy(() => import('../features/leagues/LeaguePage'));
+const ClubSquadPage = lazy(() => import('../features/leagues/ClubSquadPage'));
 const AdminPage = lazy(() => import('../features/admin/AdminPage'));
 const ProfilePage = lazy(() => import('../features/clubs/ProfilePage'));
 const OfflinePage = lazy(() => import('../features/system/OfflinePage'));
@@ -59,6 +60,7 @@ export function App() {
             <Route path="competitions" element={<CompetitionsPage />} />
             <Route path="competitions/:competitionId" element={<CompetitionPage />} />
             <Route path="league" element={<LeaguePage />} />
+            <Route path="league/club/:clubId" element={<ClubSquadPage />} />
             <Route path="admin" element={<AdminPage />} />
             <Route path="profile" element={<ProfilePage />} />
           </Route>
