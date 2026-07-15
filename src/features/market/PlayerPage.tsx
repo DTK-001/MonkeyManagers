@@ -23,7 +23,10 @@ export default function PlayerPage() {
   const { playerId } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const marketReturnState: unknown = location.state as unknown;
+  const returnState = location.state as { returnTo?: string; returnLabel?: string } | null;
+  const returnTo = returnState?.returnTo === '/app/squad' ? returnState.returnTo : '/app/market';
+  const returnLabel = returnState?.returnLabel === 'Your squad' ? returnState.returnLabel : 'Player market';
+  const playerReturnState = returnTo === '/app/market' ? location.state : undefined;
   const { state, currentClub, commitServerMarketOperation } = useDemo();
   const player = state.players.find((item) => item.id === playerId);
   const [marketError, setMarketError] = useState<string | null>(null);
@@ -33,8 +36,8 @@ export default function PlayerPage() {
     return (
       <div className="page-wrap">
         <p>Player not found.</p>
-        <Link to="/app/market" state={marketReturnState} className="button-secondary mt-4">
-          Return to market
+        <Link to={returnTo} state={playerReturnState} className="button-secondary mt-4">
+          Return to {returnLabel.toLowerCase()}
         </Link>
       </div>
     );
@@ -60,7 +63,7 @@ export default function PlayerPage() {
       const owned = !mine;
       const balanceMinor = await runServerMarketOperation(owned ? 'purchase' : 'release', currentClub.id, selectedPlayer.id);
       commitServerMarketOperation(selectedPlayer.id, owned, balanceMinor);
-      navigate('/app/market', { state: marketReturnState });
+      navigate(returnTo, { state: playerReturnState });
     } catch (cause) {
       setMarketError(cause instanceof Error ? cause.message : 'The market operation could not be completed.');
     } finally {
@@ -71,11 +74,11 @@ export default function PlayerPage() {
   return (
     <div className="page-wrap">
       <Link
-        to="/app/market"
-        state={marketReturnState}
+        to={returnTo}
+        state={playerReturnState}
         className="mb-4 inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-muted hover:text-ivory"
       >
-        <ArrowLeft size={17} /> Player market
+        <ArrowLeft size={17} /> {returnLabel}
       </Link>
       <section className="glass-card overflow-hidden">
         <div className="relative p-5 sm:p-7">

@@ -13,6 +13,7 @@ import {
   Star
 } from 'lucide-react';
 import clsx from 'clsx';
+import { useNavigate } from 'react-router-dom';
 import { useDemo } from '../../app/demo-store';
 import { demoTeams } from '../../data/demo';
 import { formatMoney } from '../../lib/format';
@@ -62,6 +63,7 @@ export default function SquadPage() {
     restoreSavedLineup,
     setActiveSavedLineup
   } = useDemo();
+  const navigate = useNavigate();
   const [view, setView] = useState<'pitch' | 'list'>('pitch');
   const [addingPosition, setAddingPosition] = useState<Position | null>(null);
   const [saveDialogOpen, setSaveDialogOpen] = useState(false);
@@ -169,10 +171,10 @@ export default function SquadPage() {
           </form>
         </div>
       ) : null}
-      <div className="mb-4 flex flex-wrap items-center gap-2">
-        <label className="relative">
+      <div className="mb-4 flex min-w-0 flex-wrap items-center gap-2">
+        <label className="relative min-w-0 flex-1 sm:flex-none">
           <span className="sr-only">Competition</span>
-          <select className="field min-w-56 appearance-none pr-10" disabled>
+          <select className="field min-w-0 appearance-none pr-10 sm:min-w-56" disabled>
             <option>No competition configured</option>
           </select>
           <ChevronDown
@@ -180,9 +182,9 @@ export default function SquadPage() {
             size={16}
           />
         </label>
-        <label className="relative">
+        <label className="relative min-w-0 flex-1 sm:flex-none">
           <span className="sr-only">Round</span>
-          <select className="field appearance-none pr-10" disabled>
+          <select className="field min-w-0 appearance-none pr-10" disabled>
             <option>No round scheduled</option>
             <option>Round 8 · locked</option>
           </select>
@@ -191,7 +193,7 @@ export default function SquadPage() {
             size={16}
           />
         </label>
-        <div className="ml-auto flex rounded-xl border border-white/10 bg-white/[0.035] p-1">
+        <div className="ml-auto flex shrink-0 rounded-xl border border-white/10 bg-white/[0.035] p-1">
           <button
             type="button"
             onClick={() => setView('pitch')}
@@ -243,7 +245,7 @@ export default function SquadPage() {
           {view === 'pitch' ? (
             <div className="pitch-lines relative grid min-h-[29rem] grid-rows-[auto_repeat(4,minmax(4.6rem,1fr))] overflow-hidden px-3 py-3 sm:min-h-[33rem] sm:grid-rows-[auto_repeat(4,minmax(5.5rem,1fr))] sm:px-8 sm:py-4">
               <p className="pitch-note relative z-10 mx-auto self-center rounded-full bg-ink/80 px-3 py-1 text-[0.62rem] font-medium text-muted shadow-sm">
-                Tap a player to move them to the bench
+                Tap a player to view their profile
               </p>
               {formationOrder.map((position) => {
                 const positionStarters = starters.filter((player) => player.position === position);
@@ -266,7 +268,7 @@ export default function SquadPage() {
                           player={player}
                           captain={state.captainId === player.id}
                           vice={state.viceCaptainId === player.id}
-                          onToggle={() => toggleStarter(player.id)}
+                          onView={() => navigate(`/app/market/${player.id}`, { state: { returnTo: '/app/squad', returnLabel: 'Your squad' } })}
                         />
                       ))
                     ) : (
@@ -296,6 +298,7 @@ export default function SquadPage() {
                   onCaptain={() => setCaptain(player.id)}
                   onVice={() => setViceCaptain(player.id)}
                   canAdd={canAddPlayer(player.position)}
+                  onView={() => navigate(`/app/market/${player.id}`, { state: { returnTo: '/app/squad', returnLabel: 'Your squad' } })}
                 />
               ))}
             </div>
@@ -364,7 +367,12 @@ export default function SquadPage() {
                   <span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-white/[0.06] text-xs font-bold">
                     {index + 1}
                   </span>
-                  <div className="min-w-0 flex-1">
+                  <button
+                    type="button"
+                    onClick={() => navigate(`/app/market/${player.id}`, { state: { returnTo: '/app/squad', returnLabel: 'Your squad' } })}
+                    className="min-w-0 flex-1 text-left"
+                    aria-label={`View ${player.name}'s profile`}
+                  >
                     <span className="block truncate text-sm font-semibold">{player.name}</span>
                     <span className="mt-0.5 flex items-center gap-2">
                       <PositionPill position={player.position} />
@@ -372,7 +380,7 @@ export default function SquadPage() {
                         {formatMoney(player.valueMinor)}
                       </span>
                     </span>
-                  </div>
+                  </button>
                   <button
                     onClick={() => toggleStarter(player.id)}
                     type="button"
@@ -521,20 +529,20 @@ function PlayerToken({
   player,
   captain,
   vice,
-  onToggle
+  onView
 }: {
   player: DemoPlayer;
   captain: boolean;
   vice: boolean;
-  onToggle: () => void;
+  onView: () => void;
 }) {
   const team = demoTeams.find((item) => item.id === player.teamId);
   return (
     <button
-      onClick={onToggle}
+      onClick={onView}
       type="button"
       className="group flex w-11 min-w-0 flex-col items-center sm:w-20 lg:w-24"
-      aria-label={`Remove ${player.name} from starting lineup`}
+      aria-label={`View ${player.name}'s profile`}
     >
       <span
         className="relative grid h-10 w-10 place-items-center rounded-full border-2 bg-ink text-xs font-bold shadow-lg transition group-hover:-translate-y-1 sm:h-14 sm:w-14 sm:text-sm"
@@ -566,7 +574,8 @@ function PlayerListRow({
   onToggle,
   onCaptain,
   onVice,
-  canAdd
+  canAdd,
+  onView
 }: {
   player: DemoPlayer;
   starter: boolean;
@@ -576,11 +585,17 @@ function PlayerListRow({
   onCaptain: () => void;
   onVice: () => void;
   canAdd: boolean;
+  onView: () => void;
 }) {
   const team = demoTeams.find((item) => item.id === player.teamId);
   return (
     <article className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3 px-4 py-3">
-      <div className="flex min-w-0 items-center gap-3">
+      <button
+        type="button"
+        onClick={onView}
+        className="flex min-w-0 items-center gap-3 text-left"
+        aria-label={`View ${player.name}'s profile`}
+      >
         <span
           className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-white/10 bg-white/[0.05] text-xs font-bold"
           style={{ boxShadow: `inset 0 -3px 0 ${team?.colour}` }}
@@ -603,7 +618,7 @@ function PlayerListRow({
             ) : null}
           </div>
         </div>
-      </div>
+      </button>
       <div className="flex items-center gap-1">
         <button
           type="button"
